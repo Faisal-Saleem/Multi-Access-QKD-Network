@@ -12,14 +12,38 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 // 
-
 network Network
 {
     parameters:
-    	@display("bgb=699,430,#FFE4CA;i=block/network;i2=status/connect;bgg=20");
-    	
+        @display("bgb=699,430,#FFE4CA;i=block/network;i2=status/connect;bgg=20");
+
     submodules:
         switch: Switch {
-            @display("p=306,186");
+            @display("p=342,210;is=l");
         }
+        client01: Client {
+            @display("p=49,48");
+            name = "Cliant 01";
+        }
+        client02: Client {
+            @display("p=49,378");
+            name = "Cliant 02";
+        }
+        client03: Client {
+            @display("p=659,35");
+            name = "Cliant 03";
+        }
+        client04: Client {
+            @display("p=659,384");
+            name = "Cliant 04";
+        }
+    connections:
+        client01.publicInterface <--> switch.fe01;
+        client02.publicInterface <--> switch.fe02;
+        client03.publicInterface <--> switch.fe03;
+        client04.publicInterface <--> switch.fe04;
+        client01.quantumInterface <--> switch.qu01;
+        client02.quantumInterface <--> switch.qu02;
+        client03.quantumInterface <--> switch.qu03;
+        client04.quantumInterface <--> switch.qu04;
 }
