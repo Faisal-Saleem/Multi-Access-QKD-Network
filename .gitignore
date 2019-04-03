@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+/.cproject
+/.nedexclusions
+/.nedfolders
+/.oppbuildspec
+/.oppfeaturestate
+/.project
+/.qtenvrc
+/Makefile
+/QKD
+/doc/
+/out/
+/doxy.cfg
