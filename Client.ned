@@ -1,24 +1,8 @@
-//
-// This program is free software: you can redistribute it and/or modify
-// it under the terms of the GNU Lesser General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
-// 
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU Lesser General Public License for more details.
-// 
-// You should have received a copy of the GNU Lesser General Public License
-// along with this program.  If not, see http://www.gnu.org/licenses/.
-// 
-// 
-// TODO documentation
-//
+
 module Client
 {
     parameters:
-        @display("bgb=706,561;i=old/bwcomp,red;is=n");
+        @display("bgb=541,543,#ECFFEC;i=block/telnet;is=n;i2=status/green;bgtt=Quantum Key Distribution Switch");
         string name;
     gates:
         inout publicInterface;
@@ -26,14 +10,51 @@ module Client
 
     submodules:
         clientPublicInterface: ClientPublicInterface {
-            @display("p=155.94,453.13");
+            @display("p=482,503");
         }
         clientQuantumInterface: ClientQuantumInterface {
-            @display("p=518.67,453.13");
+            @display("p=474,201");
         }
-        
+        DL: ClientFilterDL {
+            @display("p=225,52");
+        }
+        DR: ClientFilterDR {
+            @display("p=332,52;t=/");
+        }
+        H: ClientFilterH {
+            @display("p=225,162;t=--");
+        }
+        V: ClientFilterV {
+            @display("p=332,240;t=|");
+        }
+        quantumStatesGenerator: QuantumStatesGenerator {
+            @display("p=64,201");
+        }
+        clientProcessor: ClientProcessor {
+            @display("p=64,502");
+        }
+        clientFilterDiagonal: ClientFilterDiagonal {
+            @display("p=225,356;t=X");
+        }
+        clientFilterStraight: ClientFilterStraight {
+            @display("p=332,356;t=+");
+        }
     connections:
         clientPublicInterface.externalCommunication <--> publicInterface;
         clientQuantumInterface.quantumChannelCommunication <--> quantumInterface;
+        DL.polarizedLight --> clientQuantumInterface.dl;
+        DR.polarizedLight --> clientQuantumInterface.dr;
+        H.polarizedLight --> clientQuantumInterface.h;
+        V.polarizedLight --> clientQuantumInterface.v;
+        clientProcessor.publicInterfaceCommunication <--> clientPublicInterface.processorCommunication;
+        quantumStatesGenerator.DL --> DL.unpolarizedLight;
+        quantumStatesGenerator.DR --> DR.unpolarizedLight;
+        quantumStatesGenerator.H --> H.unpolarizedLight;
+        quantumStatesGenerator.V --> V.unpolarizedLight;
+        clientProcessor.quantumInterfaceCommunication <--> quantumStatesGenerator.processorCommunication;
+        clientQuantumInterface.diagonal --> clientFilterDiagonal.polarizedLightIn;
+        clientQuantumInterface.flat --> clientFilterStraight.polarizedLightIn;
+        clientFilterDiagonal.polarizedLightOut --> quantumStatesGenerator.Diagonal;
+        clientFilterStraight.polarizedLightOut --> quantumStatesGenerator.Straight;
 }
 

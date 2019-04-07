@@ -1,0 +1,179 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+   </head>
+   <body onload="if (top.frames['componentsframe'] == undefined) { s = window.location.toString(); window.location = 'index.html?p=' + s.substring(s.lastIndexOf('/')+1); }">
+<h2 class="comptitle">Compound Module <i>Client</i></h2>
+<b>Package:</b> default<br/><b>File: <a href="Client.ned.html">Client.ned</a></b><br/><p>(no description)</p><img src="Client-type.png" ismap="yes" usemap="#type-diagram"/><map name="type-diagram">
+<area shape="rect" href="ClientPublicInterface.html" title="ClientPublicInterface" alt="ClientPublicInterface" coords="436,526,532,585">
+<area shape="rect" href="ClientQuantumInterface.html" title="ClientQuantumInterface" alt="ClientQuantumInterface" coords="420,224,532,283">
+<area shape="rect" href="ClientFilterDL.html" title="ClientFilterDL" alt="ClientFilterDL" coords="207,75,251,134">
+<area shape="rect" href="ClientFilterDR.html" title="ClientFilterDR" alt="ClientFilterDR" coords="314,64,358,134">
+<area shape="rect" href="ClientFilterH.html" title="ClientFilterH" alt="ClientFilterH" coords="207,174,251,244">
+<area shape="rect" href="ClientFilterV.html" title="ClientFilterV" alt="ClientFilterV" coords="314,252,358,322">
+<area shape="rect" href="QuantumStatesGenerator.html" title="QuantumStatesGenerator" alt="QuantumStatesGenerator" coords="7,224,125,283">
+<area shape="rect" href="ClientProcessor.html" title="ClientProcessor" alt="ClientProcessor" coords="30,530,102,580">
+<area shape="rect" href="ClientFilterDiagonal.html" title="ClientFilterDiagonal" alt="ClientFilterDiagonal" coords="182,368,273,438">
+<area shape="rect" href="ClientFilterStraight.html" title="ClientFilterStraight" alt="ClientFilterStraight" coords="292,368,377,438">
+</map>
+<h3 class="subtitle">Usage diagram:</h3>
+<p>The following diagram shows usage relationships between types.
+Unresolved types are missing from the diagram. Click <a href="full-ned-usage-diagram.html">here</a> to see the full picture.</p>
+<img src="Client-usage.png" ismap="yes" usemap="#usage-diagram"/><map name="usage-diagram"><area shape="rect" href="Client.html" title="Compound Module Client" alt="Client" coords="627,88,699,112">
+<area shape="rect" href="ClientFilterH.html" title="Simple Module ClientFilterH" alt="ClientFilterH" coords="7,160,87,184">
+<area shape="rect" href="ClientFilterDL.html" title="Simple Module ClientFilterDL" alt="ClientFilterDL" coords="111,160,199,184">
+<area shape="rect" href="ClientFilterDiagonal.html" title="Simple Module ClientFilterDiagonal" alt="ClientFilterDiagonal" coords="223,160,345,184">
+<area shape="rect" href="ClientProcessor.html" title="Simple Module ClientProcessor" alt="ClientProcessor" coords="369,160,473,184">
+<area shape="rect" href="ClientFilterV.html" title="Simple Module ClientFilterV" alt="ClientFilterV" coords="497,160,580,184">
+<area shape="rect" href="ClientFilterStraight.html" title="Simple Module ClientFilterStraight" alt="ClientFilterStraight" coords="604,160,721,184">
+<area shape="rect" href="ned.IdealChannel.html" title="Channel IdealChannel" alt="IdealChannel" coords="745,160,831,184">
+<area shape="rect" href="ClientFilterDR.html" title="Simple Module ClientFilterDR" alt="ClientFilterDR" coords="855,160,945,184">
+<area shape="rect" href="QuantumStatesGenerator.html" title="Simple Module QuantumStatesGenerator" alt="QuantumStatesGenerator" coords="969,160,1129,184">
+<area shape="rect" href="ClientPublicInterface.html" title="Simple Module ClientPublicInterface" alt="ClientPublicInterface" coords="1153,160,1281,184">
+<area shape="rect" href="ClientQuantumInterface.html" title="Simple Module ClientQuantumInterface" alt="ClientQuantumInterface" coords="1305,160,1449,184">
+<area shape="rect" href="Network.html" title="Network Network" alt="Network" coords="627,16,699,40">
+</map>
+<h3 class="subtitle">Inheritance diagram:</h3>
+<p>The following diagram shows inheritance relationships for this type.
+Unresolved types are missing from the diagram. Click <a href="full-ned-inheritance-diagram.html">here</a> to see the full picture.</p>
+<img src="Client-inheritance.png" ismap="yes" usemap="#inheritance-diagram"/><map name="inheritance-diagram"><area shape="rect" href="Client.html" title="Compound Module Client" alt="Client" coords="7,16,79,40">
+</map>
+<h3 class="subtitle">Networks:</h3>
+<table class="typestable">
+   <tr>
+      <th class="name">Name</th>
+      <th class="type">Type</th>
+      <th class="description">Description</th>
+   </tr>
+<tr>
+   <td>
+<a href="Network.html">Network</a>
+   </td>
+   <td>
+<i>network</i>
+   </td>
+   <td>
+
+<p>This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.</p>
+
+   </td>
+</tr>
+</table>
+<h3 class="subtitle">Parameters:</h3>
+<table class="paramstable">
+   <tr>
+      <th class="name">Name</th>
+      <th class="type">Type</th>
+      <th class="defaultvalue">Default value</th>
+      <th class="description">Description</th>
+   </tr>
+<tr class="local">
+   <td>name</td>
+   <td>
+      <i>string</i>
+   </td>
+   <td></td>
+   <td>   </td>
+</tr>
+</table>
+<h3 class="subtitle">Properties:</h3>
+<table class="propertiestable">
+   <tr>
+      <th class="name">Name</th>
+      <th class="value">Value</th>
+      <th class="description">Description</th>
+   </tr>
+<tr>
+   <td>display</td>
+   <td><i>bgb=541,543,#ECFFEC;i=block/telnet;is=n;i2=status/green;bgtt=Quantum Key Distribution Switch</i></td>
+   <td></td>
+</tr>
+</table>
+<h3 class="subtitle">Gates:</h3>
+<table class="gatestable">
+   <tr>
+      <th class="name">Name</th>
+      <th class="type">Direction</th>
+      <th class="gatesize">Size</th>
+      <th class="description">Description</th>
+   </tr>
+<tr class="local">
+   <td>publicInterface</xsl:if></td>
+   <td><i>inout</i></td>
+   <td></td>   <td></td>
+</tr>
+<tr class="local">
+   <td>quantumInterface</xsl:if></td>
+   <td><i>inout</i></td>
+   <td></td>   <td>
+</td>
+</tr>
+</table>
+<h3 class="subtitle">Source code:</h3>
+<pre class="src"><span style="color: #800000; font-weight: bold; ">module</span><span style="color: #000000; "> </span><span style="color: #000000; ">Client</span><span style="color: #000000; ">
+{
+    </span><span style="color: #800000; font-weight: bold; ">parameters</span><span style="color: #000000; ">:
+        </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;bgb=541,543,#ECFFEC;i=block/telnet;is=n;i2=status/green;bgtt=Quantum Key Distribution Switch&quot;</span><span style="color: #000000; ">);
+        </span><span style="color: #000080; font-weight: bold; ">string</span><span style="color: #000000; "> </span><span style="color: #000000; ">name</span><span style="color: #000000; ">;
+    </span><span style="color: #800000; font-weight: bold; ">gates</span><span style="color: #000000; ">:
+        </span><span style="color: #000080; font-weight: bold; ">inout</span><span style="color: #000000; "> </span><span style="color: #000000; ">publicInterface</span><span style="color: #000000; ">;
+        </span><span style="color: #000080; font-weight: bold; ">inout</span><span style="color: #000000; "> </span><span style="color: #000000; ">quantumInterface</span><span style="color: #000000; ">;
+
+    </span><span style="color: #800000; font-weight: bold; ">submodules</span><span style="color: #000000; ">:
+        </span><span style="color: #000000; ">clientPublicInterface</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ClientPublicInterface</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=482,503&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">clientQuantumInterface</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ClientQuantumInterface</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=474,201&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">DL</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ClientFilterDL</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=225,52&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">DR</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ClientFilterDR</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=332,52;t=/&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">H</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ClientFilterH</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=225,162;t=--&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">V</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ClientFilterV</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=332,240;t=|&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">quantumStatesGenerator</span><span style="color: #000000; ">: </span><span style="color: #000000; ">QuantumStatesGenerator</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=64,201&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">clientProcessor</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ClientProcessor</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=64,502&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">clientFilterDiagonal</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ClientFilterDiagonal</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=225,356;t=X&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">clientFilterStraight</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ClientFilterStraight</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=332,356;t=+&quot;</span><span style="color: #000000; ">);
+        }
+    </span><span style="color: #800000; font-weight: bold; ">connections</span><span style="color: #000000; ">:
+        </span><span style="color: #000000; ">clientPublicInterface</span><span style="color: #000000; ">.</span><span style="color: #000000; ">externalCommunication</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">publicInterface</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">clientQuantumInterface</span><span style="color: #000000; ">.</span><span style="color: #000000; ">quantumChannelCommunication</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">quantumInterface</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">DL</span><span style="color: #000000; ">.</span><span style="color: #000000; ">polarizedLight</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">clientQuantumInterface</span><span style="color: #000000; ">.</span><span style="color: #000000; ">dl</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">DR</span><span style="color: #000000; ">.</span><span style="color: #000000; ">polarizedLight</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">clientQuantumInterface</span><span style="color: #000000; ">.</span><span style="color: #000000; ">dr</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">H</span><span style="color: #000000; ">.</span><span style="color: #000000; ">polarizedLight</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">clientQuantumInterface</span><span style="color: #000000; ">.</span><span style="color: #000000; ">h</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">V</span><span style="color: #000000; ">.</span><span style="color: #000000; ">polarizedLight</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">clientQuantumInterface</span><span style="color: #000000; ">.</span><span style="color: #000000; ">v</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">clientProcessor</span><span style="color: #000000; ">.</span><span style="color: #000000; ">publicInterfaceCommunication</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">clientPublicInterface</span><span style="color: #000000; ">.</span><span style="color: #000000; ">processorCommunication</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">quantumStatesGenerator</span><span style="color: #000000; ">.</span><span style="color: #000000; ">DL</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">DL</span><span style="color: #000000; ">.</span><span style="color: #000000; ">unpolarizedLight</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">quantumStatesGenerator</span><span style="color: #000000; ">.</span><span style="color: #000000; ">DR</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">DR</span><span style="color: #000000; ">.</span><span style="color: #000000; ">unpolarizedLight</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">quantumStatesGenerator</span><span style="color: #000000; ">.</span><span style="color: #000000; ">H</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">H</span><span style="color: #000000; ">.</span><span style="color: #000000; ">unpolarizedLight</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">quantumStatesGenerator</span><span style="color: #000000; ">.</span><span style="color: #000000; ">V</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">V</span><span style="color: #000000; ">.</span><span style="color: #000000; ">unpolarizedLight</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">clientProcessor</span><span style="color: #000000; ">.</span><span style="color: #000000; ">quantumInterfaceCommunication</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">quantumStatesGenerator</span><span style="color: #000000; ">.</span><span style="color: #000000; ">processorCommunication</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">clientQuantumInterface</span><span style="color: #000000; ">.</span><span style="color: #000000; ">diagonal</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">clientFilterDiagonal</span><span style="color: #000000; ">.</span><span style="color: #000000; ">polarizedLightIn</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">clientQuantumInterface</span><span style="color: #000000; ">.</span><span style="color: #000000; ">flat</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">clientFilterStraight</span><span style="color: #000000; ">.</span><span style="color: #000000; ">polarizedLightIn</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">clientFilterDiagonal</span><span style="color: #000000; ">.</span><span style="color: #000000; ">polarizedLightOut</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">quantumStatesGenerator</span><span style="color: #000000; ">.</span><span style="color: #000000; ">Diagonal</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">clientFilterStraight</span><span style="color: #000000; ">.</span><span style="color: #000000; ">polarizedLightOut</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">quantumStatesGenerator</span><span style="color: #000000; ">.</span><span style="color: #000000; ">Straight</span><span style="color: #000000; ">;
+}
+
+</span></pre>
+   <hr><p class="footer"><a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top"><img src="by-sa.png"></a> This documentation is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top">Creative Commons license</a></p>
+   </body>
+</html>

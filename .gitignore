@@ -39,6 +39,7 @@
 /.qtenvrc
 /Makefile
 /QKD
-/doc/
 /out/
 /doxy.cfg
+/TestModule.cc
+/TestModule.ned

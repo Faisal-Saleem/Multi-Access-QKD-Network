@@ -27,7 +27,7 @@ void ClientQuantumInterface::initialize()
 }
 void ClientQuantumInterface::handleMessage(cMessage *msg)
 {
-
+    send(msg,"quantumChannelCommunication$o");
 }
 
 

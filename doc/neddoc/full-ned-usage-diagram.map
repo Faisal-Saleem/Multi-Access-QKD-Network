@@ -1,0 +1,23 @@
+<area shape="rect" href="Client.html" title="Compound Module Client" alt="Client" coords="691,88,763,112">
+<area shape="rect" href="ClientFilterH.html" title="Simple Module ClientFilterH" alt="ClientFilterH" coords="7,160,87,184">
+<area shape="rect" href="ClientFilterDL.html" title="Simple Module ClientFilterDL" alt="ClientFilterDL" coords="111,160,199,184">
+<area shape="rect" href="ClientFilterDiagonal.html" title="Simple Module ClientFilterDiagonal" alt="ClientFilterDiagonal" coords="223,160,345,184">
+<area shape="rect" href="ClientProcessor.html" title="Simple Module ClientProcessor" alt="ClientProcessor" coords="369,160,473,184">
+<area shape="rect" href="ClientFilterV.html" title="Simple Module ClientFilterV" alt="ClientFilterV" coords="497,160,580,184">
+<area shape="rect" href="ClientFilterStraight.html" title="Simple Module ClientFilterStraight" alt="ClientFilterStraight" coords="604,160,721,184">
+<area shape="rect" href="ned.IdealChannel.html" title="Channel IdealChannel" alt="IdealChannel" coords="1364,160,1449,184">
+<area shape="rect" href="ClientFilterDR.html" title="Simple Module ClientFilterDR" alt="ClientFilterDR" coords="745,160,836,184">
+<area shape="rect" href="QuantumStatesGenerator.html" title="Simple Module QuantumStatesGenerator" alt="QuantumStatesGenerator" coords="860,160,1020,184">
+<area shape="rect" href="ClientPublicInterface.html" title="Simple Module ClientPublicInterface" alt="ClientPublicInterface" coords="1044,160,1172,184">
+<area shape="rect" href="ClientQuantumInterface.html" title="Simple Module ClientQuantumInterface" alt="ClientQuantumInterface" coords="1196,160,1340,184">
+<area shape="rect" href="Network.html" title="Network Network" alt="Network" coords="1371,16,1443,40">
+<area shape="rect" href="Switch.html" title="Compound Module Switch" alt="Switch" coords="1609,88,1681,112">
+<area shape="rect" href="ned.DatarateChannel.html" title="Channel DatarateChannel" alt="DatarateChannel" coords="1467,16,1573,40">
+<area shape="rect" href="ned.DelayChannel.html" title="Channel DelayChannel" alt="DelayChannel" coords="1597,16,1688,40">
+<area shape="rect" href="ned.IBidirectionalChannel.html" title="Module Interface IBidirectionalChannel" alt="IBidirectionalChannel" coords="1712,16,1843,40">
+<area shape="rect" href="ProcessingQueue.html" title="Simple Module ProcessingQueue" alt="ProcessingQueue" coords="1473,160,1585,184">
+<area shape="rect" href="Processor.html" title="Simple Module Processor" alt="Processor" coords="1609,160,1681,184">
+<area shape="rect" href="QuantumStatesQueue.html" title="Simple Module QuantumStatesQueue" alt="QuantumStatesQueue" coords="1705,160,1844,184">
+<area shape="rect" href="SwitchQuantumInterface.html" title="Simple Module SwitchQuantumInterface" alt="SwitchQuantumInterface" coords="1868,160,2020,184">
+<area shape="rect" href="SwitchPublicInterface.html" title="Simple Module SwitchPublicInterface" alt="SwitchPublicInterface" coords="2044,160,2177,184">
+<area shape="rect" href="ned.IUnidirectionalChannel.html" title="Module Interface IUnidirectionalChannel" alt="IUnidirectionalChannel" coords="1867,16,2005,40">

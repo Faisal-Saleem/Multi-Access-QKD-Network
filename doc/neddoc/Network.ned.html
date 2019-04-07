@@ -1,0 +1,83 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+   </head>
+   <body onload="if (top.frames['componentsframe'] == undefined) { s = window.location.toString(); window.location = 'index.html?p=' + s.substring(s.lastIndexOf('/')+1); }">
+<h2 class="comptitle">NED File <i>Network.ned</i></h2>
+<table class="typestable">
+   <tr>
+      <th class="name">Name</th>
+      <th class="type">Type</th>
+      <th class="description">Description</th>
+   </tr>
+<tr>
+   <td>
+<a href="Network.html">Network</a>
+   </td>
+   <td>
+<i>network</i>
+   </td>
+   <td>
+
+<p>This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.</p>
+
+   </td>
+</tr>
+</table>
+<h3 class="subtitle">Source code:</h3>
+<pre class="src"><span style="color: #808080; font-style: italic; ">//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Lesser General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+// 
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Lesser General Public License for more details.
+// 
+// You should have received a copy of the GNU Lesser General Public License
+// along with this program.  If not, see http://www.gnu.org/licenses/.
+// 
+</span><span style="color: #800000; font-weight: bold; ">network</span><span style="color: #000000; "> </span><span style="color: #000000; ">Network</span><span style="color: #000000; ">
+{
+    </span><span style="color: #800000; font-weight: bold; ">parameters</span><span style="color: #000000; ">:
+        </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;bgb=402,278,#FFE4CA;i=block/network;i2=status/connect;bgg=20;bgl=2&quot;</span><span style="color: #000000; ">);
+    </span><span style="color: #800000; font-weight: bold; ">submodules</span><span style="color: #000000; ">:
+        </span><span style="color: #000000; ">switch</span><span style="color: #000000; ">: </span><span style="color: #000000; ">Switch</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=203,133&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">client01</span><span style="color: #000000; ">: </span><span style="color: #000000; ">Client</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=42,41&quot;</span><span style="color: #000000; ">);
+            </span><span style="color: #000000; ">name</span><span style="color: #000000; "> = </span><span style="color: #008000; ">&quot;Cliant 01&quot;</span><span style="color: #000000; ">;
+        }
+        </span><span style="color: #000000; ">client02</span><span style="color: #000000; ">: </span><span style="color: #000000; ">Client</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=44,206&quot;</span><span style="color: #000000; ">);
+            </span><span style="color: #000000; ">name</span><span style="color: #000000; "> = </span><span style="color: #008000; ">&quot;Cliant 02&quot;</span><span style="color: #000000; ">;
+        }
+        </span><span style="color: #000000; ">client03</span><span style="color: #000000; ">: </span><span style="color: #000000; ">Client</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=339,42&quot;</span><span style="color: #000000; ">);
+            </span><span style="color: #000000; ">name</span><span style="color: #000000; "> = </span><span style="color: #008000; ">&quot;Cliant 03&quot;</span><span style="color: #000000; ">;
+        }
+        </span><span style="color: #000000; ">client04</span><span style="color: #000000; ">: </span><span style="color: #000000; ">Client</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=344,213&quot;</span><span style="color: #000000; ">);
+            </span><span style="color: #000000; ">name</span><span style="color: #000000; "> = </span><span style="color: #008000; ">&quot;Cliant 04&quot;</span><span style="color: #000000; ">;
+        }
+    </span><span style="color: #800000; font-weight: bold; ">connections</span><span style="color: #000000; ">:
+        </span><span style="color: #000000; ">client01</span><span style="color: #000000; ">.</span><span style="color: #000000; ">publicInterface</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">switch</span><span style="color: #000000; ">.</span><span style="color: #000000; ">fe01</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">client02</span><span style="color: #000000; ">.</span><span style="color: #000000; ">publicInterface</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">switch</span><span style="color: #000000; ">.</span><span style="color: #000000; ">fe02</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">client03</span><span style="color: #000000; ">.</span><span style="color: #000000; ">publicInterface</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">switch</span><span style="color: #000000; ">.</span><span style="color: #000000; ">fe03</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">client04</span><span style="color: #000000; ">.</span><span style="color: #000000; ">publicInterface</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">switch</span><span style="color: #000000; ">.</span><span style="color: #000000; ">fe04</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">client01</span><span style="color: #000000; ">.</span><span style="color: #000000; ">quantumInterface</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">switch</span><span style="color: #000000; ">.</span><span style="color: #000000; ">qu01</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">client02</span><span style="color: #000000; ">.</span><span style="color: #000000; ">quantumInterface</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">switch</span><span style="color: #000000; ">.</span><span style="color: #000000; ">qu02</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">client03</span><span style="color: #000000; ">.</span><span style="color: #000000; ">quantumInterface</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">switch</span><span style="color: #000000; ">.</span><span style="color: #000000; ">qu03</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">client04</span><span style="color: #000000; ">.</span><span style="color: #000000; ">quantumInterface</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">switch</span><span style="color: #000000; ">.</span><span style="color: #000000; ">qu04</span><span style="color: #000000; ">;
+}
+</span></pre>
+   <hr><p class="footer"><a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top"><img src="by-sa.png"></a> This documentation is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top">Creative Commons license</a></p>
+   </body>
+</html>

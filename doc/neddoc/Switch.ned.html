@@ -1,0 +1,127 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+   </head>
+   <body onload="if (top.frames['componentsframe'] == undefined) { s = window.location.toString(); window.location = 'index.html?p=' + s.substring(s.lastIndexOf('/')+1); }">
+<h2 class="comptitle">NED File <i>Switch.ned</i></h2>
+<table class="typestable">
+   <tr>
+      <th class="name">Name</th>
+      <th class="type">Type</th>
+      <th class="description">Description</th>
+   </tr>
+<tr>
+   <td>
+<a href="Switch.html">Switch</a>
+   </td>
+   <td>
+<i>compound&nbsp;module</i>
+   </td>
+   <td>
+<i>(no description)</i>
+   </td>
+</tr>
+</table>
+<h3 class="subtitle">Source code:</h3>
+<pre class="src"><span style="color: #808080; font-style: italic; ">//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Lesser General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+// 
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Lesser General Public License for more details.
+// 
+// You should have received a copy of the GNU Lesser General Public License
+// along with this program.  If not, see http://www.gnu.org/licenses/.
+// 
+// </span><span style="color: #000080; ">@author</span><span style="color: #808080; font-style: italic; "> Faisal Saleem
+// </span><span style="color: #000080; ">@date</span><span style="color: #808080; font-style: italic; "> April 03, 2019
+// 
+</span><span style="color: #000000; ">
+</span><span style="color: #800000; font-weight: bold; ">module</span><span style="color: #000000; "> </span><span style="color: #000000; ">Switch</span><span style="color: #000000; ">
+{
+    </span><span style="color: #808080; font-style: italic; ">// Quatnum Key Distribution switch
+</span><span style="color: #000000; ">    </span><span style="color: #808080; font-style: italic; ">// Uses BB84 protocol to transfer quantum states between clients.
+</span><span style="color: #000000; ">    </span><span style="color: #800000; font-weight: bold; ">parameters</span><span style="color: #000000; ">:
+        </span><span style="color: #808080; font-style: italic; ">// Display Paremeters (Color, Grid, Image etc)
+</span><span style="color: #000000; ">        </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;bgb=441,711,#ECFFEC;i=abstract/switch;is=n;i2=status/green;bgtt=Quantum Key Distribution Switch&quot;</span><span style="color: #000000; ">);
+    </span><span style="color: #800000; font-weight: bold; ">gates</span><span style="color: #000000; ">:
+        </span><span style="color: #000080; font-weight: bold; ">inout</span><span style="color: #000000; "> </span><span style="color: #000000; ">fe01</span><span style="color: #000000; ">;		</span><span style="color: #808080; font-style: italic; ">// FastEthernet 01
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">inout</span><span style="color: #000000; "> </span><span style="color: #000000; ">fe02</span><span style="color: #000000; ">;		</span><span style="color: #808080; font-style: italic; ">// FastEthernet 02;
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">inout</span><span style="color: #000000; "> </span><span style="color: #000000; ">fe03</span><span style="color: #000000; ">;		</span><span style="color: #808080; font-style: italic; ">// FastEthernet 03;
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">inout</span><span style="color: #000000; "> </span><span style="color: #000000; ">fe04</span><span style="color: #000000; ">;		</span><span style="color: #808080; font-style: italic; ">// FastEthernet 04;
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">inout</span><span style="color: #000000; "> </span><span style="color: #000000; ">qu01</span><span style="color: #000000; ">;		</span><span style="color: #808080; font-style: italic; ">// QuantumInterface 01;
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">inout</span><span style="color: #000000; "> </span><span style="color: #000000; ">qu02</span><span style="color: #000000; ">;		</span><span style="color: #808080; font-style: italic; ">// QuantumInterface 02;
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">inout</span><span style="color: #000000; "> </span><span style="color: #000000; ">qu03</span><span style="color: #000000; ">;		</span><span style="color: #808080; font-style: italic; ">// QuantumInterface 03;
+</span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">inout</span><span style="color: #000000; "> </span><span style="color: #000000; ">qu04</span><span style="color: #000000; ">;		</span><span style="color: #808080; font-style: italic; ">// QuantumInterface 04;
+</span><span style="color: #000000; ">    </span><span style="color: #800000; font-weight: bold; ">submodules</span><span style="color: #000000; ">:
+        </span><span style="color: #000000; ">processor</span><span style="color: #000000; ">: </span><span style="color: #000000; ">Processor</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=71,342;is=vl&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">f01</span><span style="color: #000000; ">: </span><span style="color: #000000; ">SwitchPublicInterface</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=51,657&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">f02</span><span style="color: #000000; ">: </span><span style="color: #000000; ">SwitchPublicInterface</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=169,657&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">f03</span><span style="color: #000000; ">: </span><span style="color: #000000; ">SwitchPublicInterface</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=278,657&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">f04</span><span style="color: #000000; ">: </span><span style="color: #000000; ">SwitchPublicInterface</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=388,657&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">q01</span><span style="color: #000000; ">: </span><span style="color: #000000; ">SwitchQuantumInterface</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=51,47&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">q02</span><span style="color: #000000; ">: </span><span style="color: #000000; ">SwitchQuantumInterface</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=169,47&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">q03</span><span style="color: #000000; ">: </span><span style="color: #000000; ">SwitchQuantumInterface</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=278,47&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">q04</span><span style="color: #000000; ">: </span><span style="color: #000000; ">SwitchQuantumInterface</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=388,47&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">processingQueue</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ProcessingQueue</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=82,496;is=l&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">quantumStatesQueue</span><span style="color: #000000; ">: </span><span style="color: #000000; ">QuantumStatesQueue</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=176,202;is=l&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">processedQueue</span><span style="color: #000000; ">: </span><span style="color: #000000; ">QuantumStatesQueue</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=347,496;is=l&quot;</span><span style="color: #000000; ">);
+        }
+    </span><span style="color: #800000; font-weight: bold; ">connections</span><span style="color: #000000; ">:
+        </span><span style="color: #000000; ">fe01</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">f01</span><span style="color: #000000; ">.</span><span style="color: #000000; ">publicChannelCommunication</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">fe02</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">f02</span><span style="color: #000000; ">.</span><span style="color: #000000; ">publicChannelCommunication</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">fe03</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">f03</span><span style="color: #000000; ">.</span><span style="color: #000000; ">publicChannelCommunication</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">fe04</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">f04</span><span style="color: #000000; ">.</span><span style="color: #000000; ">publicChannelCommunication</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">qu01</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">q01</span><span style="color: #000000; ">.</span><span style="color: #000000; ">quantumChannelCommunication</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">qu02</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">q02</span><span style="color: #000000; ">.</span><span style="color: #000000; ">quantumChannelCommunication</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">qu03</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">q03</span><span style="color: #000000; ">.</span><span style="color: #000000; ">quantumChannelCommunication</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">qu04</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">q04</span><span style="color: #000000; ">.</span><span style="color: #000000; ">quantumChannelCommunication</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">processingQueue</span><span style="color: #000000; ">.</span><span style="color: #000000; ">outToProcessor</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">processor</span><span style="color: #000000; ">.</span><span style="color: #000000; ">jobsIn</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">quantumStatesQueue</span><span style="color: #000000; ">.</span><span style="color: #000000; ">outToInterface01</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">q01</span><span style="color: #000000; ">.</span><span style="color: #000000; ">quantumInterfaceStatus</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">quantumStatesQueue</span><span style="color: #000000; ">.</span><span style="color: #000000; ">outToInterface02</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">q02</span><span style="color: #000000; ">.</span><span style="color: #000000; ">quantumInterfaceStatus</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">quantumStatesQueue</span><span style="color: #000000; ">.</span><span style="color: #000000; ">outToInterface03</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">q03</span><span style="color: #000000; ">.</span><span style="color: #000000; ">quantumInterfaceStatus</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">quantumStatesQueue</span><span style="color: #000000; ">.</span><span style="color: #000000; ">outToInterface04</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">q04</span><span style="color: #000000; ">.</span><span style="color: #000000; ">quantumInterfaceStatus</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">f01</span><span style="color: #000000; ">.</span><span style="color: #000000; ">jobsToProcessor</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">processingQueue</span><span style="color: #000000; ">.</span><span style="color: #000000; ">inFromInterface01</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">f02</span><span style="color: #000000; ">.</span><span style="color: #000000; ">jobsToProcessor</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">processingQueue</span><span style="color: #000000; ">.</span><span style="color: #000000; ">inFromInterface02</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">f03</span><span style="color: #000000; ">.</span><span style="color: #000000; ">jobsToProcessor</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">processingQueue</span><span style="color: #000000; ">.</span><span style="color: #000000; ">inFromInterface03</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">f04</span><span style="color: #000000; ">.</span><span style="color: #000000; ">jobsToProcessor</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">processingQueue</span><span style="color: #000000; ">.</span><span style="color: #000000; ">inFromInterface04</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">processedQueue</span><span style="color: #000000; ">.</span><span style="color: #000000; ">outToInterface01</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">f01</span><span style="color: #000000; ">.</span><span style="color: #000000; ">processedJobs</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">processedQueue</span><span style="color: #000000; ">.</span><span style="color: #000000; ">outToInterface02</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">f02</span><span style="color: #000000; ">.</span><span style="color: #000000; ">processedJobs</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">processedQueue</span><span style="color: #000000; ">.</span><span style="color: #000000; ">outToInterface03</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">f03</span><span style="color: #000000; ">.</span><span style="color: #000000; ">processedJobs</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">processedQueue</span><span style="color: #000000; ">.</span><span style="color: #000000; ">outToInterface04</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">f04</span><span style="color: #000000; ">.</span><span style="color: #000000; ">processedJobs</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">processor</span><span style="color: #000000; ">.</span><span style="color: #000000; ">quantumInterfaceStatusOut</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">quantumStatesQueue</span><span style="color: #000000; ">.</span><span style="color: #000000; ">inFromProcessor</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">processor</span><span style="color: #000000; ">.</span><span style="color: #000000; ">jobsOut</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">processedQueue</span><span style="color: #000000; ">.</span><span style="color: #000000; ">inFromProcessor</span><span style="color: #000000; ">;
+}
+
+</span></pre>
+   <hr><p class="footer"><a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top"><img src="by-sa.png"></a> This documentation is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0" target="_top">Creative Commons license</a></p>
+   </body>
+</html>

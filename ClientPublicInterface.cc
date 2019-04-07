@@ -23,9 +23,7 @@ Define_Module(ClientPublicInterface);
 
 void ClientPublicInterface::initialize()
 {
-    cModule *cmod = this->getParentModule();
-    cMessage *msg = new cMessage(cmod->getFullName());
-    send(msg, "externalCommunication$o");
+
 }
 void ClientPublicInterface::handleMessage(cMessage *msg)
 {

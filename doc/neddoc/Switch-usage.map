@@ -1,0 +1,8 @@
+<area shape="rect" href="Switch.html" title="Compound Module Switch" alt="Switch" coords="383,88,455,112">
+<area shape="rect" href="ProcessingQueue.html" title="Simple Module ProcessingQueue" alt="ProcessingQueue" coords="7,160,119,184">
+<area shape="rect" href="QuantumStatesQueue.html" title="Simple Module QuantumStatesQueue" alt="QuantumStatesQueue" coords="143,160,281,184">
+<area shape="rect" href="ned.IdealChannel.html" title="Channel IdealChannel" alt="IdealChannel" coords="305,160,391,184">
+<area shape="rect" href="SwitchQuantumInterface.html" title="Simple Module SwitchQuantumInterface" alt="SwitchQuantumInterface" coords="415,160,567,184">
+<area shape="rect" href="Processor.html" title="Simple Module Processor" alt="Processor" coords="591,160,663,184">
+<area shape="rect" href="SwitchPublicInterface.html" title="Simple Module SwitchPublicInterface" alt="SwitchPublicInterface" coords="687,160,820,184">
+<area shape="rect" href="Network.html" title="Network Network" alt="Network" coords="383,16,455,40">

@@ -15,26 +15,25 @@
 network Network
 {
     parameters:
-        @display("bgb=699,430,#FFE4CA;i=block/network;i2=status/connect;bgg=20");
-
+        @display("bgb=402,278,#FFE4CA;i=block/network;i2=status/connect;bgg=20;bgl=2");
     submodules:
         switch: Switch {
-            @display("p=342,210;is=l");
+            @display("p=203,133");
         }
         client01: Client {
-            @display("p=49,48");
+            @display("p=42,41");
             name = "Cliant 01";
         }
         client02: Client {
-            @display("p=49,378");
+            @display("p=44,206");
             name = "Cliant 02";
         }
         client03: Client {
-            @display("p=659,35");
+            @display("p=339,42");
             name = "Cliant 03";
         }
         client04: Client {
-            @display("p=659,384");
+            @display("p=344,213");
             name = "Cliant 04";
         }
     connections:
