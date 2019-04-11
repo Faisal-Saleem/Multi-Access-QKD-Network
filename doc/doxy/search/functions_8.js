@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['navto',['navTo',['../navtree_8js.html#a21beb601032fff375100a907f32129a5',1,'navtree.js']]],
-  ['newnode',['newNode',['../navtree_8js.html#aa2418b16159e9502e990f97ea6ec26c8',1,'navtree.js']]]
+  ['macaddresstable',['macAddressTable',['../Switch_8cc.html#a9ef523e808516d5da4416c6c3233f88b',1,'Switch.cc']]],
+  ['mactableentry',['MacTableEntry',['../classMacTableEntry.html#ad21e22baf17968753db81c066079e2ed',1,'MacTableEntry::MacTableEntry(const char *name=nullptr, short kind=0)'],['../classMacTableEntry.html#a3c30996ea87416ce415a6db7218beac3',1,'MacTableEntry::MacTableEntry(const MacTableEntry &amp;other)']]]
 ];

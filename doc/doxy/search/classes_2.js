@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['quantumstatesgenerator',['QuantumStatesGenerator',['../classQuantumStatesGenerator.html',1,'']]],
-  ['quantumstatesqueue',['QuantumStatesQueue',['../classQuantumStatesQueue.html',1,'']]]
+  ['processingqueue',['ProcessingQueue',['../classProcessingQueue.html',1,'']]],
+  ['processor',['Processor',['../classProcessor.html',1,'']]]
 ];

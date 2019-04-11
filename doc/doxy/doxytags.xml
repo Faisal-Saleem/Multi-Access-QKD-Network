@@ -23,13 +23,6 @@
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
       <arglist></arglist>
     </member>
-    <member kind="variable">
-      <type>jquery</type>
-      <name>js</name>
-      <anchorfile>all__1_8js.html</anchorfile>
-      <anchor>a975aa2394af6b74243e6c1b73de2583a</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>all_10.js</name>
@@ -40,13 +33,6 @@
       <name>searchData</name>
       <anchorfile>all__10_8js.html</anchorfile>
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>all_0</type>
-      <name>js</name>
-      <anchorfile>all__10_8js.html</anchorfile>
-      <anchor>a36e8bb713520a15833bafb5d93f8949c</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -85,6 +71,13 @@
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
       <arglist></arglist>
     </member>
+    <member kind="variable">
+      <type>all_0</type>
+      <name>js</name>
+      <anchorfile>all__13_8js.html</anchorfile>
+      <anchor>a36e8bb713520a15833bafb5d93f8949c</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>all_14.js</name>
@@ -111,6 +104,54 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>all_16.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
+    <filename>all__16_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>searchData</name>
+      <anchorfile>all__16_8js.html</anchorfile>
+      <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all_17.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
+    <filename>all__17_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>searchData</name>
+      <anchorfile>all__17_8js.html</anchorfile>
+      <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all_18.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
+    <filename>all__18_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>searchData</name>
+      <anchorfile>all__18_8js.html</anchorfile>
+      <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all_19.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
+    <filename>all__19_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>searchData</name>
+      <anchorfile>all__19_8js.html</anchorfile>
+      <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>all_2.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
     <filename>all__2_8js</filename>
@@ -119,6 +160,13 @@
       <name>searchData</name>
       <anchorfile>all__2_8js.html</anchorfile>
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>jquery</type>
+      <name>js</name>
+      <anchorfile>all__2_8js.html</anchorfile>
+      <anchor>a975aa2394af6b74243e6c1b73de2583a</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -133,13 +181,6 @@
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
       <arglist></arglist>
     </member>
-    <member kind="variable">
-      <type>ClientFilterDiagonal</type>
-      <name>cc</name>
-      <anchorfile>all__3_8js.html</anchorfile>
-      <anchor>a0f2adb93a304aa72d4ad3309a893da32</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>all_4.js</name>
@@ -150,6 +191,13 @@
       <name>searchData</name>
       <anchorfile>all__4_8js.html</anchorfile>
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>ClientFilterDiagonal</type>
+      <name>cc</name>
+      <anchorfile>all__4_8js.html</anchorfile>
+      <anchor>a0f2adb93a304aa72d4ad3309a893da32</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -200,13 +248,6 @@
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
       <arglist></arglist>
     </member>
-    <member kind="variable">
-      <type>jquery</type>
-      <name>js</name>
-      <anchorfile>all__8_8js.html</anchorfile>
-      <anchor>a975aa2394af6b74243e6c1b73de2583a</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>all_9.js</name>
@@ -217,13 +258,6 @@
       <name>searchData</name>
       <anchorfile>all__9_8js.html</anchorfile>
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>all_1</type>
-      <name>js</name>
-      <anchorfile>all__9_8js.html</anchorfile>
-      <anchor>a0e91af52fbb82d11ac1720275136af76</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -492,6 +526,18 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>all____15__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________15____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all____15__8js_8js</name>
+      <anchorfile>all________15____8js__8js_8js.html</anchorfile>
+      <anchor>a6cf96a64bced98215b725e18df18b141</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>all____1__8js_8js.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>all________1____8js__8js_8js</filename>
@@ -612,6 +658,78 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>all________10____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________10________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________10____8js__8js_8js</name>
+      <anchorfile>all________________10________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a6019e0fcc9fd1ca289923ef77b85fafd</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________11____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________11________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________11____8js__8js_8js</name>
+      <anchorfile>all________________11________8js____8js__8js_8js.html</anchorfile>
+      <anchor>af5fbf9a162cc0e115efd649352179a67</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________12____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________12________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________12____8js__8js_8js</name>
+      <anchorfile>all________________12________8js____8js__8js_8js.html</anchorfile>
+      <anchor>aab1e7d6275b13a8dd48b58b257386497</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________13____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________13________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________13____8js__8js_8js</name>
+      <anchorfile>all________________13________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a7b946e6e571e2fcb07b9daf301986d29</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________14____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________14________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________14____8js__8js_8js</name>
+      <anchorfile>all________________14________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a0852e9e70e8440e60076ffeb88dcf558</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________15____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________15________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________15____8js__8js_8js</name>
+      <anchorfile>all________________15________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a3a78ffbd367854379e70975e188fd6cf</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>all________1____8js__8js_8js.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>all________________1________8js____8js__8js_8js</filename>
@@ -620,6 +738,450 @@
       <name>all________1____8js__8js_8js</name>
       <anchorfile>all________________1________8js____8js__8js_8js.html</anchorfile>
       <anchor>a879bdbf16d71c43f8ea0ccc750afa5df</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________2____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________2________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________2____8js__8js_8js</name>
+      <anchorfile>all________________2________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a33253ab51c05ff0be6429da4ebdceb16</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________3____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________3________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________3____8js__8js_8js</name>
+      <anchorfile>all________________3________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a8c89614f95e9fad0e8cd668d41d9eb10</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________4____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________4________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________4____8js__8js_8js</name>
+      <anchorfile>all________________4________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a974524b01de501730c10264db00f2804</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________5____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________5________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________5____8js__8js_8js</name>
+      <anchorfile>all________________5________8js____8js__8js_8js.html</anchorfile>
+      <anchor>af9966b60f215dfc14a28a4548d9e5550</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________6____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________6________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________6____8js__8js_8js</name>
+      <anchorfile>all________________6________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ac66103a860193c101caf39136cc5a19a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________7____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________7________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________7____8js__8js_8js</name>
+      <anchorfile>all________________7________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a673b41b573cf37ebc264aac8d44c243c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________8____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________8________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________8____8js__8js_8js</name>
+      <anchorfile>all________________8________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a1cfb94f040b82da2ce29dcc462a04c09</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________9____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________9________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________9____8js__8js_8js</name>
+      <anchorfile>all________________9________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ad40cbb4e55dd093ec4b13d581ce53715</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________0________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________0________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________0________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________0________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a645b3aa320a1c864b6012a21c556bde2</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________10________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________10________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________10________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________10________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>aa18e1d4bd0ad15e60e0ff0b7663892c0</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________11________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________11________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________11________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________11________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a88aeb010c03eaf5705b50818ab60a028</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________12________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________12________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________12________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________12________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ae8f31fc31817e359c5a4915dc34bb0d8</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________13________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________13________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________13________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________13________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a4f7f164db4b4f2654fe2680f87e66c1e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________14________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________14________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________14________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________14________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>aa22820605be01f9d5abaa4b0a4291313</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________1________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________1________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________1________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________1________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a3d4fb1606a1607dfd91132493a9f44d4</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________2________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________2________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________2________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________2________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a38455405e17e0b9db579dcd2654b8f6b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________3________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________3________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________3________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________3________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>acc3ea1a0b35b4bdec3f3703c9c7cfc2c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________4________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________4________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________4________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________4________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a8135d81ccf95259865a41181850670ff</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________5________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________5________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________5________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________5________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ac075cae5bae35877f4786b4b5642bfe2</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________6________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________6________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________6________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________6________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a8ca24a7024381dbe38ee3d0b89ddc4cf</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________7________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________7________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________7________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________7________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ad37cffe9de2999b2117b75edfbfe0287</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________8________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________8________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________8________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________8________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a821689ccda1a2e55398abaefc61dfdff</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________9________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________9________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________9________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________9________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a07891c50d325fae630f3e0f72a84b37f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________________________0________________8js________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________________________________________0____________________________7693cb1045531e697b99833c99a781c4</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________________________0________________8js________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________________________________________0____________________________7693cb1045531e697b99833c99a781c4.html</anchorfile>
+      <anchor>a2297216d5c5b5ec7c6bffedb2cc7622a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________________________1________________8js________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________________________________________1____________________________c5f21318ddf2524a39aaafb86ceeca82</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________________________1________________8js________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________________________________________1____________________________c5f21318ddf2524a39aaafb86ceeca82.html</anchorfile>
+      <anchor>afa69fe98f34503cec2eff63a08ac8430</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________a________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________a________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________a________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________a________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a66f4cd98d07ec9d25992b43bfd33b05e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________b________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________b________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________b________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________b________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>abbee913ee3f9f7a0e4228dedbf42f77f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________c________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________c________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________c________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________c________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a6351ec51a6b9a382125bce19f3de1628</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________d________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________d________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________d________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________d________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>aa318fad8f58285ba1c07c7caa5dfa693</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________e________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________e________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________e________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________e________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a9b378d05b61096ba3a223878601a9713</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________________f________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________________________f________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________________f________8js____8js__8js_8js</name>
+      <anchorfile>all________________________________f________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>afe159e402ba946a06703cafdd0f684fa</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________a____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________a________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________a____8js__8js_8js</name>
+      <anchorfile>all________________a________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a5c9bf5b9c2a37cf64b76d24003437cd0</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________b____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________b________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________b____8js__8js_8js</name>
+      <anchorfile>all________________b________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a82e7f6c4964e8be96e178c54e271ceb9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________c____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________c________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________c____8js__8js_8js</name>
+      <anchorfile>all________________c________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ad1838465b568349cff0543f58c7e483f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________d____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________d________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________d____8js__8js_8js</name>
+      <anchorfile>all________________d________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a11aa30c444d2b25bba0711e6d83c2032</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________e____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________e________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________e____8js__8js_8js</name>
+      <anchorfile>all________________e________8js____8js__8js_8js.html</anchorfile>
+      <anchor>aebac6c437eabd27c7c98daa2028b2601</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>all________f____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>all________________f________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>all________f____8js__8js_8js</name>
+      <anchorfile>all________________f________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a0597c9ee061a805e54a5d0c6365b249f</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -778,6 +1340,13 @@
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
       <arglist></arglist>
     </member>
+    <member kind="variable">
+      <type>all_1</type>
+      <name>js</name>
+      <anchorfile>all__a_8js.html</anchorfile>
+      <anchor>a0e91af52fbb82d11ac1720275136af76</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>all_b.js</name>
@@ -800,13 +1369,6 @@
       <name>searchData</name>
       <anchorfile>all__c_8js.html</anchorfile>
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>navtreedata</type>
-      <name>js</name>
-      <anchorfile>all__c_8js.html</anchorfile>
-      <anchor>a53a311d95538eeab3715d4d26bd2294d</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -833,6 +1395,13 @@
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
       <arglist></arglist>
     </member>
+    <member kind="variable">
+      <type>navtreedata</type>
+      <name>js</name>
+      <anchorfile>all__e_8js.html</anchorfile>
+      <anchor>a53a311d95538eeab3715d4d26bd2294d</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>all_f.js</name>
@@ -843,6 +1412,30 @@
       <name>searchData</name>
       <anchorfile>all__f_8js.html</anchorfile>
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>annotated________dup____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>annotated________________dup________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>annotated________dup____8js__8js_8js</name>
+      <anchorfile>annotated________________dup________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a475286329542a42f21a86233d2ae61e1</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>annotated____dup__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>annotated________dup____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>annotated____dup__8js_8js</name>
+      <anchorfile>annotated________dup____8js__8js_8js.html</anchorfile>
+      <anchor>abaf68004670862921bd8992a943f39b2</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -895,6 +1488,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>classClientFilterDiagonal__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientFilterDiagonal____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientFilterDiagonal__8js_8js</name>
+      <anchorfile>classClientFilterDiagonal____8js__8js_8js.html</anchorfile>
+      <anchor>a1ee0ae1be83d946b360edae9c25d0d16</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classClientFilterDiagonal____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientFilterDiagonal________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientFilterDiagonal____8js__8js_8js</name>
+      <anchorfile>classClientFilterDiagonal________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ab150c61c4faba2bd0ce02bf15c532130</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>classClientFilterDL.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>classClientFilterDL_8js</filename>
@@ -915,6 +1532,30 @@
       <name>classClientFilterDL_8js</name>
       <anchorfile>classClientFilterDL__8js_8js.html</anchorfile>
       <anchor>aa46cb37c9ff03eda6baeb6619541977a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classClientFilterDL__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientFilterDL____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientFilterDL__8js_8js</name>
+      <anchorfile>classClientFilterDL____8js__8js_8js.html</anchorfile>
+      <anchor>ad3570794d40e0e9138ba0c7adda513f4</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classClientFilterDL____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientFilterDL________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientFilterDL____8js__8js_8js</name>
+      <anchorfile>classClientFilterDL________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ad8a3f7e931fdaf98bbb78120f4d5af77</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -943,6 +1584,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>classClientFilterDR__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientFilterDR____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientFilterDR__8js_8js</name>
+      <anchorfile>classClientFilterDR____8js__8js_8js.html</anchorfile>
+      <anchor>abcd8d399c0048ffd0b984d6c2927fc7e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classClientFilterDR____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientFilterDR________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientFilterDR____8js__8js_8js</name>
+      <anchorfile>classClientFilterDR________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a9f6ba076f9d816908cf64075b29053db</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>classClientFilterH.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>classClientFilterH_8js</filename>
@@ -963,6 +1628,30 @@
       <name>classClientFilterH_8js</name>
       <anchorfile>classClientFilterH__8js_8js.html</anchorfile>
       <anchor>a89db87422759dfab26533abdd346b965</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classClientFilterH__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientFilterH____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientFilterH__8js_8js</name>
+      <anchorfile>classClientFilterH____8js__8js_8js.html</anchorfile>
+      <anchor>a00ddab6484c43cf15beb17ee6b020845</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classClientFilterH____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientFilterH________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientFilterH____8js__8js_8js</name>
+      <anchorfile>classClientFilterH________8js____8js__8js_8js.html</anchorfile>
+      <anchor>afba5fef96bf1eceabdddbf37d996e72d</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -991,6 +1680,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>classClientFilterStraight__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientFilterStraight____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientFilterStraight__8js_8js</name>
+      <anchorfile>classClientFilterStraight____8js__8js_8js.html</anchorfile>
+      <anchor>a7376cd2910ca8de42fa7c84483b54cd3</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classClientFilterStraight____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientFilterStraight________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientFilterStraight____8js__8js_8js</name>
+      <anchorfile>classClientFilterStraight________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a1ed4dd1e1f56381017f487ae2604aa9f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>classClientFilterV.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>classClientFilterV_8js</filename>
@@ -1011,6 +1724,30 @@
       <name>classClientFilterV_8js</name>
       <anchorfile>classClientFilterV__8js_8js.html</anchorfile>
       <anchor>a5ff2358d2bc770e1293befdf7d7e42f3</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classClientFilterV__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientFilterV____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientFilterV__8js_8js</name>
+      <anchorfile>classClientFilterV____8js__8js_8js.html</anchorfile>
+      <anchor>ab390922362593084d877af7519172949</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classClientFilterV____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientFilterV________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientFilterV____8js__8js_8js</name>
+      <anchorfile>classClientFilterV________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a310a0b0b34c5785f958d99c7bb33c527</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1039,6 +1776,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>classClientProcessor__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientProcessor____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientProcessor__8js_8js</name>
+      <anchorfile>classClientProcessor____8js__8js_8js.html</anchorfile>
+      <anchor>af4ae4af4c37e78d8ccc90ea6b697e56c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classClientProcessor____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientProcessor________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientProcessor____8js__8js_8js</name>
+      <anchorfile>classClientProcessor________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a1ff3e870e4d56c922340d1a878a18742</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>classClientPublicInterface.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>classClientPublicInterface_8js</filename>
@@ -1063,6 +1824,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>classClientPublicInterface__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientPublicInterface____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientPublicInterface__8js_8js</name>
+      <anchorfile>classClientPublicInterface____8js__8js_8js.html</anchorfile>
+      <anchor>ae065e9e9add14a46f05320ddb979ff3d</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classClientPublicInterface____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientPublicInterface________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientPublicInterface____8js__8js_8js</name>
+      <anchorfile>classClientPublicInterface________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ad0effeba4524db63225c114e8efc79c7</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>classClientQuantumInterface.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>classClientQuantumInterface_8js</filename>
@@ -1083,6 +1868,30 @@
       <name>classClientQuantumInterface_8js</name>
       <anchorfile>classClientQuantumInterface__8js_8js.html</anchorfile>
       <anchor>a356f43e6aed339c1ad160ad5120a13c8</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classClientQuantumInterface__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientQuantumInterface____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientQuantumInterface__8js_8js</name>
+      <anchorfile>classClientQuantumInterface____8js__8js_8js.html</anchorfile>
+      <anchor>aa96d467a325c7a86ed78c2735eed0476</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classClientQuantumInterface____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classClientQuantumInterface________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classClientQuantumInterface____8js__8js_8js</name>
+      <anchorfile>classClientQuantumInterface________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a6b246a2de72d5eb4e62294e14335f6b6</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1130,6 +1939,18 @@
       <type>var</type>
       <name>searchData</name>
       <anchorfile>classes__3_8js.html</anchorfile>
+      <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classes_4.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
+    <filename>classes__4_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>searchData</name>
+      <anchorfile>classes__4_8js.html</anchorfile>
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
       <arglist></arglist>
     </member>
@@ -1183,6 +2004,114 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>classes____0__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classes________0____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classes____0__8js_8js</name>
+      <anchorfile>classes________0____8js__8js_8js.html</anchorfile>
+      <anchor>a06a91c9092e9ab629514a61d62e79088</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classes____1__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classes________1____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classes____1__8js_8js</name>
+      <anchorfile>classes________1____8js__8js_8js.html</anchorfile>
+      <anchor>a71314667350c186d35f8e94e9c5a8535</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classes____2__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classes________2____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classes____2__8js_8js</name>
+      <anchorfile>classes________2____8js__8js_8js.html</anchorfile>
+      <anchor>a93d9c303bcbf643115d3381bdb7fe64a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classes____3__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classes________3____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classes____3__8js_8js</name>
+      <anchorfile>classes________3____8js__8js_8js.html</anchorfile>
+      <anchor>a8c48149faa7c4adacaa8c9511d7da762</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classes________0____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classes________________0________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classes________0____8js__8js_8js</name>
+      <anchorfile>classes________________0________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ab4e97d121de110598d6e886fe3cbcec9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classes________1____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classes________________1________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classes________1____8js__8js_8js</name>
+      <anchorfile>classes________________1________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a72d5a36a1cb159f17a0753a301e6f06a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classes________2____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classes________________2________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classes________2____8js__8js_8js</name>
+      <anchorfile>classes________________2________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a9d805bc11505fbc09e4cd15649c0837c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classes________3____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classes________________3________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classes________3____8js__8js_8js</name>
+      <anchorfile>classes________________3________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a398ac5bec58c24cc6f28b134d8a3cf93</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classMacTableEntry.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classMacTableEntry_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classMacTableEntry</name>
+      <anchorfile>classMacTableEntry_8js.html</anchorfile>
+      <anchor>a2da09fdfff17913c3eb7d027993fe50a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>classProcessingQueue.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>classProcessingQueue_8js</filename>
@@ -1203,6 +2132,30 @@
       <name>classProcessingQueue_8js</name>
       <anchorfile>classProcessingQueue__8js_8js.html</anchorfile>
       <anchor>a5f2b1449448e3662a875b8978c5a53c2</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classProcessingQueue__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classProcessingQueue____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classProcessingQueue__8js_8js</name>
+      <anchorfile>classProcessingQueue____8js__8js_8js.html</anchorfile>
+      <anchor>a671efaf8a1924979b32bb7e5ec13a099</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classProcessingQueue____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classProcessingQueue________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classProcessingQueue____8js__8js_8js</name>
+      <anchorfile>classProcessingQueue________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ac32efca9a9ce5679c917586e7133ea0a</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1231,6 +2184,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>classProcessor__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classProcessor____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classProcessor__8js_8js</name>
+      <anchorfile>classProcessor____8js__8js_8js.html</anchorfile>
+      <anchor>a2e24c85b0d5b42ae983f59169c01a734</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classProcessor____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classProcessor________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classProcessor____8js__8js_8js</name>
+      <anchorfile>classProcessor________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a0e32bcccc6c05322c6a480c70e5588d9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>classQuantumStatesGenerator.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>classQuantumStatesGenerator_8js</filename>
@@ -1251,6 +2228,30 @@
       <name>classQuantumStatesGenerator_8js</name>
       <anchorfile>classQuantumStatesGenerator__8js_8js.html</anchorfile>
       <anchor>a79a43e8b7785debf999fa3f3703d221f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classQuantumStatesGenerator__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classQuantumStatesGenerator____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classQuantumStatesGenerator__8js_8js</name>
+      <anchorfile>classQuantumStatesGenerator____8js__8js_8js.html</anchorfile>
+      <anchor>a0a12219f0a0bea43d866fab1cc56dd8b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classQuantumStatesGenerator____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classQuantumStatesGenerator________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classQuantumStatesGenerator____8js__8js_8js</name>
+      <anchorfile>classQuantumStatesGenerator________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a27aa272eef16e9232c79112f86fcbace</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1279,6 +2280,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>classQuantumStatesQueue__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classQuantumStatesQueue____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classQuantumStatesQueue__8js_8js</name>
+      <anchorfile>classQuantumStatesQueue____8js__8js_8js.html</anchorfile>
+      <anchor>a68784c2c068d2501d101e2501a74cba6</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classQuantumStatesQueue____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classQuantumStatesQueue________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classQuantumStatesQueue____8js__8js_8js</name>
+      <anchorfile>classQuantumStatesQueue________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a23d305bcfe825bbcaeed2e760324d1bb</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>classSwitch.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>classSwitch_8js</filename>
@@ -1299,6 +2324,30 @@
       <name>classSwitch_8js</name>
       <anchorfile>classSwitch__8js_8js.html</anchorfile>
       <anchor>a6ba8ea75bd35342d128899e821ac0830</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classSwitch__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classSwitch____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classSwitch__8js_8js</name>
+      <anchorfile>classSwitch____8js__8js_8js.html</anchorfile>
+      <anchor>abf3e20ad136a6dbbbe76ebf5acf53b23</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classSwitch____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classSwitch________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classSwitch____8js__8js_8js</name>
+      <anchorfile>classSwitch________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a00d727531c8bc7d80f512c2f74babf7d</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1327,6 +2376,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>classSwitchPublicInterface__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classSwitchPublicInterface____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classSwitchPublicInterface__8js_8js</name>
+      <anchorfile>classSwitchPublicInterface____8js__8js_8js.html</anchorfile>
+      <anchor>ad30d09bbbd7f1d983a1a54514d3084ab</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classSwitchPublicInterface____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classSwitchPublicInterface________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classSwitchPublicInterface____8js__8js_8js</name>
+      <anchorfile>classSwitchPublicInterface________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a5e04b074fc8af380f82b5bc0beb7684b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>classSwitchQuantumInterface.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>classSwitchQuantumInterface_8js</filename>
@@ -1347,6 +2420,30 @@
       <name>classSwitchQuantumInterface_8js</name>
       <anchorfile>classSwitchQuantumInterface__8js_8js.html</anchorfile>
       <anchor>a423509fc4ee3f37ca32a708b3349c7eb</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classSwitchQuantumInterface__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classSwitchQuantumInterface____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classSwitchQuantumInterface__8js_8js</name>
+      <anchorfile>classSwitchQuantumInterface____8js__8js_8js.html</anchorfile>
+      <anchor>a08873f3e4d6a3b7beccb25571e4ccc5f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>classSwitchQuantumInterface____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>classSwitchQuantumInterface________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>classSwitchQuantumInterface____8js__8js_8js</name>
+      <anchorfile>classSwitchQuantumInterface________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a7bbd7293fd39b17413f91f6cafdacd4d</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1403,6 +2500,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>ClientFilterDiagonal____8cc__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientFilterDiagonal________8cc____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientFilterDiagonal____8cc__8js_8js</name>
+      <anchorfile>ClientFilterDiagonal________8cc____8js__8js_8js.html</anchorfile>
+      <anchor>ac71b2864d4c6766e56f58264f61ec2e7</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ClientFilterDiagonal________8cc____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientFilterDiagonal________________8cc________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientFilterDiagonal________8cc____8js__8js_8js</name>
+      <anchorfile>ClientFilterDiagonal________________8cc________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a2abc53e88791172d9838a3461144405f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>ClientFilterDL.cc</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/</path>
     <filename>ClientFilterDL_8cc</filename>
@@ -1441,6 +2562,30 @@
       <name>ClientFilterDL__8cc_8js</name>
       <anchorfile>ClientFilterDL____8cc__8js_8js.html</anchorfile>
       <anchor>a86745c0e37bde0d187cd7c8b1eb1c90e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ClientFilterDL____8cc__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientFilterDL________8cc____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientFilterDL____8cc__8js_8js</name>
+      <anchorfile>ClientFilterDL________8cc____8js__8js_8js.html</anchorfile>
+      <anchor>a0b5c60dc7e57df0f009bad8d2d0fdec9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ClientFilterDL________8cc____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientFilterDL________________8cc________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientFilterDL________8cc____8js__8js_8js</name>
+      <anchorfile>ClientFilterDL________________8cc________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a60c40ba253865ef546a67a5a3f17b721</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1487,6 +2632,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>ClientFilterDR____8cc__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientFilterDR________8cc____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientFilterDR____8cc__8js_8js</name>
+      <anchorfile>ClientFilterDR________8cc____8js__8js_8js.html</anchorfile>
+      <anchor>a3d9797c834a32fa0c5ce8a6289c7f8f1</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ClientFilterDR________8cc____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientFilterDR________________8cc________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientFilterDR________8cc____8js__8js_8js</name>
+      <anchorfile>ClientFilterDR________________8cc________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a579a570d97ee7f01c180a8cee7a6da90</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>ClientFilterH.cc</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/</path>
     <filename>ClientFilterH_8cc</filename>
@@ -1525,6 +2694,30 @@
       <name>ClientFilterH__8cc_8js</name>
       <anchorfile>ClientFilterH____8cc__8js_8js.html</anchorfile>
       <anchor>ac0fbab7f1c985dd4c7e19ae45c74f2a1</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ClientFilterH____8cc__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientFilterH________8cc____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientFilterH____8cc__8js_8js</name>
+      <anchorfile>ClientFilterH________8cc____8js__8js_8js.html</anchorfile>
+      <anchor>a8e4146c827e4524cfd22a997a46c8313</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ClientFilterH________8cc____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientFilterH________________8cc________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientFilterH________8cc____8js__8js_8js</name>
+      <anchorfile>ClientFilterH________________8cc________8js____8js__8js_8js.html</anchorfile>
+      <anchor>aff4e87fa45573b7e10a3d6022a87996f</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1571,6 +2764,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>ClientFilterStraight____8cc__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientFilterStraight________8cc____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientFilterStraight____8cc__8js_8js</name>
+      <anchorfile>ClientFilterStraight________8cc____8js__8js_8js.html</anchorfile>
+      <anchor>ae9ec459eb9a0306ad7720a948480b9d4</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ClientFilterStraight________8cc____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientFilterStraight________________8cc________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientFilterStraight________8cc____8js__8js_8js</name>
+      <anchorfile>ClientFilterStraight________________8cc________8js____8js__8js_8js.html</anchorfile>
+      <anchor>aded902715fcacf57c91fbce3a10a89ad</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>ClientFilterV.cc</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/</path>
     <filename>ClientFilterV_8cc</filename>
@@ -1609,6 +2826,30 @@
       <name>ClientFilterV__8cc_8js</name>
       <anchorfile>ClientFilterV____8cc__8js_8js.html</anchorfile>
       <anchor>a6f7f9f793fbf54b7d535c569b5513c06</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ClientFilterV____8cc__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientFilterV________8cc____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientFilterV____8cc__8js_8js</name>
+      <anchorfile>ClientFilterV________8cc____8js__8js_8js.html</anchorfile>
+      <anchor>a2075b92f606aaff229023a8d87d089e6</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ClientFilterV________8cc____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientFilterV________________8cc________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientFilterV________8cc____8js__8js_8js</name>
+      <anchorfile>ClientFilterV________________8cc________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a3ad230a00f761be85adf427b6fdc2ecd</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1655,6 +2896,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>ClientProcessor____8cc__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientProcessor________8cc____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientProcessor____8cc__8js_8js</name>
+      <anchorfile>ClientProcessor________8cc____8js__8js_8js.html</anchorfile>
+      <anchor>a5550cc3a75842f28b27429dd16ca309a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ClientProcessor________8cc____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientProcessor________________8cc________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientProcessor________8cc____8js__8js_8js</name>
+      <anchorfile>ClientProcessor________________8cc________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a748587d2c1936ae8a21ceb1475c2ca47</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>ClientPublicInterface.cc</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/</path>
     <filename>ClientPublicInterface_8cc</filename>
@@ -1693,6 +2958,30 @@
       <name>ClientPublicInterface__8cc_8js</name>
       <anchorfile>ClientPublicInterface____8cc__8js_8js.html</anchorfile>
       <anchor>a8298e16f4dd48c5375e26b65dc4292b2</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ClientPublicInterface____8cc__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientPublicInterface________8cc____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientPublicInterface____8cc__8js_8js</name>
+      <anchorfile>ClientPublicInterface________8cc____8js__8js_8js.html</anchorfile>
+      <anchor>a9690388c69677a9c8cd446d3deba9be2</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ClientPublicInterface________8cc____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientPublicInterface________________8cc________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientPublicInterface________8cc____8js__8js_8js</name>
+      <anchorfile>ClientPublicInterface________________8cc________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a2fe4a7dd4357f1667f2f2a85778ea55f</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1740,6 +3029,54 @@
       <name>ClientQuantumInterface__8cc_8js</name>
       <anchorfile>ClientQuantumInterface____8cc__8js_8js.html</anchorfile>
       <anchor>ac5198732bf20fd7b6874e771c9e553d4</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ClientQuantumInterface____8cc__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientQuantumInterface________8cc____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientQuantumInterface____8cc__8js_8js</name>
+      <anchorfile>ClientQuantumInterface________8cc____8js__8js_8js.html</anchorfile>
+      <anchor>ab023cf4809e2a39ee7e441ad2646c667</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ClientQuantumInterface________8cc____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ClientQuantumInterface________________8cc________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ClientQuantumInterface________8cc____8js__8js_8js</name>
+      <anchorfile>ClientQuantumInterface________________8cc________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a6943792c5ae09b349b0f289c58df1b2c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>defines_0.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
+    <filename>defines__0_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>searchData</name>
+      <anchorfile>defines__0_8js.html</anchorfile>
+      <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>defines_1.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
+    <filename>defines__1_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>searchData</name>
+      <anchorfile>defines__1_8js.html</anchorfile>
+      <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1816,6 +3153,30 @@
       <name>dynsections____8js__8js_8js</name>
       <anchorfile>dynsections________8js____8js__8js_8js.html</anchorfile>
       <anchor>a52ebb6f9a09768340f6cce37de6945cb</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>dynsections________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>dynsections________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>dynsections________8js____8js__8js_8js</name>
+      <anchorfile>dynsections________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a24677b34a63e88d749bbc14562d8e44e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>dynsections________________8js________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>dynsections________________________________8js________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>dynsections________________8js________8js____8js__8js_8js</name>
+      <anchorfile>dynsections________________________________8js________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a9d697aa5f2d8f9c9b7882e841234b2f2</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -2192,6 +3553,42 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>files____8__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________8____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files____8__8js_8js</name>
+      <anchorfile>files________8____8js__8js_8js.html</anchorfile>
+      <anchor>aa26eaaab22e5ca40e25a5882875f780b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files____8js__8js_8js</name>
+      <anchorfile>files________8js____8js__8js_8js.html</anchorfile>
+      <anchor>afae973c2f3459b45aaafe1492ec9b477</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files____9__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________9____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files____9__8js_8js</name>
+      <anchorfile>files________9____8js__8js_8js.html</anchorfile>
+      <anchor>aec11484a7826a0fb7568731cf5178540</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>files________0____8js__8js_8js.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>files________________0________8js____8js__8js_8js</filename>
@@ -2200,6 +3597,294 @@
       <name>files________0____8js__8js_8js</name>
       <anchorfile>files________________0________8js____8js__8js_8js.html</anchorfile>
       <anchor>aba2bb211ef29d8174b3e58789cead197</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________1____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________1________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________1____8js__8js_8js</name>
+      <anchorfile>files________________1________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a34085f156bfff963d4a38216b782fdf4</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________2____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________2________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________2____8js__8js_8js</name>
+      <anchorfile>files________________2________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a5807a70ad039c606d7b9b2ba05a9c4b9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________3____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________3________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________3____8js__8js_8js</name>
+      <anchorfile>files________________3________8js____8js__8js_8js.html</anchorfile>
+      <anchor>af29ba3c2c85449822718166be61b26fe</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________4____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________4________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________4____8js__8js_8js</name>
+      <anchorfile>files________________4________8js____8js__8js_8js.html</anchorfile>
+      <anchor>af5ba227372d414a249efa55c33c3f166</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________5____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________5________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________5____8js__8js_8js</name>
+      <anchorfile>files________________5________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a30a4e81634e617a80583faca0025a68d</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________6____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________6________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________6____8js__8js_8js</name>
+      <anchorfile>files________________6________8js____8js__8js_8js.html</anchorfile>
+      <anchor>aef781d9b5e16bcadc8408bec01a6d127</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________7____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________7________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________7____8js__8js_8js</name>
+      <anchorfile>files________________7________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a737a7fdd3adbdfbe0f5c0cc5ed9eb624</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________8____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________8________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________8____8js__8js_8js</name>
+      <anchorfile>files________________8________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ad1e10736c0c3f5a354522c56cb05804c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________8js____8js__8js_8js</name>
+      <anchorfile>files________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ae803bbf16cd46212739a9f06c5e8e142</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________9____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________9________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________9____8js__8js_8js</name>
+      <anchorfile>files________________9________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a26d4e78539793a85bacacd673424b6c1</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________________0________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________________________0________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________________0________8js____8js__8js_8js</name>
+      <anchorfile>files________________________________0________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a27fe518817925124359b07a66b99ca7f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________________1________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________________________1________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________________1________8js____8js__8js_8js</name>
+      <anchorfile>files________________________________1________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a96e706f48da35e077daab05f3dd0fd5c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________________2________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________________________2________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________________2________8js____8js__8js_8js</name>
+      <anchorfile>files________________________________2________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a21f6564910985ae58f5089ebc972ec0b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________________3________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________________________3________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________________3________8js____8js__8js_8js</name>
+      <anchorfile>files________________________________3________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ab3f266fd29f842005a443d08e504658f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________________4________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________________________4________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________________4________8js____8js__8js_8js</name>
+      <anchorfile>files________________________________4________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>abb005c256a210e65ad841394fb71ab39</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________________5________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________________________5________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________________5________8js____8js__8js_8js</name>
+      <anchorfile>files________________________________5________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a42d934d41f9527b8882e72c3eef43249</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________________6________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________________________6________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________________6________8js____8js__8js_8js</name>
+      <anchorfile>files________________________________6________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>aaec47158d0e911ad9efe1ca351e80058</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________________7________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________________________7________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________________7________8js____8js__8js_8js</name>
+      <anchorfile>files________________________________7________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a6a347a1af462f0a0d687d7cf5924d952</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________________________________0________________8js________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________________________________________________________0__________________________6a9f0bd16286ce39f6e537e05204597f</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________________________________0________________8js________8js____8js__8js_8js</name>
+      <anchorfile>files________________________________________________________________0__________________________6a9f0bd16286ce39f6e537e05204597f.html</anchorfile>
+      <anchor>ab16043063fa99f199af9eeecb4a32a8c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________a____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________a________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________a____8js__8js_8js</name>
+      <anchorfile>files________________a________8js____8js__8js_8js.html</anchorfile>
+      <anchor>abf5da0df9afdb2137e6da7331dddc5e9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files________b____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________________b________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files________b____8js__8js_8js</name>
+      <anchorfile>files________________b________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a2d33deb41a18a493c60bd795f532a3d7</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files____a__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________a____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files____a__8js_8js</name>
+      <anchorfile>files________a____8js__8js_8js.html</anchorfile>
+      <anchor>afaefe6b0c66c2d7d5e37bd0417e6d277</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files____b__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________b____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files____b__8js_8js</name>
+      <anchorfile>files________b____8js__8js_8js.html</anchorfile>
+      <anchor>af60aff6c935bfdfba05a0b2c09b98ac6</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files____c__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files________c____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files____c__8js_8js</name>
+      <anchorfile>files________c____8js__8js_8js.html</anchorfile>
+      <anchor>a6ccc3bb3e0227dbb6ac3957e4e72031e</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -2224,6 +3909,30 @@
       <name>files__b_8js</name>
       <anchorfile>files____b__8js_8js.html</anchorfile>
       <anchor>a7b8ef757b44b6bb623143306c839e82c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files__c_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files____c__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files__c_8js</name>
+      <anchorfile>files____c__8js_8js.html</anchorfile>
+      <anchor>acccaebca3e0ff6ec53d409c4c6ad9b89</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files__d_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>files____d__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>files__d_8js</name>
+      <anchorfile>files____d__8js_8js.html</anchorfile>
+      <anchor>ab0bdab399021b663851725fb60ee5c50</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -2264,6 +3973,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>files_d.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
+    <filename>files__d_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>searchData</name>
+      <anchorfile>files__d_8js.html</anchorfile>
+      <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>files_e.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
+    <filename>files__e_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>searchData</name>
+      <anchorfile>files__e_8js.html</anchorfile>
+      <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>functions_0.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
     <filename>functions__0_8js</filename>
@@ -2283,6 +4016,30 @@
       <type>var</type>
       <name>searchData</name>
       <anchorfile>functions__1_8js.html</anchorfile>
+      <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions_10.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
+    <filename>functions__10_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>searchData</name>
+      <anchorfile>functions__10_8js.html</anchorfile>
+      <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions_11.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
+    <filename>functions__11_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>searchData</name>
+      <anchorfile>functions__11_8js.html</anchorfile>
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
       <arglist></arglist>
     </member>
@@ -2638,6 +4395,366 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>functions________0____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________0________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________0____8js__8js_8js</name>
+      <anchorfile>functions________________0________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a7f29fc80ae696dbc0f4da0eb9dfbfe98</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________1____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________1________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________1____8js__8js_8js</name>
+      <anchorfile>functions________________1________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a24e730bb4420ecec6e99a6070d97a929</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________2____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________2________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________2____8js__8js_8js</name>
+      <anchorfile>functions________________2________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a5d6ef7f2c3943e0582245df3baed1377</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________3____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________3________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________3____8js__8js_8js</name>
+      <anchorfile>functions________________3________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a27cd65e77677225ee94d0e862ebf43ef</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________4____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________4________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________4____8js__8js_8js</name>
+      <anchorfile>functions________________4________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a5841e89919c85785d8a1e57c90ecc737</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________5____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________5________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________5____8js__8js_8js</name>
+      <anchorfile>functions________________5________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ab27251817da599582cf26c85368b4d78</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________6____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________6________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________6____8js__8js_8js</name>
+      <anchorfile>functions________________6________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ae54ed8028ecb641abf896aa782da9220</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________7____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________7________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________7____8js__8js_8js</name>
+      <anchorfile>functions________________7________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ab8ee8e1aac9f9654a76c2dc156416eb0</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________8____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________8________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________8____8js__8js_8js</name>
+      <anchorfile>functions________________8________8js____8js__8js_8js.html</anchorfile>
+      <anchor>af4bf315e0365a01b468a8449eed77a25</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________9____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________9________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________9____8js__8js_8js</name>
+      <anchorfile>functions________________9________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ac74b5e8ebde0dd13c7ec1e5ee2209eac</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________________0________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________________________0________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________________0________8js____8js__8js_8js</name>
+      <anchorfile>functions________________________________0________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ac1a17490f53f74a26e1a4999bc001ba5</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________________1________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________________________1________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________________1________8js____8js__8js_8js</name>
+      <anchorfile>functions________________________________1________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a09d3dd26ed6b49566af0d4ebba8fa3ed</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________________2________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________________________2________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________________2________8js____8js__8js_8js</name>
+      <anchorfile>functions________________________________2________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a926346e02798d6f2a6c6db7c2af61371</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________________3________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________________________3________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________________3________8js____8js__8js_8js</name>
+      <anchorfile>functions________________________________3________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a6c18d3c8f3c3566f6755cbb418a7483e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________________4________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________________________4________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________________4________8js____8js__8js_8js</name>
+      <anchorfile>functions________________________________4________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a51c272f834cea1148a4ea8599c6963e1</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________________5________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________________________5________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________________5________8js____8js__8js_8js</name>
+      <anchorfile>functions________________________________5________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ab417e93b84a77329352f7cea20b81db0</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________________6________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________________________6________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________________6________8js____8js__8js_8js</name>
+      <anchorfile>functions________________________________6________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a213563fabd400e65cecd704091ff728f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________________7________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________________________7________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________________7________8js____8js__8js_8js</name>
+      <anchorfile>functions________________________________7________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a38f855731cc9b51694ddb1752c45d465</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________________8________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________________________8________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________________8________8js____8js__8js_8js</name>
+      <anchorfile>functions________________________________8________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a20ea93708a379aeae9583eb56f1d5a64</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________________9________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________________________9________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________________9________8js____8js__8js_8js</name>
+      <anchorfile>functions________________________________9________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a2d1699d7cbc622b4ccd20aabac3c0094</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________________a________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________________________a________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________________a________8js____8js__8js_8js</name>
+      <anchorfile>functions________________________________a________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ae531a2a595343b3fba91f9d3efd86734</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________________b________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________________________b________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________________b________8js____8js__8js_8js</name>
+      <anchorfile>functions________________________________b________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>aa034caf9a5215888bbf4cff91279ddb1</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________________c________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________________________c________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________________c________8js____8js__8js_8js</name>
+      <anchorfile>functions________________________________c________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a9648d5f9283553512e5182d8f5726755</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________________d________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________________________d________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________________d________8js____8js__8js_8js</name>
+      <anchorfile>functions________________________________d________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>aa1d036fa5613cddbcbd4b3cca33f184e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________________e________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________________________e________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________________e________8js____8js__8js_8js</name>
+      <anchorfile>functions________________________________e________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a8f00ba8835441e8c1ee200d93b633a22</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________a____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________a________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________a____8js__8js_8js</name>
+      <anchorfile>functions________________a________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a5883625fbc52d1c8fe4ea5308387c838</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________b____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________b________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________b____8js__8js_8js</name>
+      <anchorfile>functions________________b________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ab8947fd31681f8b4a2f6476fd3343773</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________c____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________c________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________c____8js__8js_8js</name>
+      <anchorfile>functions________________c________8js____8js__8js_8js.html</anchorfile>
+      <anchor>aca17726ead58ab78f0d294f74ede14db</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________d____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________d________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________d____8js__8js_8js</name>
+      <anchorfile>functions________________d________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ad4763dc40c2974604a377b9f13c7eef6</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>functions________e____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>functions________________e________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>functions________e____8js__8js_8js</name>
+      <anchorfile>functions________________e________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a6608f5eeef7796c82c7e08e911400257</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>functions____a__8js_8js.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>functions________a____8js__8js_8js</filename>
@@ -2818,6 +4935,66 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>functions_f.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
+    <filename>functions__f_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>searchData</name>
+      <anchorfile>functions__f_8js.html</anchorfile>
+      <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>globals____dup__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>globals________dup____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>globals____dup__8js_8js</name>
+      <anchorfile>globals________dup____8js__8js_8js.html</anchorfile>
+      <anchor>a3e01d8ee49b6fb6d5d569bce2385ade2</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>globals____vars__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>globals________vars____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>globals____vars__8js_8js</name>
+      <anchorfile>globals________vars____8js__8js_8js.html</anchorfile>
+      <anchor>a3855473d838853dc775c812564d7c5ca</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>globals__dup_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>globals____dup__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>globals__dup_8js</name>
+      <anchorfile>globals____dup__8js_8js.html</anchorfile>
+      <anchor>ae8d009791dc8c0486f477430ea32c9c7</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>globals__vars_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>globals____vars__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>globals__vars_8js</name>
+      <anchorfile>globals____vars__8js_8js.html</anchorfile>
+      <anchor>ad6fca56ff1358e43cb7802aaf72aa675</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>globals_dup.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>globals__dup_8js</filename>
@@ -2862,6 +5039,30 @@
       <name>hierarchy_8js</name>
       <anchorfile>hierarchy__8js_8js.html</anchorfile>
       <anchor>a73325019c955d31341d66f3d4b469d9a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>hierarchy__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>hierarchy____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>hierarchy__8js_8js</name>
+      <anchorfile>hierarchy____8js__8js_8js.html</anchorfile>
+      <anchor>ab934bab68c63fd02de42f6ca22caacfa</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>hierarchy____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>hierarchy________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>hierarchy____8js__8js_8js</name>
+      <anchorfile>hierarchy________8js____8js__8js_8js.html</anchorfile>
+      <anchor>afe9817594d481f63c44610892087daf3</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -3072,6 +5273,91 @@
       <anchorfile>jquery________8js____8js__8js_8js.html</anchorfile>
       <anchor>a0eb1461406f50ef6894c7329db2b6256</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>jquery________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>jquery________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>jquery________8js____8js__8js_8js</name>
+      <anchorfile>jquery________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a4c6089b969811bc94296a763bf4879ea</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>jquery________________8js________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>jquery________________________________8js________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>jquery________________8js________8js____8js__8js_8js</name>
+      <anchorfile>jquery________________________________8js________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ac6179c4699e52cf0d18c09501c17a7be</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>MacAddressTable.d</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/out/clang-debug/</path>
+    <filename>MacAddressTable_8d</filename>
+  </compound>
+  <compound kind="file">
+    <name>MacTabasdfleEntry_m.d</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/out/clang-debug/</path>
+    <filename>MacTabasdfleEntry__m_8d</filename>
+  </compound>
+  <compound kind="file">
+    <name>MacTableEntry__m_8h.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>MacTableEntry____m__8h_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>MacTableEntry__m_8h</name>
+      <anchorfile>MacTableEntry____m__8h_8js.html</anchorfile>
+      <anchor>a4f3774530fc7de1d7409db3eec6e643c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>MacTableEntry_m.d</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/out/clang-debug/</path>
+    <filename>MacTableEntry__m_8d</filename>
+  </compound>
+  <compound kind="file">
+    <name>MacTableEntry_m.h</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/</path>
+    <filename>MacTableEntry__m_8h</filename>
+    <class kind="class">MacTableEntry</class>
+    <member kind="define">
+      <type>#define</type>
+      <name>__MACTABLEENTRY_M_H</name>
+      <anchorfile>MacTableEntry__m_8h.html</anchorfile>
+      <anchor>aad3738efb3e55311d3e7f431c28754a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MSGC_VERSION</name>
+      <anchorfile>MacTableEntry__m_8h.html</anchorfile>
+      <anchor>a77f5ea746b531cbdbc322a93741e33a6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>doParsimPacking</name>
+      <anchorfile>MacTableEntry__m_8h.html</anchorfile>
+      <anchor>aa1294bafe4776b3af58fc5737a1cdc3c</anchor>
+      <arglist>(omnetpp::cCommBuffer *b, const MacTableEntry &amp;obj)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>doParsimUnpacking</name>
+      <anchorfile>MacTableEntry__m_8h.html</anchorfile>
+      <anchor>a0cbd3c671f646026685d54a3baad7843</anchor>
+      <arglist>(omnetpp::cCommBuffer *b, MacTableEntry &amp;obj)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -3326,6 +5612,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>navtree________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>navtree________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>navtree________8js____8js__8js_8js</name>
+      <anchorfile>navtree________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a75a50f9bb042737b0800274cbb702a74</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>navtree________________8js________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>navtree________________________________8js________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>navtree________________8js________8js____8js__8js_8js</name>
+      <anchorfile>navtree________________________________8js________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a716a60f523799f315c861d405ca821f6</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>navtreedata.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>navtreedata_8js</filename>
@@ -3395,6 +5705,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>navtreedata________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>navtreedata________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>navtreedata________8js____8js__8js_8js</name>
+      <anchorfile>navtreedata________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ab5910ce39022e4795f964d586e3ed716</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>navtreedata________________8js________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>navtreedata________________________________8js________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>navtreedata________________8js________8js____8js__8js_8js</name>
+      <anchorfile>navtreedata________________________________8js________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a998547a34a8212fb61b50563c0847326</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>navtreeindex0.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>navtreeindex0_8js</filename>
@@ -3443,6 +5777,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>navtreeindex0________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>navtreeindex0________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>navtreeindex0________8js____8js__8js_8js</name>
+      <anchorfile>navtreeindex0________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a711c09fe373d4cad75a9b1191a6608d1</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>navtreeindex0________________8js________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>navtreeindex0________________________________8js________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>navtreeindex0________________8js________8js____8js__8js_8js</name>
+      <anchorfile>navtreeindex0________________________________8js________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ad00d16a3c223fc15187bab112e650253</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>navtreeindex1.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>navtreeindex1_8js</filename>
@@ -3467,6 +5825,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>navtreeindex1__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>navtreeindex1____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>navtreeindex1__8js_8js</name>
+      <anchorfile>navtreeindex1____8js__8js_8js.html</anchorfile>
+      <anchor>a6a9f57ec15d1050c84612043d03ed26f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>navtreeindex1____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>navtreeindex1________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>navtreeindex1____8js__8js_8js</name>
+      <anchorfile>navtreeindex1________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a5030da69ff01e042897b0f11be629f43</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>navtreeindex2.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>navtreeindex2_8js</filename>
@@ -3479,6 +5861,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>navtreeindex2_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>navtreeindex2__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>navtreeindex2_8js</name>
+      <anchorfile>navtreeindex2__8js_8js.html</anchorfile>
+      <anchor>ad48c658a6b879ad1fce8580d2e4c47a3</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>navtreeindex2__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>navtreeindex2____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>navtreeindex2__8js_8js</name>
+      <anchorfile>navtreeindex2____8js__8js_8js.html</anchorfile>
+      <anchor>a8faf7fdd50ae861ef7ae26079bdc0972</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>navtreeindex3.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>navtreeindex3_8js</filename>
@@ -3487,6 +5893,78 @@
       <name>NAVTREEINDEX3</name>
       <anchorfile>navtreeindex3_8js.html</anchorfile>
       <anchor>acdf17f23db3eb8cfb7282f879323d642</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>navtreeindex3_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>navtreeindex3__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>navtreeindex3_8js</name>
+      <anchorfile>navtreeindex3__8js_8js.html</anchorfile>
+      <anchor>a5d5292cbd271b02e752993b267c6e1be</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>navtreeindex3__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>navtreeindex3____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>navtreeindex3__8js_8js</name>
+      <anchorfile>navtreeindex3____8js__8js_8js.html</anchorfile>
+      <anchor>a5efe11aa4694798cbf0398391b865fee</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>navtreeindex4.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>navtreeindex4_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>NAVTREEINDEX4</name>
+      <anchorfile>navtreeindex4_8js.html</anchorfile>
+      <anchor>ad98c462c0596ed546c33643759a8f4d8</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>navtreeindex4_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>navtreeindex4__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>navtreeindex4_8js</name>
+      <anchorfile>navtreeindex4__8js_8js.html</anchorfile>
+      <anchor>adbd140d07d57dcb2100e3d56009baf47</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>navtreeindex5.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>navtreeindex5_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>NAVTREEINDEX5</name>
+      <anchorfile>navtreeindex5_8js.html</anchorfile>
+      <anchor>a4482743dfcf06a95779fe96e36b1314e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>navtreeindex6.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>navtreeindex6_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>NAVTREEINDEX6</name>
+      <anchorfile>navtreeindex6_8js.html</anchorfile>
+      <anchor>a0c94560d638463491092c7f3a268005f</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -3539,6 +6017,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>pages________________0________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>pages________________________________0________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>pages________________0________8js____8js__8js_8js</name>
+      <anchorfile>pages________________________________0________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ad0e7b9294faa3ead3f2e88ae40067dbb</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>pages________________________________0________________8js________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>pages________________________________________________________________0__________________________1452900b4aef7bb38cd432fdc963bb92</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>pages________________________________0________________8js________8js____8js__8js_8js</name>
+      <anchorfile>pages________________________________________________________________0__________________________1452900b4aef7bb38cd432fdc963bb92.html</anchorfile>
+      <anchor>ad5e5604e0aadef83ee5a1b11e5c42cae</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>ProcessingQueue.cc</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/</path>
     <filename>ProcessingQueue_8cc</filename>
@@ -3577,6 +6079,30 @@
       <name>ProcessingQueue__8cc_8js</name>
       <anchorfile>ProcessingQueue____8cc__8js_8js.html</anchorfile>
       <anchor>a6ddeaf2838dafc6dfc46d0ff28b6de80</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ProcessingQueue____8cc__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ProcessingQueue________8cc____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ProcessingQueue____8cc__8js_8js</name>
+      <anchorfile>ProcessingQueue________8cc____8js__8js_8js.html</anchorfile>
+      <anchor>a3353bbb8d02fcc57e8fd3bf1956f95f8</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>ProcessingQueue________8cc____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>ProcessingQueue________________8cc________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>ProcessingQueue________8cc____8js__8js_8js</name>
+      <anchorfile>ProcessingQueue________________8cc________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a6199f1c8dbb8174978d3655eb620b0d3</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -3623,6 +6149,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>Processor____8cc__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>Processor________8cc____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>Processor____8cc__8js_8js</name>
+      <anchorfile>Processor________8cc____8js__8js_8js.html</anchorfile>
+      <anchor>a7f10146428141a619383568d28a25526</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>Processor________8cc____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>Processor________________8cc________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>Processor________8cc____8js__8js_8js</name>
+      <anchorfile>Processor________________8cc________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a7a9cf5fe76d13278ec53d23448dee781</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>QuantumStatesGenerator.cc</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/</path>
     <filename>QuantumStatesGenerator_8cc</filename>
@@ -3665,6 +6215,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>QuantumStatesGenerator____8cc__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>QuantumStatesGenerator________8cc____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>QuantumStatesGenerator____8cc__8js_8js</name>
+      <anchorfile>QuantumStatesGenerator________8cc____8js__8js_8js.html</anchorfile>
+      <anchor>af927ad2f05715a0fab4eb0e0929066e6</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>QuantumStatesGenerator________8cc____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>QuantumStatesGenerator________________8cc________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>QuantumStatesGenerator________8cc____8js__8js_8js</name>
+      <anchorfile>QuantumStatesGenerator________________8cc________8js____8js__8js_8js.html</anchorfile>
+      <anchor>afd2f683cfcea0ee176c08b9f96b38af4</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>QuantumStatesQueue.cc</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/</path>
     <filename>QuantumStatesQueue_8cc</filename>
@@ -3703,6 +6277,30 @@
       <name>QuantumStatesQueue__8cc_8js</name>
       <anchorfile>QuantumStatesQueue____8cc__8js_8js.html</anchorfile>
       <anchor>ad7eb5f501f3f5d1e0206c8c47b4081a9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>QuantumStatesQueue____8cc__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>QuantumStatesQueue________8cc____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>QuantumStatesQueue____8cc__8js_8js</name>
+      <anchorfile>QuantumStatesQueue________8cc____8js__8js_8js.html</anchorfile>
+      <anchor>aaae4feb304c1d13a6536594daf4ff24f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>QuantumStatesQueue________8cc____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>QuantumStatesQueue________________8cc________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>QuantumStatesQueue________8cc____8js__8js_8js</name>
+      <anchorfile>QuantumStatesQueue________________8cc________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a6d328d931876736355c2afaeae09e5c4</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -3830,6 +6428,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>resize________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>resize________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>resize________8js____8js__8js_8js</name>
+      <anchorfile>resize________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ac1dc9ad426416305a4d520de207e5d2b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>resize________________8js________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>resize________________________________8js________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>resize________________8js________8js____8js__8js_8js</name>
+      <anchorfile>resize________________________________8js________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a68dd4389460bc0a0da43d99a10aae034</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>search.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
     <filename>search_8js</filename>
@@ -3934,6 +6556,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>search________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>search________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>search________8js____8js__8js_8js</name>
+      <anchorfile>search________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a101f93be2429053c7cdabbd811f31a81</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>search________________8js________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>search________________________________8js________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>search________________8js________8js____8js__8js_8js</name>
+      <anchorfile>search________________________________8js________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a87f8731f9cb32a6dd76c158ebcd91d91</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>searchdata.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
     <filename>searchdata_8js</filename>
@@ -3996,10 +6642,42 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>searchdata________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>searchdata________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>searchdata________8js____8js__8js_8js</name>
+      <anchorfile>searchdata________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a89024f7782a507e2cdca62a3e262c996</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>searchdata________________8js________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>searchdata________________________________8js________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>searchdata________________8js________8js____8js__8js_8js</name>
+      <anchorfile>searchdata________________________________8js________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>af4512f8e34f780453713147705219e94</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>Switch.cc</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/</path>
     <filename>Switch_8cc</filename>
+    <includes id="MacTableEntry__m_8h" name="MacTableEntry_m.h" local="yes" imported="no">MacTableEntry_m.h</includes>
     <class kind="class">Switch</class>
+    <member kind="function">
+      <type>cArray</type>
+      <name>macAddressTable</name>
+      <anchorfile>Switch_8cc.html</anchorfile>
+      <anchor>a9ef523e808516d5da4416c6c3233f88b</anchor>
+      <arglist>(&quot;macAddress&quot;)</arglist>
+    </member>
     <member kind="function">
       <type></type>
       <name>Define_Module</name>
@@ -4036,6 +6714,35 @@
       <anchor>ad94910bd9ab6e452efabafe7db0d77bb</anchor>
       <arglist></arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>Switch____8cc__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>Switch________8cc____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>Switch____8cc__8js_8js</name>
+      <anchorfile>Switch________8cc____8js__8js_8js.html</anchorfile>
+      <anchor>ad56d7c87b4f4e28cf19ed47580088ee2</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>Switch________8cc____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>Switch________________8cc________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>Switch________8cc____8js__8js_8js</name>
+      <anchorfile>Switch________________8cc________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a783485216ad20e4390527b9a147d4623</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>SwitchInterfaceInit_m.d</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/out/clang-debug/</path>
+    <filename>SwitchInterfaceInit__m_8d</filename>
   </compound>
   <compound kind="file">
     <name>SwitchPublicInterface.cc</name>
@@ -4076,6 +6783,30 @@
       <name>SwitchPublicInterface__8cc_8js</name>
       <anchorfile>SwitchPublicInterface____8cc__8js_8js.html</anchorfile>
       <anchor>a011f2330dcd758b59ab207d26f4ba808</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>SwitchPublicInterface____8cc__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>SwitchPublicInterface________8cc____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>SwitchPublicInterface____8cc__8js_8js</name>
+      <anchorfile>SwitchPublicInterface________8cc____8js__8js_8js.html</anchorfile>
+      <anchor>aad178fbca9c7aafa748c8e943ce64caf</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>SwitchPublicInterface________8cc____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>SwitchPublicInterface________________8cc________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>SwitchPublicInterface________8cc____8js__8js_8js</name>
+      <anchorfile>SwitchPublicInterface________________8cc________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a6ef9d01095fdf3960c5092bbd198473c</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -4122,6 +6853,30 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>SwitchQuantumInterface____8cc__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>SwitchQuantumInterface________8cc____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>SwitchQuantumInterface____8cc__8js_8js</name>
+      <anchorfile>SwitchQuantumInterface________8cc____8js__8js_8js.html</anchorfile>
+      <anchor>a0a583aad8a07f3bb2d9b4663160d54e8</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>SwitchQuantumInterface________8cc____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>SwitchQuantumInterface________________8cc________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>SwitchQuantumInterface________8cc____8js__8js_8js</name>
+      <anchorfile>SwitchQuantumInterface________________8cc________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a4f99c2ce5f5deab6e68c7862b79e6f90</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>TestModule.d</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/out/clang-debug/</path>
     <filename>TestModule_8d</filename>
@@ -4158,6 +6913,49 @@
       <type>var</type>
       <name>searchData</name>
       <anchorfile>variables__10_8js.html</anchorfile>
+      <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>all_0</type>
+      <name>js</name>
+      <anchorfile>variables__10_8js.html</anchorfile>
+      <anchor>a36e8bb713520a15833bafb5d93f8949c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables_11.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
+    <filename>variables__11_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>searchData</name>
+      <anchorfile>variables__11_8js.html</anchorfile>
+      <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables_12.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
+    <filename>variables__12_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>searchData</name>
+      <anchorfile>variables__12_8js.html</anchorfile>
+      <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables_13.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
+    <filename>variables__13_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>searchData</name>
+      <anchorfile>variables__13_8js.html</anchorfile>
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
       <arglist></arglist>
     </member>
@@ -4240,13 +7038,6 @@
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
       <arglist></arglist>
     </member>
-    <member kind="variable">
-      <type>all_1</type>
-      <name>js</name>
-      <anchorfile>variables__7_8js.html</anchorfile>
-      <anchor>a0e91af52fbb82d11ac1720275136af76</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>variables_8.js</name>
@@ -4257,6 +7048,13 @@
       <name>searchData</name>
       <anchorfile>variables__8_8js.html</anchorfile>
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>all_1</type>
+      <name>js</name>
+      <anchorfile>variables__8_8js.html</anchorfile>
+      <anchor>a0e91af52fbb82d11ac1720275136af76</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -4281,6 +7079,30 @@
       <name>variables__0_8js</name>
       <anchorfile>variables____0__8js_8js.html</anchorfile>
       <anchor>a246ca50b7cd129db81d690cb7b791a77</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables__10_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables____10__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables__10_8js</name>
+      <anchorfile>variables____10__8js_8js.html</anchorfile>
+      <anchor>a3fc413f25d9a3dec9a77d6363d95fe67</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables__11_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables____11__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables__11_8js</name>
+      <anchorfile>variables____11__8js_8js.html</anchorfile>
+      <anchor>a8b4983c2c5d64d617f3c2f431cc4a384</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -4405,6 +7227,18 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>variables____10__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________10____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables____10__8js_8js</name>
+      <anchorfile>variables________10____8js__8js_8js.html</anchorfile>
+      <anchor>a632a3e3611339c5bae25640d8410a839</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>variables____1__8js_8js.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>variables________1____8js__8js_8js</filename>
@@ -4513,6 +7347,378 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>variables________0____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________0________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________0____8js__8js_8js</name>
+      <anchorfile>variables________________0________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a52ec7e9c6686a7ba3138bd3da848cd6e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________1____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________1________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________1____8js__8js_8js</name>
+      <anchorfile>variables________________1________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ab4b24d62e96b8dce773e5496300f4b79</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________2____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________2________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________2____8js__8js_8js</name>
+      <anchorfile>variables________________2________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a352e8cf74e73aa7c2df67f62ea5a216e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________3____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________3________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________3____8js__8js_8js</name>
+      <anchorfile>variables________________3________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a58cc6db47aa6acb64239cbfbf7df0d9c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________4____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________4________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________4____8js__8js_8js</name>
+      <anchorfile>variables________________4________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a626608df5240cd8eeac3cbc953136c51</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________5____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________5________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________5____8js__8js_8js</name>
+      <anchorfile>variables________________5________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a40fc64a59ddf7a43c43d7fd45d703657</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________6____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________6________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________6____8js__8js_8js</name>
+      <anchorfile>variables________________6________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ab18fa3b83e8f3d4e162b02e58cc08566</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________7____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________7________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________7____8js__8js_8js</name>
+      <anchorfile>variables________________7________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a203d0a20c6b364cad2de4bbfdfb54f0a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________8____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________8________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________8____8js__8js_8js</name>
+      <anchorfile>variables________________8________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ad0728b295379b6c6d050627f40e2ab77</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________9____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________9________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________9____8js__8js_8js</name>
+      <anchorfile>variables________________9________8js____8js__8js_8js.html</anchorfile>
+      <anchor>af8c339d125e88bc511d9c9c76397e4f9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________________0________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________________________0________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________________0________8js____8js__8js_8js</name>
+      <anchorfile>variables________________________________0________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a8bbf9692457c71168fbb4027d1586df7</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________________1________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________________________1________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________________1________8js____8js__8js_8js</name>
+      <anchorfile>variables________________________________1________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>abc10fe4ca93199c2e952c4f44382876d</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________________2________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________________________2________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________________2________8js____8js__8js_8js</name>
+      <anchorfile>variables________________________________2________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a45ffafc9cbb7fc4d3822b579fe5946e1</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________________3________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________________________3________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________________3________8js____8js__8js_8js</name>
+      <anchorfile>variables________________________________3________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a695d1fb0c5e3d735b8f3cea109d4261f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________________4________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________________________4________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________________4________8js____8js__8js_8js</name>
+      <anchorfile>variables________________________________4________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a8377a56140c317f3aa7fac7bfff40a93</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________________5________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________________________5________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________________5________8js____8js__8js_8js</name>
+      <anchorfile>variables________________________________5________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a00dc9a7f33e7831418f0eb29b605af7c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________________6________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________________________6________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________________6________8js____8js__8js_8js</name>
+      <anchorfile>variables________________________________6________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a7fd3606b4ef9cfe600babf5cabe2a3f7</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________________7________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________________________7________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________________7________8js____8js__8js_8js</name>
+      <anchorfile>variables________________________________7________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a86f1a29e31cd9d9a8005bb6761d934f2</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________________8________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________________________8________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________________8________8js____8js__8js_8js</name>
+      <anchorfile>variables________________________________8________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>aa20e08551125f5d35a89f1acae12b279</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________________9________8js____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________________________9________________8js________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________________9________8js____8js__8js_8js</name>
+      <anchorfile>variables________________________________9________________8js________8js____8js__8js_8js.html</anchorfile>
+      <anchor>ad9c427e331cc6a0682368a6a3ab1517c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________a____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________a________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________a____8js__8js_8js</name>
+      <anchorfile>variables________________a________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a05cef6ebcc5e2346afe7894b7718e497</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________b____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________b________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________b____8js__8js_8js</name>
+      <anchorfile>variables________________b________8js____8js__8js_8js.html</anchorfile>
+      <anchor>abe53652fb43371ae674d7db42d0b3d17</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________c____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________c________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________c____8js__8js_8js</name>
+      <anchorfile>variables________________c________8js____8js__8js_8js.html</anchorfile>
+      <anchor>a68fa7e8bee24b764757130651bf03d6d</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________d____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________d________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________d____8js__8js_8js</name>
+      <anchorfile>variables________________d________8js____8js__8js_8js.html</anchorfile>
+      <anchor>aad2217df57df3bf0545437ddd9308254</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables________e____8js__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________________e________8js____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables________e____8js__8js_8js</name>
+      <anchorfile>variables________________e________8js____8js__8js_8js.html</anchorfile>
+      <anchor>aee90cf4cb6b04e64329466aa87eb7136</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables____a__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________a____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables____a__8js_8js</name>
+      <anchorfile>variables________a____8js__8js_8js.html</anchorfile>
+      <anchor>aad81dfdf1b5f66da95489d3e40bfabe1</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables____b__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________b____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables____b__8js_8js</name>
+      <anchorfile>variables________b____8js__8js_8js.html</anchorfile>
+      <anchor>a38d036c881ca89a76d172fe5560bab25</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables____c__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________c____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables____c__8js_8js</name>
+      <anchorfile>variables________c____8js__8js_8js.html</anchorfile>
+      <anchor>a08720f14e7c6ba5abec50d766ea9d39c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables____d__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________d____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables____d__8js_8js</name>
+      <anchorfile>variables________d____8js__8js_8js.html</anchorfile>
+      <anchor>a885100e9c58696022956c019cd1cbb9a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables____e__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________e____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables____e__8js_8js</name>
+      <anchorfile>variables________e____8js__8js_8js.html</anchorfile>
+      <anchor>a285fbe77cb20fc0c8a3d066fb0c7ba02</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>variables____f__8js_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables________f____8js__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables____f__8js_8js</name>
+      <anchorfile>variables________f____8js__8js_8js.html</anchorfile>
+      <anchor>a254115e4071a4f67b207c0599d739321</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>variables__a_8js.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
     <filename>variables____a__8js_8js</filename>
@@ -4573,6 +7779,18 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>variables__f_8js.js</name>
+    <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/</path>
+    <filename>variables____f__8js_8js</filename>
+    <member kind="variable">
+      <type>var</type>
+      <name>variables__f_8js</name>
+      <anchorfile>variables____f__8js_8js.html</anchorfile>
+      <anchor>a51a94e4585d773f4dee077b0241e520b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>variables_a.js</name>
     <path>/c/Users/Faisal/Dropbox/University/Project/Project/quantum-key-distribution/doc/doxy/search/</path>
     <filename>variables__a_8js</filename>
@@ -4581,13 +7799,6 @@
       <name>searchData</name>
       <anchorfile>variables__a_8js.html</anchorfile>
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>navtreedata</type>
-      <name>js</name>
-      <anchorfile>variables__a_8js.html</anchorfile>
-      <anchor>a53a311d95538eeab3715d4d26bd2294d</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -4614,6 +7825,13 @@
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
       <arglist></arglist>
     </member>
+    <member kind="variable">
+      <type>navtreedata</type>
+      <name>js</name>
+      <anchorfile>variables__c_8js.html</anchorfile>
+      <anchor>a53a311d95538eeab3715d4d26bd2294d</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>variables_d.js</name>
@@ -4636,13 +7854,6 @@
       <name>searchData</name>
       <anchorfile>variables__e_8js.html</anchorfile>
       <anchor>ad01a7523f103d6242ef9b0451861231e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>all_0</type>
-      <name>js</name>
-      <anchorfile>variables__e_8js.html</anchorfile>
-      <anchor>a36e8bb713520a15833bafb5d93f8949c</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -4821,6 +8032,199 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>MacTableEntry</name>
+    <filename>classMacTableEntry.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>MacTableEntry</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>ad21e22baf17968753db81c066079e2ed</anchor>
+      <arglist>(const char *name=nullptr, short kind=0)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MacTableEntry</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>a3c30996ea87416ce415a6db7218beac3</anchor>
+      <arglist>(const MacTableEntry &amp;other)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~MacTableEntry</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>ae30c0d88b80d5f206652afe42b5099a4</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>MacTableEntry &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>a116b0b87ec23276f9adcc3fd160a89d9</anchor>
+      <arglist>(const MacTableEntry &amp;other)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual MacTableEntry *</type>
+      <name>dup</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>aac09c7fc4905e6199e73a08e23a7d87c</anchor>
+      <arglist>() const  override</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>parsimPack</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>a1b864393c545134962e6dca177aa9e40</anchor>
+      <arglist>(omnetpp::cCommBuffer *b) const  override</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>parsimUnpack</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>aef3ccc2ae2418e8f7edf595fe69dc3a1</anchor>
+      <arglist>(omnetpp::cCommBuffer *b) override</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual int</type>
+      <name>getIdentity</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>a6c0563740a5822da1a0cbd59f88ddf8c</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>setIdentity</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>a185a77a593534fef3a39cfbb862f8373</anchor>
+      <arglist>(int identity)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual const char *</type>
+      <name>getInterface</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>a00d9cb573b7708721480ae483a390394</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>setInterface</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>a3d95c16d1867312a65f66264fb1288b6</anchor>
+      <arglist>(const char *interface)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual const char *</type>
+      <name>getMacAddress</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>ab73c0d8e9f238b6628a0b08d7b129227</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>setMacAddress</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>a0281945925f23256612f67d911fd6193</anchor>
+      <arglist>(const char *macAddress)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual const char *</type>
+      <name>getQuantumInterfaceId</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>aebbd5b17cc1b9b5ce188e145b3b5d115</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>setQuantumInterfaceId</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>ad954da11f10e5fa4fb6a7b1d46651c11</anchor>
+      <arglist>(const char *quantumInterfaceId)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual const char *</type>
+      <name>getQuantumMacAddress</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>a8fade3685dc23c311338bbc851023c27</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>setQuantumMacAddress</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>ab5f8e2781fb967cfd813b28031f7f536</anchor>
+      <arglist>(const char *quantumMacAddress)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual int</type>
+      <name>getType</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>a9bf4d8fde9132da4acb053b9af8423b3</anchor>
+      <arglist>() const </arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>setType</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>ad22215cd89e349e5873445d43f4e12b4</anchor>
+      <arglist>(int type)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>a64f706941029fd4a68f8df5b68b3a09a</anchor>
+      <arglist>(const MacTableEntry &amp;)</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>int</type>
+      <name>identity</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>a7c833b262abf2f5ce974aa753b2bb5fb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>::omnetpp::opp_string</type>
+      <name>interface</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>adc2278d74edeeb231bc61aa9d19694c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>::omnetpp::opp_string</type>
+      <name>macAddress</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>afe0dbb622387e8f485330570d6410204</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>::omnetpp::opp_string</type>
+      <name>quantumInterfaceId</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>a9fe9d10a16beef8c175d3ae02bd30dfc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>::omnetpp::opp_string</type>
+      <name>quantumMacAddress</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>ae070794ac8b5baa4d3f07c2444df58bd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>int</type>
+      <name>type</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>ac7ba3a320010386434a57360f8b7e9ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="private">
+      <type>void</type>
+      <name>copy</name>
+      <anchorfile>classMacTableEntry.html</anchorfile>
+      <anchor>ae1ef251c9d0c3e516aff7dff5856fbdc</anchor>
+      <arglist>(const MacTableEntry &amp;other)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>ProcessingQueue</name>
     <filename>classProcessingQueue.html</filename>
     <member kind="function" protection="protected" virtualness="virtual">
@@ -4899,15 +8303,22 @@
       <type>virtual void</type>
       <name>initialize</name>
       <anchorfile>classSwitch.html</anchorfile>
-      <anchor>a08618b9153350882e0d1e35bbfc313cf</anchor>
-      <arglist>() override</arglist>
+      <anchor>aab2ed4c429f12b149d63db0bb9941dc6</anchor>
+      <arglist>(int stage) override</arglist>
     </member>
     <member kind="function" protection="protected" virtualness="virtual">
-      <type>virtual void</type>
-      <name>handleMessage</name>
+      <type>virtual int</type>
+      <name>numInitStages</name>
       <anchorfile>classSwitch.html</anchorfile>
-      <anchor>aca95f749e467f61a5df0af7d88f3fdc5</anchor>
-      <arglist>(cMessage *msg) override</arglist>
+      <anchor>a188fb487a019e73581478567e29f7466</anchor>
+      <arglist>() const  override</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>bindInterface</name>
+      <anchorfile>classSwitch.html</anchorfile>
+      <anchor>abaa65d4c90ce7434adeaccc7d58a627e</anchor>
+      <arglist>(int identity, std::string interface, std::string macAddress, std::string quantumInterfaceId, std::string quantumMacAddress, int type)</arglist>
     </member>
   </compound>
   <compound kind="class">

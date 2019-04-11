@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['p',['p',['../jquery_8js.html#a2335e57f79b6acfb6de59c235dc8a83e',1,'jquery.js']]],
-  ['pathname',['pathName',['../navtree_8js.html#a364b3f4132309fa9aae78585cf2cb772',1,'navtree.js']]]
+  ['navto',['navTo',['../navtree_8js.html#a21beb601032fff375100a907f32129a5',1,'navtree.js']]],
+  ['newnode',['newNode',['../navtree_8js.html#aa2418b16159e9502e990f97ea6ec26c8',1,'navtree.js']]],
+  ['numinitstages',['numInitStages',['../classSwitch.html#a188fb487a019e73581478567e29f7466',1,'Switch']]]
 ];

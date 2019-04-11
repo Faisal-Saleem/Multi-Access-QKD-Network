@@ -8,7 +8,8 @@ var NAVTREE =
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ]
+        [ "Functions", "functions_func.html", null ],
+        [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
     [ "Files", null, [
@@ -16,7 +17,8 @@ var NAVTREE =
       [ "File Members", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
-        [ "Variables", "globals_vars.html", "globals_vars" ]
+        [ "Variables", "globals_vars.html", "globals_vars" ],
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -25,10 +27,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ClientFilterDL_8cc.html",
-"all____13__8js_8js.html#ad497beb903b8a9ea6bf305ce89aa3026",
-"classQuantumStatesGenerator_8js.html",
-"functions____7__8js_8js.html#afda668531008fb0a0185ad96af71caf3",
-"navtreeindex1__8js_8js_source.html"
+"SwitchPublicInterface__8cc_8js.html#adbbba7c60c4b390f446a14559e5ff20b",
+"all________________8________8js____8js__8js_8js.html#a1cfb94f040b82da2ce29dcc462a04c09",
+"classClientFilterV________8js____8js__8js_8js_source.html",
+"dynsections__8js_8js_source.html",
+"functions__7_8js_source.html",
+"globals_vars.html",
+"resize________________________________8js________________8js________8js____8js__8js_8js.html",
+"variables________e____8js__8js_8js.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

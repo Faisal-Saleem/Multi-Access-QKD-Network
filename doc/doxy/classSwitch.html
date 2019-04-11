@@ -123,16 +123,18 @@ Inheritance diagram for Switch:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a08618b9153350882e0d1e35bbfc313cf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSwitch.html#a08618b9153350882e0d1e35bbfc313cf">initialize</a> () override</td></tr>
-<tr class="separator:a08618b9153350882e0d1e35bbfc313cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca95f749e467f61a5df0af7d88f3fdc5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSwitch.html#aca95f749e467f61a5df0af7d88f3fdc5">handleMessage</a> (cMessage *msg) override</td></tr>
-<tr class="separator:aca95f749e467f61a5df0af7d88f3fdc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab2ed4c429f12b149d63db0bb9941dc6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSwitch.html#aab2ed4c429f12b149d63db0bb9941dc6">initialize</a> (int stage) override</td></tr>
+<tr class="separator:aab2ed4c429f12b149d63db0bb9941dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a188fb487a019e73581478567e29f7466"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSwitch.html#a188fb487a019e73581478567e29f7466">numInitStages</a> () const  override</td></tr>
+<tr class="separator:a188fb487a019e73581478567e29f7466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaa65d4c90ce7434adeaccc7d58a627e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSwitch.html#abaa65d4c90ce7434adeaccc7d58a627e">bindInterface</a> (int identity, std::string interface, std::string macAddress, std::string quantumInterfaceId, std::string quantumMacAddress, int type)</td></tr>
+<tr class="separator:abaa65d4c90ce7434adeaccc7d58a627e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="Switch_8cc_source.html#l00016">16</a> of file <a class="el" href="Switch_8cc_source.html">Switch.cc</a>.</p>
+<p>Definition at line <a class="el" href="Switch_8cc_source.html#l00017">17</a> of file <a class="el" href="Switch_8cc_source.html">Switch.cc</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aca95f749e467f61a5df0af7d88f3fdc5"></a>
+<a class="anchor" id="abaa65d4c90ce7434adeaccc7d58a627e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -140,25 +142,67 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Switch::handleMessage </td>
+          <td class="memname">void Switch::bindInterface </td>
           <td>(</td>
-          <td class="paramtype">cMessage *&#160;</td>
-          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>identity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>interface</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>macAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>quantumInterfaceId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>quantumMacAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="Switch_8cc_source.html#l00029">29</a> of file <a class="el" href="Switch_8cc_source.html">Switch.cc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="comment">//send(msg,&quot;publicInterface$o&quot;);</span></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div></div><!-- fragment -->
+<p>Definition at line <a class="el" href="Switch_8cc_source.html#l00087">87</a> of file <a class="el" href="Switch_8cc_source.html">Switch.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;{</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="code" href="classMacTableEntry.html">MacTableEntry</a> *macTableEntry = <span class="keyword">new</span> <a class="code" href="classMacTableEntry.html">MacTableEntry</a>();</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    macTableEntry-&gt;<a class="code" href="classMacTableEntry.html#a185a77a593534fef3a39cfbb862f8373">setIdentity</a>(identity);</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    macTableEntry-&gt;<a class="code" href="classMacTableEntry.html#a3d95c16d1867312a65f66264fb1288b6">setInterface</a>(interface.c_str());</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    macTableEntry-&gt;<a class="code" href="classMacTableEntry.html#a0281945925f23256612f67d911fd6193">setMacAddress</a>(macAddress.c_str());</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    macTableEntry-&gt;<a class="code" href="classMacTableEntry.html#ad954da11f10e5fa4fb6a7b1d46651c11">setQuantumInterfaceId</a>(quantumInterfaceId.c_str());</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    macTableEntry-&gt;<a class="code" href="classMacTableEntry.html#ab5f8e2781fb967cfd813b28031f7f536">setQuantumMacAddress</a>(quantumMacAddress.c_str());</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    macTableEntry-&gt;<a class="code" href="classMacTableEntry.html#ad22215cd89e349e5873445d43f4e12b4">setType</a>(type);</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="Switch_8cc.html#a9ef523e808516d5da4416c6c3233f88b">macAddressTable</a>.add(macTableEntry);</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div><div class="ttc" id="classMacTableEntry_html_ab5f8e2781fb967cfd813b28031f7f536"><div class="ttname"><a href="classMacTableEntry.html#ab5f8e2781fb967cfd813b28031f7f536">MacTableEntry::setQuantumMacAddress</a></div><div class="ttdeci">virtual void setQuantumMacAddress(const char *quantumMacAddress)</div></div>
+<div class="ttc" id="Switch_8cc_html_a9ef523e808516d5da4416c6c3233f88b"><div class="ttname"><a href="Switch_8cc.html#a9ef523e808516d5da4416c6c3233f88b">macAddressTable</a></div><div class="ttdeci">cArray macAddressTable(&quot;macAddress&quot;)</div></div>
+<div class="ttc" id="classMacTableEntry_html_a3d95c16d1867312a65f66264fb1288b6"><div class="ttname"><a href="classMacTableEntry.html#a3d95c16d1867312a65f66264fb1288b6">MacTableEntry::setInterface</a></div><div class="ttdeci">virtual void setInterface(const char *interface)</div></div>
+<div class="ttc" id="classMacTableEntry_html_ad22215cd89e349e5873445d43f4e12b4"><div class="ttname"><a href="classMacTableEntry.html#ad22215cd89e349e5873445d43f4e12b4">MacTableEntry::setType</a></div><div class="ttdeci">virtual void setType(int type)</div></div>
+<div class="ttc" id="classMacTableEntry_html_a0281945925f23256612f67d911fd6193"><div class="ttname"><a href="classMacTableEntry.html#a0281945925f23256612f67d911fd6193">MacTableEntry::setMacAddress</a></div><div class="ttdeci">virtual void setMacAddress(const char *macAddress)</div></div>
+<div class="ttc" id="classMacTableEntry_html"><div class="ttname"><a href="classMacTableEntry.html">MacTableEntry</a></div><div class="ttdoc">Class generated from MacTableEntry.msg:16 by nedtool. </div><div class="ttdef"><b>Definition:</b> <a href="MacTableEntry__m_8h_source.html#l00049">MacTableEntry_m.h:49</a></div></div>
+<div class="ttc" id="classMacTableEntry_html_a185a77a593534fef3a39cfbb862f8373"><div class="ttname"><a href="classMacTableEntry.html#a185a77a593534fef3a39cfbb862f8373">MacTableEntry::setIdentity</a></div><div class="ttdeci">virtual void setIdentity(int identity)</div></div>
+<div class="ttc" id="classMacTableEntry_html_ad954da11f10e5fa4fb6a7b1d46651c11"><div class="ttname"><a href="classMacTableEntry.html#ad954da11f10e5fa4fb6a7b1d46651c11">MacTableEntry::setQuantumInterfaceId</a></div><div class="ttdeci">virtual void setQuantumInterfaceId(const char *quantumInterfaceId)</div></div>
+</div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a08618b9153350882e0d1e35bbfc313cf"></a>
+<a class="anchor" id="aab2ed4c429f12b149d63db0bb9941dc6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -168,7 +212,8 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void Switch::initialize </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>stage</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -179,8 +224,42 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="Switch_8cc_source.html#l00025">25</a> of file <a class="el" href="Switch_8cc_source.html">Switch.cc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    EV&lt;&lt;<span class="stringliteral">&quot;Test&quot;</span>;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div></div><!-- fragment -->
+<p>Definition at line <a class="el" href="Switch_8cc_source.html#l00044">44</a> of file <a class="el" href="Switch_8cc_source.html">Switch.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">if</span>(stage == 0)</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    {</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="comment">//macAddressTable= new cArray();</span></div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span>(stage == 1)</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="classSwitch.html#abaa65d4c90ce7434adeaccc7d58a627e">Switch::bindInterface</a>(1,this-&gt;getSubmodule(<span class="stringliteral">&quot;f01&quot;</span>)-&gt;getName() ,this-&gt;getSubmodule(<span class="stringliteral">&quot;f01&quot;</span>)-&gt;par(<span class="stringliteral">&quot;macAddress&quot;</span>).stringValue(),this-&gt;getSubmodule(<span class="stringliteral">&quot;q01&quot;</span>)-&gt;getName() ,this-&gt;getSubmodule(<span class="stringliteral">&quot;q01&quot;</span>)-&gt;par(<span class="stringliteral">&quot;macAddress&quot;</span>).stringValue(),0);</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="classSwitch.html#abaa65d4c90ce7434adeaccc7d58a627e">Switch::bindInterface</a>(2,this-&gt;getSubmodule(<span class="stringliteral">&quot;f02&quot;</span>)-&gt;getName() ,this-&gt;getSubmodule(<span class="stringliteral">&quot;f02&quot;</span>)-&gt;par(<span class="stringliteral">&quot;macAddress&quot;</span>).stringValue(),this-&gt;getSubmodule(<span class="stringliteral">&quot;q02&quot;</span>)-&gt;getName() ,this-&gt;getSubmodule(<span class="stringliteral">&quot;q02&quot;</span>)-&gt;par(<span class="stringliteral">&quot;macAddress&quot;</span>).stringValue(),0);</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="classSwitch.html#abaa65d4c90ce7434adeaccc7d58a627e">Switch::bindInterface</a>(3,this-&gt;getSubmodule(<span class="stringliteral">&quot;f03&quot;</span>)-&gt;getName() ,this-&gt;getSubmodule(<span class="stringliteral">&quot;f03&quot;</span>)-&gt;par(<span class="stringliteral">&quot;macAddress&quot;</span>).stringValue(),this-&gt;getSubmodule(<span class="stringliteral">&quot;q03&quot;</span>)-&gt;getName() ,this-&gt;getSubmodule(<span class="stringliteral">&quot;q03&quot;</span>)-&gt;par(<span class="stringliteral">&quot;macAddress&quot;</span>).stringValue(),0);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <a class="code" href="classSwitch.html#abaa65d4c90ce7434adeaccc7d58a627e">Switch::bindInterface</a>(4,this-&gt;getSubmodule(<span class="stringliteral">&quot;f04&quot;</span>)-&gt;getName() ,this-&gt;getSubmodule(<span class="stringliteral">&quot;f04&quot;</span>)-&gt;par(<span class="stringliteral">&quot;macAddress&quot;</span>).stringValue(),this-&gt;getSubmodule(<span class="stringliteral">&quot;q04&quot;</span>)-&gt;getName() ,this-&gt;getSubmodule(<span class="stringliteral">&quot;q04&quot;</span>)-&gt;par(<span class="stringliteral">&quot;macAddress&quot;</span>).stringValue(),0);</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        EV&lt;&lt;<span class="stringliteral">&quot;===========================================================================================================\n&quot;</span>;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        EV&lt;&lt;<span class="stringliteral">&quot;|\tIdentity\tInterface\tMacAddress\tQ Interface\tQ MacAddress\tType\t|\n&quot;</span>;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        EV&lt;&lt;<span class="stringliteral">&quot;===========================================================================================================\n&quot;</span>;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt;<a class="code" href="Switch_8cc.html#a9ef523e808516d5da4416c6c3233f88b">macAddressTable</a>.size(); i++)</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        {</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <a class="code" href="classMacTableEntry.html">MacTableEntry</a> *macTableEntry = (<a class="code" href="classMacTableEntry.html">MacTableEntry</a> *) <a class="code" href="Switch_8cc.html#a9ef523e808516d5da4416c6c3233f88b">macAddressTable</a>[i];</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            EV&lt;&lt;<span class="stringliteral">&quot;\t&quot;</span>&lt;&lt;macTableEntry-&gt;<a class="code" href="classMacTableEntry.html#a6c0563740a5822da1a0cbd59f88ddf8c">getIdentity</a>()&lt;&lt;<span class="stringliteral">&quot;\t&quot;</span>&lt;&lt;macTableEntry-&gt;<a class="code" href="classMacTableEntry.html#a00d9cb573b7708721480ae483a390394">getInterface</a>()&lt;&lt;<span class="stringliteral">&quot;\t&quot;</span>&lt;&lt;macTableEntry-&gt;<a class="code" href="classMacTableEntry.html#ab73c0d8e9f238b6628a0b08d7b129227">getMacAddress</a>()&lt;&lt;<span class="stringliteral">&quot;\t&quot;</span>&lt;&lt;macTableEntry-&gt;<a class="code" href="classMacTableEntry.html#aebbd5b17cc1b9b5ce188e145b3b5d115">getQuantumInterfaceId</a>()&lt;&lt;<span class="stringliteral">&quot;\t&quot;</span>&lt;&lt;macTableEntry-&gt;<a class="code" href="classMacTableEntry.html#a8fade3685dc23c311338bbc851023c27">getQuantumMacAddress</a>()&lt;&lt;<span class="stringliteral">&quot;\t&quot;</span>&lt;&lt;macTableEntry-&gt;<a class="code" href="classMacTableEntry.html#a9bf4d8fde9132da4acb053b9af8423b3">getType</a>()&lt;&lt;<span class="stringliteral">&quot;\n&quot;</span>;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="comment">//MacTableEntry *macTableEntry = new MacTableEntry();</span></div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="comment">//macTableEntry-&gt;setIdentity(1);</span></div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="comment">//macTableEntry-&gt;setMacAddress(this-&gt;getSubmodule(&quot;f01&quot;)-&gt;par(&quot;macAddress&quot;).stringValue());</span></div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="comment">//macTableEntry-&gt;setQuantumMacAddress(this-&gt;getSubmodule(&quot;q01&quot;)-&gt;par(&quot;macAddress&quot;).stringValue());</span></div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="comment">//EV&lt;&lt;macAddressTable[0];</span></div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="comment">/*EV&lt;&lt;this-&gt;getSubmodule(&quot;f02&quot;)-&gt;par(&quot;macAddress&quot;).str();</span></div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">        EV&lt;&lt;this-&gt;getSubmodule(&quot;f03&quot;)-&gt;par(&quot;macAddress&quot;).str();</span></div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">        EV&lt;&lt;this-&gt;getSubmodule(&quot;f04&quot;)-&gt;par(&quot;macAddress&quot;).str();</span></div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">        EV&lt;&lt;this-&gt;getSubmodule(&quot;q01&quot;)-&gt;par(&quot;macAddress&quot;).str();</span></div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">        EV&lt;&lt;this-&gt;getSubmodule(&quot;q02&quot;)-&gt;par(&quot;macAddress&quot;).str();</span></div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">        EV&lt;&lt;this-&gt;getSubmodule(&quot;q03&quot;)-&gt;par(&quot;macAddress&quot;).str();</span></div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">        EV&lt;&lt;this-&gt;getSubmodule(&quot;q04&quot;)-&gt;par(&quot;macAddress&quot;).str();*/</span></div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="comment">//this-&gt;getSubmodule(&quot;macAddressTable&quot;)-&gt;par(&quot;macAddress&quot;).setStringValue(this-&gt;getSubmodule(&quot;q04&quot;)-&gt;par(&quot;macAddress&quot;).str());</span></div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}</div><div class="ttc" id="classMacTableEntry_html_ab73c0d8e9f238b6628a0b08d7b129227"><div class="ttname"><a href="classMacTableEntry.html#ab73c0d8e9f238b6628a0b08d7b129227">MacTableEntry::getMacAddress</a></div><div class="ttdeci">virtual const char * getMacAddress() const </div></div>
+<div class="ttc" id="Switch_8cc_html_a9ef523e808516d5da4416c6c3233f88b"><div class="ttname"><a href="Switch_8cc.html#a9ef523e808516d5da4416c6c3233f88b">macAddressTable</a></div><div class="ttdeci">cArray macAddressTable(&quot;macAddress&quot;)</div></div>
+<div class="ttc" id="classMacTableEntry_html_a8fade3685dc23c311338bbc851023c27"><div class="ttname"><a href="classMacTableEntry.html#a8fade3685dc23c311338bbc851023c27">MacTableEntry::getQuantumMacAddress</a></div><div class="ttdeci">virtual const char * getQuantumMacAddress() const </div></div>
+<div class="ttc" id="classSwitch_html_abaa65d4c90ce7434adeaccc7d58a627e"><div class="ttname"><a href="classSwitch.html#abaa65d4c90ce7434adeaccc7d58a627e">Switch::bindInterface</a></div><div class="ttdeci">void bindInterface(int identity, std::string interface, std::string macAddress, std::string quantumInterfaceId, std::string quantumMacAddress, int type)</div><div class="ttdef"><b>Definition:</b> <a href="Switch_8cc_source.html#l00087">Switch.cc:87</a></div></div>
+<div class="ttc" id="classMacTableEntry_html"><div class="ttname"><a href="classMacTableEntry.html">MacTableEntry</a></div><div class="ttdoc">Class generated from MacTableEntry.msg:16 by nedtool. </div><div class="ttdef"><b>Definition:</b> <a href="MacTableEntry__m_8h_source.html#l00049">MacTableEntry_m.h:49</a></div></div>
+<div class="ttc" id="classMacTableEntry_html_a6c0563740a5822da1a0cbd59f88ddf8c"><div class="ttname"><a href="classMacTableEntry.html#a6c0563740a5822da1a0cbd59f88ddf8c">MacTableEntry::getIdentity</a></div><div class="ttdeci">virtual int getIdentity() const </div></div>
+<div class="ttc" id="classMacTableEntry_html_a9bf4d8fde9132da4acb053b9af8423b3"><div class="ttname"><a href="classMacTableEntry.html#a9bf4d8fde9132da4acb053b9af8423b3">MacTableEntry::getType</a></div><div class="ttdeci">virtual int getType() const </div></div>
+<div class="ttc" id="classMacTableEntry_html_aebbd5b17cc1b9b5ce188e145b3b5d115"><div class="ttname"><a href="classMacTableEntry.html#aebbd5b17cc1b9b5ce188e145b3b5d115">MacTableEntry::getQuantumInterfaceId</a></div><div class="ttdeci">virtual const char * getQuantumInterfaceId() const </div></div>
+<div class="ttc" id="classMacTableEntry_html_a00d9cb573b7708721480ae483a390394"><div class="ttname"><a href="classMacTableEntry.html#a00d9cb573b7708721480ae483a390394">MacTableEntry::getInterface</a></div><div class="ttdeci">virtual const char * getInterface() const </div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a188fb487a019e73581478567e29f7466"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Switch::numInitStages </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="Switch_8cc_source.html#l00082">82</a> of file <a class="el" href="Switch_8cc_source.html">Switch.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;{</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">return</span> 2;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div></div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

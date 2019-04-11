@@ -9,6 +9,7 @@ var annotated_dup =
     [ "ClientProcessor", "classClientProcessor.html", "classClientProcessor" ],
     [ "ClientPublicInterface", "classClientPublicInterface.html", "classClientPublicInterface" ],
     [ "ClientQuantumInterface", "classClientQuantumInterface.html", "classClientQuantumInterface" ],
+    [ "MacTableEntry", "classMacTableEntry.html", "classMacTableEntry" ],
     [ "ProcessingQueue", "classProcessingQueue.html", "classProcessingQueue" ],
     [ "Processor", "classProcessor.html", "classProcessor" ],
     [ "QuantumStatesGenerator", "classQuantumStatesGenerator.html", "classQuantumStatesGenerator" ],
