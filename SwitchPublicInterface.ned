@@ -18,7 +18,7 @@
 simple SwitchPublicInterface
 {
     parameters:
-        //string macAddress;
+        string macAddress;						//	MAC Address 
         @display("i=block/classifier;is=l");
     gates:
         inout publicChannelCommunication;

@@ -5,6 +5,10 @@ var searchData=
   ['getscript',['getScript',['../navtree_8js.html#a32f4aac18d03aee747b55dea195731ac',1,'navtree.js']]],
   ['getxpos',['getXPos',['../search_8js.html#a76d24aea0009f892f8ccc31d941c0a2b',1,'search.js']]],
   ['getypos',['getYPos',['../search_8js.html#a8d7b405228661d7b6216b6925d2b8a69',1,'search.js']]],
+  ['globals_5fdup',['globals_dup',['../globals__dup_8js.html#a29c67ce245e4da09e20b72607334c181',1,'globals_dup.js']]],
+  ['globals_5fdup_2ejs',['globals_dup.js',['../globals__dup_8js.html',1,'']]],
+  ['globals_5fvars',['globals_vars',['../globals__vars_8js.html#aa3cec607e4c9525015a07e85023ff444',1,'globals_vars.js']]],
+  ['globals_5fvars_2ejs',['globals_vars.js',['../globals__vars_8js.html',1,'']]],
   ['gloweffect',['glowEffect',['../navtree_8js.html#a23b68d2deb28f9c2678f546e2d60e5ee',1,'navtree.js']]],
   ['gotoanchor',['gotoAnchor',['../navtree_8js.html#aee1fc3771eeb15da54962a03da1f3c11',1,'navtree.js']]],
   ['gotonode',['gotoNode',['../navtree_8js.html#a0e6a2d65190a43246d668bba554243e5',1,'navtree.js']]]

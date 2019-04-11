@@ -11,11 +11,11 @@
 // 
 // You should have received a copy of the GNU Lesser General Public License
 // along with this program.  If not, see http://www.gnu.org/licenses/.
-// 
+//
 network Network
 {
     parameters:
-        @display("bgb=402,278,#FFE4CA;i=block/network;i2=status/connect;bgg=20;bgl=2");
+        @display("bgb=402,278,#FFE4CA;i=block/network;i2=status/connect;bgl=2");
     submodules:
         switch: Switch {
             @display("p=203,133");
@@ -23,18 +23,22 @@ network Network
         client01: Client {
             @display("p=42,41");
             name = "Cliant 01";
+            macAddress = "AA:AA:AA:AA:AA:01";
         }
         client02: Client {
             @display("p=44,206");
             name = "Cliant 02";
+            macAddress = "AA:AA:AA:AA:AA:02";
         }
         client03: Client {
             @display("p=339,42");
             name = "Cliant 03";
+            macAddress = "AA:AA:AA:AA:AA:03";
         }
         client04: Client {
             @display("p=344,213");
             name = "Cliant 04";
+            macAddress = "AA:AA:AA:AA:AA:04";
         }
     connections:
         client01.publicInterface <--> switch.fe01;

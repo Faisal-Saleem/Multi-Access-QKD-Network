@@ -23,10 +23,15 @@ Define_Module(ClientProcessor);
 
 void ClientProcessor::initialize()
 {
-    cModule *cmod = this->getParentModule();
-    cMessage *msg = new cMessage(cmod->getFullName());
-    EV<<cmod->getFullName();
-    send(msg, "quantumInterfaceCommunication$o");
+    cPacket *initialDataPacket = new cPacket("data");
+    initialDataPacket->setByteLength(1024);
+    initialDataPacket->addPar(getParentModule()->par("macAddress"));
+
+    //cModule *cmod = this->getParentModule();
+    //cMessage *msg = new cMessage(initialDataPacket);
+    //EV<<"\n\rSRC MAC : "<<getParentModule()->par("macAddress").stringValue()<<"\n\r";
+    //EV<<"\n\rExit Interface :"<<getParentModule()->gate("quantumInterface$o")->str()<<"\n\r";
+    send(initialDataPacket, "quantumInterfaceCommunication$o");
 }
 void ClientProcessor::handleMessage(cMessage *msg)
 {

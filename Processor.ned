@@ -23,6 +23,6 @@ simple Processor
     gates:
 		input jobsIn;
 		output quantumInterfaceStatusOut;
-		output jobsOut;		
+		output jobsOut;
 }
 

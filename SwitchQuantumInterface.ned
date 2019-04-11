@@ -11,17 +11,15 @@
 // 
 // You should have received a copy of the GNU Lesser General Public License
 // along with this program.  If not, see http://www.gnu.org/licenses/.
-// 
-// 
-// TODO documentation
 //
 simple SwitchQuantumInterface
 {
     parameters:
-        //string macAddress;
-        @display("i=block/classifier,red;is=l");
+        string macAddress;								//	Quantum MAC Address 
+        @display("i=block/classifier,red;is=l;bgb=359,329");
     gates:
         inout quantumChannelCommunication;
         input quantumInterfaceStatus;
+        inout sub[];
+        //inout processorCommunication;
 }
-
