@@ -1,0 +1,4 @@
+var classSwitchPublicInterface________________________________8js________________8js________8js____8js__8js_8js =
+[
+    [ "classSwitchPublicInterface________________8js________8js____8js__8js_8js", "classSwitchPublicInterface________________________________8js________________8js________8js____8js__8js_8js.html#aecf5b1bad33881d86da9bf12d2c45603", null ]
+];

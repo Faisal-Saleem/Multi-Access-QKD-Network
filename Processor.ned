@@ -24,5 +24,6 @@ simple Processor
 		input jobsIn;
 		output quantumInterfaceStatusOut;
 		output jobsOut;
+		inout memoryBus;
 }
 

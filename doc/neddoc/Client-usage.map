@@ -1,12 +1,13 @@
-<area shape="rect" href="Client.html" title="Compound Module Client" alt="Client" coords="709,16,781,40">
-<area shape="rect" href="ClientFilterDL.html" title="Simple Module ClientFilterDL" alt="ClientFilterDL" coords="7,88,95,112">
-<area shape="rect" href="ClientFilterV.html" title="Simple Module ClientFilterV" alt="ClientFilterV" coords="119,88,201,112">
-<area shape="rect" href="ClientQuantumInterface.html" title="Simple Module ClientQuantumInterface" alt="ClientQuantumInterface" coords="225,88,369,112">
-<area shape="rect" href="ClientFilterDiagonal.html" title="Simple Module ClientFilterDiagonal" alt="ClientFilterDiagonal" coords="393,88,516,112">
-<area shape="rect" href="ClientFilterStraight.html" title="Simple Module ClientFilterStraight" alt="ClientFilterStraight" coords="540,88,657,112">
-<area shape="rect" href="ClientPublicInterface.html" title="Simple Module ClientPublicInterface" alt="ClientPublicInterface" coords="681,88,809,112">
-<area shape="rect" href="ClientProcessor.html" title="Simple Module ClientProcessor" alt="ClientProcessor" coords="833,88,937,112">
-<area shape="rect" href="QuantumStatesGenerator.html" title="Simple Module QuantumStatesGenerator" alt="QuantumStatesGenerator" coords="961,88,1121,112">
-<area shape="rect" href="ned.IdealChannel.html" title="Channel IdealChannel" alt="IdealChannel" coords="1145,88,1231,112">
-<area shape="rect" href="ClientFilterDR.html" title="Simple Module ClientFilterDR" alt="ClientFilterDR" coords="1255,88,1345,112">
-<area shape="rect" href="ClientFilterH.html" title="Simple Module ClientFilterH" alt="ClientFilterH" coords="1369,88,1449,112">
+<area shape="rect" href="Client.html" title="Compound Module Client" alt="Client" coords="715,88,787,112">
+<area shape="rect" href="ClientProcessor.html" title="Simple Module ClientProcessor" alt="ClientProcessor" coords="7,160,111,184">
+<area shape="rect" href="ClientPublicInterface.html" title="Simple Module ClientPublicInterface" alt="ClientPublicInterface" coords="135,160,263,184">
+<area shape="rect" href="ClientFilterStraight.html" title="Simple Module ClientFilterStraight" alt="ClientFilterStraight" coords="287,160,404,184">
+<area shape="rect" href="ClientFilterDL.html" title="Simple Module ClientFilterDL" alt="ClientFilterDL" coords="428,160,516,184">
+<area shape="rect" href="ClientQuantumInterface.html" title="Simple Module ClientQuantumInterface" alt="ClientQuantumInterface" coords="540,160,684,184">
+<area shape="rect" href="ned.IdealChannel.html" title="Channel IdealChannel" alt="IdealChannel" coords="708,160,793,184">
+<area shape="rect" href="ClientFilterDR.html" title="Simple Module ClientFilterDR" alt="ClientFilterDR" coords="817,160,908,184">
+<area shape="rect" href="ClientFilterH.html" title="Simple Module ClientFilterH" alt="ClientFilterH" coords="932,160,1012,184">
+<area shape="rect" href="ClientFilterV.html" title="Simple Module ClientFilterV" alt="ClientFilterV" coords="1036,160,1119,184">
+<area shape="rect" href="ClientFilterDiagonal.html" title="Simple Module ClientFilterDiagonal" alt="ClientFilterDiagonal" coords="1143,160,1265,184">
+<area shape="rect" href="QuantumStatesGenerator.html" title="Simple Module QuantumStatesGenerator" alt="QuantumStatesGenerator" coords="1289,160,1449,184">
+<area shape="rect" href="Network.html" title="Network Network" alt="Network" coords="715,16,787,40">

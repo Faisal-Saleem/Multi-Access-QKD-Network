@@ -80,6 +80,9 @@ module Switch
         processedQueue: QuantumStatesQueue {
             @display("p=347,496");
         }
+        switchMemory: SwitchMemory {
+            @display("p=366,334");
+        }
     connections:
         fe01 <--> f01.publicChannelCommunication;
         fe02 <--> f02.publicChannelCommunication;
@@ -110,4 +113,5 @@ module Switch
         q01.sub++ <--> q03.sub++;
         q04.sub++ <--> q02.sub++;
         q01.sub++ <--> q04.sub++;
+        processor.memoryBus <--> switchMemory.processorBus;
 }

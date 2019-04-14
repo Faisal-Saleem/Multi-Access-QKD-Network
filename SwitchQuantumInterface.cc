@@ -9,33 +9,41 @@
 #include <omnetpp.h>
 #include <bitset>
 #include <iostream>
+#include "SwitchMemory.h"
 
 using namespace omnetpp;
 
 class SwitchQuantumInterface : public cSimpleModule
 {
 protected:
-    virtual void initialize() override;
+    virtual void initialize(int stage) override;
+    virtual int numInitStages() const override;
     virtual void handleMessage(cMessage *msg) override;
 };
 
 Define_Module(SwitchQuantumInterface);
 
-void SwitchQuantumInterface::initialize()
-{
-    //SwitchInterfaceInit *switchInterface = new SwitchInterfaceInit();
-    //switchInterface->setMacAddress(this->par("macAddress").stringValue());
-    //EV<<"aslfkjdalsjkdf lkjasdf ljkasdf "<<switchInterface->getMacAddress();
-
-    //cModule *macAddressTable = getParentModule()->getSubmodule("macAddressTable");
-    //macAddressTable->par("interface").setStringValue(this->par(parname));
-    //macAddressTable->par("macAddress").setStringValue(this->par("macAddress").stringValue());
-    //EV<<"Hardware Address"<<par("macAddress").stringValue();
-
-}
 void SwitchQuantumInterface::handleMessage(cMessage *msg)
 {
 
+}
+
+
+void SwitchQuantumInterface::initialize(int stage)
+{
+    /*
+    if(stage == 2)
+    {
+        cModule *targetSwitch = getParentModule()->getSubmodule("switchMemory");
+        SwitchMemory *switchModule = check_and_cast<SwitchMemory *>(targetSwitch);
+        switchModule->printMacAddressTable();
+    }
+    */
+}
+
+int SwitchQuantumInterface::numInitStages() const
+{
+    return 3;
 }
 
 
