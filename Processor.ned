@@ -21,9 +21,8 @@ simple Processor
     parameters:
         @display("i=device/cpu,red;is=n;i2=status/hourglass");
     gates:
-		input jobsIn;
-		output quantumInterfaceStatusOut;
-		output jobsOut;
+		inout publicInterfaceCommunication;
+		inout quantumInterfaceCommunication;
 		inout memoryBus;
 }
 

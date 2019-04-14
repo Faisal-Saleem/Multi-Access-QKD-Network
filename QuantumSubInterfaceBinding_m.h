@@ -37,9 +37,12 @@
  * //
  * packet QuantumSubInterfaceBinding
  * {
- *     int identity;
+ *     string identity;
+ *     int connectionId;
  *     string sourceInterface;
+ *     string sourceSubInterface;
  *     string destinationInterface;
+ *     string destinationSubInterface;
  *     int status;
  * }
  * </pre>
@@ -47,9 +50,12 @@
 class QuantumSubInterfaceBinding : public ::omnetpp::cPacket
 {
   protected:
-    int identity;
+    ::omnetpp::opp_string identity;
+    int connectionId;
     ::omnetpp::opp_string sourceInterface;
+    ::omnetpp::opp_string sourceSubInterface;
     ::omnetpp::opp_string destinationInterface;
+    ::omnetpp::opp_string destinationSubInterface;
     int status;
 
   private:
@@ -69,12 +75,18 @@ class QuantumSubInterfaceBinding : public ::omnetpp::cPacket
     virtual void parsimUnpack(omnetpp::cCommBuffer *b) override;
 
     // field getter/setter methods
-    virtual int getIdentity() const;
-    virtual void setIdentity(int identity);
+    virtual const char * getIdentity() const;
+    virtual void setIdentity(const char * identity);
+    virtual int getConnectionId() const;
+    virtual void setConnectionId(int connectionId);
     virtual const char * getSourceInterface() const;
     virtual void setSourceInterface(const char * sourceInterface);
+    virtual const char * getSourceSubInterface() const;
+    virtual void setSourceSubInterface(const char * sourceSubInterface);
     virtual const char * getDestinationInterface() const;
     virtual void setDestinationInterface(const char * destinationInterface);
+    virtual const char * getDestinationSubInterface() const;
+    virtual void setDestinationSubInterface(const char * destinationSubInterface);
     virtual int getStatus() const;
     virtual void setStatus(int status);
 };

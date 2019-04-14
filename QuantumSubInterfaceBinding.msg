@@ -14,8 +14,11 @@
 //
 packet QuantumSubInterfaceBinding
 {
-    int identity;
+    string identity;
+    int connectionId;
     string sourceInterface;
+    string sourceSubInterface;
 	string destinationInterface;
+	string destinationSubInterface;
 	int status;
 }

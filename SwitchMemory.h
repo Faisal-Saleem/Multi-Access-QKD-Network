@@ -29,9 +29,9 @@ class SwitchMemory : public cSimpleModule
     virtual void initialize(int stage) override;
     virtual int numInitStages() const override;
     void prepareMacAddressTable();
-    void bindInterface(int identity, std::string interface, std::string macAddress, std::string quantumInterfaceId, std::string quantumMacAddress, int type);
+    void bindInterface(int identity, std::string interface, std::string quantumInterface, int type);
     void prepareQuantumSubInterfaceBindingTable();
-    void bindSubInterface(int identity, std::string sourceInterface, std::string destinationInterface, int status);
+    void bindSubInterface(std::string identity, std::string sourceInterface, std::string sourceSubInterface, std::string destinationInterface, std::string destinationSubInterface, int status);
 };
 
 #endif

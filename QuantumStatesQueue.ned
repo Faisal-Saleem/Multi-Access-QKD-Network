@@ -18,10 +18,10 @@ simple QuantumStatesQueue
     parameters:
     	@display("i=block/queue;i2=status/up");
     gates:
-        input inFromProcessor;
-        output outToInterface01;
-        output outToInterface02;
-        output outToInterface03;
-        output outToInterface04;
+        inout inFromProcessor;
+        inout interface01;
+        inout interface02;
+        inout interface03;
+        inout interface04;
 }
 

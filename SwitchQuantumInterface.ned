@@ -19,7 +19,8 @@ simple SwitchQuantumInterface
         @display("i=block/classifier,red;is=l;bgb=359,329");
     gates:
         inout quantumChannelCommunication;
-        input quantumInterfaceStatus;
-        inout sub[];
-        //inout processorCommunication;
+      	inout subInterface1;
+		inout subInterface2;
+		inout subInterface3;
+		inout subInterface4;
 }

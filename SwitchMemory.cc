@@ -30,11 +30,13 @@ void SwitchMemory::initialize(int stage)
     if(stage == 0)
     {
         SwitchMemory::prepareQuantumSubInterfaceBindingTable();
+        EV<<"[*] Prepairing Quantum Sub Interface Binding Table\n";
+        SwitchMemory::printQuantumSubinterfaceBindingTable();
     }
-    else if(stage == 1)
+    if(stage == 1)
     {
         SwitchMemory::prepareMacAddressTable();
-        EV<<"[*] Preparing Quantum MAC Address Table\n";
+        EV<<"[*] Prepairing Quantum MAC Address Table\n";
         SwitchMemory::printMacAddressTable();
     }
 }
@@ -47,57 +49,98 @@ int SwitchMemory::numInitStages() const
 void SwitchMemory::prepareMacAddressTable()
 {
     EV<<"[*] Binding Public and Quantum Channels\n";
-    SwitchMemory::bindInterface(1,this->getParentModule()->getSubmodule("f01")->getName() ,this->getParentModule()->getSubmodule("f01")->par("macAddress").stringValue(),this->getParentModule()->getSubmodule("q01")->getName() ,this->getParentModule()->getSubmodule("q01")->par("macAddress").stringValue(),0);
-    SwitchMemory::bindInterface(2,this->getParentModule()->getSubmodule("f02")->getName() ,this->getParentModule()->getSubmodule("f02")->par("macAddress").stringValue(),this->getParentModule()->getSubmodule("q02")->getName() ,this->getParentModule()->getSubmodule("q02")->par("macAddress").stringValue(),0);
-    SwitchMemory::bindInterface(3,this->getParentModule()->getSubmodule("f03")->getName() ,this->getParentModule()->getSubmodule("f03")->par("macAddress").stringValue(),this->getParentModule()->getSubmodule("q03")->getName() ,this->getParentModule()->getSubmodule("q03")->par("macAddress").stringValue(),0);
-    SwitchMemory::bindInterface(4,this->getParentModule()->getSubmodule("f04")->getName() ,this->getParentModule()->getSubmodule("f04")->par("macAddress").stringValue(),this->getParentModule()->getSubmodule("q04")->getName() ,this->getParentModule()->getSubmodule("q04")->par("macAddress").stringValue(),0);
+    SwitchMemory::bindInterface(1,"f01","q01",0);
+    SwitchMemory::bindInterface(1,"f02","q02",0);
+    SwitchMemory::bindInterface(1,"f03","q03",0);
+    SwitchMemory::bindInterface(1,"f04","q04",0);
     EV<<"[*] Done\n";
 }
 
-void SwitchMemory::bindInterface(int identity, std::string interface, std::string macAddress, std::string quantumInterfaceId, std::string quantumMacAddress, int type)
+void SwitchMemory::bindInterface(int identity, std::string interface, std::string quantumInterface, int type)
 {
     MacTableEntry *macTableEntry = new MacTableEntry();
     macTableEntry->setIdentity(identity);
-    macTableEntry->setInterface(interface.c_str());
-    macTableEntry->setMacAddress(macAddress.c_str());
-    macTableEntry->setQuantumInterfaceId(quantumInterfaceId.c_str());
-    macTableEntry->setQuantumMacAddress(quantumMacAddress.c_str());
+    macTableEntry->setInterface(this->getParentModule()->getSubmodule(interface.c_str())->getName());
+    macTableEntry->setMacAddress(this->getParentModule()->getSubmodule(interface.c_str())->par("macAddress").stringValue());
+    macTableEntry->setQuantumInterfaceId(this->getParentModule()->getSubmodule(quantumInterface.c_str())->getName());
+    macTableEntry->setQuantumMacAddress(this->getParentModule()->getSubmodule(quantumInterface.c_str())->par("macAddress").stringValue());
     macTableEntry->setType(type);
     macAddressTable.add(macTableEntry);
 }
 
 void SwitchMemory::printMacAddressTable()
 {
-    EV<<"[*] Quantum MAC Address Table ready\n";
+    EV<<"[*] Quantum MAC Address Table\n";
     EV<<"=============================================================================================\n";
     EV<<"  Identity     Interface     MacAddress     Q_Interface          Q_MacAddress          Type   \n";
     EV<<"=============================================================================================\n";
     for(int i=0; i<macAddressTable.size(); i++)
     {
         MacTableEntry *macTableEntry = (MacTableEntry *) macAddressTable[i];
-        EV<<"      "<<macTableEntry->getIdentity()<<"           "<<macTableEntry->getInterface()<<"     "<<macTableEntry->getMacAddress()<<"      "<<macTableEntry->getQuantumInterfaceId()<<"          "<<macTableEntry->getQuantumMacAddress()<<"          "<<macTableEntry->getType()<<"\n";
+        EV<<"      "
+                <<macTableEntry->getIdentity()
+                <<"           "
+                <<macTableEntry->getInterface()
+                <<"     "
+                <<macTableEntry->getMacAddress()
+                <<"      "
+                <<macTableEntry->getQuantumInterfaceId()
+                <<"          "
+                <<macTableEntry->getQuantumMacAddress()
+                <<"          "
+                <<macTableEntry->getType()<<"\n";
     }
     EV<<"=============================================================================================\n";
 }
 
 void SwitchMemory::prepareQuantumSubInterfaceBindingTable()
 {
-    EV<<"[*] Bind Quantum Sub Interface\n";
-    //EV<<"Gate Names "<<this->getParentModule()->getSubmodule("q01")->gate("sub$i[$0$]")->str();
-    //SwitchMemory::bindSubInterface(1, this->getParentModule()->getSubmodule("q01")->gate("sub0")->getConnectionId(), destinationInterface, status)
+    EV<<"[*] Binding Quantum Sub Interface\n";
+    SwitchMemory::bindSubInterface("01","q01","subInterface2$o","q02","subInterface1$i",0);
+    SwitchMemory::bindSubInterface("02","q02","subInterface3$o","q03","subInterface2$i",0);
+    SwitchMemory::bindSubInterface("03","q03","subInterface4$o","q04","subInterface3$i",0);
+    SwitchMemory::bindSubInterface("04","q01","subInterface4$o","q04","subInterface1$i",0);
+    SwitchMemory::bindSubInterface("05","q02","subInterface4$o","q04","subInterface2$i",0);
+    SwitchMemory::bindSubInterface("06","q03","subInterface1$o","q01","subInterface3$i",0);
+    SwitchMemory::bindSubInterface("07","q02","subInterface1$o","q01","subInterface2$i",0);
+    SwitchMemory::bindSubInterface("08","q03","subInterface2$o","q02","subInterface3$i",0);
+    SwitchMemory::bindSubInterface("09","q04","subInterface3$o","q03","subInterface4$i",0);
+    SwitchMemory::bindSubInterface("10","q04","subInterface1$o","q01","subInterface4$i",0);
+    SwitchMemory::bindSubInterface("11","q04","subInterface2$o","q02","subInterface4$i",0);
+    SwitchMemory::bindSubInterface("12","q01","subInterface3$o","q03","subInterface1$i",0);
+    EV<<"[*] Subinterface Binding Done\n";
 }
 
-void SwitchMemory::bindSubInterface(int identity, std::string sourceInterface, std::string destinationInterface, int status)
+void SwitchMemory::bindSubInterface(std::string identity, std::string sourceInterface,std::string sourceSubInterface,std::string destinationInterface, std::string destinationSubInterface, int status)
 {
     QuantumSubInterfaceBinding *subInterfaceBindingEntry = new QuantumSubInterfaceBinding();
-    subInterfaceBindingEntry->setIdentity(identity);
-    subInterfaceBindingEntry->setSourceInterface(sourceInterface.c_str());
-    subInterfaceBindingEntry->setDestinationInterface(destinationInterface.c_str());
+    subInterfaceBindingEntry->setIdentity(identity.c_str());
+    subInterfaceBindingEntry->setConnectionId(this->getParentModule()->getSubmodule(sourceInterface.c_str())->gate(sourceSubInterface.c_str())->getConnectionId());
+    subInterfaceBindingEntry->setSourceInterface(this->getParentModule()->getSubmodule(sourceInterface.c_str())->getName());
+    subInterfaceBindingEntry->setSourceSubInterface(this->getParentModule()->getSubmodule(sourceInterface.c_str())->gate(sourceSubInterface.c_str())->getBaseName());
+    subInterfaceBindingEntry->setDestinationInterface(this->getParentModule()->getSubmodule(destinationInterface.c_str())->getName());
+    subInterfaceBindingEntry->setDestinationSubInterface(this->getParentModule()->getSubmodule(destinationInterface.c_str())->gate(destinationSubInterface.c_str())->getBaseName());
     subInterfaceBindingEntry->setStatus(status);
     quantumSubInterfaceBinding.add(subInterfaceBindingEntry);
 }
 
 void SwitchMemory::printQuantumSubinterfaceBindingTable()
 {
-
+    EV<<"[*] Quantum Sub Interface Binding Table\n";
+    EV<<"===================================================================\n";
+    EV<<"  Id   ConId     Src     Src-Sub      Dst     Dst-Sub      Type   \n";
+    EV<<"===================================================================\n";
+    for(int i=0; i<quantumSubInterfaceBinding.size(); i++)
+    {
+        QuantumSubInterfaceBinding *subInterfaceBindingEntry = (QuantumSubInterfaceBinding *) quantumSubInterfaceBinding[i];
+        EV<<"  "<<subInterfaceBindingEntry->getIdentity()
+                <<"     "<<subInterfaceBindingEntry->getConnectionId()
+                <<"       "<<subInterfaceBindingEntry->getSourceInterface()
+                <<"  "<<subInterfaceBindingEntry->getSourceSubInterface()
+                <<"   "<<subInterfaceBindingEntry->getDestinationInterface()
+                <<"   "<<subInterfaceBindingEntry->getDestinationSubInterface()
+                <<"   "<<subInterfaceBindingEntry->getStatus()
+                <<"\n";
+    }
+    EV<<"===================================================================\n";
 }

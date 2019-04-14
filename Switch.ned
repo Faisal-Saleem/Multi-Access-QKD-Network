@@ -60,11 +60,11 @@ module Switch
             macAddress = "QQ:QQ:QQ:QQ:QQ:01";
         }
         q02: SwitchQuantumInterface {
-            @display("p=90,44;is=n");
+            @display("p=122,42;is=n");
             macAddress = "QQ:QQ:QQ:QQ:QQ:02";
         }
         q03: SwitchQuantumInterface {
-            @display("p=355,44;is=n");
+            @display("p=297,40;is=n");
             macAddress = "QQ:QQ:QQ:QQ:QQ:03";
         }
         q04: SwitchQuantumInterface {
@@ -72,16 +72,13 @@ module Switch
             macAddress = "QQ:QQ:QQ:QQ:QQ:04";
         }
         processingQueue: ProcessingQueue {
-            @display("p=82,496");
+            @display("p=210,501");
         }
-        quantumStatesQueue: QuantumStatesQueue {
+        quantumStatesProcessor: QuantumStatesQueue {
             @display("p=217,137");
         }
-        processedQueue: QuantumStatesQueue {
-            @display("p=347,496");
-        }
         switchMemory: SwitchMemory {
-            @display("p=366,334");
+            @display("p=332,340");
         }
     connections:
         fe01 <--> f01.publicChannelCommunication;
@@ -92,26 +89,21 @@ module Switch
         qu02 <--> q02.quantumChannelCommunication;
         qu03 <--> q03.quantumChannelCommunication;
         qu04 <--> q04.quantumChannelCommunication;
-        processingQueue.outToProcessor --> processor.jobsIn;
-        quantumStatesQueue.outToInterface01 --> q01.quantumInterfaceStatus;
-        quantumStatesQueue.outToInterface02 --> q02.quantumInterfaceStatus;
-        quantumStatesQueue.outToInterface03 --> q03.quantumInterfaceStatus;
-        quantumStatesQueue.outToInterface04 --> q04.quantumInterfaceStatus;
-        f01.jobsToProcessor --> processingQueue.inFromInterface01;
-        f02.jobsToProcessor --> processingQueue.inFromInterface02;
-        f03.jobsToProcessor --> processingQueue.inFromInterface03;
-        f04.jobsToProcessor --> processingQueue.inFromInterface04;
-        processedQueue.outToInterface01 --> f01.processedJobs;
-        processedQueue.outToInterface02 --> f02.processedJobs;
-        processedQueue.outToInterface03 --> f03.processedJobs;
-        processedQueue.outToInterface04 --> f04.processedJobs;
-        processor.quantumInterfaceStatusOut --> quantumStatesQueue.inFromProcessor;
-        processor.jobsOut --> processedQueue.inFromProcessor;
-        q01.sub++ <--> q02.sub++;
-        q02.sub++ <--> q03.sub++;
-        q03.sub++ <--> q04.sub++;
-        q01.sub++ <--> q03.sub++;
-        q04.sub++ <--> q02.sub++;
-        q01.sub++ <--> q04.sub++;
         processor.memoryBus <--> switchMemory.processorBus;
+        processor.quantumInterfaceCommunication <--> quantumStatesProcessor.inFromProcessor;
+        processingQueue.processorCommunication <--> processor.publicInterfaceCommunication;
+        f01.processorCommuniation <--> processingQueue.interface01;
+        f02.processorCommuniation <--> processingQueue.interface02;
+        f03.processorCommuniation <--> processingQueue.interface03;
+        f04.processorCommuniation <--> processingQueue.interface04;
+        q01.subInterface1 <--> quantumStatesProcessor.interface01;
+        q02.subInterface2 <--> quantumStatesProcessor.interface02;
+        q03.subInterface3 <--> quantumStatesProcessor.interface03;
+        q04.subInterface4 <--> quantumStatesProcessor.interface04;
+        q01.subInterface2 <--> q02.subInterface1;
+        q02.subInterface3 <--> q03.subInterface2;
+        q03.subInterface4 <--> q04.subInterface3;
+        q01.subInterface4 <--> q04.subInterface1;
+        q02.subInterface4 <--> q04.subInterface2;
+        q03.subInterface1 <--> q01.subInterface3;
 }

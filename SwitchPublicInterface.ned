@@ -22,7 +22,6 @@ simple SwitchPublicInterface
         @display("i=block/classifier;is=l");
     gates:
         inout publicChannelCommunication;
-        input processedJobs;
-        output jobsToProcessor;
+        inout processorCommuniation;
 }
 
