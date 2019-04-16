@@ -22,11 +22,9 @@
 
 Define_Module(SwitchMemory);
 
-cArray macAddressTable("macAddress");
-cArray quantumSubInterfaceBinding("subInterfaceBinding");
-
 void SwitchMemory::initialize(int stage)
 {
+    macEntryIndex = 1;
     if(stage == 0)
     {
         SwitchMemory::prepareQuantumSubInterfaceBindingTable();
@@ -49,10 +47,10 @@ int SwitchMemory::numInitStages() const
 void SwitchMemory::prepareMacAddressTable()
 {
     EV<<"[*] Binding Public and Quantum Channels\n";
-    SwitchMemory::bindInterface(1,"f01","q01",0);
-    SwitchMemory::bindInterface(1,"f02","q02",0);
-    SwitchMemory::bindInterface(1,"f03","q03",0);
-    SwitchMemory::bindInterface(1,"f04","q04",0);
+    SwitchMemory::bindInterface(macEntryIndex++,"f01","q01",0);
+    SwitchMemory::bindInterface(macEntryIndex++,"f02","q02",0);
+    SwitchMemory::bindInterface(macEntryIndex++,"f03","q03",0);
+    SwitchMemory::bindInterface(macEntryIndex++,"f04","q04",0);
     EV<<"[*] Done\n";
 }
 
@@ -144,4 +142,19 @@ void SwitchMemory::printQuantumSubinterfaceBindingTable()
                 <<"\n";
     }
     EV<<"===================================================================\n";
+}
+
+MacTableEntry SwitchMemory::getMacTable(int index)
+{
+    MacTableEntry *macTableEntry = (MacTableEntry *) this->macAddressTable[index];
+    return *macTableEntry;
+}
+void SwitchMemory::addMacTableEntry(MacTableEntry *macTableEntry)
+{
+    this->macAddressTable.add(macTableEntry);
+}
+
+int SwitchMemory::getMacTableSize()
+{
+    return this->macAddressTable.size();
 }

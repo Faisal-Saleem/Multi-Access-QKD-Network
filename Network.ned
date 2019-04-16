@@ -41,10 +41,10 @@ network Network
             macAddress = "AA:AA:AA:AA:AA:04";
         }
     connections:
-        client01.publicInterface <--> switch.fe01;
-        client02.publicInterface <--> switch.fe02;
-        client03.publicInterface <--> switch.fe03;
-        client04.publicInterface <--> switch.fe04;
+        client01.publicInterface <--> {delay=100ms;} <--> switch.fe01;
+        client02.publicInterface <--> {delay=100ms;} <--> switch.fe02;
+        client03.publicInterface <--> {delay=100ms;} <--> switch.fe03;
+        client04.publicInterface <--> {delay=100ms;} <--> switch.fe04;
         client01.quantumInterface <--> switch.qu01;
         client02.quantumInterface <--> switch.qu02;
         client03.quantumInterface <--> switch.qu03;

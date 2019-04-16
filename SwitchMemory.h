@@ -17,14 +17,23 @@
 #define __QUANTUM_KEY_DISTRIBUTION_SWITCHMEMORY_H_
 
 #include <omnetpp.h>
+#include "MacTableEntry_m.h"
 
 using namespace omnetpp;
 
 class SwitchMemory : public cSimpleModule
 {
+  private:
+    cArray macAddressTable;
+    cArray quantumSubInterfaceBinding;
   public:
     void printMacAddressTable();
     void printQuantumSubinterfaceBindingTable();
+    MacTableEntry getMacTable(int index);
+    void addMacTableEntry(MacTableEntry *macTableEntry);
+    int getMacTableSize();
+
+    int macEntryIndex;
   protected:
     virtual void initialize(int stage) override;
     virtual int numInitStages() const override;
