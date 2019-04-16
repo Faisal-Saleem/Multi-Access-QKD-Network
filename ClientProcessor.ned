@@ -21,5 +21,6 @@ simple ClientProcessor
     gates:
         inout publicInterfaceCommunication;
         inout quantumInterfaceCommunication;
+        inout memoryBus;
 }
 

@@ -3,6 +3,7 @@ module Client
 {
     parameters:
         @display("bgb=541,543,#ECFFEC;i=block/telnet;is=n;i2=status/green;bgtt=Quantum Key Distribution Switch");
+        @class(Client);
         string name;
         string macAddress;
     gates:
@@ -11,7 +12,7 @@ module Client
 
     submodules:
         clientPublicInterface: ClientPublicInterface {
-            @display("p=482,503");
+            @display("p=462,474");
         }
         clientQuantumInterface: ClientQuantumInterface {
             @display("p=474,201");
@@ -32,13 +33,16 @@ module Client
             @display("p=64,201");
         }
         clientProcessor: ClientProcessor {
-            @display("p=64,502");
+            @display("p=64,475");
         }
         clientFilterDiagonal: ClientFilterDiagonal {
             @display("p=225,356;t=X");
         }
         clientFilterStraight: ClientFilterStraight {
             @display("p=332,356;t=+");
+        }
+        clientMemory: ClientMemory {
+            @display("p=123,379");
         }
     connections:
         clientPublicInterface.externalCommunication <--> publicInterface;
@@ -57,5 +61,6 @@ module Client
         clientQuantumInterface.flat --> clientFilterStraight.polarizedLightIn;
         clientFilterDiagonal.polarizedLightOut --> quantumStatesGenerator.Diagonal;
         clientFilterStraight.polarizedLightOut --> quantumStatesGenerator.Straight;
+        clientProcessor.memoryBus <--> clientMemory.processorBus;
 }
 

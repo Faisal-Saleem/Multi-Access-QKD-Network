@@ -27,7 +27,8 @@ void SwitchPublicInterface::initialize()
 }
 void SwitchPublicInterface::handleMessage(cMessage *msg)
 {
-
+    msg->addPar("interface").setStringValue(this->getName());
+    send(msg,"processorCommuniation$o");
 }
 
 

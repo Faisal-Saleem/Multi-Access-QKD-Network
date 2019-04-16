@@ -88,7 +88,8 @@ void SwitchMemory::printMacAddressTable()
                 <<"          "
                 <<macTableEntry->getQuantumMacAddress()
                 <<"          "
-                <<macTableEntry->getType()<<"\n";
+                <<macTableEntry->getType()
+                <<"\n";
     }
     EV<<"=============================================================================================\n";
 }

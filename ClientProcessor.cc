@@ -23,19 +23,16 @@ Define_Module(ClientProcessor);
 
 void ClientProcessor::initialize()
 {
-    cPacket *initialDataPacket = new cPacket("data");
-    initialDataPacket->setByteLength(1024);
-    initialDataPacket->addPar(getParentModule()->par("macAddress"));
-
-    //cModule *cmod = this->getParentModule();
-    //cMessage *msg = new cMessage(initialDataPacket);
-    //EV<<"\n\rSRC MAC : "<<getParentModule()->par("macAddress").stringValue()<<"\n\r";
-    //EV<<"\n\rExit Interface :"<<getParentModule()->gate("quantumInterface$o")->str()<<"\n\r";
-    send(initialDataPacket, "quantumInterfaceCommunication$o");
+    cPacket *discoveryPacket = new cPacket("data");
+    discoveryPacket->setByteLength(1024);
+    discoveryPacket->addPar("type").setStringValue("networkDiscovery");
+    discoveryPacket->addPar("macAddress").setStringValue(getParentModule()->par("macAddress"));
+    send(discoveryPacket, "publicInterfaceCommunication$o");
 }
 void ClientProcessor::handleMessage(cMessage *msg)
 {
-    send(msg,"quantumInterfaceCommunication$o");
+    EV<<" Client MAC Address : "<<msg->par("macAddress").stringValue();
+    //send(msg,"quantumInterfaceCommunication$o");
 }
 
 

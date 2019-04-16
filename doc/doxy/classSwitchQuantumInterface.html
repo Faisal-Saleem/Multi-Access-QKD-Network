@@ -123,14 +123,16 @@ Inheritance diagram for SwitchQuantumInterface:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aeb7b8b89618b1e12f20a45a207f4b233"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSwitchQuantumInterface.html#aeb7b8b89618b1e12f20a45a207f4b233">initialize</a> () override</td></tr>
-<tr class="separator:aeb7b8b89618b1e12f20a45a207f4b233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a733d76cb9c511106056f5a7b52fedee7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSwitchQuantumInterface.html#a733d76cb9c511106056f5a7b52fedee7">initialize</a> (int stage) override</td></tr>
+<tr class="separator:a733d76cb9c511106056f5a7b52fedee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85d15aa68e691a056d6d041d3c345a90"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSwitchQuantumInterface.html#a85d15aa68e691a056d6d041d3c345a90">numInitStages</a> () const  override</td></tr>
+<tr class="separator:a85d15aa68e691a056d6d041d3c345a90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac108bfaa59568bb51a3322039574ba89"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSwitchQuantumInterface.html#ac108bfaa59568bb51a3322039574ba89">handleMessage</a> (cMessage *msg) override</td></tr>
 <tr class="separator:ac108bfaa59568bb51a3322039574ba89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="SwitchQuantumInterface_8cc_source.html#l00015">15</a> of file <a class="el" href="SwitchQuantumInterface_8cc_source.html">SwitchQuantumInterface.cc</a>.</p>
+<p>Definition at line <a class="el" href="SwitchQuantumInterface_8cc_source.html#l00016">16</a> of file <a class="el" href="SwitchQuantumInterface_8cc_source.html">SwitchQuantumInterface.cc</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ac108bfaa59568bb51a3322039574ba89"></a>
 <div class="memitem">
@@ -154,11 +156,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="SwitchQuantumInterface_8cc_source.html#l00036">36</a> of file <a class="el" href="SwitchQuantumInterface_8cc_source.html">SwitchQuantumInterface.cc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div></div><!-- fragment -->
+<p>Definition at line <a class="el" href="SwitchQuantumInterface_8cc_source.html#l00026">26</a> of file <a class="el" href="SwitchQuantumInterface_8cc_source.html">SwitchQuantumInterface.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div></div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="aeb7b8b89618b1e12f20a45a207f4b233"></a>
+<a class="anchor" id="a733d76cb9c511106056f5a7b52fedee7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -168,7 +170,8 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void SwitchQuantumInterface::initialize </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>stage</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -179,8 +182,33 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="SwitchQuantumInterface_8cc_source.html#l00024">24</a> of file <a class="el" href="SwitchQuantumInterface_8cc_source.html">SwitchQuantumInterface.cc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="comment">//SwitchInterfaceInit *switchInterface = new SwitchInterfaceInit();</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="comment">//switchInterface-&gt;setMacAddress(this-&gt;par(&quot;macAddress&quot;).stringValue());</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="comment">//EV&lt;&lt;&quot;aslfkjdalsjkdf lkjasdf ljkasdf &quot;&lt;&lt;switchInterface-&gt;getMacAddress();</span></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="comment">//cModule *macAddressTable = getParentModule()-&gt;getSubmodule(&quot;macAddressTable&quot;);</span></div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="comment">//macAddressTable-&gt;par(&quot;interface&quot;).setStringValue(this-&gt;par(parname));</span></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="comment">//macAddressTable-&gt;par(&quot;macAddress&quot;).setStringValue(this-&gt;par(&quot;macAddress&quot;).stringValue());</span></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="comment">//EV&lt;&lt;&quot;Hardware Address&quot;&lt;&lt;par(&quot;macAddress&quot;).stringValue();</span></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div></div><!-- fragment -->
+<p>Definition at line <a class="el" href="SwitchQuantumInterface_8cc_source.html#l00032">32</a> of file <a class="el" href="SwitchQuantumInterface_8cc_source.html">SwitchQuantumInterface.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="comment">/*</span></div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">    if(stage == 2)</span></div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">    {</span></div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">        cModule *targetSwitch = getParentModule()-&gt;getSubmodule(&quot;switchMemory&quot;);</span></div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">        SwitchMemory *switchModule = check_and_cast&lt;SwitchMemory *&gt;(targetSwitch);</span></div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">        switchModule-&gt;printMacAddressTable();</span></div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">    }</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">    */</span></div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a85d15aa68e691a056d6d041d3c345a90"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SwitchQuantumInterface::numInitStages </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="SwitchQuantumInterface_8cc_source.html#l00044">44</a> of file <a class="el" href="SwitchQuantumInterface_8cc_source.html">SwitchQuantumInterface.cc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">return</span> 3;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div></div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

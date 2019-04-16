@@ -27,7 +27,7 @@ void ProcessingQueue::initialize()
 }
 void ProcessingQueue::handleMessage(cMessage *msg)
 {
-
+    send(msg,"processorCommunication$o");
 }
 
 

@@ -27,7 +27,7 @@ void Processor::initialize()
 }
 void Processor::handleMessage(cMessage *msg)
 {
-
+    EV<<" MAC Address Received : "<<msg->par("macAddress").stringValue()<<" FROM Interface : "<<msg->par("interface").stringValue();
 }
 
 

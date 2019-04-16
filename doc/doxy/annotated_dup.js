@@ -14,7 +14,9 @@ var annotated_dup =
     [ "Processor", "classProcessor.html", "classProcessor" ],
     [ "QuantumStatesGenerator", "classQuantumStatesGenerator.html", "classQuantumStatesGenerator" ],
     [ "QuantumStatesQueue", "classQuantumStatesQueue.html", "classQuantumStatesQueue" ],
+    [ "QuantumSubInterfaceBinding", "classQuantumSubInterfaceBinding.html", "classQuantumSubInterfaceBinding" ],
     [ "Switch", "classSwitch.html", "classSwitch" ],
+    [ "SwitchMemory", "classSwitchMemory.html", "classSwitchMemory" ],
     [ "SwitchPublicInterface", "classSwitchPublicInterface.html", "classSwitchPublicInterface" ],
     [ "SwitchQuantumInterface", "classSwitchQuantumInterface.html", "classSwitchQuantumInterface" ]
 ];
