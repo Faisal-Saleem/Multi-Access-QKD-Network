@@ -18,6 +18,7 @@
 
 #include <omnetpp.h>
 #include "MacTableEntry_m.h"
+#include "QuantumSubInterfaceBinding_m.h"
 
 using namespace omnetpp;
 
@@ -27,20 +28,18 @@ class SwitchMemory : public cSimpleModule
     cArray macAddressTable;
     cArray quantumSubInterfaceBinding;
   public:
-    void printMacAddressTable();
-    void printQuantumSubinterfaceBindingTable();
+    int macEntryIndex;
     MacTableEntry getMacTable(int index);
     void addMacTableEntry(MacTableEntry *macTableEntry);
     int getMacTableSize();
 
-    int macEntryIndex;
+    int quantumBindingEntryIndex;
+    QuantumSubInterfaceBinding getQuantumBindingTable(int index);
+    void addQuantumBindingTableEntry(QuantumSubInterfaceBinding *quantumBindingEntry);
+    int getQuantumBindingTableSize();
   protected:
     virtual void initialize(int stage) override;
     virtual int numInitStages() const override;
-    void prepareMacAddressTable();
-    void bindInterface(int identity, std::string interface, std::string quantumInterface, int type);
-    void prepareQuantumSubInterfaceBindingTable();
-    void bindSubInterface(std::string identity, std::string sourceInterface, std::string sourceSubInterface, std::string destinationInterface, std::string destinationSubInterface, int status);
 };
 
 #endif
