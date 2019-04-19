@@ -23,7 +23,6 @@ module Switch
     parameters:
         // Display Paremeters (Color, Grid, Image etc)
         @display("bgb=441,711,#ECFFEC;i=abstract/switch;is=n;i2=status/green;bgtt=Quantum Key Distribution Switch");
-        @class(Switch);
     gates:
         inout fe01;		// FastEthernet 01
         inout fe02;		// FastEthernet 02;
@@ -41,35 +40,27 @@ module Switch
         f01: SwitchPublicInterface {
             //	FastEthernet01 Interface
             @display("p=51,657;is=n");
-            macAddress = "AA:BB:CC:DD:EE:01";
         }
         f02: SwitchPublicInterface {
             @display("p=169,657;is=n");
-            macAddress = "AA:BB:CC:DD:EE:02";
         }
         f03: SwitchPublicInterface {
             @display("p=278,657;is=n");
-            macAddress = "AA:BB:CC:DD:EE:03";
         }
         f04: SwitchPublicInterface {
             @display("p=388,657;is=n");
-            macAddress = "AA:BB:CC:DD:EE:04";
         }
         q01: SwitchQuantumInterface {
             @display("p=43,93;is=n");
-            macAddress = "QQ:QQ:QQ:QQ:QQ:01";
         }
         q02: SwitchQuantumInterface {
             @display("p=122,42;is=n");
-            macAddress = "QQ:QQ:QQ:QQ:QQ:02";
         }
         q03: SwitchQuantumInterface {
             @display("p=297,40;is=n");
-            macAddress = "QQ:QQ:QQ:QQ:QQ:03";
         }
         q04: SwitchQuantumInterface {
             @display("p=400,93;is=n");
-            macAddress = "QQ:QQ:QQ:QQ:QQ:04";
         }
         processingQueue: ProcessingQueue {
             @display("p=210,501");

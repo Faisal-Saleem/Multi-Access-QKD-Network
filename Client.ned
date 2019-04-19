@@ -4,8 +4,7 @@ module Client
     parameters:
         @display("bgb=541,543,#ECFFEC;i=block/telnet;is=n;i2=status/green;bgtt=Quantum Key Distribution Switch");
         @class(Client);
-        string name;
-        string macAddress;
+        string hostname;
     gates:
         inout publicInterface;
         inout quantumInterface;

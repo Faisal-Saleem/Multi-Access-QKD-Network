@@ -12,6 +12,7 @@
 #include "SwitchMemory.h"
 #include "MacTableEntry_m.h"
 #include "QuantumSubInterfaceBinding_m.h"
+#include "ArpTableEntry_m.h"
 
 using namespace omnetpp;
 
@@ -30,10 +31,10 @@ protected:
     void bindInterface(int identity, std::string interface, std::string quantumInterface, int type);
     void prepareQuantumSubInterfaceBindingTable();
     void bindSubInterface(std::string identity, std::string sourceInterface, std::string sourceSubInterface, std::string destinationInterface, std::string destinationSubInterface, int status);
-
 public:
     void printMacAddressTable();
     void printQuantumSubinterfaceBindingTable();
+    void printArpTable();
 };
 
 Define_Module(Processor);
@@ -45,6 +46,7 @@ void Processor::initialize(int stage)
         tModule = this->getParentModule()->getSubmodule("switchMemory");
         switchMemory = check_and_cast<SwitchMemory *>(tModule);
         switchMemory->macEntryIndex = 1;
+        switchMemory->arpEntryIndex = 1;
 
         Processor::prepareQuantumSubInterfaceBindingTable();
         EV<<"[*] Prepairing Quantum Sub Interface Binding Table\n";
@@ -73,12 +75,24 @@ void Processor::handleMessage(cMessage *msg)
     macTableEntry->setQuantumMacAddress("                 ");
     macTableEntry->setType(1);
     switchMemory->addMacTableEntry(macTableEntry);
+
+    ArpTableEntry *arpTableEntry = new ArpTableEntry();
+    arpTableEntry->setIdentity(switchMemory->arpEntryIndex++);
+    arpTableEntry->setProtocol("Internet");
+    arpTableEntry->setIpAddress(msg->par("ipAddress").stringValue());
+    arpTableEntry->setAge("10");
+    arpTableEntry->setMacAddress(msg->par("macAddress").stringValue());
+    arpTableEntry->setType(0);
+    arpTableEntry->setInterface(msg->par("interface").stringValue());
+    switchMemory->addArpTableEntry(arpTableEntry);
+
     delete msg;
 }
 
 void Processor::finish()
 {
     Processor::printMacAddressTable();
+    Processor::printArpTable();
 }
 
 void Processor::prepareMacAddressTable()
@@ -180,6 +194,31 @@ void Processor::printQuantumSubinterfaceBindingTable()
     EV<<"===================================================================\n";
 }
 
-
+void Processor::printArpTable()
+{
+    EV<<"[*] Arp Table\n";
+        EV<<"=============================================================================================\n";
+        EV<<"  Identity    Protocol        Address      Age(min)    Hardware Addr    Type   Interface    \n";
+        EV<<"=============================================================================================\n";
+        for(int i=0; i<switchMemory->getArpTableSize(); i++)
+        {
+            EV<<"      "
+                    <<switchMemory->getArpTableEntry(i).getIdentity()
+                    <<"       "
+                    <<switchMemory->getArpTableEntry(i).getProtocol()
+                    <<"     "
+                    <<switchMemory->getArpTableEntry(i).getIpAddress()
+                    <<"      "
+                    <<switchMemory->getArpTableEntry(i).getAge()
+                    <<"     "
+                    <<switchMemory->getArpTableEntry(i).getMacAddress()
+                    <<"    "
+                    <<switchMemory->getArpTableEntry(i).getType()
+                    <<"       "
+                    <<switchMemory->getArpTableEntry(i).getInterface()
+                    <<"\n";
+        }
+        EV<<"=============================================================================================\n";
+}
 
 

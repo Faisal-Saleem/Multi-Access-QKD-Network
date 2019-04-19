@@ -17,8 +17,11 @@
 #define __QUANTUM_KEY_DISTRIBUTION_SWITCHMEMORY_H_
 
 #include <omnetpp.h>
+#include <ctime>
 #include "MacTableEntry_m.h"
 #include "QuantumSubInterfaceBinding_m.h"
+#include "SessionStateEntry_m.h"
+#include "ArpTableEntry_m.h"
 
 using namespace omnetpp;
 
@@ -27,16 +30,32 @@ class SwitchMemory : public cSimpleModule
   private:
     cArray macAddressTable;
     cArray quantumSubInterfaceBinding;
+    cArray arpTable;
+    cArray sessionStateTable;
   public:
+    // MAC Address Table Methods
     int macEntryIndex;
     MacTableEntry getMacTable(int index);
     void addMacTableEntry(MacTableEntry *macTableEntry);
     int getMacTableSize();
 
+    // Quantum Binding Table Methods
     int quantumBindingEntryIndex;
     QuantumSubInterfaceBinding getQuantumBindingTable(int index);
     void addQuantumBindingTableEntry(QuantumSubInterfaceBinding *quantumBindingEntry);
     int getQuantumBindingTableSize();
+
+    // ARP Table
+    int arpEntryIndex;
+    ArpTableEntry getArpTableEntry(int index);
+    void addArpTableEntry(ArpTableEntry *arpTableEntry);
+    int getArpTableSize();
+
+    // Session State Table Methods;
+    int sessionsStateEntryIndex;
+    SessionStateEntry getsessionStateTableEntry(int index);
+    void addSessionStateTableEntry(SessionStateEntry *sessionStateEntry);
+    int getSessionStateTableSize();
   protected:
     virtual void initialize(int stage) override;
     virtual int numInitStages() const override;

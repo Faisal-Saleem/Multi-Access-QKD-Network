@@ -26,7 +26,8 @@ void ClientProcessor::initialize()
     cPacket *discoveryPacket = new cPacket("data");
     discoveryPacket->setByteLength(1024);
     discoveryPacket->addPar("type").setStringValue("networkDiscovery");
-    discoveryPacket->addPar("macAddress").setStringValue(getParentModule()->par("macAddress"));
+    discoveryPacket->addPar("macAddress").setStringValue(this->getParentModule()->getSubmodule("clientPublicInterface")->par("macAddress"));
+    discoveryPacket->addPar("ipAddress").setStringValue(this->getParentModule()->getSubmodule("clientPublicInterface")->par("ipAddress"));
     send(discoveryPacket, "publicInterfaceCommunication$o");
 }
 void ClientProcessor::handleMessage(cMessage *msg)

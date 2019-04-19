@@ -13,12 +13,13 @@
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 // 
 
-#include "SwitchMemory.h"
 #include <string.h>
 #include <bitset>
 #include <iostream>
+#include "SwitchMemory.h"
 #include "MacTableEntry_m.h"
 #include "QuantumSubInterfaceBinding_m.h"
+#include "SessionStateEntry_m.h"
 
 Define_Module(SwitchMemory);
 
@@ -61,4 +62,36 @@ void SwitchMemory::addQuantumBindingTableEntry(QuantumSubInterfaceBinding *quant
 int SwitchMemory::getQuantumBindingTableSize()
 {
     return this->quantumSubInterfaceBinding.size();
+}
+
+SessionStateEntry SwitchMemory::getsessionStateTableEntry(int index)
+{
+    SessionStateEntry *sessionStateEntry = (SessionStateEntry *) this->sessionStateTable[index];
+    return *sessionStateEntry;
+}
+
+void SwitchMemory::addSessionStateTableEntry(SessionStateEntry *sessionStateEntry)
+{
+    this->sessionStateTable.add(sessionStateEntry);
+}
+
+int SwitchMemory::getSessionStateTableSize()
+{
+    return this->sessionStateTable.size();
+}
+
+ArpTableEntry SwitchMemory::getArpTableEntry(int index)
+{
+    ArpTableEntry *arpTableEntry = (ArpTableEntry *) this->arpTable[index];
+    return *arpTableEntry;
+}
+
+void SwitchMemory::addArpTableEntry(ArpTableEntry *arpTableEntry)
+{
+    this->arpTable.add(arpTableEntry);
+}
+
+int SwitchMemory::getArpTableSize()
+{
+    return this->arpTable.size();
 }

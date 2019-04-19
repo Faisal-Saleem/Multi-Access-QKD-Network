@@ -21,24 +21,16 @@ network Network
             @display("p=203,133");
         }
         client01: Client {
-            @display("p=42,41");
-            name = "Cliant 01";
-            macAddress = "AA:AA:AA:AA:AA:01";
+            @display("p=42,41");      	
         }
         client02: Client {
             @display("p=44,206");
-            name = "Cliant 02";
-            macAddress = "AA:AA:AA:AA:AA:02";
         }
         client03: Client {
             @display("p=339,42");
-            name = "Cliant 03";
-            macAddress = "AA:AA:AA:AA:AA:03";
         }
         client04: Client {
             @display("p=344,213");
-            name = "Cliant 04";
-            macAddress = "AA:AA:AA:AA:AA:04";
         }
     connections:
         client01.publicInterface <--> {delay=100ms;} <--> switch.fe01;

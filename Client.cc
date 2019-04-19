@@ -34,7 +34,7 @@ void Client::initialize(int stage)
         MacTableEntry *macTableEntry = new MacTableEntry();
         macTableEntry->setIdentity(1);
         macTableEntry->setInterface(this->getSubmodule("clientPublicInterface")->getName());
-        macTableEntry->setMacAddress(this->par("macAddress").stringValue());
+        macTableEntry->setMacAddress(this->getSubmodule("clientPublicInterface")->par("macAddress").stringValue());
         macTableEntry->setQuantumInterfaceId(this->getSubmodule("clientQuantumInterface")->getName());
         macTableEntry->setType(0);
         clientMemory->addMacTableEntry(macTableEntry);

@@ -18,7 +18,10 @@
 simple ClientPublicInterface
 {
     parameters:
-
+		string macAddress;
+        string ipAddress;
+        string subNetMask;
+        string gatewayAddress;
         @display("i=block/ifcard");
     gates:
         inout externalCommunication;
