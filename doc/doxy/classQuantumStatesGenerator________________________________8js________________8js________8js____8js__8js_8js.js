@@ -1,4 +1,0 @@
-var classQuantumStatesGenerator________________________________8js________________8js________8js____8js__8js_8js =
-[
-    [ "classQuantumStatesGenerator________________8js________8js____8js__8js_8js", "classQuantumStatesGenerator________________________________8js________________8js________8js____8js__8js_8js.html#a1a80f11a8c379c730548da22abcc347e", null ]
-];

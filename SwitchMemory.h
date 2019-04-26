@@ -56,6 +56,7 @@ class SwitchMemory : public cSimpleModule
     SessionStateEntry getsessionStateTableEntry(int index);
     void addSessionStateTableEntry(SessionStateEntry *sessionStateEntry);
     int getSessionStateTableSize();
+
   protected:
     virtual void initialize(int stage) override;
     virtual int numInitStages() const override;

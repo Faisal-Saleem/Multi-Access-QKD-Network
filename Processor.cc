@@ -31,6 +31,7 @@ protected:
     void bindInterface(int identity, std::string interface, std::string quantumInterface, int type);
     void prepareQuantumSubInterfaceBindingTable();
     void bindSubInterface(std::string identity, std::string sourceInterface, std::string sourceSubInterface, std::string destinationInterface, std::string destinationSubInterface, int status);
+
 public:
     void printMacAddressTable();
     void printQuantumSubinterfaceBindingTable();
@@ -67,25 +68,32 @@ int Processor::numInitStages() const
 
 void Processor::handleMessage(cMessage *msg)
 {
-    MacTableEntry *macTableEntry = new MacTableEntry();
-    macTableEntry->setIdentity(switchMemory->macEntryIndex++);
-    macTableEntry->setInterface(msg->par("interface").stringValue());
-    macTableEntry->setMacAddress(msg->par("macAddress").stringValue());
-    macTableEntry->setQuantumInterfaceId("   ");
-    macTableEntry->setQuantumMacAddress("                 ");
-    macTableEntry->setType(1);
-    switchMemory->addMacTableEntry(macTableEntry);
+    if(strcmp("",msg->par("type").stringValue()) != 0)
+    {
+        MacTableEntry *macTableEntry = new MacTableEntry();
+        macTableEntry->setIdentity(switchMemory->macEntryIndex++);
+        macTableEntry->setInterface(msg->par("interface").stringValue());
+        macTableEntry->setMacAddress(msg->par("macAddress").stringValue());
+        macTableEntry->setQuantumInterfaceId("   ");
+        macTableEntry->setQuantumMacAddress("                 ");
+        macTableEntry->setType(1);
+        switchMemory->addMacTableEntry(macTableEntry);
 
-    ArpTableEntry *arpTableEntry = new ArpTableEntry();
-    arpTableEntry->setIdentity(switchMemory->arpEntryIndex++);
-    arpTableEntry->setProtocol("Internet");
-    arpTableEntry->setIpAddress(msg->par("ipAddress").stringValue());
-    arpTableEntry->setAge("10");
-    arpTableEntry->setMacAddress(msg->par("macAddress").stringValue());
-    arpTableEntry->setType(0);
-    arpTableEntry->setInterface(msg->par("interface").stringValue());
-    switchMemory->addArpTableEntry(arpTableEntry);
-
+        ArpTableEntry *arpTableEntry = new ArpTableEntry();
+        arpTableEntry->setIdentity(switchMemory->arpEntryIndex++);
+        arpTableEntry->setProtocol("Internet");
+        arpTableEntry->setIpAddress(msg->par("ipAddress").stringValue());
+        arpTableEntry->setAge("10");
+        arpTableEntry->setMacAddress(msg->par("macAddress").stringValue());
+        arpTableEntry->setType(0);
+        arpTableEntry->setInterface(msg->par("interface").stringValue());
+        switchMemory->addArpTableEntry(arpTableEntry);
+    }else if (strcmp("",msg->par("initQkd").stringValue()) != 0)
+    {
+        SessionStateEntry *sessionStateEntry = new SessionStateEntry();
+        sessionStateEntry->setSessionId(switchMemory->sessionsStateEntryIndex++);
+        //sessionStateEntry->setSrcQMac(srcQMac)
+    }
     delete msg;
 }
 

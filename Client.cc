@@ -9,6 +9,7 @@
 #include <bitset>
 #include <iostream>
 #include "ClientMemory.h"
+#include "ClientProcessor.h"
 
 using namespace omnetpp;
 
@@ -44,7 +45,7 @@ void Client::initialize(int stage)
 
 int Client::numInitStages() const
 {
-    return 2;
+    return 3;
 }
 
 void Client::printMacTable()

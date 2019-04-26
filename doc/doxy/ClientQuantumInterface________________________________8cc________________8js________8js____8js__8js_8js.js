@@ -1,4 +1,0 @@
-var ClientQuantumInterface________________________________8cc________________8js________8js____8js__8js_8js =
-[
-    [ "ClientQuantumInterface________________8cc________8js____8js__8js_8js", "ClientQuantumInterface________________________________8cc________________8js________8js____8js__8js_8js.html#ae99963ec12f79cdf68ddf933765437b0", null ]
-];

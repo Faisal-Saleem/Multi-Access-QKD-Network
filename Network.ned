@@ -16,6 +16,8 @@ network Network
 {
     parameters:
         @display("bgb=402,278,#FFE4CA;i=block/network;i2=status/connect;bgl=2");
+        string source;
+        string destination;
     submodules:
         switch: Switch {
             @display("p=203,133");

@@ -9,36 +9,42 @@
 #include <omnetpp.h>
 #include <bitset>
 #include <iostream>
+#include "ClientProcessor.h"
 
 using namespace omnetpp;
 
-class ClientProcessor : public cSimpleModule
-{
-protected:
-    virtual void initialize() override;
-    virtual void handleMessage(cMessage *msg) override;
-};
-
 Define_Module(ClientProcessor);
 
-void ClientProcessor::initialize()
+void ClientProcessor::initialize(int stage)
 {
-    cPacket *discoveryPacket = new cPacket("data");
-    discoveryPacket->setByteLength(1024);
-    discoveryPacket->addPar("type").setStringValue("networkDiscovery");
-    discoveryPacket->addPar("macAddress").setStringValue(this->getParentModule()->getSubmodule("clientPublicInterface")->par("macAddress"));
-    discoveryPacket->addPar("ipAddress").setStringValue(this->getParentModule()->getSubmodule("clientPublicInterface")->par("ipAddress"));
-    send(discoveryPacket, "publicInterfaceCommunication$o");
+    if(stage == 1)
+    {
+        cPacket *discoveryPacket = new cPacket("data");
+        discoveryPacket->setByteLength(1024);
+        discoveryPacket->addPar("type").setStringValue("networkDiscovery");
+        discoveryPacket->addPar("macAddress").setStringValue(this->getParentModule()->getSubmodule("clientPublicInterface")->par("macAddress"));
+        discoveryPacket->addPar("ipAddress").setStringValue(this->getParentModule()->getSubmodule("clientPublicInterface")->par("ipAddress"));
+        send(discoveryPacket, "publicInterfaceCommunication$o");
+    } else if(stage == 2)
+    {
+        if(strcmp(this->getParentModule()->getParentModule()->par("source"), this->getParentModule()->getName()) == 0)
+        {
+            cPacket *discoveryPacket = new cPacket("initQkd");
+            discoveryPacket->setByteLength(1024);
+            discoveryPacket->addPar("type").setStringValue("initQkd");
+            discoveryPacket->addPar("srcMAC").setStringValue(this->getParentModule()->getParentModule()->getSubmodule(this->getParentModule()->getParentModule()->par("source").stringValue())->getSubmodule("clientPublicInterface")->par("macAddress").stringValue());
+            discoveryPacket->addPar("desMAC").setStringValue(this->getParentModule()->getParentModule()->getSubmodule(this->getParentModule()->getParentModule()->par("destination").stringValue())->getSubmodule("clientPublicInterface")->par("macAddress").stringValue());
+            send(discoveryPacket, "publicInterfaceCommunication$o");
+        }
+    }
 }
+
+int ClientProcessor::numInitStages() const
+{
+    return 3;
+}
+
 void ClientProcessor::handleMessage(cMessage *msg)
 {
-    EV<<" Client MAC Address : "<<msg->par("macAddress").stringValue();
-    //send(msg,"quantumInterfaceCommunication$o");
+
 }
-
-
-
-
-
-
-

@@ -1,4 +1,0 @@
-var classClientFilterDR________________________________8js________________8js________8js____8js__8js_8js =
-[
-    [ "classClientFilterDR________________8js________8js____8js__8js_8js", "classClientFilterDR________________________________8js________________8js________8js____8js__8js_8js.html#a3d63d17404cb6cc155501f8138358eed", null ]
-];
