@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['switch',['Switch',['../classSwitch.html',1,'']]],
-  ['switchmemory',['SwitchMemory',['../classSwitchMemory.html',1,'']]],
-  ['switchpublicinterface',['SwitchPublicInterface',['../classSwitchPublicInterface.html',1,'']]],
-  ['switchquantuminterface',['SwitchQuantumInterface',['../classSwitchQuantumInterface.html',1,'']]]
+  ['quantumstatesgenerator',['QuantumStatesGenerator',['../classQuantumStatesGenerator.html',1,'']]],
+  ['quantumstatesqueue',['QuantumStatesQueue',['../classQuantumStatesQueue.html',1,'']]],
+  ['quantumsubinterfacebinding',['QuantumSubInterfaceBinding',['../classQuantumSubInterfaceBinding.html',1,'']]]
 ];

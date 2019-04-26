@@ -1,11 +1,14 @@
 var annotated_dup =
 [
+    [ "ArpTableEntry", "classArpTableEntry.html", "classArpTableEntry" ],
+    [ "Client", "classClient.html", "classClient" ],
     [ "ClientFilterDiagonal", "classClientFilterDiagonal.html", "classClientFilterDiagonal" ],
     [ "ClientFilterDL", "classClientFilterDL.html", "classClientFilterDL" ],
     [ "ClientFilterDR", "classClientFilterDR.html", "classClientFilterDR" ],
     [ "ClientFilterH", "classClientFilterH.html", "classClientFilterH" ],
     [ "ClientFilterStraight", "classClientFilterStraight.html", "classClientFilterStraight" ],
     [ "ClientFilterV", "classClientFilterV.html", "classClientFilterV" ],
+    [ "ClientMemory", "classClientMemory.html", "classClientMemory" ],
     [ "ClientProcessor", "classClientProcessor.html", "classClientProcessor" ],
     [ "ClientPublicInterface", "classClientPublicInterface.html", "classClientPublicInterface" ],
     [ "ClientQuantumInterface", "classClientQuantumInterface.html", "classClientQuantumInterface" ],
@@ -15,7 +18,7 @@ var annotated_dup =
     [ "QuantumStatesGenerator", "classQuantumStatesGenerator.html", "classQuantumStatesGenerator" ],
     [ "QuantumStatesQueue", "classQuantumStatesQueue.html", "classQuantumStatesQueue" ],
     [ "QuantumSubInterfaceBinding", "classQuantumSubInterfaceBinding.html", "classQuantumSubInterfaceBinding" ],
-    [ "Switch", "classSwitch.html", "classSwitch" ],
+    [ "SessionStateEntry", "classSessionStateEntry.html", "classSessionStateEntry" ],
     [ "SwitchMemory", "classSwitchMemory.html", "classSwitchMemory" ],
     [ "SwitchPublicInterface", "classSwitchPublicInterface.html", "classSwitchPublicInterface" ],
     [ "SwitchQuantumInterface", "classSwitchQuantumInterface.html", "classSwitchQuantumInterface" ]

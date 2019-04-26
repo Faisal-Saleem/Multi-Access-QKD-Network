@@ -29,15 +29,15 @@
 {
     </span><span style="color: #800000; font-weight: bold; ">parameters</span><span style="color: #000000; ">:
         </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;bgb=541,543,#ECFFEC;i=block/telnet;is=n;i2=status/green;bgtt=Quantum Key Distribution Switch&quot;</span><span style="color: #000000; ">);
-        </span><span style="color: #000080; font-weight: bold; ">string</span><span style="color: #000000; "> </span><span style="color: #000000; ">name</span><span style="color: #000000; ">;
-        </span><span style="color: #000080; font-weight: bold; ">string</span><span style="color: #000000; "> </span><span style="color: #000000; ">macAddress</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; font-weight: bold; ">@class</span><span style="color: #000000; ">(</span><span style="color: #000000; ">Client</span><span style="color: #000000; ">);
+        </span><span style="color: #000080; font-weight: bold; ">string</span><span style="color: #000000; "> </span><span style="color: #000000; ">hostname</span><span style="color: #000000; ">;
     </span><span style="color: #800000; font-weight: bold; ">gates</span><span style="color: #000000; ">:
         </span><span style="color: #000080; font-weight: bold; ">inout</span><span style="color: #000000; "> </span><span style="color: #000000; ">publicInterface</span><span style="color: #000000; ">;
         </span><span style="color: #000080; font-weight: bold; ">inout</span><span style="color: #000000; "> </span><span style="color: #000000; ">quantumInterface</span><span style="color: #000000; ">;
 
     </span><span style="color: #800000; font-weight: bold; ">submodules</span><span style="color: #000000; ">:
         </span><span style="color: #000000; ">clientPublicInterface</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ClientPublicInterface</span><span style="color: #000000; "> {
-            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=482,503&quot;</span><span style="color: #000000; ">);
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=462,474&quot;</span><span style="color: #000000; ">);
         }
         </span><span style="color: #000000; ">clientQuantumInterface</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ClientQuantumInterface</span><span style="color: #000000; "> {
             </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=474,201&quot;</span><span style="color: #000000; ">);
@@ -58,13 +58,16 @@
             </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=64,201&quot;</span><span style="color: #000000; ">);
         }
         </span><span style="color: #000000; ">clientProcessor</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ClientProcessor</span><span style="color: #000000; "> {
-            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=64,502&quot;</span><span style="color: #000000; ">);
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=64,475&quot;</span><span style="color: #000000; ">);
         }
         </span><span style="color: #000000; ">clientFilterDiagonal</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ClientFilterDiagonal</span><span style="color: #000000; "> {
             </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=225,356;t=X&quot;</span><span style="color: #000000; ">);
         }
         </span><span style="color: #000000; ">clientFilterStraight</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ClientFilterStraight</span><span style="color: #000000; "> {
             </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=332,356;t=+&quot;</span><span style="color: #000000; ">);
+        }
+        </span><span style="color: #000000; ">clientMemory</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ClientMemory</span><span style="color: #000000; "> {
+            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=123,379&quot;</span><span style="color: #000000; ">);
         }
     </span><span style="color: #800000; font-weight: bold; ">connections</span><span style="color: #000000; ">:
         </span><span style="color: #000000; ">clientPublicInterface</span><span style="color: #000000; ">.</span><span style="color: #000000; ">externalCommunication</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">publicInterface</span><span style="color: #000000; ">;
@@ -83,6 +86,7 @@
         </span><span style="color: #000000; ">clientQuantumInterface</span><span style="color: #000000; ">.</span><span style="color: #000000; ">flat</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">clientFilterStraight</span><span style="color: #000000; ">.</span><span style="color: #000000; ">polarizedLightIn</span><span style="color: #000000; ">;
         </span><span style="color: #000000; ">clientFilterDiagonal</span><span style="color: #000000; ">.</span><span style="color: #000000; ">polarizedLightOut</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">quantumStatesGenerator</span><span style="color: #000000; ">.</span><span style="color: #000000; ">Diagonal</span><span style="color: #000000; ">;
         </span><span style="color: #000000; ">clientFilterStraight</span><span style="color: #000000; ">.</span><span style="color: #000000; ">polarizedLightOut</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">quantumStatesGenerator</span><span style="color: #000000; ">.</span><span style="color: #000000; ">Straight</span><span style="color: #000000; ">;
+        </span><span style="color: #000000; ">clientProcessor</span><span style="color: #000000; ">.</span><span style="color: #000000; ">memoryBus</span><span style="color: #000000; "> </span><span style="color: #800000; font-weight: bold; ">&lt;--&gt;</span><span style="color: #000000; "> </span><span style="color: #000000; ">clientMemory</span><span style="color: #000000; ">.</span><span style="color: #000000; ">processorBus</span><span style="color: #000000; ">;
 }
 
 </span></pre>

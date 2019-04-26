@@ -1,11 +1,6 @@
 var searchData=
 [
-  ['p',['p',['../jquery_8js.html#a2335e57f79b6acfb6de59c235dc8a83e',1,'jquery.js']]],
-  ['parsimpack',['parsimPack',['../classMacTableEntry.html#a1b864393c545134962e6dca177aa9e40',1,'MacTableEntry::parsimPack()'],['../classQuantumSubInterfaceBinding.html#a5ec380f06d7c190380b5d7ec22b7f1d3',1,'QuantumSubInterfaceBinding::parsimPack()']]],
-  ['parsimunpack',['parsimUnpack',['../classMacTableEntry.html#aef3ccc2ae2418e8f7edf595fe69dc3a1',1,'MacTableEntry::parsimUnpack()'],['../classQuantumSubInterfaceBinding.html#af1b58a5d286a4f6a270cea27b24d1064',1,'QuantumSubInterfaceBinding::parsimUnpack()']]],
-  ['pathname',['pathName',['../navtree_8js.html#a364b3f4132309fa9aae78585cf2cb772',1,'navtree.js']]],
-  ['preparemacaddresstable',['prepareMacAddressTable',['../classSwitchMemory.html#a1f8a693a5cba5c589f84632a98fa2b99',1,'SwitchMemory']]],
-  ['preparequantumsubinterfacebindingtable',['prepareQuantumSubInterfaceBindingTable',['../classSwitchMemory.html#af189338bbb1e2764279a45cefa7e3724',1,'SwitchMemory']]],
-  ['printmacaddresstable',['printMacAddressTable',['../classSwitchMemory.html#a24dcb0a1be4dea3cdda0274094d12ad0',1,'SwitchMemory']]],
-  ['printquantumsubinterfacebindingtable',['printQuantumSubinterfaceBindingTable',['../classSwitchMemory.html#aa6006174fd7178da71d17bf9ad1a099e',1,'SwitchMemory']]]
+  ['navto',['navTo',['../navtree_8js.html#a21beb601032fff375100a907f32129a5',1,'navtree.js']]],
+  ['newnode',['newNode',['../navtree_8js.html#aa2418b16159e9502e990f97ea6ec26c8',1,'navtree.js']]],
+  ['numinitstages',['numInitStages',['../classClient.html#a556e1fd9bb5b9f8e1f587dbd41dc0188',1,'Client::numInitStages()'],['../classProcessor.html#a6acf5c86cccea89ac907292765288414',1,'Processor::numInitStages()'],['../classSwitchMemory.html#a7fdb8460e0907709be24ba6f7b1fffa1',1,'SwitchMemory::numInitStages()'],['../classSwitchQuantumInterface.html#a85d15aa68e691a056d6d041d3c345a90',1,'SwitchQuantumInterface::numInitStages()']]]
 ];

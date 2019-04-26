@@ -49,7 +49,6 @@
 </span><span style="color: #000000; ">    </span><span style="color: #800000; font-weight: bold; ">parameters</span><span style="color: #000000; ">:
         </span><span style="color: #808080; font-style: italic; ">// Display Paremeters (Color, Grid, Image etc)
 </span><span style="color: #000000; ">        </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;bgb=441,711,#ECFFEC;i=abstract/switch;is=n;i2=status/green;bgtt=Quantum Key Distribution Switch&quot;</span><span style="color: #000000; ">);
-        </span><span style="color: #000000; font-weight: bold; ">@class</span><span style="color: #000000; ">(</span><span style="color: #000000; ">Switch</span><span style="color: #000000; ">);
     </span><span style="color: #800000; font-weight: bold; ">gates</span><span style="color: #000000; ">:
         </span><span style="color: #000080; font-weight: bold; ">inout</span><span style="color: #000000; "> </span><span style="color: #000000; ">fe01</span><span style="color: #000000; ">;		</span><span style="color: #808080; font-style: italic; ">// FastEthernet 01
 </span><span style="color: #000000; ">        </span><span style="color: #000080; font-weight: bold; ">inout</span><span style="color: #000000; "> </span><span style="color: #000000; ">fe02</span><span style="color: #000000; ">;		</span><span style="color: #808080; font-style: italic; ">// FastEthernet 02;
@@ -67,35 +66,27 @@
         </span><span style="color: #000000; ">f01</span><span style="color: #000000; ">: </span><span style="color: #000000; ">SwitchPublicInterface</span><span style="color: #000000; "> {
             </span><span style="color: #808080; font-style: italic; ">//	FastEthernet01 Interface
 </span><span style="color: #000000; ">            </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=51,657;is=n&quot;</span><span style="color: #000000; ">);
-            </span><span style="color: #000000; ">macAddress</span><span style="color: #000000; "> = </span><span style="color: #008000; ">&quot;AA:BB:CC:DD:EE:01&quot;</span><span style="color: #000000; ">;
         }
         </span><span style="color: #000000; ">f02</span><span style="color: #000000; ">: </span><span style="color: #000000; ">SwitchPublicInterface</span><span style="color: #000000; "> {
             </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=169,657;is=n&quot;</span><span style="color: #000000; ">);
-            </span><span style="color: #000000; ">macAddress</span><span style="color: #000000; "> = </span><span style="color: #008000; ">&quot;AA:BB:CC:DD:EE:02&quot;</span><span style="color: #000000; ">;
         }
         </span><span style="color: #000000; ">f03</span><span style="color: #000000; ">: </span><span style="color: #000000; ">SwitchPublicInterface</span><span style="color: #000000; "> {
             </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=278,657;is=n&quot;</span><span style="color: #000000; ">);
-            </span><span style="color: #000000; ">macAddress</span><span style="color: #000000; "> = </span><span style="color: #008000; ">&quot;AA:BB:CC:DD:EE:03&quot;</span><span style="color: #000000; ">;
         }
         </span><span style="color: #000000; ">f04</span><span style="color: #000000; ">: </span><span style="color: #000000; ">SwitchPublicInterface</span><span style="color: #000000; "> {
             </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=388,657;is=n&quot;</span><span style="color: #000000; ">);
-            </span><span style="color: #000000; ">macAddress</span><span style="color: #000000; "> = </span><span style="color: #008000; ">&quot;AA:BB:CC:DD:EE:04&quot;</span><span style="color: #000000; ">;
         }
         </span><span style="color: #000000; ">q01</span><span style="color: #000000; ">: </span><span style="color: #000000; ">SwitchQuantumInterface</span><span style="color: #000000; "> {
             </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=43,93;is=n&quot;</span><span style="color: #000000; ">);
-            </span><span style="color: #000000; ">macAddress</span><span style="color: #000000; "> = </span><span style="color: #008000; ">&quot;QQ:QQ:QQ:QQ:QQ:01&quot;</span><span style="color: #000000; ">;
         }
         </span><span style="color: #000000; ">q02</span><span style="color: #000000; ">: </span><span style="color: #000000; ">SwitchQuantumInterface</span><span style="color: #000000; "> {
             </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=122,42;is=n&quot;</span><span style="color: #000000; ">);
-            </span><span style="color: #000000; ">macAddress</span><span style="color: #000000; "> = </span><span style="color: #008000; ">&quot;QQ:QQ:QQ:QQ:QQ:02&quot;</span><span style="color: #000000; ">;
         }
         </span><span style="color: #000000; ">q03</span><span style="color: #000000; ">: </span><span style="color: #000000; ">SwitchQuantumInterface</span><span style="color: #000000; "> {
             </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=297,40;is=n&quot;</span><span style="color: #000000; ">);
-            </span><span style="color: #000000; ">macAddress</span><span style="color: #000000; "> = </span><span style="color: #008000; ">&quot;QQ:QQ:QQ:QQ:QQ:03&quot;</span><span style="color: #000000; ">;
         }
         </span><span style="color: #000000; ">q04</span><span style="color: #000000; ">: </span><span style="color: #000000; ">SwitchQuantumInterface</span><span style="color: #000000; "> {
             </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=400,93;is=n&quot;</span><span style="color: #000000; ">);
-            </span><span style="color: #000000; ">macAddress</span><span style="color: #000000; "> = </span><span style="color: #008000; ">&quot;QQ:QQ:QQ:QQ:QQ:04&quot;</span><span style="color: #000000; ">;
         }
         </span><span style="color: #000000; ">processingQueue</span><span style="color: #000000; ">: </span><span style="color: #000000; ">ProcessingQueue</span><span style="color: #000000; "> {
             </span><span style="color: #000000; font-weight: bold; ">@display</span><span style="color: #000000; ">(</span><span style="color: #008000; ">&quot;p=210,501&quot;</span><span style="color: #000000; ">);

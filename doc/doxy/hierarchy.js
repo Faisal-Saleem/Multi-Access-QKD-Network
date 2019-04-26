@@ -1,11 +1,13 @@
 var hierarchy =
 [
     [ "cModule", null, [
-      [ "Switch", "classSwitch.html", null ]
+      [ "Client", "classClient.html", null ]
     ] ],
     [ "cPacket", null, [
+      [ "ArpTableEntry", "classArpTableEntry.html", null ],
       [ "MacTableEntry", "classMacTableEntry.html", null ],
-      [ "QuantumSubInterfaceBinding", "classQuantumSubInterfaceBinding.html", null ]
+      [ "QuantumSubInterfaceBinding", "classQuantumSubInterfaceBinding.html", null ],
+      [ "SessionStateEntry", "classSessionStateEntry.html", null ]
     ] ],
     [ "cSimpleModule", null, [
       [ "ClientFilterDiagonal", "classClientFilterDiagonal.html", null ],
@@ -14,6 +16,7 @@ var hierarchy =
       [ "ClientFilterH", "classClientFilterH.html", null ],
       [ "ClientFilterStraight", "classClientFilterStraight.html", null ],
       [ "ClientFilterV", "classClientFilterV.html", null ],
+      [ "ClientMemory", "classClientMemory.html", null ],
       [ "ClientProcessor", "classClientProcessor.html", null ],
       [ "ClientPublicInterface", "classClientPublicInterface.html", null ],
       [ "ClientQuantumInterface", "classClientQuantumInterface.html", null ],
