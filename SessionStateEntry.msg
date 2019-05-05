@@ -15,9 +15,12 @@
 packet SessionStateEntry
 {
     int sessionId;
+    string srcMac;
     string srcQMac;
+    string srcSubInterface;
+    string desMac;
     string desQMac;
-    string SubInterface;
+    string desSubInterface;
     string expiry;
     string status;
 }

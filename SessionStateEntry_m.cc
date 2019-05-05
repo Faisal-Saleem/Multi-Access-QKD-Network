@@ -204,9 +204,12 @@ SessionStateEntry& SessionStateEntry::operator=(const SessionStateEntry& other)
 void SessionStateEntry::copy(const SessionStateEntry& other)
 {
     this->sessionId = other.sessionId;
+    this->srcMac = other.srcMac;
     this->srcQMac = other.srcQMac;
+    this->srcSubInterface = other.srcSubInterface;
+    this->desMac = other.desMac;
     this->desQMac = other.desQMac;
-    this->SubInterface = other.SubInterface;
+    this->desSubInterface = other.desSubInterface;
     this->expiry = other.expiry;
     this->status = other.status;
 }
@@ -215,9 +218,12 @@ void SessionStateEntry::parsimPack(omnetpp::cCommBuffer *b) const
 {
     ::omnetpp::cPacket::parsimPack(b);
     doParsimPacking(b,this->sessionId);
+    doParsimPacking(b,this->srcMac);
     doParsimPacking(b,this->srcQMac);
+    doParsimPacking(b,this->srcSubInterface);
+    doParsimPacking(b,this->desMac);
     doParsimPacking(b,this->desQMac);
-    doParsimPacking(b,this->SubInterface);
+    doParsimPacking(b,this->desSubInterface);
     doParsimPacking(b,this->expiry);
     doParsimPacking(b,this->status);
 }
@@ -226,9 +232,12 @@ void SessionStateEntry::parsimUnpack(omnetpp::cCommBuffer *b)
 {
     ::omnetpp::cPacket::parsimUnpack(b);
     doParsimUnpacking(b,this->sessionId);
+    doParsimUnpacking(b,this->srcMac);
     doParsimUnpacking(b,this->srcQMac);
+    doParsimUnpacking(b,this->srcSubInterface);
+    doParsimUnpacking(b,this->desMac);
     doParsimUnpacking(b,this->desQMac);
-    doParsimUnpacking(b,this->SubInterface);
+    doParsimUnpacking(b,this->desSubInterface);
     doParsimUnpacking(b,this->expiry);
     doParsimUnpacking(b,this->status);
 }
@@ -243,6 +252,16 @@ void SessionStateEntry::setSessionId(int sessionId)
     this->sessionId = sessionId;
 }
 
+const char * SessionStateEntry::getSrcMac() const
+{
+    return this->srcMac.c_str();
+}
+
+void SessionStateEntry::setSrcMac(const char * srcMac)
+{
+    this->srcMac = srcMac;
+}
+
 const char * SessionStateEntry::getSrcQMac() const
 {
     return this->srcQMac.c_str();
@@ -251,6 +270,26 @@ const char * SessionStateEntry::getSrcQMac() const
 void SessionStateEntry::setSrcQMac(const char * srcQMac)
 {
     this->srcQMac = srcQMac;
+}
+
+const char * SessionStateEntry::getSrcSubInterface() const
+{
+    return this->srcSubInterface.c_str();
+}
+
+void SessionStateEntry::setSrcSubInterface(const char * srcSubInterface)
+{
+    this->srcSubInterface = srcSubInterface;
+}
+
+const char * SessionStateEntry::getDesMac() const
+{
+    return this->desMac.c_str();
+}
+
+void SessionStateEntry::setDesMac(const char * desMac)
+{
+    this->desMac = desMac;
 }
 
 const char * SessionStateEntry::getDesQMac() const
@@ -263,14 +302,14 @@ void SessionStateEntry::setDesQMac(const char * desQMac)
     this->desQMac = desQMac;
 }
 
-const char * SessionStateEntry::getSubInterface() const
+const char * SessionStateEntry::getDesSubInterface() const
 {
-    return this->SubInterface.c_str();
+    return this->desSubInterface.c_str();
 }
 
-void SessionStateEntry::setSubInterface(const char * SubInterface)
+void SessionStateEntry::setDesSubInterface(const char * desSubInterface)
 {
-    this->SubInterface = SubInterface;
+    this->desSubInterface = desSubInterface;
 }
 
 const char * SessionStateEntry::getExpiry() const
@@ -358,7 +397,7 @@ const char *SessionStateEntryDescriptor::getProperty(const char *propertyname) c
 int SessionStateEntryDescriptor::getFieldCount() const
 {
     omnetpp::cClassDescriptor *basedesc = getBaseClassDescriptor();
-    return basedesc ? 6+basedesc->getFieldCount() : 6;
+    return basedesc ? 9+basedesc->getFieldCount() : 9;
 }
 
 unsigned int SessionStateEntryDescriptor::getFieldTypeFlags(int field) const
@@ -376,8 +415,11 @@ unsigned int SessionStateEntryDescriptor::getFieldTypeFlags(int field) const
         FD_ISEDITABLE,
         FD_ISEDITABLE,
         FD_ISEDITABLE,
+        FD_ISEDITABLE,
+        FD_ISEDITABLE,
+        FD_ISEDITABLE,
     };
-    return (field>=0 && field<6) ? fieldTypeFlags[field] : 0;
+    return (field>=0 && field<9) ? fieldTypeFlags[field] : 0;
 }
 
 const char *SessionStateEntryDescriptor::getFieldName(int field) const
@@ -390,13 +432,16 @@ const char *SessionStateEntryDescriptor::getFieldName(int field) const
     }
     static const char *fieldNames[] = {
         "sessionId",
+        "srcMac",
         "srcQMac",
+        "srcSubInterface",
+        "desMac",
         "desQMac",
-        "SubInterface",
+        "desSubInterface",
         "expiry",
         "status",
     };
-    return (field>=0 && field<6) ? fieldNames[field] : nullptr;
+    return (field>=0 && field<9) ? fieldNames[field] : nullptr;
 }
 
 int SessionStateEntryDescriptor::findField(const char *fieldName) const
@@ -404,11 +449,14 @@ int SessionStateEntryDescriptor::findField(const char *fieldName) const
     omnetpp::cClassDescriptor *basedesc = getBaseClassDescriptor();
     int base = basedesc ? basedesc->getFieldCount() : 0;
     if (fieldName[0]=='s' && strcmp(fieldName, "sessionId")==0) return base+0;
-    if (fieldName[0]=='s' && strcmp(fieldName, "srcQMac")==0) return base+1;
-    if (fieldName[0]=='d' && strcmp(fieldName, "desQMac")==0) return base+2;
-    if (fieldName[0]=='S' && strcmp(fieldName, "SubInterface")==0) return base+3;
-    if (fieldName[0]=='e' && strcmp(fieldName, "expiry")==0) return base+4;
-    if (fieldName[0]=='s' && strcmp(fieldName, "status")==0) return base+5;
+    if (fieldName[0]=='s' && strcmp(fieldName, "srcMac")==0) return base+1;
+    if (fieldName[0]=='s' && strcmp(fieldName, "srcQMac")==0) return base+2;
+    if (fieldName[0]=='s' && strcmp(fieldName, "srcSubInterface")==0) return base+3;
+    if (fieldName[0]=='d' && strcmp(fieldName, "desMac")==0) return base+4;
+    if (fieldName[0]=='d' && strcmp(fieldName, "desQMac")==0) return base+5;
+    if (fieldName[0]=='d' && strcmp(fieldName, "desSubInterface")==0) return base+6;
+    if (fieldName[0]=='e' && strcmp(fieldName, "expiry")==0) return base+7;
+    if (fieldName[0]=='s' && strcmp(fieldName, "status")==0) return base+8;
     return basedesc ? basedesc->findField(fieldName) : -1;
 }
 
@@ -427,8 +475,11 @@ const char *SessionStateEntryDescriptor::getFieldTypeString(int field) const
         "string",
         "string",
         "string",
+        "string",
+        "string",
+        "string",
     };
-    return (field>=0 && field<6) ? fieldTypeStrings[field] : nullptr;
+    return (field>=0 && field<9) ? fieldTypeStrings[field] : nullptr;
 }
 
 const char **SessionStateEntryDescriptor::getFieldPropertyNames(int field) const
@@ -496,11 +547,14 @@ std::string SessionStateEntryDescriptor::getFieldValueAsString(void *object, int
     SessionStateEntry *pp = (SessionStateEntry *)object; (void)pp;
     switch (field) {
         case 0: return long2string(pp->getSessionId());
-        case 1: return oppstring2string(pp->getSrcQMac());
-        case 2: return oppstring2string(pp->getDesQMac());
-        case 3: return oppstring2string(pp->getSubInterface());
-        case 4: return oppstring2string(pp->getExpiry());
-        case 5: return oppstring2string(pp->getStatus());
+        case 1: return oppstring2string(pp->getSrcMac());
+        case 2: return oppstring2string(pp->getSrcQMac());
+        case 3: return oppstring2string(pp->getSrcSubInterface());
+        case 4: return oppstring2string(pp->getDesMac());
+        case 5: return oppstring2string(pp->getDesQMac());
+        case 6: return oppstring2string(pp->getDesSubInterface());
+        case 7: return oppstring2string(pp->getExpiry());
+        case 8: return oppstring2string(pp->getStatus());
         default: return "";
     }
 }
@@ -516,11 +570,14 @@ bool SessionStateEntryDescriptor::setFieldValueAsString(void *object, int field,
     SessionStateEntry *pp = (SessionStateEntry *)object; (void)pp;
     switch (field) {
         case 0: pp->setSessionId(string2long(value)); return true;
-        case 1: pp->setSrcQMac((value)); return true;
-        case 2: pp->setDesQMac((value)); return true;
-        case 3: pp->setSubInterface((value)); return true;
-        case 4: pp->setExpiry((value)); return true;
-        case 5: pp->setStatus((value)); return true;
+        case 1: pp->setSrcMac((value)); return true;
+        case 2: pp->setSrcQMac((value)); return true;
+        case 3: pp->setSrcSubInterface((value)); return true;
+        case 4: pp->setDesMac((value)); return true;
+        case 5: pp->setDesQMac((value)); return true;
+        case 6: pp->setDesSubInterface((value)); return true;
+        case 7: pp->setExpiry((value)); return true;
+        case 8: pp->setStatus((value)); return true;
         default: return false;
     }
 }

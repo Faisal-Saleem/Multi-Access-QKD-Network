@@ -32,12 +32,18 @@ class SwitchMemory : public cSimpleModule
     cArray quantumSubInterfaceBinding;
     cArray arpTable;
     cArray sessionStateTable;
+    std::string searchMacAddressTableByMacAddress(std::string macAddress, char query);
+    std::string searchMacAddressTableByInterface(std::string interface, char query);
   public:
     // MAC Address Table Methods
     int macEntryIndex;
     MacTableEntry getMacTable(int index);
     void addMacTableEntry(MacTableEntry *macTableEntry);
     int getMacTableSize();
+    std::string getQuantumInterfaceMacAddressFromMacTable(std::string publicInterfaceMacAddress);
+    std::string getInterfaceIdFromMacTable(std::string macAddress);
+    std::string getMacAddressOfInterfaceFromMacTable(std::string interface);
+    std::string getQuantumMacAddressOfInterfaceFromMacTable(std::string interface);
 
     // Quantum Binding Table Methods
     int quantumBindingEntryIndex;

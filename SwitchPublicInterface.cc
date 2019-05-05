@@ -28,6 +28,7 @@ void SwitchPublicInterface::initialize()
 void SwitchPublicInterface::handleMessage(cMessage *msg)
 {
     msg->addPar("interface").setStringValue(this->getName());
+    msg->addPar("srcInterfaceMacAddress").setStringValue(this->par("macAddress").stringValue());
     send(msg,"processorCommuniation$o");
 }
 

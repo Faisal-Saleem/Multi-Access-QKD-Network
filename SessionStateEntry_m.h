@@ -38,9 +38,12 @@
  * packet SessionStateEntry
  * {
  *     int sessionId;
+ *     string srcMac;
  *     string srcQMac;
+ *     string srcSubInterface;
+ *     string desMac;
  *     string desQMac;
- *     string SubInterface;
+ *     string desSubInterface;
  *     string expiry;
  *     string status;
  * }
@@ -50,9 +53,12 @@ class SessionStateEntry : public ::omnetpp::cPacket
 {
   protected:
     int sessionId;
+    ::omnetpp::opp_string srcMac;
     ::omnetpp::opp_string srcQMac;
+    ::omnetpp::opp_string srcSubInterface;
+    ::omnetpp::opp_string desMac;
     ::omnetpp::opp_string desQMac;
-    ::omnetpp::opp_string SubInterface;
+    ::omnetpp::opp_string desSubInterface;
     ::omnetpp::opp_string expiry;
     ::omnetpp::opp_string status;
 
@@ -75,12 +81,18 @@ class SessionStateEntry : public ::omnetpp::cPacket
     // field getter/setter methods
     virtual int getSessionId() const;
     virtual void setSessionId(int sessionId);
+    virtual const char * getSrcMac() const;
+    virtual void setSrcMac(const char * srcMac);
     virtual const char * getSrcQMac() const;
     virtual void setSrcQMac(const char * srcQMac);
+    virtual const char * getSrcSubInterface() const;
+    virtual void setSrcSubInterface(const char * srcSubInterface);
+    virtual const char * getDesMac() const;
+    virtual void setDesMac(const char * desMac);
     virtual const char * getDesQMac() const;
     virtual void setDesQMac(const char * desQMac);
-    virtual const char * getSubInterface() const;
-    virtual void setSubInterface(const char * SubInterface);
+    virtual const char * getDesSubInterface() const;
+    virtual void setDesSubInterface(const char * desSubInterface);
     virtual const char * getExpiry() const;
     virtual void setExpiry(const char * expiry);
     virtual const char * getStatus() const;
