@@ -41,3 +41,5 @@
 /QKD
 /out/
 /doc/
+/results/
+/.cmdenv-log
