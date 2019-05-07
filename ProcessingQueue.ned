@@ -21,10 +21,10 @@ simple ProcessingQueue
     parameters:
     	@display("i=block/queue;i2=status/up");
     gates:
-        inout interface01;
-        inout interface02;
-        inout interface03;
-        inout interface04;
+        inout f01;
+        inout f02;
+        inout f03;
+        inout f04;
         inout processorCommunication;
 }
 

@@ -38,6 +38,7 @@ MacTableEntry SwitchMemory::getMacTable(int index)
     MacTableEntry *macTableEntry = (MacTableEntry *) this->macAddressTable[index];
     return *macTableEntry;
 }
+
 void SwitchMemory::addMacTableEntry(MacTableEntry *macTableEntry)
 {
     this->macAddressTable.add(macTableEntry);
@@ -66,6 +67,29 @@ std::string SwitchMemory::getMacAddressOfInterfaceFromMacTable(std::string inter
 std::string SwitchMemory::getQuantumMacAddressOfInterfaceFromMacTable(std::string interface)
 {
     return SwitchMemory::searchMacAddressTableByInterface(interface, 'Q');
+}
+
+std::string SwitchMemory::getQuantumInterfaceFromMacTable(std::string qMacAddress)
+{
+    return SwitchMemory::searchMacAddressTableByQuantumMacAddress(qMacAddress, 'I');
+}
+
+bool SwitchMemory::entryExist(std::string srcMac)
+{
+    bool result = false;
+    for(int i=0; i<sessionStateTable.size(); i++)
+    {
+        SessionStateEntry *session = (SessionStateEntry *) this->sessionStateTable[i];
+        if(strcmp(session->getSrcMac(),srcMac.c_str()) == 0)
+        {
+            result = true;
+        }
+        else
+        {
+            result = false;
+        }
+    }
+    return result;
 }
 
 std::string SwitchMemory::searchMacAddressTableByMacAddress(std::string macAddress, char query)
@@ -112,6 +136,27 @@ std::string SwitchMemory::searchMacAddressTableByInterface(std::string interface
     return queryResult;
 }
 
+std::string SwitchMemory::searchMacAddressTableByQuantumMacAddress(std::string qMacAddress, char query)
+{
+    std::string queryResult = "";
+    for(int i=0; i<macAddressTable.size(); i++)
+    {
+        MacTableEntry *macTableEntry = (MacTableEntry *) this->macAddressTable[i];
+        if(strcmp(macTableEntry->getQuantumMacAddress(), qMacAddress.c_str()) == 0)
+        {
+            switch(query)
+            {
+                case 'M':
+                    queryResult = macTableEntry->getMacAddress();
+                    break;
+                case 'I':
+                    queryResult = macTableEntry->getQuantumInterfaceId();
+                    break;
+            }
+        }
+    }
+    return queryResult;
+}
 
 QuantumSubInterfaceBinding SwitchMemory::getQuantumBindingTable(int index)
 {

@@ -27,7 +27,15 @@ void ClientPublicInterface::initialize()
 }
 void ClientPublicInterface::handleMessage(cMessage *msg)
 {
-    send(msg, "externalCommunication$o");
+    if(strcmp(msg->par("type").stringValue(),"initQkdRespons") == 0 || strcmp(msg->par("type").stringValue(),"qkdRequest") == 0)
+    {
+
+        send(msg,"processorCommunication$o");
+    }
+    else
+    {
+        send(msg,"externalCommunication$o");
+    }
 }
 
 

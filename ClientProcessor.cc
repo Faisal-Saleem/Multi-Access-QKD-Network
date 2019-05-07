@@ -19,7 +19,7 @@ void ClientProcessor::initialize(int stage)
 {
     if(stage == 1)
     {
-        cPacket *discoveryPacket = new cPacket("data");
+        cPacket *discoveryPacket = new cPacket("networkDiscovery");
         discoveryPacket->setByteLength(1024);
         discoveryPacket->addPar("type").setStringValue("networkDiscovery");
         discoveryPacket->addPar("macAddress").setStringValue(this->getParentModule()->getSubmodule("clientPublicInterface")->par("macAddress"));
@@ -34,7 +34,7 @@ void ClientProcessor::initialize(int stage)
             discoveryPacket->addPar("type").setStringValue("initQkd");
             discoveryPacket->addPar("srcMAC").setStringValue(this->getParentModule()->getParentModule()->getSubmodule(this->getParentModule()->getParentModule()->par("source").stringValue())->getSubmodule("clientPublicInterface")->par("macAddress").stringValue());
             discoveryPacket->addPar("desMAC").setStringValue(this->getParentModule()->getParentModule()->getSubmodule(this->getParentModule()->getParentModule()->par("destination").stringValue())->getSubmodule("clientPublicInterface")->par("macAddress").stringValue());
-            send(discoveryPacket, "publicInterfaceCommunication$o");
+            sendDelayed(discoveryPacket, 1000, "publicInterfaceCommunication$o");
         }
     }
 }
@@ -46,5 +46,8 @@ int ClientProcessor::numInitStages() const
 
 void ClientProcessor::handleMessage(cMessage *msg)
 {
-
+    if(strcmp(msg->par("type").stringValue(),"initQkdRespons") == 0)
+    {
+        delete msg;
+    }
 }

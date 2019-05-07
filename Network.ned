@@ -23,7 +23,7 @@ network Network
             @display("p=203,133");
         }
         client01: Client {
-            @display("p=42,41");      	
+            @display("p=42,41");    	
         }
         client02: Client {
             @display("p=44,206");

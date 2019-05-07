@@ -25,6 +25,14 @@
 
 using namespace omnetpp;
 
+enum QueryType
+{
+    macAddress,
+    qMacAddres,
+    interface,
+    qInterface
+};
+
 class SwitchMemory : public cSimpleModule
 {
   private:
@@ -34,6 +42,8 @@ class SwitchMemory : public cSimpleModule
     cArray sessionStateTable;
     std::string searchMacAddressTableByMacAddress(std::string macAddress, char query);
     std::string searchMacAddressTableByInterface(std::string interface, char query);
+    std::string searchMacAddressTableByQuantumMacAddress(std::string interface, char query);
+    std::string searchSessionStateTable(QueryType searchBy, std::string searchValue, char returnValue);
   public:
     // MAC Address Table Methods
     int macEntryIndex;
@@ -44,6 +54,9 @@ class SwitchMemory : public cSimpleModule
     std::string getInterfaceIdFromMacTable(std::string macAddress);
     std::string getMacAddressOfInterfaceFromMacTable(std::string interface);
     std::string getQuantumMacAddressOfInterfaceFromMacTable(std::string interface);
+    std::string getQuantumInterfaceFromMacTable(std::string qMacAddress);
+    bool entryExist(std::string srcMac);
+
 
     // Quantum Binding Table Methods
     int quantumBindingEntryIndex;

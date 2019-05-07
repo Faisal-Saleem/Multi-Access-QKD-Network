@@ -95,14 +95,31 @@ void Processor::handleMessage(cMessage *msg)
         SessionStateEntry *sessionStateEntry = new SessionStateEntry();
         sessionStateEntry->setSessionId(switchMemory->sessionsStateEntryIndex++);
         sessionStateEntry->setSrcMac(msg->par("srcInterfaceMacAddress").stringValue());
-        sessionStateEntry->setSrcQMac(switchMemory->getQuantumInterfaceMacAddressFromMacTable(msg->par("srcInterfaceMacAddress").stringValue()).c_str());
-        sessionStateEntry->setSrcSubInterface("00");
+        sessionStateEntry->setSrcQMac(switchMemory->getQuantumInterfaceMacAddressFromMacTable(sessionStateEntry->getSrcMac()).c_str());
+        sessionStateEntry->setSrcSubInterface(switchMemory->getQuantumInterfaceFromMacTable(sessionStateEntry->getSrcQMac()).c_str());
         sessionStateEntry->setDesMac(switchMemory->getMacAddressOfInterfaceFromMacTable(switchMemory->getInterfaceIdFromMacTable(msg->par("desMAC").stringValue()).c_str()).c_str());
         sessionStateEntry->setDesQMac(switchMemory->getQuantumMacAddressOfInterfaceFromMacTable(switchMemory->getInterfaceIdFromMacTable(msg->par("desMAC").stringValue()).c_str()).c_str());
-        sessionStateEntry->setDesSubInterface("00");
+        sessionStateEntry->setDesSubInterface(switchMemory->getQuantumInterfaceFromMacTable(sessionStateEntry->getDesQMac()).c_str());
         sessionStateEntry->setExpiry("0000");
         sessionStateEntry->setStatus("0");
-        switchMemory->addSessionStateTableEntry(sessionStateEntry);
+        if(switchMemory->entryExist(sessionStateEntry->getSrcMac()) == false)
+        {
+            switchMemory->addSessionStateTableEntry(sessionStateEntry);
+            cPacket *qkdSession = new cPacket("qkdRequest");
+            qkdSession->addPar("type").setStringValue("qkdRequest");
+            qkdSession->addPar("srcMAC").setStringValue(sessionStateEntry->getSrcMac());
+            qkdSession->addPar("desMAC").setStringValue(sessionStateEntry->getDesMac());
+            qkdSession->addPar("interface").setStringValue(switchMemory->getInterfaceIdFromMacTable(sessionStateEntry->getDesMac()).c_str());
+            send(qkdSession,"publicInterfaceCommunication$o");
+        }
+        else
+        {
+            cPacket *qkdSession = new cPacket("clientBusy");
+            qkdSession->addPar("type").setStringValue("initQkdRespons");
+            qkdSession->addPar("desMAC").setStringValue(sessionStateEntry->getDesMac());
+            qkdSession->addPar("interface").setStringValue(switchMemory->getInterfaceIdFromMacTable(sessionStateEntry->getSrcMac()).c_str());
+            send(qkdSession,"publicInterfaceCommunication$o");
+        }
     }
     delete msg;
 }
@@ -244,32 +261,32 @@ void Processor::printArpTable()
 void Processor::printSessionStateTable()
 {
     EV<<"[*] Session State Table\n";
-        EV<<"=============================================================================================\n";
-        EV<<"  ID    SRC        QSRC      SRC-SubInt    DES    QDES  DES-SubInt  Expiry  Status    \n";
-        EV<<"=============================================================================================\n";
+        EV<<"============================================================================================================\n";
+        EV<<" ID         SRC               QSRC         INT          DES                QDES         INT  Expiry  Status \n";
+        EV<<"============================================================================================================\n";
     for(int i=0; i<switchMemory->getSessionStateTableSize(); i++)
     {
         EV<<" "
                 <<switchMemory->getsessionStateTableEntry(i).getSessionId()
-                <<" "
+                <<"   "
                 <<switchMemory->getsessionStateTableEntry(i).getSrcMac()
-                <<" "
+                <<"  "
                 <<switchMemory->getsessionStateTableEntry(i).getSrcQMac()
-                <<" "
+                <<"  "
                 <<switchMemory->getsessionStateTableEntry(i).getSrcSubInterface()
-                <<" "
+                <<"   "
                 <<switchMemory->getsessionStateTableEntry(i).getDesMac()
                 <<" "
                 <<switchMemory->getsessionStateTableEntry(i).getDesQMac()
-                <<" "
+                <<"    "
                 <<switchMemory->getsessionStateTableEntry(i).getDesSubInterface()
-                <<" "
+                <<"   "
                 <<switchMemory->getsessionStateTableEntry(i).getExpiry()
-                <<" "
+                <<"      "
                 <<switchMemory->getsessionStateTableEntry(i).getStatus()
                 <<"\n";
     }
-    EV<<"=============================================================================================\n";
+    EV<<"============================================================================================================\n";
 }
 
 

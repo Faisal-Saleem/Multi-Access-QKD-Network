@@ -27,9 +27,28 @@ void SwitchPublicInterface::initialize()
 }
 void SwitchPublicInterface::handleMessage(cMessage *msg)
 {
-    msg->addPar("interface").setStringValue(this->getName());
-    msg->addPar("srcInterfaceMacAddress").setStringValue(this->par("macAddress").stringValue());
-    send(msg,"processorCommuniation$o");
+    if(strcmp(msg->par("type").stringValue(),"initQKD") == 0)
+    {
+        msg->addPar("interface").setStringValue(this->getName());
+        msg->addPar("srcInterfaceMacAddress").setStringValue(this->par("macAddress").stringValue());
+        send(msg,"processorCommuniation$o");
+    }
+    else if(strcmp(msg->par("type").stringValue(),"initQkdRespons") == 0 || strcmp(msg->par("type").stringValue(),"qkdRequest") == 0)
+    {
+        send(msg,"publicChannelCommunication$o");
+    }
+    else if(strcmp(msg->par("type").stringValue(),"networkDiscovery") == 0)
+    {
+        msg->addPar("interface").setStringValue(this->getName());
+        msg->addPar("srcInterfaceMacAddress").setStringValue(this->par("macAddress").stringValue());
+        send(msg,"processorCommuniation$o");
+    }
+    else
+    {
+        msg->addPar("interface").setStringValue(this->getName());
+        msg->addPar("srcInterfaceMacAddress").setStringValue(this->par("macAddress").stringValue());
+        send(msg,"processorCommuniation$o");
+    }
 }
 
 

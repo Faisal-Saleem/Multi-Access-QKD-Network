@@ -83,10 +83,10 @@ module Switch
         processor.memoryBus <--> switchMemory.processorBus;
         processor.quantumInterfaceCommunication <--> quantumStatesProcessor.inFromProcessor;
         processingQueue.processorCommunication <--> processor.publicInterfaceCommunication;
-        f01.processorCommuniation <--> processingQueue.interface01;
-        f02.processorCommuniation <--> processingQueue.interface02;
-        f03.processorCommuniation <--> processingQueue.interface03;
-        f04.processorCommuniation <--> processingQueue.interface04;
+        f01.processorCommuniation <--> processingQueue.f01;
+        f02.processorCommuniation <--> processingQueue.f02;
+        f03.processorCommuniation <--> processingQueue.f03;
+        f04.processorCommuniation <--> processingQueue.f04;
         q01.subInterface1 <--> quantumStatesProcessor.interface01;
         q02.subInterface2 <--> quantumStatesProcessor.interface02;
         q03.subInterface3 <--> quantumStatesProcessor.interface03;
