@@ -33,7 +33,7 @@ void SwitchPublicInterface::handleMessage(cMessage *msg)
         msg->addPar("srcInterfaceMacAddress").setStringValue(this->par("macAddress").stringValue());
         send(msg,"processorCommuniation$o");
     }
-    else if(strcmp(msg->par("type").stringValue(),"initQkdRespons") == 0 || strcmp(msg->par("type").stringValue(),"qkdRequest") == 0)
+    else if(strcmp(msg->par("type").stringValue(),"initQkdRespons") == 0 || strcmp(msg->par("type").stringValue(),"qkdRequest") == 0 || strcmp(msg->par("type").stringValue(),"QKD-ACK") == 0)
     {
         send(msg,"publicChannelCommunication$o");
     }

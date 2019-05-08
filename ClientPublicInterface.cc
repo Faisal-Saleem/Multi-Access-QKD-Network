@@ -27,9 +27,8 @@ void ClientPublicInterface::initialize()
 }
 void ClientPublicInterface::handleMessage(cMessage *msg)
 {
-    if(strcmp(msg->par("type").stringValue(),"initQkdRespons") == 0 || strcmp(msg->par("type").stringValue(),"qkdRequest") == 0)
+    if(strcmp(msg->par("type").stringValue(),"initQkdRespons") == 0 || strcmp(msg->par("type").stringValue(),"qkdRequest") == 0 || strcmp(msg->par("type").stringValue(),"QKD-ACK") == 0)
     {
-
         send(msg,"processorCommunication$o");
     }
     else

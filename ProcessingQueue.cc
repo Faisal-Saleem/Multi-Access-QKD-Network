@@ -31,7 +31,7 @@ void ProcessingQueue::handleMessage(cMessage *msg)
     {
         send(msg,"processorCommunication$o");
     }
-    else if(strcmp(msg->par("type").stringValue(),"initQkdRespons") == 0 || strcmp(msg->par("type").stringValue(),"qkdRequest") == 0)
+    else if(strcmp(msg->par("type").stringValue(),"initQkdRespons") == 0 || strcmp(msg->par("type").stringValue(),"qkdRequest") == 0 || strcmp(msg->par("type").stringValue(),"QKD-ACK") == 0)
     {
         std::string interface = msg->par("interface").stringValue();
         interface.append("$o");

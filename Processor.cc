@@ -90,7 +90,8 @@ void Processor::handleMessage(cMessage *msg)
         arpTableEntry->setType(0);
         arpTableEntry->setInterface(msg->par("interface").stringValue());
         switchMemory->addArpTableEntry(arpTableEntry);
-    }else if (strcmp("initQkd",msg->par("type").stringValue()) == 0)
+    }
+    else if (strcmp("initQkd",msg->par("type").stringValue()) == 0)
     {
         SessionStateEntry *sessionStateEntry = new SessionStateEntry();
         sessionStateEntry->setSessionId(switchMemory->sessionsStateEntryIndex++);
@@ -121,7 +122,19 @@ void Processor::handleMessage(cMessage *msg)
             send(qkdSession,"publicInterfaceCommunication$o");
         }
     }
-    delete msg;
+    else if(strcmp("QKD-RESPONSE",msg->par("type").stringValue()) == 0)
+    {
+        cPacket *qkdAck = new cPacket("qkdAck");
+        qkdAck->addPar("type").setStringValue("QKD-ACK");
+        qkdAck->addPar("srcMAC").setStringValue(msg->par("srcMAC").stringValue());
+        qkdAck->addPar("desMAC").setStringValue(msg->par("desMAC").stringValue());
+        qkdAck->addPar("interface").setStringValue(switchMemory->getInterfaceIdFromMacTable(msg->par("desMAC").stringValue()).c_str());
+        send(qkdAck,"publicInterfaceCommunication$o");
+    }
+    else
+    {
+        delete msg;
+    }
 }
 
 void Processor::finish()
