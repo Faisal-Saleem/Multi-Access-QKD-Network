@@ -80,7 +80,6 @@ module Switch
         qu02 <--> q02.quantumChannelCommunication;
         qu03 <--> q03.quantumChannelCommunication;
         qu04 <--> q04.quantumChannelCommunication;
-        processor.memoryBus <--> switchMemory.processorBus;
         processor.quantumInterfaceCommunication <--> quantumStatesProcessor.inFromProcessor;
         processingQueue.processorCommunication <--> processor.publicInterfaceCommunication;
         f01.processorCommuniation <--> processingQueue.f01;

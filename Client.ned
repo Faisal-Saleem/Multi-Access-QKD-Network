@@ -59,6 +59,5 @@ module Client
         clientQuantumInterface.flat --> clientFilterStraight.polarizedLightIn;
         clientFilterDiagonal.polarizedLightOut --> quantumStatesGenerator.Diagonal;
         clientFilterStraight.polarizedLightOut --> quantumStatesGenerator.Straight;
-        clientProcessor.memoryBus <--> clientMemory.processorBus;
 }
 

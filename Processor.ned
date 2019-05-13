@@ -23,6 +23,5 @@ simple Processor
     gates:
 		inout publicInterfaceCommunication;
 		inout quantumInterfaceCommunication;
-		inout memoryBus;
 }
 

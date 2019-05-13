@@ -20,6 +20,4 @@ simple SwitchMemory
 {
     parameters:
     	@display("i=device/memory");
-    gates:
-        inout processorBus;
 }

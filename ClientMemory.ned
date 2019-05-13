@@ -20,6 +20,4 @@ simple ClientMemory
 {
     parameters:
     	@display("i=device/memory");
-    gates:
-        inout processorBus;
 }
