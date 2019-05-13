@@ -27,7 +27,15 @@ void ClientQuantumInterface::initialize()
 }
 void ClientQuantumInterface::handleMessage(cMessage *msg)
 {
-    send(msg,"quantumChannelCommunication$o");
+    cGate *gate = msg->getArrivalGate();
+    if(gate->isName("quantumChannelCommunication$i"))
+    {
+        delete msg;
+    }
+    else
+    {
+        send(msg,"quantumChannelCommunication$o");
+    }
 }
 
 

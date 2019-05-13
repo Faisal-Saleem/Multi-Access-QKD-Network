@@ -55,6 +55,7 @@ class SwitchMemory : public cSimpleModule
     std::string getMacAddressOfInterfaceFromMacTable(std::string interface);
     std::string getQuantumMacAddressOfInterfaceFromMacTable(std::string interface);
     std::string getQuantumInterfaceFromMacTable(std::string qMacAddress);
+    std::string getQuantumInterfaceFromMacTableByPublicMac(std::string macAddress);
     bool entryExist(std::string srcMac);
 
 
@@ -63,6 +64,7 @@ class SwitchMemory : public cSimpleModule
     QuantumSubInterfaceBinding getQuantumBindingTable(int index);
     void addQuantumBindingTableEntry(QuantumSubInterfaceBinding *quantumBindingEntry);
     int getQuantumBindingTableSize();
+    std::string getExitInterfaceFromBindingTable(std::string src, std::string des);
 
     // ARP Table
     int arpEntryIndex;

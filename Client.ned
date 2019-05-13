@@ -3,7 +3,6 @@ module Client
 {
     parameters:
         @display("bgb=541,543,#ECFFEC;i=block/telnet;is=n;i2=status/green;bgtt=Quantum Key Distribution Switch");
-        @class(Client);
         string hostname;
     gates:
         inout publicInterface;

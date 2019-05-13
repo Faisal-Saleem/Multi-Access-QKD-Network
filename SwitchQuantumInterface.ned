@@ -16,6 +16,7 @@ simple SwitchQuantumInterface
 {
     parameters:
         string macAddress;								//	Quantum MAC Address 
+        string exitInterface = "";
         @display("i=block/classifier,red;is=l;bgb=359,329");
     gates:
         inout quantumChannelCommunication;

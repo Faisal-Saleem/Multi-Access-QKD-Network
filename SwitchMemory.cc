@@ -74,6 +74,11 @@ std::string SwitchMemory::getQuantumInterfaceFromMacTable(std::string qMacAddres
     return SwitchMemory::searchMacAddressTableByQuantumMacAddress(qMacAddress, 'I');
 }
 
+std::string SwitchMemory::getQuantumInterfaceFromMacTableByPublicMac(std::string macAddress)
+{
+    return SwitchMemory::searchMacAddressTableByMacAddress(macAddress, 'X');
+}
+
 bool SwitchMemory::entryExist(std::string srcMac)
 {
     bool result = false;
@@ -108,6 +113,9 @@ std::string SwitchMemory::searchMacAddressTableByMacAddress(std::string macAddre
                 case 'I':
                     queryResult = macTableEntry->getInterface();
                     break;
+                case 'X':
+                    queryResult = macTableEntry->getQuantumInterfaceId();
+                    break;
             }
         }
     }
@@ -129,6 +137,9 @@ std::string SwitchMemory::searchMacAddressTableByInterface(std::string interface
                     break;
                 case 'M':
                     queryResult = macTableEntry->getMacAddress();
+                    break;
+                case 'I':
+                    queryResult = macTableEntry->getQuantumInterfaceId();
                     break;
             }
         }
@@ -172,6 +183,21 @@ void SwitchMemory::addQuantumBindingTableEntry(QuantumSubInterfaceBinding *quant
 int SwitchMemory::getQuantumBindingTableSize()
 {
     return this->quantumSubInterfaceBinding.size();
+}
+
+std::string SwitchMemory::getExitInterfaceFromBindingTable(std::string src, std::string des)
+{
+    std::string exitInterface = "";
+    for(int i=0; i<quantumSubInterfaceBinding.size(); i++)
+    {
+        QuantumSubInterfaceBinding *binding = (QuantumSubInterfaceBinding *)this->quantumSubInterfaceBinding[i];
+        if(strcmp(binding->getSourceInterface(), src.c_str()) == 0 && strcmp(binding->getDestinationInterface(), des.c_str()) == 0)
+        {
+            exitInterface = binding->getSourceSubInterface();
+            break;
+        }
+    }
+    return exitInterface;
 }
 
 SessionStateEntry SwitchMemory::getsessionStateTableEntry(int index)

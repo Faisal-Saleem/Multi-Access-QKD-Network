@@ -25,7 +25,16 @@ Define_Module(SwitchQuantumInterface);
 
 void SwitchQuantumInterface::handleMessage(cMessage *msg)
 {
-
+    if(strcmp(this->par("exitInterface").stringValue(), "") != 0)
+    {
+        std::string exitInterface=this->par("exitInterface").stringValue();
+        exitInterface.append("$o");
+        send(msg, exitInterface.c_str());
+    }
+    else
+    {
+        send(msg,"quantumChannelCommunication$o");
+    }
 }
 
 

@@ -29,6 +29,7 @@ void ClientFilterDL::initialize()
 }
 void ClientFilterDL::handleMessage(cMessage *msg)
 {
+    msg->setName("\\");
     send(msg,"polarizedLight");
 }
 

@@ -20,10 +20,10 @@ simple QuantumStatesGenerator
     @display("i=block/join");
     gates:
 		inout processorCommunication;
-        output DL;
-        output DR;
-        output H;
-        output V;
+        output DL; // \
+        output DR; // /
+        output H;  // -
+        output V;  // |
         input Diagonal;
         input Straight;
 }

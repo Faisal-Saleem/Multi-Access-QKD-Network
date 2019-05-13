@@ -28,7 +28,8 @@ void ClientFilterV::initialize()
 }
 void ClientFilterV::handleMessage(cMessage *msg)
 {
-    //send(msg,"publicInterface$o");
+    msg->setName("|");
+    send(msg,"polarizedLight");
 }
 
 

@@ -22,9 +22,12 @@ protected:
     virtual void handleMessage(cMessage *msg) override;
     virtual int numInitStages() const override;
 
+    std::string convertToBinary(int initialKey);
+
 public:
     void initializeNetwork();
     void initiateQKDRequest(std::string source, std::string destination);
+    void printMacTable();
 };
 
 

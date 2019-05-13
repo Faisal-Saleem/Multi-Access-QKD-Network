@@ -90,6 +90,7 @@ void Processor::handleMessage(cMessage *msg)
         arpTableEntry->setType(0);
         arpTableEntry->setInterface(msg->par("interface").stringValue());
         switchMemory->addArpTableEntry(arpTableEntry);
+        delete msg;
     }
     else if (strcmp("initQkd",msg->par("type").stringValue()) == 0)
     {
@@ -121,6 +122,7 @@ void Processor::handleMessage(cMessage *msg)
             qkdSession->addPar("interface").setStringValue(switchMemory->getInterfaceIdFromMacTable(sessionStateEntry->getSrcMac()).c_str());
             send(qkdSession,"publicInterfaceCommunication$o");
         }
+        delete msg;
     }
     else if(strcmp("QKD-RESPONSE",msg->par("type").stringValue()) == 0)
     {
@@ -129,7 +131,14 @@ void Processor::handleMessage(cMessage *msg)
         qkdAck->addPar("srcMAC").setStringValue(msg->par("srcMAC").stringValue());
         qkdAck->addPar("desMAC").setStringValue(msg->par("desMAC").stringValue());
         qkdAck->addPar("interface").setStringValue(switchMemory->getInterfaceIdFromMacTable(msg->par("desMAC").stringValue()).c_str());
+
+        cModule *qSRCInterface = this->getParentModule()->getSubmodule(switchMemory->getQuantumInterfaceFromMacTableByPublicMac(msg->par("desMAC").stringValue()).c_str());
+        cModule *qDESInterface = this->getParentModule()->getSubmodule(switchMemory->getQuantumInterfaceFromMacTableByPublicMac(msg->par("srcMAC").stringValue()).c_str());
+        qSRCInterface->par("exitInterface").setStringValue(switchMemory->getExitInterfaceFromBindingTable(qSRCInterface->getName(), qDESInterface->getName()));
+
         send(qkdAck,"publicInterfaceCommunication$o");
+        delete msg;
+
     }
     else
     {
