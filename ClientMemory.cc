@@ -4,6 +4,7 @@
 #include <iostream>
 #include "ClientMemory.h"
 #include "MacTableEntry_m.h"
+#include "QuantumKeyEntry_m.h"
 
 Define_Module(ClientMemory);
 
@@ -31,6 +32,51 @@ void ClientMemory::addMacTableEntry(MacTableEntry *macTableEntry)
 int ClientMemory::getMacTableSize()
 {
     return this->quantumTable.size();
+}
+
+QuantumKeyEntry ClientMemory::getQuantumKey(int index)
+{
+    QuantumKeyEntry *quantumKeyEntry = (QuantumKeyEntry *) this->quantumKey[index];
+    return *quantumKeyEntry;
+}
+
+void ClientMemory::addQautumKey(QuantumKeyEntry *key)
+{
+    this->quantumKey.add(key);
+}
+
+int ClientMemory::getNumberOfKey()
+{
+    return this->quantumKey.size();
+}
+
+int ClientMemory::getPendingTransaction()
+{
+    int index = 0;
+    for(int i=0; i<this->quantumKey.size(); i++)
+    {
+        QuantumKeyEntry *qKey = (QuantumKeyEntry *) this->quantumKey[i];
+        if(strcmp(qKey->getKey(),"") == 0)
+        {
+            index = i;
+            break;
+        }
+    }
+    return index;
+}
+
+void ClientMemory::setPendingKey(std::string key)
+{
+    for(int i=0; i<this->quantumKey.size(); i++)
+    {
+        QuantumKeyEntry *qKey = (QuantumKeyEntry *) this->quantumKey[i];
+        if(strcmp(qKey->getKey(),"") == 0)
+        {
+            qKey->setKey(key.c_str());
+            qKey->setStatus("Active");
+            break;
+        }
+    }
 }
 
 std::string ClientMemory::getInitialKey()

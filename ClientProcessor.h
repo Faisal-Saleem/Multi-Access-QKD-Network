@@ -28,6 +28,7 @@ public:
     void initializeNetwork();
     void initiateQKDRequest(std::string source, std::string destination);
     void printMacTable();
+    void printKeyTable();
 };
 
 

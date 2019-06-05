@@ -30,7 +30,17 @@ void ClientQuantumInterface::handleMessage(cMessage *msg)
     cGate *gate = msg->getArrivalGate();
     if(gate->isName("quantumChannelCommunication$i"))
     {
-        delete msg;
+        int randomGate;
+        double x = rand()/static_cast<double>(RAND_MAX+1);
+        randomGate = 0 + static_cast<int>( x * (2 - 0) );
+        if(randomGate == 1)
+        {
+            send(msg,"diagonal");
+        }
+        else
+        {
+            send(msg,"flat");
+        }
     }
     else
     {

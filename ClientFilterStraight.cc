@@ -28,7 +28,13 @@ void ClientFilterStraight::initialize()
 }
 void ClientFilterStraight::handleMessage(cMessage *msg)
 {
-    //send(msg,"publicInterface$o");
+    int randomHF;
+    if(strcmp("/", msg->getName()) == 0 || strcmp("\\", msg->getName()) == 0)
+    {
+        msg->setName("0");
+    }
+
+    send(msg,"polarizedLightOut");
 }
 
 

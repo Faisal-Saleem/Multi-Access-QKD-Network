@@ -75,15 +75,21 @@ void ClientProcessor::handleMessage(cMessage *msg)
         }
         if(strcmp(msg->par("type").stringValue(),"qkdRequest") == 0)
         {
+            QuantumKeyEntry *key = new QuantumKeyEntry();
             cPacket *qkdResponse = new cPacket("qkdResponse");
             qkdResponse->addPar("type").setStringValue("QKD-RESPONSE");
             qkdResponse->addPar("srcMAC").setStringValue(msg->par("desMAC").stringValue());
             qkdResponse->addPar("desMAC").setStringValue(msg->par("srcMAC").stringValue());
+
+            key->setIdentity(1);
+            key->setMacAddress(msg->par("srcMAC").stringValue());
+
+            clientMemory->addQautumKey(key);
+
             send(qkdResponse,"publicInterfaceCommunication$o");
         }
         if(strcmp(msg->par("type").stringValue(),"QKD-ACK") == 0)
         {
-
             int randomKey = rand()% 100 + 899;
             clientMemory->setInitialKey(std::to_string(randomKey));
             clientMemory->setInitialKeyBin(ClientProcessor::convertToBinary(randomKey));
@@ -98,6 +104,14 @@ void ClientProcessor::handleMessage(cMessage *msg)
         if(strcmp(msg->par("type").stringValue(),"pfilter") == 0)
         {
             clientMemory->setPolarizationStates(msg->par("polarizationFilterUsed").stringValue());
+        }
+        if(strcmp(msg->par("type").stringValue(), "quantumData") == 0)
+        {
+            EV<<"SIFTED KEY RECEIVED: "<<msg->par("siftedKey").stringValue();
+            clientMemory->setPendingKey(msg->par("siftedKey").stringValue());
+            //clientMemory->getQuantumKey(clientMemory->getPendingTransaction()).setKey(msg->par("siftedKey").stringValue());
+            //clientMemory->getQuantumKey(clientMemory->getPendingTransaction()).setStatus("Active");
+            ClientProcessor::printKeyTable();
         }
     }
     delete msg;
@@ -132,4 +146,22 @@ void ClientProcessor::printMacTable()
                 <<clientMemory->getMacTable(0).getType()
                 <<"\n";
         EV<<"=============================================================================================\n";
+}
+
+void ClientProcessor::printKeyTable()
+{
+    EV<<"[*] "<<this->getName()<<" Quantum Key Table\n";
+            EV<<"=============================================================================================\n";
+            EV<<"  Identity      MacAddress            Key         Status   \n";
+            EV<<"=============================================================================================\n";
+            EV<<"     "
+                    <<clientMemory->getQuantumKey(0).getIdentity()
+                    <<"     "
+                    <<clientMemory->getQuantumKey(0).getMacAddress()
+                    <<"     "
+                    <<clientMemory->getQuantumKey(0).getKey()
+                    <<"     "
+                    <<clientMemory->getQuantumKey(0).getStatus()
+                    <<"\n";
+            EV<<"=============================================================================================\n";
 }
