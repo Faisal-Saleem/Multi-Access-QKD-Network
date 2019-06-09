@@ -27,19 +27,12 @@ void ProcessingQueue::initialize()
 }
 void ProcessingQueue::handleMessage(cMessage *msg)
 {
-    if(strcmp(msg->par("type").stringValue(),"initQKD") == 0)
-    {
-        send(msg,"processorCommunication$o");
-    }
-    else if(strcmp(msg->par("type").stringValue(),"initQkdRespons") == 0 || strcmp(msg->par("type").stringValue(),"qkdRequest") == 0 || strcmp(msg->par("type").stringValue(),"QKD-ACK") == 0)
+    cGate *gate = msg->getArrivalGate();
+    if(gate->isName("processorCommunication$i"))
     {
         std::string interface = msg->par("interface").stringValue();
         interface.append("$o");
         send(msg,interface.c_str());
-    }
-    else if(strcmp(msg->par("type").stringValue(),"networkDiscovery") == 0)
-    {
-        send(msg,"processorCommunication$o");
     }
     else
     {

@@ -5,7 +5,7 @@
  *      Author: Faisal
  */
 
-
+#include <stdio.h>
 #include <string.h>
 #include <omnetpp.h>
 #include <bitset>
@@ -23,9 +23,6 @@ protected:
 private:
     int randomGate;
     int counter;
-    simtime_t lastMessageReceivedAt;
-    simtime_t timer = 2.5;
-    bool sentMessage = false;
     cQueue xQueue;
     std::string receivedPolarization;
     std::string polarizationFilterUsed;
@@ -35,7 +32,7 @@ Define_Module(QuantumStatesGenerator);
 
 void QuantumStatesGenerator::initialize()
 {
-    counter = 24;
+    counter = this->getParentModule()->getParentModule()->par("initKeyLength").intValue();
 }
 
 void QuantumStatesGenerator::handleMessage(cMessage *msg)
@@ -126,7 +123,6 @@ void QuantumStatesGenerator::handleMessage(cMessage *msg)
             quantumData->addPar("siftedKey").setStringValue(QuantumStatesGenerator::siftKey(receivedPolarization).c_str());
             quantumData->addPar("filterUsage").setStringValue(QuantumStatesGenerator::statesStatus(receivedPolarization).c_str());
             send(quantumData,"processorCommunication$o");
-            sentMessage = true;
         }
     }
 }
@@ -136,7 +132,7 @@ std::string QuantumStatesGenerator::siftKey(std::string states)
     std::string siftedKey;
     char polarization[states.length()+1];
     strcpy(polarization, states.c_str());
-    for(int i=0; i<strlen(polarization); i++)
+    for(int i=0; i<=strlen(polarization); i++)
     {
         if(polarization[i] != '0')
         {
@@ -158,7 +154,7 @@ std::string QuantumStatesGenerator::statesStatus(std::string states)
     std::string statesUsed;
     char polarization[states.length()+1];
     strcpy(polarization, states.c_str());
-    for(int i=0; i<strlen(polarization); i++)
+    for(int i=0; i<=strlen(polarization); i++)
     {
         if(polarization[i] != '0')
         {

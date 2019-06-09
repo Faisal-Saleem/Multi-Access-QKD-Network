@@ -27,13 +27,14 @@ void ClientPublicInterface::initialize()
 }
 void ClientPublicInterface::handleMessage(cMessage *msg)
 {
-    if(strcmp(msg->par("type").stringValue(),"initQkdRespons") == 0 || strcmp(msg->par("type").stringValue(),"qkdRequest") == 0 || strcmp(msg->par("type").stringValue(),"QKD-ACK") == 0)
+    cGate *gate = msg->getArrivalGate();
+    if(gate->isName("processorCommunication$i"))
     {
-        send(msg,"processorCommunication$o");
+        send(msg,"externalCommunication$o");
     }
     else
     {
-        send(msg,"externalCommunication$o");
+        send(msg,"processorCommunication$o");
     }
 }
 

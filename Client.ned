@@ -43,21 +43,21 @@ module Client
             @display("p=123,379");
         }
     connections:
-        clientPublicInterface.externalCommunication <--> publicInterface;
-        clientQuantumInterface.quantumChannelCommunication <--> quantumInterface;
-        DL.polarizedLight --> clientQuantumInterface.dl;
-        DR.polarizedLight --> clientQuantumInterface.dr;
-        H.polarizedLight --> clientQuantumInterface.h;
-        V.polarizedLight --> clientQuantumInterface.v;
-        clientProcessor.publicInterfaceCommunication <--> clientPublicInterface.processorCommunication;
-        quantumStatesGenerator.DL --> DL.unpolarizedLight;
-        quantumStatesGenerator.DR --> DR.unpolarizedLight;
-        quantumStatesGenerator.H --> H.unpolarizedLight;
-        quantumStatesGenerator.V --> V.unpolarizedLight;
-        clientProcessor.quantumInterfaceCommunication <--> quantumStatesGenerator.processorCommunication;
-        clientQuantumInterface.diagonal --> clientFilterDiagonal.polarizedLightIn;
-        clientQuantumInterface.flat --> clientFilterStraight.polarizedLightIn;
-        clientFilterDiagonal.polarizedLightOut --> quantumStatesGenerator.Diagonal;
-        clientFilterStraight.polarizedLightOut --> quantumStatesGenerator.Straight;
+        clientPublicInterface.externalCommunication <--> {delay=100ms;} <--> publicInterface;
+        clientQuantumInterface.quantumChannelCommunication <--> {delay=100ms;} <--> quantumInterface;
+        DL.polarizedLight --> {delay=100ms;} --> clientQuantumInterface.dl;
+        DR.polarizedLight --> {delay=100ms;} --> clientQuantumInterface.dr;
+        H.polarizedLight --> {delay=100ms;} --> clientQuantumInterface.h;
+        V.polarizedLight --> {delay=100ms;} --> clientQuantumInterface.v;
+        clientProcessor.publicInterfaceCommunication <--> {delay=100ms;} <--> clientPublicInterface.processorCommunication;
+        quantumStatesGenerator.DL --> {delay=100ms;} --> DL.unpolarizedLight;
+        quantumStatesGenerator.DR --> {delay=100ms;} --> DR.unpolarizedLight;
+        quantumStatesGenerator.H --> {delay=100ms;} --> H.unpolarizedLight;
+        quantumStatesGenerator.V --> {delay=100ms;} --> V.unpolarizedLight;
+        clientProcessor.quantumInterfaceCommunication <--> {delay=100ms;} <-->quantumStatesGenerator.processorCommunication;
+        clientQuantumInterface.diagonal --> {delay=100ms;} --> clientFilterDiagonal.polarizedLightIn;
+        clientQuantumInterface.flat --> {delay=100ms;} --> clientFilterStraight.polarizedLightIn;
+        clientFilterDiagonal.polarizedLightOut --> {delay=100ms;} --> quantumStatesGenerator.Diagonal;
+        clientFilterStraight.polarizedLightOut --> {delay=100ms;} --> quantumStatesGenerator.Straight;
 }
 

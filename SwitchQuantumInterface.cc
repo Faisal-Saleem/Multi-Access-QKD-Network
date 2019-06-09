@@ -25,7 +25,8 @@ Define_Module(SwitchQuantumInterface);
 
 void SwitchQuantumInterface::handleMessage(cMessage *msg)
 {
-    if(strcmp(this->par("exitInterface").stringValue(), "") != 0)
+    cGate *gate = msg->getArrivalGate();
+    if(gate->isName("quantumChannelCommunication$i"))
     {
         std::string exitInterface=this->par("exitInterface").stringValue();
         exitInterface.append("$o");
@@ -33,21 +34,14 @@ void SwitchQuantumInterface::handleMessage(cMessage *msg)
     }
     else
     {
-        send(msg,"quantumChannelCommunication$o");
+       send(msg,"quantumChannelCommunication$o");
     }
 }
 
 
 void SwitchQuantumInterface::initialize(int stage)
 {
-    /*
-    if(stage == 2)
-    {
-        cModule *targetSwitch = getParentModule()->getSubmodule("switchMemory");
-        SwitchMemory *switchModule = check_and_cast<SwitchMemory *>(targetSwitch);
-        switchModule->printMacAddressTable();
-    }
-    */
+
 }
 
 int SwitchQuantumInterface::numInitStages() const

@@ -18,6 +18,7 @@ network Network
         @display("bgb=402,278,#FFE4CA;i=block/network;i2=status/connect;bgl=2");
         string source;
         string destination;
+        int initKeyLength;
     submodules:
         switch: Switch {
             @display("p=203,133");
@@ -39,8 +40,8 @@ network Network
         client02.publicInterface <--> {delay=100ms;} <--> switch.fe02;
         client03.publicInterface <--> {delay=100ms;} <--> switch.fe03;
         client04.publicInterface <--> {delay=100ms;} <--> switch.fe04;
-        client01.quantumInterface <--> switch.qu01;
-        client02.quantumInterface <--> switch.qu02;
-        client03.quantumInterface <--> switch.qu03;
-        client04.quantumInterface <--> switch.qu04;
+        client01.quantumInterface <--> {delay=100ms;} <--> switch.qu01;
+        client02.quantumInterface <--> {delay=100ms;} <--> switch.qu02;
+        client03.quantumInterface <--> {delay=100ms;} <--> switch.qu03;
+        client04.quantumInterface <--> {delay=100ms;} <--> switch.qu04;
 }

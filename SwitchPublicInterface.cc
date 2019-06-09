@@ -27,17 +27,8 @@ void SwitchPublicInterface::initialize()
 }
 void SwitchPublicInterface::handleMessage(cMessage *msg)
 {
-    if(strcmp(msg->par("type").stringValue(),"initQKD") == 0)
-    {
-        msg->addPar("interface").setStringValue(this->getName());
-        msg->addPar("srcInterfaceMacAddress").setStringValue(this->par("macAddress").stringValue());
-        send(msg,"processorCommuniation$o");
-    }
-    else if(strcmp(msg->par("type").stringValue(),"initQkdRespons") == 0 || strcmp(msg->par("type").stringValue(),"qkdRequest") == 0 || strcmp(msg->par("type").stringValue(),"QKD-ACK") == 0)
-    {
-        send(msg,"publicChannelCommunication$o");
-    }
-    else if(strcmp(msg->par("type").stringValue(),"networkDiscovery") == 0)
+    cGate *gate = msg->getArrivalGate();
+    if(gate->isName("publicChannelCommunication$i"))
     {
         msg->addPar("interface").setStringValue(this->getName());
         msg->addPar("srcInterfaceMacAddress").setStringValue(this->par("macAddress").stringValue());
@@ -45,9 +36,7 @@ void SwitchPublicInterface::handleMessage(cMessage *msg)
     }
     else
     {
-        msg->addPar("interface").setStringValue(this->getName());
-        msg->addPar("srcInterfaceMacAddress").setStringValue(this->par("macAddress").stringValue());
-        send(msg,"processorCommuniation$o");
+        send(msg,"publicChannelCommunication$o");
     }
 }
 
