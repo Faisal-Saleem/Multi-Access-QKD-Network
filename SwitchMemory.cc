@@ -79,6 +79,21 @@ std::string SwitchMemory::getQuantumInterfaceFromMacTableByPublicMac(std::string
     return SwitchMemory::searchMacAddressTableByMacAddress(macAddress, 'X');
 }
 
+std::string SwitchMemory::getInterface(std::string macAddress)
+{
+    std::string result = "";
+    for(int i=0; i<= macAddressTable.size(); i++)
+    {
+        MacTableEntry *macTableEntry = (MacTableEntry *) this->macAddressTable[i];
+        if(strcmp(macTableEntry->getMacAddress(), macAddress.c_str()) == 0)
+        {
+            result = macTableEntry->getInterface();
+            break;
+        }
+    }
+    return result;
+}
+
 bool SwitchMemory::entryExist(std::string srcMac)
 {
     bool result = false;

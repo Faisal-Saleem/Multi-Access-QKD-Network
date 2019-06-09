@@ -39,7 +39,6 @@ void ClientProcessor::initialize(int stage)
     else if(stage == 1)
     {
         cPacket *discoveryPacket = new cPacket("networkDiscovery");
-        discoveryPacket->setByteLength(1024);
         discoveryPacket->addPar("type").setStringValue("networkDiscovery");
         discoveryPacket->addPar("macAddress").setStringValue(this->getParentModule()->getSubmodule("clientPublicInterface")->par("macAddress"));
         discoveryPacket->addPar("ipAddress").setStringValue(this->getParentModule()->getSubmodule("clientPublicInterface")->par("ipAddress"));
@@ -50,7 +49,6 @@ void ClientProcessor::initialize(int stage)
         if(strcmp(this->getParentModule()->getParentModule()->par("source"), this->getParentModule()->getName()) == 0)
         {
             cPacket *discoveryPacket = new cPacket("initQkd");
-            discoveryPacket->setByteLength(1024);
             discoveryPacket->addPar("type").setStringValue("initQkd");
             discoveryPacket->addPar("srcMAC").setStringValue(this->getParentModule()->getParentModule()->getSubmodule(this->getParentModule()->getParentModule()->par("source").stringValue())->getSubmodule("clientPublicInterface")->par("macAddress").stringValue());
             discoveryPacket->addPar("desMAC").setStringValue(this->getParentModule()->getParentModule()->getSubmodule(this->getParentModule()->getParentModule()->par("destination").stringValue())->getSubmodule("clientPublicInterface")->par("macAddress").stringValue());
@@ -82,7 +80,7 @@ void ClientProcessor::handleMessage(cMessage *msg)
             qkdResponse->addPar("desMAC").setStringValue(msg->par("srcMAC").stringValue());
 
             key->setIdentity(1);
-            key->setMacAddress(msg->par("srcMAC").stringValue());
+            key->setMacAddress(msg->par("requestFrom").stringValue());
 
             clientMemory->addQautumKey(key);
 
@@ -98,27 +96,29 @@ void ClientProcessor::handleMessage(cMessage *msg)
             k1->addPar("value").setStringValue(clientMemory->getInitialKeyBin().c_str());
             send(k1,"quantumInterfaceCommunication$o");
         }
+        if(strcmp(msg->par("type").stringValue(),"qkdStates") == 0)
+        {
+            EV<<"filterUsage : "<<msg->par("filterUsage").stringValue();
+            QuantumKeyEntry *receivedKey = new QuantumKeyEntry();
+            receivedKey->setKey(msg->par("filterUsage").stringValue());
+            clientMemory->addQautumKey(receivedKey);
+            ClientProcessor::printKeyTable();
+        }
     }
     else
     {
-        /*
-        if(strcmp(msg->par("type").stringValue(),"pfilter") == 0)
-        {
-            clientMemory->setPolarizationStates(msg->par("polarizationFilterUsed").stringValue());
-        }
-        */
-
         if(strcmp(msg->par("type").stringValue(), "quantumData") == 0)
         {
             clientMemory->setPendingKey(msg->par("siftedKey").stringValue());
             clientMemory->getQuantumKey(clientMemory->getPendingTransaction()).setKey(msg->par("siftedKey").stringValue());
-            clientMemory->getQuantumKey(clientMemory->getPendingTransaction()).setStatus("Active");
-            ClientProcessor::printKeyTable();
-
             cPacket *polarizationStatus = new cPacket("quantumData");
             polarizationStatus->addPar("type").setStringValue("quantumData");
             polarizationStatus->addPar("filterUsage").setStringValue(msg->par("filterUsage").stringValue());
+            polarizationStatus->addPar("srcMAC").setStringValue(this->getParentModule()->getSubmodule("clientPublicInterface")->par("macAddress").stringValue());
+            polarizationStatus->addPar("desMAC").setStringValue(clientMemory->getPendingKeyMacAddress().c_str());
             send(polarizationStatus,"publicInterfaceCommunication$o");
+            clientMemory->getQuantumKey(clientMemory->getPendingTransaction()).setStatus("Active");
+            ClientProcessor::printKeyTable();
         }
     }
     delete msg;
@@ -161,14 +161,19 @@ void ClientProcessor::printKeyTable()
             EV<<"=======================================================\n";
             EV<<"  ID       MacAddress           Key        Status   \n";
             EV<<"=======================================================\n";
-            EV<<"  "
-                    <<clientMemory->getQuantumKey(0).getIdentity()
+            for(int i=0; i<clientMemory->getNumberOfKey(); i++)
+            {
+                EV<<"  "
+                    <<clientMemory->getQuantumKey(i).getIdentity()
                     <<"     "
-                    <<clientMemory->getQuantumKey(0).getMacAddress()
+                    <<clientMemory->getQuantumKey(i).getMacAddress()
                     <<"     "
-                    <<clientMemory->getQuantumKey(0).getKey()
+                    <<clientMemory->getQuantumKey(i).getKey()
                     <<"     "
-                    <<clientMemory->getQuantumKey(0).getStatus()
+                    <<clientMemory->getQuantumKey(i).getStatus()
                     <<"\n";
+            }
             EV<<"=======================================================\n";
+
+
 }

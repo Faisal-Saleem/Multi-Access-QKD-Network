@@ -65,6 +65,23 @@ int ClientMemory::getPendingTransaction()
     return index;
 }
 
+std::string ClientMemory::getPendingKeyMacAddress()
+{
+    std::string desMac = "";
+    for(int i=0; i<this->quantumKey.size(); i++)
+    {
+        QuantumKeyEntry *qKey = (QuantumKeyEntry *) this->quantumKey[i];
+
+        if(strcmp(qKey->getStatus(),"") == 0)
+        {
+            desMac = qKey->getMacAddress();
+            qKey->setStatus("Active");
+            break;
+        }
+    }
+    return desMac;
+}
+
 void ClientMemory::setPendingKey(std::string key)
 {
     for(int i=0; i<this->quantumKey.size(); i++)
@@ -73,7 +90,6 @@ void ClientMemory::setPendingKey(std::string key)
         if(strcmp(qKey->getKey(),"") == 0)
         {
             qKey->setKey(key.c_str());
-            qKey->setStatus("Active");
             break;
         }
     }

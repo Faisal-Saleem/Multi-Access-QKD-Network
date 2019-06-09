@@ -25,6 +25,7 @@ public:
     void addQautumKey(QuantumKeyEntry *key);
     int getNumberOfKey();
     int getPendingTransaction();
+    std::string getPendingKeyMacAddress();
     void setPendingKey(std::string key);
 
     std::string getInitialKey();

@@ -110,6 +110,7 @@ void Processor::handleMessage(cMessage *msg)
             cPacket *qkdSession = new cPacket("qkdRequest");
             qkdSession->addPar("type").setStringValue("qkdRequest");
             qkdSession->addPar("srcMAC").setStringValue(sessionStateEntry->getSrcMac());
+            qkdSession->addPar("requestFrom").setStringValue(msg->par("srcMAC").stringValue());
             qkdSession->addPar("desMAC").setStringValue(sessionStateEntry->getDesMac());
             qkdSession->addPar("interface").setStringValue(switchMemory->getInterfaceIdFromMacTable(sessionStateEntry->getDesMac()).c_str());
             send(qkdSession,"publicInterfaceCommunication$o");
@@ -139,6 +140,18 @@ void Processor::handleMessage(cMessage *msg)
         send(qkdAck,"publicInterfaceCommunication$o");
         delete msg;
 
+    }
+    else if (strcmp("quantumData",msg->par("type").stringValue()) == 0)
+    {
+        cPacket *pkt = new cPacket("qkdStats");
+        pkt->addPar("type").setStringValue("qkdStates");
+        pkt->addPar("interface").setStringValue(switchMemory->getInterface(msg->par("desMAC").stringValue()).c_str());
+        pkt->addPar("srcMAC").setStringValue(msg->par("srcMAC").stringValue());
+        pkt->addPar("desMAC").setStringValue(msg->par("desMAC").stringValue());
+        pkt->addPar("filterUsage").setStringValue(msg->par("filterUsage").stringValue());
+        EV<<"INTERFACE : "<<switchMemory->getInterface(pkt->par("desMAC").stringValue());
+        send(pkt,"publicInterfaceCommunication$o");
+        delete msg;
     }
     else
     {

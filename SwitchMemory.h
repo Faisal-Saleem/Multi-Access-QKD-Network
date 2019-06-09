@@ -56,6 +56,7 @@ class SwitchMemory : public cSimpleModule
     std::string getQuantumMacAddressOfInterfaceFromMacTable(std::string interface);
     std::string getQuantumInterfaceFromMacTable(std::string qMacAddress);
     std::string getQuantumInterfaceFromMacTableByPublicMac(std::string macAddress);
+    std::string getInterface(std::string macAddress);
     bool entryExist(std::string srcMac);
 
 
