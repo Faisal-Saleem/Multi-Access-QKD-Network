@@ -23,6 +23,7 @@ protected:
     virtual int numInitStages() const override;
 
     std::string convertToBinary(int initialKey);
+    std::string compareBasis(std::string initialKey, std::string receivedStates);
 
 public:
     void initializeNetwork();

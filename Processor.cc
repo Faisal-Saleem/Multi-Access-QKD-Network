@@ -112,6 +112,7 @@ void Processor::handleMessage(cMessage *msg)
             qkdSession->addPar("srcMAC").setStringValue(sessionStateEntry->getSrcMac());
             qkdSession->addPar("requestFrom").setStringValue(msg->par("srcMAC").stringValue());
             qkdSession->addPar("desMAC").setStringValue(sessionStateEntry->getDesMac());
+            qkdSession->addPar("requestTo").setStringValue(msg->par("desMAC").stringValue());
             qkdSession->addPar("interface").setStringValue(switchMemory->getInterfaceIdFromMacTable(sessionStateEntry->getDesMac()).c_str());
             send(qkdSession,"publicInterfaceCommunication$o");
         }
@@ -149,7 +150,6 @@ void Processor::handleMessage(cMessage *msg)
         pkt->addPar("srcMAC").setStringValue(msg->par("srcMAC").stringValue());
         pkt->addPar("desMAC").setStringValue(msg->par("desMAC").stringValue());
         pkt->addPar("filterUsage").setStringValue(msg->par("filterUsage").stringValue());
-        EV<<"INTERFACE : "<<switchMemory->getInterface(pkt->par("desMAC").stringValue());
         send(pkt,"publicInterfaceCommunication$o");
         delete msg;
     }
