@@ -10,6 +10,7 @@
 #include <omnetpp.h>
 #include <bitset>
 #include <iostream>
+#include <random>
 
 using namespace omnetpp;
 
@@ -25,7 +26,8 @@ private:
     int counter;
     cQueue xQueue;
     std::string receivedPolarization;
-    std::string polarizationFilterUsed;
+    std::string polarizationSFilters;
+    std::string polarizationRFilters;
 };
 
 Define_Module(QuantumStatesGenerator);
@@ -83,7 +85,7 @@ void QuantumStatesGenerator::handleMessage(cMessage *msg)
                 {
                     exitGate = "DR";
                 }
-                else
+                else if (randomGate == 3)
                 {
                     exitGate = "H";
                 }
@@ -91,38 +93,48 @@ void QuantumStatesGenerator::handleMessage(cMessage *msg)
             }
 
             if (randomGate == 0) {
-                polarizationFilterUsed.append("\\");
+                polarizationSFilters.append("\\");
             }
             else if (randomGate == 1) {
-                polarizationFilterUsed.append("|");
+                polarizationSFilters.append("|");
             }
             else if (randomGate == 2) {
-                polarizationFilterUsed.append("/");
+                polarizationSFilters.append("/");
             }
-            else {
-                polarizationFilterUsed.append("-");
+            else if (randomGate == 3) {
+                polarizationSFilters.append("-");
             }
         }
-        cMessage *polarizationFilters = new cMessage("polarizationFilterUsed");
+        cPacket *polarizationFilters = new cPacket("polarizationFilterUsed");
         polarizationFilters->addPar("type").setStringValue("pfilter");
-        polarizationFilters->addPar("polarizationFilterUsed").setStringValue(polarizationFilterUsed.c_str());
+        polarizationFilters->addPar("polarizationFilterUsed").setStringValue(polarizationSFilters.c_str());
+
         send(polarizationFilters,"processorCommunication$o");
     }
     else
     {
         counter--;
-        if(counter > 0)
+        if(counter >= 0)
         {
+            if(gate->isName("Diagonal"))
+            {
+                polarizationRFilters.append("x");
+            }
+            else if(gate->isName("Straight"))
+            {
+                polarizationRFilters.append("+");
+            }
             receivedPolarization.append(msg->getName());
+
+            if(counter == 0)
+            {
+                cPacket *quantumData = new cPacket("quantumData");
+                quantumData->addPar("type").setStringValue("quantumData");
+                quantumData->addPar("siftedKey").setStringValue(QuantumStatesGenerator::siftKey(receivedPolarization).c_str());
+                quantumData->addPar("filterUsage").setStringValue(polarizationRFilters.c_str());
+                send(quantumData,"processorCommunication$o");
+            }
             delete msg;
-        }
-        else
-        {
-            cPacket *quantumData = new cPacket("quantumData");
-            quantumData->addPar("type").setStringValue("quantumData");
-            quantumData->addPar("siftedKey").setStringValue(QuantumStatesGenerator::siftKey(receivedPolarization).c_str());
-            quantumData->addPar("filterUsage").setStringValue(QuantumStatesGenerator::statesStatus(receivedPolarization).c_str());
-            send(quantumData,"processorCommunication$o");
         }
     }
 }
@@ -132,7 +144,7 @@ std::string QuantumStatesGenerator::siftKey(std::string states)
     std::string siftedKey;
     char polarization[states.length()+1];
     strcpy(polarization, states.c_str());
-    for(int i=0; i<=strlen(polarization); i++)
+    for(int i=0; i<strlen(polarization); i++)
     {
         if(polarization[i] != '0')
         {
@@ -140,7 +152,7 @@ std::string QuantumStatesGenerator::siftKey(std::string states)
             {
                 siftedKey.append("0");
             }
-            else
+            else if (polarization[i] == '/' || polarization[i] == '-')
             {
                 siftedKey.append("1");
             }
@@ -154,7 +166,7 @@ std::string QuantumStatesGenerator::statesStatus(std::string states)
     std::string statesUsed;
     char polarization[states.length()+1];
     strcpy(polarization, states.c_str());
-    for(int i=0; i<=strlen(polarization); i++)
+    for(int i=0; i<strlen(polarization); i++)
     {
         if(polarization[i] != '0')
         {

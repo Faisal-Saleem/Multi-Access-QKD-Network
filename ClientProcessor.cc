@@ -11,22 +11,22 @@
 #include <bitset>
 #include <iostream>
 #include <cstdlib>
+#include <random>
 #include "ClientProcessor.h"
 #include "ClientMemory.h"
 
 using namespace omnetpp;
 
-cModule *targetModule;
-ClientMemory *clientMemory;
+
 
 Define_Module(ClientProcessor);
 
 void ClientProcessor::initialize(int stage)
 {
+    cModule *targetModule = this->getParentModule()->getSubmodule("clientMemory");
+    ClientMemory *clientMemory = check_and_cast<ClientMemory *>(targetModule);
     if(stage == 0)
     {
-        targetModule = this->getParentModule()->getSubmodule("clientMemory");
-        clientMemory = check_and_cast<ClientMemory *>(targetModule);
         MacTableEntry *macTableEntry = new MacTableEntry();
         macTableEntry->setIdentity(1);
         macTableEntry->setInterface(this->getParentModule()->getSubmodule("clientPublicInterface")->getName());
@@ -85,6 +85,8 @@ int ClientProcessor::numInitStages() const
 
 void ClientProcessor::handleMessage(cMessage *msg)
 {
+    cModule *targetModule = this->getParentModule()->getSubmodule("clientMemory");
+    ClientMemory *clientMemory = check_and_cast<ClientMemory *>(targetModule);
     cGate *gate = msg->getArrivalGate();
     if(gate->isName("publicInterfaceCommunication$i"))
     {
@@ -92,7 +94,7 @@ void ClientProcessor::handleMessage(cMessage *msg)
         {
 
         }
-        if(strcmp(msg->par("type").stringValue(),"qkdRequest") == 0 && strcmp(this->getParentModule()->getSubmodule("clientPublicInterface")->par("macAddress").stringValue(), msg->par("requestTo")) == 0)
+        if(strcmp(msg->par("type").stringValue(),"qkdRequest") == 0)
         {
             QuantumKeyEntry *key = new QuantumKeyEntry();
             key->setIdentity(1);
@@ -110,9 +112,12 @@ void ClientProcessor::handleMessage(cMessage *msg)
         }
         if(strcmp(msg->par("type").stringValue(),"QKD-ACK") == 0)
         {
-            int randomKey = rand()% 100 + 899;
-            clientMemory->setInitialKey(std::to_string(randomKey));
-            clientMemory->setInitialKeyBin(ClientProcessor::convertToBinary(randomKey));
+            int randomKeyLength = this->getParentModule()->getParentModule()->par("initKeyLength").intValue();
+
+
+            //clientMemory->setInitialKey(ClientProcessor::convertToBinary(randomKeyLength));
+            clientMemory->setInitialKeyBin(ClientProcessor::convertToBinary(randomKeyLength));
+
             cMessage *k1 = new cMessage("initialKey");
             k1->addPar("type").setStringValue("initialKey");
             k1->addPar("value").setStringValue(clientMemory->getInitialKeyBin().c_str());
@@ -120,36 +125,35 @@ void ClientProcessor::handleMessage(cMessage *msg)
         }
         if(strcmp(msg->par("type").stringValue(),"qkdStates") == 0)
         {
-            if(strcmp(this->getParentModule()->getSubmodule("clientPublicInterface")->par("macAddress"), msg->par("desMAC").stringValue()) == 0)
-            {
-                EV<<"DES MAC :"<<msg->par("desMAC").stringValue()<<endl;
-                QuantumKeyEntry *receivedKey = new QuantumKeyEntry();
-                receivedKey->setIdentity(1);
-                receivedKey->setMacAddress(msg->par("srcMAC").stringValue());
-                receivedKey->setKey(ClientProcessor::compareBasis(clientMemory->getInitialKeyBin(), msg->par("filterUsage").stringValue()).c_str());
-                receivedKey->setStatus("Active");
-                clientMemory->addQautumKey(receivedKey);
-                ClientProcessor::printKeyTable();
-            }
+            QuantumKeyEntry *receivedKey = new QuantumKeyEntry();
+            receivedKey->setIdentity(1);
+            receivedKey->setMacAddress(msg->par("srcMAC").stringValue());
+            receivedKey->setKey(ClientProcessor::compareBasis(clientMemory->getPolarizationStates(), msg->par("filterUsage").stringValue(), clientMemory->getInitialKeyBin()).c_str());
+            receivedKey->setStatus("Active");
+            clientMemory->addQautumKey(receivedKey);
+            ClientProcessor::printKeyTable();
         }
     }
     else
     {
         if(strcmp(msg->par("type").stringValue(), "quantumData") == 0)
         {
+            clientMemory->setPendingKey(msg->par("siftedKey").stringValue());
+            clientMemory->getQuantumKey(clientMemory->getPendingTransaction()).setKey(msg->par("siftedKey").stringValue());
 
-                EV<<"SRC MAC :"<<this->getParentModule()->getName()<<endl;
-                clientMemory->setPendingKey(msg->par("siftedKey").stringValue());
-                clientMemory->getQuantumKey(clientMemory->getPendingTransaction()).setKey(msg->par("siftedKey").stringValue());
-                cPacket *polarizationStatus = new cPacket("quantumData");
-                polarizationStatus->addPar("type").setStringValue("quantumData");
-                polarizationStatus->addPar("filterUsage").setStringValue(msg->par("filterUsage").stringValue());
-                polarizationStatus->addPar("srcMAC").setStringValue(this->getParentModule()->getSubmodule("clientPublicInterface")->par("macAddress").stringValue());
-                polarizationStatus->addPar("desMAC").setStringValue(clientMemory->getPendingKeyMacAddress().c_str());
-                send(polarizationStatus,"publicInterfaceCommunication$o");
-                clientMemory->getQuantumKey(clientMemory->getPendingTransaction()).setStatus("Active");
-                ClientProcessor::printKeyTable();
+            cPacket *polarizationStatus = new cPacket("quantumData");
+            polarizationStatus->addPar("type").setStringValue("quantumData");
+            polarizationStatus->addPar("filterUsage").setStringValue(msg->par("filterUsage").stringValue());
+            polarizationStatus->addPar("srcMAC").setStringValue(this->getParentModule()->getSubmodule("clientPublicInterface")->par("macAddress").stringValue());
+            polarizationStatus->addPar("desMAC").setStringValue(clientMemory->getPendingKeyMacAddress().c_str());
+            send(polarizationStatus,"publicInterfaceCommunication$o");
+            clientMemory->getQuantumKey(clientMemory->getPendingTransaction()).setStatus("Active");
+            ClientProcessor::printKeyTable();
 
+        }
+        if(strcmp(msg->par("type").stringValue(),"pfilter") == 0)
+        {
+            clientMemory->setPolarizationStates(msg->par("polarizationFilterUsed").stringValue());
         }
     }
     delete msg;
@@ -157,17 +161,19 @@ void ClientProcessor::handleMessage(cMessage *msg)
 
 std::string ClientProcessor::convertToBinary(int initialKey)
 {
-    std::string key = std::to_string(initialKey);
     std::string binKey = "";
-    for(std::size_t i=0; i< key.size(); ++i)
+    for(int i=0; i<initialKey; i++)
     {
-        binKey.append(std::bitset<8>(key.c_str()[i]).to_string());
+        binKey.append(std::to_string(rand()&1));
     }
     return binKey;
 }
 
 void ClientProcessor::printMacTable()
 {
+    cModule *targetModule = this->getParentModule()->getSubmodule("clientMemory");
+    ClientMemory *clientMemory = check_and_cast<ClientMemory *>(targetModule);
+
     EV<<"[*] "<<this->getName()<<" MAC Address Table\n";
     EV<<"=============================================================================================\n";
     EV<<"  Identity     Interface                 MacAddress             Q_Interface         Type   \n";
@@ -188,6 +194,9 @@ void ClientProcessor::printMacTable()
 
 void ClientProcessor::printKeyTable()
 {
+    cModule *targetModule = this->getParentModule()->getSubmodule("clientMemory");
+    ClientMemory *clientMemory = check_and_cast<ClientMemory *>(targetModule);
+
     EV<<"[*] "<<this->getParentModule()->getName()<<" Quantum Key Table\n";
     EV<<"=======================================================\n";
     EV<<"  ID       MacAddress           Key        Status   \n";
@@ -211,25 +220,36 @@ void ClientProcessor::printKeyTable()
     EV<<"=======================================================\n";
 }
 
-std::string ClientProcessor::compareBasis(std::string initialKey, std::string receivedStats)
+std::string ClientProcessor::compareBasis(std::string statesUsed, std::string receivedStates, std::string randomBits)
 {
-    std::string key = "";
-    if(initialKey.length() == receivedStats.length())
-    {
-        char keyChar[initialKey.length()+1];
-        strcpy(keyChar, initialKey.c_str());
+        std::string key;
+        char statsU[statesUsed.length()];
+        strcpy(statsU, statesUsed.c_str());
 
-        char statesChar[receivedStats.length()+1];
-        strcpy(statesChar, receivedStats.c_str());
+        char statsR[receivedStates.length()];
+        strcpy(statsR, receivedStates.c_str());
 
-        for(int i=0; i<=initialKey.length(); i++)
+        char bitsR[randomBits.length()];
+        strcpy(bitsR, randomBits.c_str());
+
+        for(int i=0; i<receivedStates.length(); i++)
         {
-            if(receivedStats[i] == '1')
+            if(statsU[i] == '|' && statsR[i] == '+')
             {
-                std::string s(1, keyChar[i]);
-                key.append(s);
+                key += bitsR[i];
             }
-        }
+            else if(statsU[i] == '/' && statsR[i] == 'x')
+            {
+                key += bitsR[i];
+            }
+            else if (statsU[i] == '-' && statsR[i] == '+')
+            {
+                key += bitsR[i];
+            }
+            else if (statsU[i] == '\\' && statsR[i] == 'x')
+            {
+                key += bitsR[i];
+            }
     }
     return key;
 }
