@@ -12,6 +12,8 @@
 #include <iostream>
 #include <cstdlib>
 #include <random>
+#include <vector>
+#include <algorithm>
 #include "ClientProcessor.h"
 #include "ClientMemory.h"
 
@@ -100,7 +102,6 @@ void ClientProcessor::handleMessage(cMessage *msg)
             key->setIdentity(1);
             key->setMacAddress(msg->par("requestFrom").stringValue());
 
-
             clientMemory->addQautumKey(key);
             ClientProcessor::printKeyTable();
 
@@ -113,9 +114,6 @@ void ClientProcessor::handleMessage(cMessage *msg)
         if(strcmp(msg->par("type").stringValue(),"QKD-ACK") == 0)
         {
             int randomKeyLength = this->getParentModule()->getParentModule()->par("initKeyLength").intValue();
-
-
-            //clientMemory->setInitialKey(ClientProcessor::convertToBinary(randomKeyLength));
             clientMemory->setInitialKeyBin(ClientProcessor::convertToBinary(randomKeyLength));
 
             cMessage *k1 = new cMessage("initialKey");
@@ -159,12 +157,23 @@ void ClientProcessor::handleMessage(cMessage *msg)
     delete msg;
 }
 
+unsigned int ClientProcessor::countSetBits(unsigned int n)
+{
+    unsigned int count = 0;
+    while (n)
+    {
+        count += n & 1;
+        n >>= 1;
+    }
+    return count;
+}
+
 std::string ClientProcessor::convertToBinary(int initialKey)
 {
     std::string binKey = "";
     for(int i=0; i<initialKey; i++)
     {
-        binKey.append(std::to_string(rand()&1));
+       binKey.append(std::to_string(rand()&1));
     }
     return binKey;
 }

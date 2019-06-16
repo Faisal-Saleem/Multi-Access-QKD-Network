@@ -22,7 +22,10 @@ protected:
     virtual void handleMessage(cMessage *msg) override;
     virtual int numInitStages() const override;
 
+    unsigned int countSetBits(unsigned int n);
+    std::string generateRandomKey(int keyLength);
     std::string convertToBinary(int initialKey);
+
     std::string compareBasis(std::string statesUsed, std::string receivedStates, std::string randomBits);
 
 public:
