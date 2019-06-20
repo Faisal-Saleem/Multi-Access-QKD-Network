@@ -30,7 +30,7 @@ void ClientFilterDiagonal::handleMessage(cMessage *msg)
     int randomHF;
     if(strcmp("-", msg->getName()) == 0 || strcmp("|", msg->getName()) == 0)
     {
-        msg->setName("0");
+        msg->setName(" ");
     }
 
     send(msg,"polarizedLightOut");

@@ -115,7 +115,6 @@ void ClientProcessor::handleMessage(cMessage *msg)
         {
             int randomKeyLength = this->getParentModule()->getParentModule()->par("initKeyLength").intValue();
             clientMemory->setInitialKeyBin(ClientProcessor::convertToBinary(randomKeyLength));
-
             cMessage *k1 = new cMessage("initialKey");
             k1->addPar("type").setStringValue("initialKey");
             k1->addPar("value").setStringValue(clientMemory->getInitialKeyBin().c_str());

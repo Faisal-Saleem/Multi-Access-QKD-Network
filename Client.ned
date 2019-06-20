@@ -16,7 +16,7 @@ module Client
             @display("p=474,201");
         }
         DL: ClientFilterDL {
-            @display("p=225,52");
+            @display("p=225,52;t=\\");
         }
         DR: ClientFilterDR {
             @display("p=332,52;t=/");

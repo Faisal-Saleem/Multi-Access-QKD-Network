@@ -21,6 +21,7 @@ protected:
     virtual void handleMessage(cMessage *msg) override;
     std::string siftKey(std::string states);
     std::string statesStatus(std::string states);
+    std::string processKey(std::string siftedKey);
 private:
     int randomGate;
     int counter;
@@ -105,10 +106,15 @@ void QuantumStatesGenerator::handleMessage(cMessage *msg)
                 polarizationSFilters.append("-");
             }
         }
+
         cPacket *polarizationFilters = new cPacket("polarizationFilterUsed");
         polarizationFilters->addPar("type").setStringValue("pfilter");
         polarizationFilters->addPar("polarizationFilterUsed").setStringValue(polarizationSFilters.c_str());
-
+        EV<<"[*] "<<this->getParentModule()->getName()<<" RANDOM BITS & PHOTON POLARIZATION\n";
+        EV<<"********************************************************************************"<<endl;
+        EV<<"RANDOM BITS               : "<<key.c_str()<<endl;
+        EV<<"POLARIZATION FILTERS USED : "<<polarizationSFilters.c_str()<<endl;
+        EV<<"********************************************************************************"<<endl;
         send(polarizationFilters,"processorCommunication$o");
     }
     else
@@ -125,18 +131,45 @@ void QuantumStatesGenerator::handleMessage(cMessage *msg)
                 polarizationRFilters.append("+");
             }
             receivedPolarization.append(msg->getName());
-
             if(counter == 0)
             {
+                std::string siftedKey = QuantumStatesGenerator::siftKey(receivedPolarization);
+                std::string processedKey = QuantumStatesGenerator::processKey(siftedKey);
+                EV<<"[*] "<<this->getParentModule()->getName()<<" PHOTONS RECEIVED & PROCESSED\n";
+                EV<<"********************************************************************************"<<endl;
+                EV<<"POLARIZATION FILTERS USED    : "<<polarizationRFilters.c_str()<<endl;
+                EV<<"POLARIZATION RECEIVED        : "<<receivedPolarization<<endl;
+                EV<<"SIFTED KEY                   : "<<siftedKey.c_str()<<endl;
+                EV<<"--------------------------------------------------------------------------------"<<endl;
+                EV<<"FINAL KEY                    : "<<processedKey.c_str()<<endl;
+                EV<<"********************************************************************************"<<endl;
                 cPacket *quantumData = new cPacket("quantumData");
                 quantumData->addPar("type").setStringValue("quantumData");
-                quantumData->addPar("siftedKey").setStringValue(QuantumStatesGenerator::siftKey(receivedPolarization).c_str());
+                quantumData->addPar("siftedKey").setStringValue(processedKey.c_str());
                 quantumData->addPar("filterUsage").setStringValue(polarizationRFilters.c_str());
                 send(quantumData,"processorCommunication$o");
             }
             delete msg;
         }
     }
+}
+
+std::string QuantumStatesGenerator::processKey(std::string siftedKey)
+{
+    std::string finalKey;
+    char key[siftedKey.length()+1];
+    strcpy(key, siftedKey.c_str());
+    for(int i=0; i<strlen(key); i++)
+    {
+        if(key[i] != ' ')
+        {
+            if(key[i]=='0')
+                finalKey.append("0");
+            else
+                finalKey.append("1");
+        }
+    }
+    return finalKey;
 }
 
 std::string QuantumStatesGenerator::siftKey(std::string states)
@@ -146,7 +179,7 @@ std::string QuantumStatesGenerator::siftKey(std::string states)
     strcpy(polarization, states.c_str());
     for(int i=0; i<strlen(polarization); i++)
     {
-        if(polarization[i] != '0')
+        if(polarization[i] != ' ')
         {
             if(polarization[i] == '\\' || polarization[i] == '|')
             {
@@ -156,6 +189,10 @@ std::string QuantumStatesGenerator::siftKey(std::string states)
             {
                 siftedKey.append("1");
             }
+        }
+        else
+        {
+            siftedKey.append(" ");
         }
     }
     return siftedKey;
