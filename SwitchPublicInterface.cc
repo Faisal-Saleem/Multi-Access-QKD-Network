@@ -9,6 +9,7 @@
 #include <omnetpp.h>
 #include <bitset>
 #include <iostream>
+#include "SwitchMemory.h"
 
 using namespace omnetpp;
 
@@ -25,6 +26,7 @@ void SwitchPublicInterface::initialize()
 {
 
 }
+
 void SwitchPublicInterface::handleMessage(cMessage *msg)
 {
     cGate *gate = msg->getArrivalGate();

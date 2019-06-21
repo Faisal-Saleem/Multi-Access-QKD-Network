@@ -25,6 +25,7 @@ void ClientPublicInterface::initialize()
 {
 
 }
+
 void ClientPublicInterface::handleMessage(cMessage *msg)
 {
     cGate *gate = msg->getArrivalGate();

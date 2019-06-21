@@ -89,6 +89,7 @@ void ClientProcessor::handleMessage(cMessage *msg)
 {
     cModule *targetModule = this->getParentModule()->getSubmodule("clientMemory");
     ClientMemory *clientMemory = check_and_cast<ClientMemory *>(targetModule);
+
     cGate *gate = msg->getArrivalGate();
     if(gate->isName("publicInterfaceCommunication$i"))
     {
@@ -154,6 +155,7 @@ void ClientProcessor::handleMessage(cMessage *msg)
         }
     }
     delete msg;
+
 }
 
 unsigned int ClientProcessor::countSetBits(unsigned int n)
@@ -206,9 +208,9 @@ void ClientProcessor::printKeyTable()
     ClientMemory *clientMemory = check_and_cast<ClientMemory *>(targetModule);
 
     EV<<"[*] "<<this->getParentModule()->getName()<<" Quantum Key Table\n";
-    EV<<"=======================================================\n";
+    EV<<"==============================================================================================================\n";
     EV<<"  ID       MacAddress           Key        Status   \n";
-    EV<<"=======================================================\n";
+    EV<<"==============================================================================================================\n";
     for(int i=0; i<clientMemory->getNumberOfKey(); i++)
     {
         if(strcmp(clientMemory->getQuantumKey(i).getMacAddress(),this->getParentModule()->getSubmodule("clientPublicInterface")->par("macAddress").stringValue()) != 0)
@@ -225,7 +227,7 @@ void ClientProcessor::printKeyTable()
 
         }
     }
-    EV<<"=======================================================\n";
+    EV<<"==============================================================================================================\n";
 }
 
 std::string ClientProcessor::compareBasis(std::string statesUsed, std::string receivedStates, std::string randomBits)

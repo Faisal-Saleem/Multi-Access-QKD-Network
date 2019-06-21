@@ -15,7 +15,10 @@
 network Network
 {
     parameters:
-        @display("bgb=402,278,#FFE4CA;i=block/network;i2=status/connect;bgl=2");
+        @figure[description](type=text; pos=2,10; font=,,bold; text="[BB84 Protocol]"; color=green);
+        @figure[details](type=text; pos=2,35; text="Multipoint Quantum Key Distribution");
+        
+        @display("bgb=806,552,#FFE4CA;i=block/network;i2=status/connect;bgl=2");
         string source;
         string destination;
         string multiPointSource;
@@ -24,27 +27,27 @@ network Network
         bool multipoint;
     submodules:
         switch: Switch {
-            @display("p=203,133");
+            @display("p=402,341");
         }
         client01: Client {
-            @display("p=42,41");    	
+            @display("p=31,144");
         }
         client02: Client {
-            @display("p=44,206");
+            @display("p=33,517");
         }
         client03: Client {
-            @display("p=339,42");
+            @display("p=765,146");
         }
         client04: Client {
-            @display("p=344,213");
+            @display("p=767,511");
         }
     connections:
-        client01.publicInterface <--> {delay=100ms;} <--> switch.fe01;
-        client02.publicInterface <--> {delay=100ms;} <--> switch.fe02;
-        client03.publicInterface <--> {delay=100ms;} <--> switch.fe03;
-        client04.publicInterface <--> {delay=100ms;} <--> switch.fe04;
-        client01.quantumInterface <--> {delay=100ms;} <--> switch.qu01;
-        client02.quantumInterface <--> {delay=100ms;} <--> switch.qu02;
-        client03.quantumInterface <--> {delay=100ms;} <--> switch.qu03;
-        client04.quantumInterface <--> {delay=100ms;} <--> switch.qu04;
+        client01.publicInterface <--> {  delay = 100ms; } <--> switch.fe01;
+        client02.publicInterface <--> {  delay = 100ms; } <--> switch.fe02;
+        client03.publicInterface <--> {  delay = 100ms; } <--> switch.fe03;
+        client04.publicInterface <--> {  delay = 100ms; } <--> switch.fe04;
+        client01.quantumInterface <--> {  delay = 100ms; } <--> switch.qu01;
+        client02.quantumInterface <--> {  delay = 100ms; } <--> switch.qu02;
+        client03.quantumInterface <--> {  delay = 100ms; } <--> switch.qu03;
+        client04.quantumInterface <--> {  delay = 100ms; } <--> switch.qu04;
 }

@@ -13,6 +13,11 @@
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 // 
 
+/*! \class SwitchMemory
+ *  \brief Class to hold the objects in memory
+ */
+
+
 #ifndef __QUANTUM_KEY_DISTRIBUTION_SWITCHMEMORY_H_
 #define __QUANTUM_KEY_DISTRIBUTION_SWITCHMEMORY_H_
 
@@ -25,6 +30,9 @@
 
 using namespace omnetpp;
 
+/*! \enum QueryType
+ *  \brief Enumerator to query the MAC Address Table
+ */
 enum QueryType
 {
     macAddress,
@@ -44,6 +52,7 @@ class SwitchMemory : public cSimpleModule
     std::string searchMacAddressTableByInterface(std::string interface, char query);
     std::string searchMacAddressTableByQuantumMacAddress(std::string interface, char query);
     std::string searchSessionStateTable(QueryType searchBy, std::string searchValue, char returnValue);
+
   public:
     // MAC Address Table Methods
     int macEntryIndex;

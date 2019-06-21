@@ -90,6 +90,7 @@ void Processor::handleMessage(cMessage *msg)
         arpTableEntry->setType(0);
         arpTableEntry->setInterface(msg->par("interface").stringValue());
         switchMemory->addArpTableEntry(arpTableEntry);
+
         delete msg;
     }
     else if (strcmp("initQkd",msg->par("type").stringValue()) == 0)
@@ -139,8 +140,8 @@ void Processor::handleMessage(cMessage *msg)
         qSRCInterface->par("exitInterface").setStringValue(switchMemory->getExitInterfaceFromBindingTable(qSRCInterface->getName(), qDESInterface->getName()));
 
         send(qkdAck,"publicInterfaceCommunication$o");
-        delete msg;
 
+        delete msg;
     }
     else if (strcmp("quantumData",msg->par("type").stringValue()) == 0)
     {
@@ -151,6 +152,7 @@ void Processor::handleMessage(cMessage *msg)
         pkt->addPar("desMAC").setStringValue(msg->par("desMAC").stringValue());
         pkt->addPar("filterUsage").setStringValue(msg->par("filterUsage").stringValue());
         send(pkt,"publicInterfaceCommunication$o");
+
         delete msg;
     }
     else
@@ -164,7 +166,6 @@ void Processor::finish()
     Processor::printMacAddressTable();
     Processor::printArpTable();
     Processor::printSessionStateTable();
-
 }
 
 void Processor::prepareMacAddressTable()
