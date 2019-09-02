@@ -15,10 +15,10 @@
 network Network
 {
     parameters:
-        @figure[description](type=text; pos=2,10; font=,,bold; text="[BB84 Protocol]"; color=green);
-        @figure[details](type=text; pos=2,35; text="Multipoint Quantum Key Distribution");
-        
-        @display("bgb=806,552,#FFE4CA;i=block/network;i2=status/connect;bgl=2");
+        @figure[description](type=text; pos=90,-65; font=,,bold; text="[BB84 Protocol]"; color=green);
+        @figure[details](type=text; pos=0,-40; text="Multipoint Quantum Key Distribution");
+
+        @display("bgb=337,288,#FFE4CA;i=block/network;i2=status/connect;bgl=3");
         string source;
         string destination;
         string multiPointSource;
@@ -27,19 +27,19 @@ network Network
         bool multipoint;
     submodules:
         switch: Switch {
-            @display("p=402,341");
+            @display("p=156,144");
         }
         client01: Client {
-            @display("p=31,144");
+            @display("p=52,49");
         }
         client02: Client {
-            @display("p=33,517");
+            @display("p=48,241");
         }
         client03: Client {
-            @display("p=765,146");
+            @display("p=272,51");
         }
         client04: Client {
-            @display("p=767,511");
+            @display("p=275,227");
         }
     connections:
         client01.publicInterface <--> {  delay = 100ms; } <--> switch.fe01;

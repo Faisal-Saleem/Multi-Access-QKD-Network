@@ -2,7 +2,7 @@
 module Client
 {
     parameters:
-        @display("bgb=541,543,#ECFFEC;i=block/telnet;is=n;i2=status/green;bgtt=Quantum Key Distribution Switch");
+        @display("bgb=541,543,#ECFFEC;i=block/telnet;is=n;i2=status/green;bgtt=Quantum Key Distribution Switch;bgl=2");
         string hostname;
     gates:
         inout publicInterface;
@@ -16,7 +16,7 @@ module Client
             @display("p=474,201");
         }
         DL: ClientFilterDL {
-            @display("p=225,52;t=\\");
+            @display("p=225,52");
         }
         DR: ClientFilterDR {
             @display("p=332,52;t=/");
