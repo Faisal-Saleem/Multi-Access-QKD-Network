@@ -105,7 +105,7 @@ void Processor::handleMessage(cMessage *msg)
         sessionStateEntry->setDesSubInterface(switchMemory->getQuantumInterfaceFromMacTable(sessionStateEntry->getDesQMac()).c_str());
         sessionStateEntry->setExpiry("0000");
         sessionStateEntry->setStatus("0");
-        if(switchMemory->entryExist(sessionStateEntry->getSrcMac()) == false)
+        if(switchMemory->entryExist(sessionStateEntry->getSrcMac(), sessionStateEntry->getDesMac()) == false)
         {
             switchMemory->addSessionStateTableEntry(sessionStateEntry);
             cPacket *qkdSession = new cPacket("qkdRequest");

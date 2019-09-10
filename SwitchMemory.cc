@@ -94,7 +94,7 @@ std::string SwitchMemory::getInterface(std::string macAddress)
     return result;
 }
 
-bool SwitchMemory::entryExist(std::string srcMac)
+bool SwitchMemory::entryExist(std::string srcMac, std::string desMac)
 {
     bool result = false;
     for(int i=0; i<sessionStateTable.size(); i++)
@@ -103,6 +103,22 @@ bool SwitchMemory::entryExist(std::string srcMac)
         if(strcmp(session->getSrcMac(),srcMac.c_str()) == 0)
         {
             result = true;
+            break;
+        }
+        if(strcmp(session->getSrcMac(),desMac.c_str()) == 0)
+        {
+            result = true;
+            break;
+        }
+        if(strcmp(session->getDesMac(),srcMac.c_str()) == 0)
+        {
+            result = true;
+            break;
+        }
+        if(strcmp(session->getDesMac(),desMac.c_str()) == 0)
+        {
+            result = true;
+            break;
         }
         else
         {

@@ -66,7 +66,7 @@ class SwitchMemory : public cSimpleModule
     std::string getQuantumInterfaceFromMacTable(std::string qMacAddress);
     std::string getQuantumInterfaceFromMacTableByPublicMac(std::string macAddress);
     std::string getInterface(std::string macAddress);
-    bool entryExist(std::string srcMac);
+    bool entryExist(std::string srcMac, std::string desMac);
 
 
     // Quantum Binding Table Methods
