@@ -1,0 +1,102 @@
+.TH "QuantumSubInterfaceBinding_m.cc" 3 "Tue Sep 17 2019" "Multiaccess QKD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+QuantumSubInterfaceBinding_m.cc
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <iostream>\fP
+.br
+\fC#include <sstream>\fP
+.br
+\fC#include 'QuantumSubInterfaceBinding_m\&.h'\fP
+.br
+
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBQuantumSubInterfaceBindingDescriptor\fP"
+.br
+.in -1c
+.SS "Namespaces"
+
+.in +1c
+.ti -1c
+.RI " \fBomnetpp\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "template<typename T , typename A > void \fBomnetpp::doParsimPacking\fP (omnetpp::cCommBuffer *buffer, const std::vector< T, A > &v)"
+.br
+.ti -1c
+.RI "template<typename T , typename A > void \fBomnetpp::doParsimUnpacking\fP (omnetpp::cCommBuffer *buffer, std::vector< T, A > &v)"
+.br
+.ti -1c
+.RI "template<typename T , typename A > void \fBomnetpp::doParsimPacking\fP (omnetpp::cCommBuffer *buffer, const std::list< T, A > &l)"
+.br
+.ti -1c
+.RI "template<typename T , typename A > void \fBomnetpp::doParsimUnpacking\fP (omnetpp::cCommBuffer *buffer, std::list< T, A > &l)"
+.br
+.ti -1c
+.RI "template<typename T , typename Tr , typename A > void \fBomnetpp::doParsimPacking\fP (omnetpp::cCommBuffer *buffer, const std::set< T, Tr, A > &s)"
+.br
+.ti -1c
+.RI "template<typename T , typename Tr , typename A > void \fBomnetpp::doParsimUnpacking\fP (omnetpp::cCommBuffer *buffer, std::set< T, Tr, A > &s)"
+.br
+.ti -1c
+.RI "template<typename K , typename V , typename Tr , typename A > void \fBomnetpp::doParsimPacking\fP (omnetpp::cCommBuffer *buffer, const std::map< K, V, Tr, A > &m)"
+.br
+.ti -1c
+.RI "template<typename K , typename V , typename Tr , typename A > void \fBomnetpp::doParsimUnpacking\fP (omnetpp::cCommBuffer *buffer, std::map< K, V, Tr, A > &m)"
+.br
+.ti -1c
+.RI "template<typename T > void \fBomnetpp::doParsimArrayPacking\fP (omnetpp::cCommBuffer *b, const T *t, int n)"
+.br
+.ti -1c
+.RI "template<typename T > void \fBomnetpp::doParsimArrayUnpacking\fP (omnetpp::cCommBuffer *b, T *t, int n)"
+.br
+.ti -1c
+.RI "template<typename T > void \fBomnetpp::doParsimPacking\fP (omnetpp::cCommBuffer *, const T &t)"
+.br
+.ti -1c
+.RI "template<typename T > void \fBomnetpp::doParsimUnpacking\fP (omnetpp::cCommBuffer *, T &t)"
+.br
+.ti -1c
+.RI "template<typename T , typename A > std::ostream & \fBoperator<<\fP (std::ostream &out, const std::vector< T, A > &vec)"
+.br
+.ti -1c
+.RI "template<typename T > std::ostream & \fBoperator<<\fP (std::ostream &out, const T &)"
+.br
+.ti -1c
+.RI "\fBRegister_Class\fP (\fBQuantumSubInterfaceBinding\fP) \fBQuantumSubInterfaceBinding\fP"
+.br
+.ti -1c
+.RI "\fBRegister_ClassDescriptor\fP (\fBQuantumSubInterfaceBindingDescriptor\fP) \fBQuantumSubInterfaceBindingDescriptor\fP"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "template<typename T , typename A > std::ostream& operator<< (std::ostream & out, const std::vector< T, A > & vec)"
+
+.PP
+Definition at line 162 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "template<typename T > std::ostream& operator<< (std::ostream & out, const T &)\fC [inline]\fP"
+
+.PP
+Definition at line 158 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "Register_Class (\fBQuantumSubInterfaceBinding\fP)"
+
+.PP
+Definition at line 180 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "Register_ClassDescriptor (\fBQuantumSubInterfaceBindingDescriptor\fP)"
+
+.PP
+Definition at line 338 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Multiaccess QKD from the source code\&.

@@ -1,0 +1,695 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_switch_memory" kind="class" language="C++" prot="public">
+    <compoundname>SwitchMemory</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cSimpleModule</basecompoundref>
+    <includes refid="_switch_memory_8h" local="no">SwitchMemory.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_switch_memory_1a1c14aa7fb56b1eba643fabef77f70723" prot="private" static="no" mutable="no">
+        <type>cArray</type>
+        <definition>cArray SwitchMemory::macAddressTable</definition>
+        <argsstring></argsstring>
+        <name>macAddressTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="47" column="12" bodyfile="SwitchMemory.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_switch_memory_1a45049035d03db25797a950821db07085" prot="private" static="no" mutable="no">
+        <type>cArray</type>
+        <definition>cArray SwitchMemory::quantumSubInterfaceBinding</definition>
+        <argsstring></argsstring>
+        <name>quantumSubInterfaceBinding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="48" column="12" bodyfile="SwitchMemory.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_switch_memory_1a0a6471f1b78d992acfe2c887ff064c44" prot="private" static="no" mutable="no">
+        <type>cArray</type>
+        <definition>cArray SwitchMemory::arpTable</definition>
+        <argsstring></argsstring>
+        <name>arpTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="49" column="12" bodyfile="SwitchMemory.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_switch_memory_1a725cf9076553fdc53b46666e44490b99" prot="private" static="no" mutable="no">
+        <type>cArray</type>
+        <definition>cArray SwitchMemory::sessionStateTable</definition>
+        <argsstring></argsstring>
+        <name>sessionStateTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="50" column="12" bodyfile="SwitchMemory.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_switch_memory_1add48914cfc0b5ce99111b3dcecbe6e48" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SwitchMemory::macEntryIndex</definition>
+        <argsstring></argsstring>
+        <name>macEntryIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="58" column="9" bodyfile="SwitchMemory.h" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_processor_1a51ef1c90d3e26ad6b41c9657b2e10435" compoundref="_processor_8cc" startline="44" endline="64">Processor::initialize</referencedby>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+        <referencedby refid="class_processor_1a09546fa7ad830a3b278e0a855cfda9c7" compoundref="_processor_8cc" startline="171" endline="179">Processor::prepareMacAddressTable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_switch_memory_1ab81b1bbe5017fa69d913f5790a75b1b2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SwitchMemory::quantumBindingEntryIndex</definition>
+        <argsstring></argsstring>
+        <name>quantumBindingEntryIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="73" column="9" bodyfile="SwitchMemory.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_switch_memory_1a6d549369eb96f2c8ee2bee8f75b9c446" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SwitchMemory::arpEntryIndex</definition>
+        <argsstring></argsstring>
+        <name>arpEntryIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="80" column="9" bodyfile="SwitchMemory.h" bodystart="80" bodyend="-1"/>
+        <referencedby refid="class_processor_1a51ef1c90d3e26ad6b41c9657b2e10435" compoundref="_processor_8cc" startline="44" endline="64">Processor::initialize</referencedby>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_switch_memory_1a6e5d3f7eabd824f3c65138d49a164293" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SwitchMemory::sessionsStateEntryIndex</definition>
+        <argsstring></argsstring>
+        <name>sessionsStateEntryIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="86" column="9" bodyfile="SwitchMemory.h" bodystart="86" bodyend="-1"/>
+        <referencedby refid="class_processor_1a51ef1c90d3e26ad6b41c9657b2e10435" compoundref="_processor_8cc" startline="44" endline="64">Processor::initialize</referencedby>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_switch_memory_1a7fc9acf3a51a9c50f1af1e4dd6728b78" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string SwitchMemory::searchMacAddressTableByMacAddress</definition>
+        <argsstring>(std::string macAddress, char query)</argsstring>
+        <name>searchMacAddressTableByMacAddress</name>
+        <param>
+          <type>std::string</type>
+          <declname>macAddress</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="51" column="17" bodyfile="SwitchMemory.cc" bodystart="131" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1a23952d26c860dc19392590ba2864fd3c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string SwitchMemory::searchMacAddressTableByInterface</definition>
+        <argsstring>(std::string interface, char query)</argsstring>
+        <name>searchMacAddressTableByInterface</name>
+        <param>
+          <type>std::string</type>
+          <declname>interface</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="52" column="17" bodyfile="SwitchMemory.cc" bodystart="156" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1a8fe9fa51e249f469845c4bbf18d51bc6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string SwitchMemory::searchMacAddressTableByQuantumMacAddress</definition>
+        <argsstring>(std::string interface, char query)</argsstring>
+        <name>searchMacAddressTableByQuantumMacAddress</name>
+        <param>
+          <type>std::string</type>
+          <declname>interface</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="53" column="17" bodyfile="SwitchMemory.cc" bodystart="181" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1a80fba7c42bea3e6113d9f841ebcf3447" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string SwitchMemory::searchSessionStateTable</definition>
+        <argsstring>(QueryType searchBy, std::string searchValue, char returnValue)</argsstring>
+        <name>searchSessionStateTable</name>
+        <param>
+          <type><ref refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ec" kindref="member">QueryType</ref></type>
+          <declname>searchBy</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>searchValue</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>returnValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="54" column="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_switch_memory_1a69f25a104169ab7b2ac4fa7aa61ba09f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref></type>
+        <definition>MacTableEntry SwitchMemory::getMacTable</definition>
+        <argsstring>(int index)</argsstring>
+        <name>getMacTable</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="59" column="19" bodyfile="SwitchMemory.cc" bodystart="36" bodyend="40"/>
+        <referencedby refid="class_processor_1a3f1baa0cbe53d1079c3fc78de5f5f2f5" compoundref="_processor_8cc" startline="193" endline="216">Processor::printMacAddressTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1a359a3321ab7fdaf1c91d8949205bc3c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwitchMemory::addMacTableEntry</definition>
+        <argsstring>(MacTableEntry *macTableEntry)</argsstring>
+        <name>addMacTableEntry</name>
+        <param>
+          <type><ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref> *</type>
+          <declname>macTableEntry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="60" column="10" bodyfile="SwitchMemory.cc" bodystart="42" bodyend="45"/>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+        <referencedby refid="class_processor_1a3c4e000ff0be0d41dc87053287a2c2f4" compoundref="_processor_8cc" startline="181" endline="191">Processor::bindInterface</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1a09b86238d1a105909514259ca5d25713" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SwitchMemory::getMacTableSize</definition>
+        <argsstring>()</argsstring>
+        <name>getMacTableSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="61" column="9" bodyfile="SwitchMemory.cc" bodystart="47" bodyend="50"/>
+        <referencedby refid="class_processor_1a3f1baa0cbe53d1079c3fc78de5f5f2f5" compoundref="_processor_8cc" startline="193" endline="216">Processor::printMacAddressTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1a9df543d53be88a36f95d97c38956c5a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string SwitchMemory::getQuantumInterfaceMacAddressFromMacTable</definition>
+        <argsstring>(std::string publicInterfaceMacAddress)</argsstring>
+        <name>getQuantumInterfaceMacAddressFromMacTable</name>
+        <param>
+          <type>std::string</type>
+          <declname>publicInterfaceMacAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="62" column="17" bodyfile="SwitchMemory.cc" bodystart="52" bodyend="55"/>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1a289b60483ade7b6290495c261081a96a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string SwitchMemory::getInterfaceIdFromMacTable</definition>
+        <argsstring>(std::string macAddress)</argsstring>
+        <name>getInterfaceIdFromMacTable</name>
+        <param>
+          <type>std::string</type>
+          <declname>macAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="63" column="17" bodyfile="SwitchMemory.cc" bodystart="57" bodyend="60"/>
+        <references refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ecaba7ec5617dcd086ea11b2875db29fb6c" compoundref="_switch_memory_8h" startline="38">macAddress</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1a9fb1f2694ac9afd878028b479a70349c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string SwitchMemory::getMacAddressOfInterfaceFromMacTable</definition>
+        <argsstring>(std::string interface)</argsstring>
+        <name>getMacAddressOfInterfaceFromMacTable</name>
+        <param>
+          <type>std::string</type>
+          <declname>interface</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="64" column="17" bodyfile="SwitchMemory.cc" bodystart="62" bodyend="65"/>
+        <references refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9eca7e91d3bb453d1a51a3cb4849a09a05b4" compoundref="_switch_memory_8h" startline="40">interface</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1aefa84da5267c7ef53a69bcbacafcf930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string SwitchMemory::getQuantumMacAddressOfInterfaceFromMacTable</definition>
+        <argsstring>(std::string interface)</argsstring>
+        <name>getQuantumMacAddressOfInterfaceFromMacTable</name>
+        <param>
+          <type>std::string</type>
+          <declname>interface</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="65" column="17" bodyfile="SwitchMemory.cc" bodystart="67" bodyend="70"/>
+        <references refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9eca7e91d3bb453d1a51a3cb4849a09a05b4" compoundref="_switch_memory_8h" startline="40">interface</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1ab02cb8b04de17b788e6d3886c85ec421" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string SwitchMemory::getQuantumInterfaceFromMacTable</definition>
+        <argsstring>(std::string qMacAddress)</argsstring>
+        <name>getQuantumInterfaceFromMacTable</name>
+        <param>
+          <type>std::string</type>
+          <declname>qMacAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="66" column="17" bodyfile="SwitchMemory.cc" bodystart="72" bodyend="75"/>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1a8df01e95ba7586af1fa28a4c1844e178" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string SwitchMemory::getQuantumInterfaceFromMacTableByPublicMac</definition>
+        <argsstring>(std::string macAddress)</argsstring>
+        <name>getQuantumInterfaceFromMacTableByPublicMac</name>
+        <param>
+          <type>std::string</type>
+          <declname>macAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="67" column="17" bodyfile="SwitchMemory.cc" bodystart="77" bodyend="80"/>
+        <references refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ecaba7ec5617dcd086ea11b2875db29fb6c" compoundref="_switch_memory_8h" startline="38">macAddress</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1a951352f41fb30a905445e7e9ec0089a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string SwitchMemory::getInterface</definition>
+        <argsstring>(std::string macAddress)</argsstring>
+        <name>getInterface</name>
+        <param>
+          <type>std::string</type>
+          <declname>macAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="68" column="17" bodyfile="SwitchMemory.cc" bodystart="82" bodyend="95"/>
+        <references refid="class_mac_table_entry_1aaa684cc0b7d88a4758740c26d1027935" compoundref="_mac_table_entry__m_8cc" startline="257" endline="260">MacTableEntry::getMacAddress</references>
+        <references refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ecaba7ec5617dcd086ea11b2875db29fb6c" compoundref="_switch_memory_8h" startline="38">macAddress</references>
+        <references refid="class_mac_table_entry_1af25bc86738003fb75bb3e4d0e74cda88" compoundref="_mac_table_entry__m_8cc" startline="247" endline="250">MacTableEntry::getInterface</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1aee8f80a0b479456debaa707155bca257" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SwitchMemory::entryExist</definition>
+        <argsstring>(std::string srcMac, std::string desMac)</argsstring>
+        <name>entryExist</name>
+        <param>
+          <type>std::string</type>
+          <declname>srcMac</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>desMac</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="69" column="10" bodyfile="SwitchMemory.cc" bodystart="97" bodyend="129"/>
+        <references refid="class_session_state_entry_1a0a95e11ae98c1e210baf2bb2dfafaeb3" compoundref="_session_state_entry__m_8cc" startline="255" endline="258">SessionStateEntry::getSrcMac</references>
+        <references refid="class_session_state_entry_1aa26d3a0d89a0a480a065700541c7f348" compoundref="_session_state_entry__m_8cc" startline="285" endline="288">SessionStateEntry::getDesMac</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1a16e71b14ea1eb2389636bea2dff8c613" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_quantum_sub_interface_binding" kindref="compound">QuantumSubInterfaceBinding</ref></type>
+        <definition>QuantumSubInterfaceBinding SwitchMemory::getQuantumBindingTable</definition>
+        <argsstring>(int index)</argsstring>
+        <name>getQuantumBindingTable</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="74" column="32" bodyfile="SwitchMemory.cc" bodystart="203" bodyend="207"/>
+        <referencedby refid="class_processor_1ac79a66ac1ab0be60aa33df9b077c5d00" compoundref="_processor_8cc" startline="249" endline="268">Processor::printQuantumSubinterfaceBindingTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1af9e8c84c7de5c8302fa177abae3a3f0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwitchMemory::addQuantumBindingTableEntry</definition>
+        <argsstring>(QuantumSubInterfaceBinding *quantumBindingEntry)</argsstring>
+        <name>addQuantumBindingTableEntry</name>
+        <param>
+          <type><ref refid="class_quantum_sub_interface_binding" kindref="compound">QuantumSubInterfaceBinding</ref> *</type>
+          <declname>quantumBindingEntry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="75" column="10" bodyfile="SwitchMemory.cc" bodystart="209" bodyend="212"/>
+        <referencedby refid="class_processor_1afecfbfa91e5b85ba9ab928291c837b8d" compoundref="_processor_8cc" startline="236" endline="247">Processor::bindSubInterface</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1a6b5aa28a001e14642f750d0c40de138d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SwitchMemory::getQuantumBindingTableSize</definition>
+        <argsstring>()</argsstring>
+        <name>getQuantumBindingTableSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="76" column="9" bodyfile="SwitchMemory.cc" bodystart="214" bodyend="217"/>
+        <referencedby refid="class_processor_1ac79a66ac1ab0be60aa33df9b077c5d00" compoundref="_processor_8cc" startline="249" endline="268">Processor::printQuantumSubinterfaceBindingTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1a80ee2ab5c4a6a49aa3edd6d42aaa51c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string SwitchMemory::getExitInterfaceFromBindingTable</definition>
+        <argsstring>(std::string src, std::string des)</argsstring>
+        <name>getExitInterfaceFromBindingTable</name>
+        <param>
+          <type>std::string</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>des</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="77" column="17" bodyfile="SwitchMemory.cc" bodystart="219" bodyend="232"/>
+        <references refid="class_quantum_sub_interface_binding_1aaba854b90a32d0278d39725bedd5b995" compoundref="_quantum_sub_interface_binding__m_8cc" startline="260" endline="263">QuantumSubInterfaceBinding::getSourceInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1ad80f36303960043a6953a56b08e98531" compoundref="_quantum_sub_interface_binding__m_8cc" startline="280" endline="283">QuantumSubInterfaceBinding::getDestinationInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1ad79f3a4beae4490c67ec3a1ec6ed2481" compoundref="_quantum_sub_interface_binding__m_8cc" startline="270" endline="273">QuantumSubInterfaceBinding::getSourceSubInterface</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1ad257d83817c301dff411fc0a1ba44841" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref></type>
+        <definition>ArpTableEntry SwitchMemory::getArpTableEntry</definition>
+        <argsstring>(int index)</argsstring>
+        <name>getArpTableEntry</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="81" column="19" bodyfile="SwitchMemory.cc" bodystart="250" bodyend="254"/>
+        <referencedby refid="class_processor_1a110965763a9b6ee318b8bee23dd5ab90" compoundref="_processor_8cc" startline="270" endline="295">Processor::printArpTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1a304abf12974436aea3a6bcd0fa8ae893" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwitchMemory::addArpTableEntry</definition>
+        <argsstring>(ArpTableEntry *arpTableEntry)</argsstring>
+        <name>addArpTableEntry</name>
+        <param>
+          <type><ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref> *</type>
+          <declname>arpTableEntry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="82" column="10" bodyfile="SwitchMemory.cc" bodystart="256" bodyend="259"/>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1a082aae575ddc16f9c8394b630fe5b6f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SwitchMemory::getArpTableSize</definition>
+        <argsstring>()</argsstring>
+        <name>getArpTableSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="83" column="9" bodyfile="SwitchMemory.cc" bodystart="261" bodyend="264"/>
+        <referencedby refid="class_processor_1a110965763a9b6ee318b8bee23dd5ab90" compoundref="_processor_8cc" startline="270" endline="295">Processor::printArpTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1a93ae827e0fc75bdb4c61460e9bc76eeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref></type>
+        <definition>SessionStateEntry SwitchMemory::getsessionStateTableEntry</definition>
+        <argsstring>(int index)</argsstring>
+        <name>getsessionStateTableEntry</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="87" column="23" bodyfile="SwitchMemory.cc" bodystart="234" bodyend="238"/>
+        <referencedby refid="class_processor_1a6f342c608c14a45a5f4b3930118135bb" compoundref="_processor_8cc" startline="297" endline="326">Processor::printSessionStateTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1a3be0998057095110a3476295ab30dfbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwitchMemory::addSessionStateTableEntry</definition>
+        <argsstring>(SessionStateEntry *sessionStateEntry)</argsstring>
+        <name>addSessionStateTableEntry</name>
+        <param>
+          <type><ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref> *</type>
+          <declname>sessionStateEntry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="88" column="10" bodyfile="SwitchMemory.cc" bodystart="240" bodyend="243"/>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1aa3600fae1aa1d8aaa0af0d9890385830" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SwitchMemory::getSessionStateTableSize</definition>
+        <argsstring>()</argsstring>
+        <name>getSessionStateTableSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="89" column="9" bodyfile="SwitchMemory.cc" bodystart="245" bodyend="248"/>
+        <referencedby refid="class_processor_1a6f342c608c14a45a5f4b3930118135bb" compoundref="_processor_8cc" startline="297" endline="326">Processor::printSessionStateTable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_switch_memory_1a5f742c0451f58a8af5cddc53970b0da1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SwitchMemory::initialize</definition>
+        <argsstring>(int stage) override</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>int</type>
+          <declname>stage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="92" column="18" bodyfile="SwitchMemory.cc" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_memory_1aee50570ebd59a3c55a4fbaa28da478b5" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int SwitchMemory::numInitStages</definition>
+        <argsstring>() const override</argsstring>
+        <name>numInitStages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="93" column="17" bodyfile="SwitchMemory.cc" bodystart="31" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class to hold the objects in memory. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+      <node id="1">
+        <label>SwitchMemory</label>
+        <link refid="class_switch_memory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+      <node id="1">
+        <label>SwitchMemory</label>
+        <link refid="class_switch_memory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="SwitchMemory.h" line="45" column="1" bodyfile="SwitchMemory.h" bodystart="44" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_switch_memory_1a304abf12974436aea3a6bcd0fa8ae893" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>addArpTableEntry</name></member>
+      <member refid="class_switch_memory_1a359a3321ab7fdaf1c91d8949205bc3c0" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>addMacTableEntry</name></member>
+      <member refid="class_switch_memory_1af9e8c84c7de5c8302fa177abae3a3f0e" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>addQuantumBindingTableEntry</name></member>
+      <member refid="class_switch_memory_1a3be0998057095110a3476295ab30dfbd" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>addSessionStateTableEntry</name></member>
+      <member refid="class_switch_memory_1a6d549369eb96f2c8ee2bee8f75b9c446" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>arpEntryIndex</name></member>
+      <member refid="class_switch_memory_1a0a6471f1b78d992acfe2c887ff064c44" prot="private" virt="non-virtual"><scope>SwitchMemory</scope><name>arpTable</name></member>
+      <member refid="class_switch_memory_1aee8f80a0b479456debaa707155bca257" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>entryExist</name></member>
+      <member refid="class_switch_memory_1ad257d83817c301dff411fc0a1ba44841" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>getArpTableEntry</name></member>
+      <member refid="class_switch_memory_1a082aae575ddc16f9c8394b630fe5b6f0" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>getArpTableSize</name></member>
+      <member refid="class_switch_memory_1a80ee2ab5c4a6a49aa3edd6d42aaa51c6" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>getExitInterfaceFromBindingTable</name></member>
+      <member refid="class_switch_memory_1a951352f41fb30a905445e7e9ec0089a3" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>getInterface</name></member>
+      <member refid="class_switch_memory_1a289b60483ade7b6290495c261081a96a" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>getInterfaceIdFromMacTable</name></member>
+      <member refid="class_switch_memory_1a9fb1f2694ac9afd878028b479a70349c" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>getMacAddressOfInterfaceFromMacTable</name></member>
+      <member refid="class_switch_memory_1a69f25a104169ab7b2ac4fa7aa61ba09f" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>getMacTable</name></member>
+      <member refid="class_switch_memory_1a09b86238d1a105909514259ca5d25713" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>getMacTableSize</name></member>
+      <member refid="class_switch_memory_1a16e71b14ea1eb2389636bea2dff8c613" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>getQuantumBindingTable</name></member>
+      <member refid="class_switch_memory_1a6b5aa28a001e14642f750d0c40de138d" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>getQuantumBindingTableSize</name></member>
+      <member refid="class_switch_memory_1ab02cb8b04de17b788e6d3886c85ec421" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>getQuantumInterfaceFromMacTable</name></member>
+      <member refid="class_switch_memory_1a8df01e95ba7586af1fa28a4c1844e178" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>getQuantumInterfaceFromMacTableByPublicMac</name></member>
+      <member refid="class_switch_memory_1a9df543d53be88a36f95d97c38956c5a4" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>getQuantumInterfaceMacAddressFromMacTable</name></member>
+      <member refid="class_switch_memory_1aefa84da5267c7ef53a69bcbacafcf930" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>getQuantumMacAddressOfInterfaceFromMacTable</name></member>
+      <member refid="class_switch_memory_1a93ae827e0fc75bdb4c61460e9bc76eeb" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>getsessionStateTableEntry</name></member>
+      <member refid="class_switch_memory_1aa3600fae1aa1d8aaa0af0d9890385830" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>getSessionStateTableSize</name></member>
+      <member refid="class_switch_memory_1a5f742c0451f58a8af5cddc53970b0da1" prot="protected" virt="virtual"><scope>SwitchMemory</scope><name>initialize</name></member>
+      <member refid="class_switch_memory_1a1c14aa7fb56b1eba643fabef77f70723" prot="private" virt="non-virtual"><scope>SwitchMemory</scope><name>macAddressTable</name></member>
+      <member refid="class_switch_memory_1add48914cfc0b5ce99111b3dcecbe6e48" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>macEntryIndex</name></member>
+      <member refid="class_switch_memory_1aee50570ebd59a3c55a4fbaa28da478b5" prot="protected" virt="virtual"><scope>SwitchMemory</scope><name>numInitStages</name></member>
+      <member refid="class_switch_memory_1ab81b1bbe5017fa69d913f5790a75b1b2" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>quantumBindingEntryIndex</name></member>
+      <member refid="class_switch_memory_1a45049035d03db25797a950821db07085" prot="private" virt="non-virtual"><scope>SwitchMemory</scope><name>quantumSubInterfaceBinding</name></member>
+      <member refid="class_switch_memory_1a23952d26c860dc19392590ba2864fd3c" prot="private" virt="non-virtual"><scope>SwitchMemory</scope><name>searchMacAddressTableByInterface</name></member>
+      <member refid="class_switch_memory_1a7fc9acf3a51a9c50f1af1e4dd6728b78" prot="private" virt="non-virtual"><scope>SwitchMemory</scope><name>searchMacAddressTableByMacAddress</name></member>
+      <member refid="class_switch_memory_1a8fe9fa51e249f469845c4bbf18d51bc6" prot="private" virt="non-virtual"><scope>SwitchMemory</scope><name>searchMacAddressTableByQuantumMacAddress</name></member>
+      <member refid="class_switch_memory_1a80fba7c42bea3e6113d9f841ebcf3447" prot="private" virt="non-virtual"><scope>SwitchMemory</scope><name>searchSessionStateTable</name></member>
+      <member refid="class_switch_memory_1a6e5d3f7eabd824f3c65138d49a164293" prot="public" virt="non-virtual"><scope>SwitchMemory</scope><name>sessionsStateEntryIndex</name></member>
+      <member refid="class_switch_memory_1a725cf9076553fdc53b46666e44490b99" prot="private" virt="non-virtual"><scope>SwitchMemory</scope><name>sessionStateTable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

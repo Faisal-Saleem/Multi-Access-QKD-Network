@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_client_memory" kind="class" language="C++" prot="public">
+    <compoundname>ClientMemory</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cSimpleModule</basecompoundref>
+    <includes refid="_client_memory_8h" local="no">ClientMemory.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_client_memory_1ab63f5772359fe66f98a073e00d327bc1" prot="private" static="no" mutable="no">
+        <type>cArray</type>
+        <definition>cArray ClientMemory::quantumTable</definition>
+        <argsstring></argsstring>
+        <name>quantumTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="13" column="12" bodyfile="ClientMemory.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_memory_1a4fe26d217f6b1cc41a5d610d5a2efcb8" prot="private" static="no" mutable="no">
+        <type>cArray</type>
+        <definition>cArray ClientMemory::quantumKey</definition>
+        <argsstring></argsstring>
+        <name>quantumKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="14" column="12" bodyfile="ClientMemory.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_memory_1a6fe48311782f4ee427452833705e4a92" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ClientMemory::initialKey</definition>
+        <argsstring></argsstring>
+        <name>initialKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="15" column="17" bodyfile="ClientMemory.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_memory_1a03fdf14a57c41a6eebb9add9c47abf20" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ClientMemory::initialKeyBin</definition>
+        <argsstring></argsstring>
+        <name>initialKeyBin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="16" column="17" bodyfile="ClientMemory.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_memory_1aa450c5075fb13538044fa446481f801f" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ClientMemory::polarizationStates</definition>
+        <argsstring></argsstring>
+        <name>polarizationStates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="17" column="17" bodyfile="ClientMemory.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_client_memory_1a126802b222c6e78fcd5626dad7393a98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref></type>
+        <definition>MacTableEntry ClientMemory::getMacTable</definition>
+        <argsstring>(int index)</argsstring>
+        <name>getMacTable</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="20" column="19" bodyfile="ClientMemory.cc" bodystart="21" bodyend="25"/>
+        <referencedby refid="class_client_processor_1a8ffe1d1f59d3848a2f34cfdf51f0d4be" compoundref="_client_processor_8cc" startline="182" endline="203">ClientProcessor::printMacTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_client_memory_1a7145e41efcf8f46c16205952f54d2ecc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClientMemory::addMacTableEntry</definition>
+        <argsstring>(MacTableEntry *macTableEntry)</argsstring>
+        <name>addMacTableEntry</name>
+        <param>
+          <type><ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref> *</type>
+          <declname>macTableEntry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="21" column="10" bodyfile="ClientMemory.cc" bodystart="27" bodyend="30"/>
+        <referencedby refid="class_client_processor_1a2e6abfaba0d005ce4d591a639e501286" compoundref="_client_processor_8cc" startline="26" endline="81">ClientProcessor::initialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_client_memory_1a10146f52c57bd9a1dbbd493d053deacc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ClientMemory::getMacTableSize</definition>
+        <argsstring>()</argsstring>
+        <name>getMacTableSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="22" column="9" bodyfile="ClientMemory.cc" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_memory_1a7623a81a19240d8ed359d7d7f321d432" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref></type>
+        <definition>QuantumKeyEntry ClientMemory::getQuantumKey</definition>
+        <argsstring>(int index)</argsstring>
+        <name>getQuantumKey</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="24" column="21" bodyfile="ClientMemory.cc" bodystart="37" bodyend="41"/>
+        <referencedby refid="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" compoundref="_client_processor_8cc" startline="88" endline="159">ClientProcessor::handleMessage</referencedby>
+        <referencedby refid="class_client_processor_1a3e6230381bde08ac52a895a4fead0d41" compoundref="_client_processor_8cc" startline="205" endline="231">ClientProcessor::printKeyTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_client_memory_1ade803c1296afc65383cf3a937741676b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClientMemory::addQautumKey</definition>
+        <argsstring>(QuantumKeyEntry *key)</argsstring>
+        <name>addQautumKey</name>
+        <param>
+          <type><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref> *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="25" column="10" bodyfile="ClientMemory.cc" bodystart="43" bodyend="46"/>
+        <referencedby refid="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" compoundref="_client_processor_8cc" startline="88" endline="159">ClientProcessor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_client_memory_1a6271ffa66466e21b9a61558f6de0b545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ClientMemory::getNumberOfKey</definition>
+        <argsstring>()</argsstring>
+        <name>getNumberOfKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="26" column="9" bodyfile="ClientMemory.cc" bodystart="48" bodyend="51"/>
+        <referencedby refid="class_client_processor_1a3e6230381bde08ac52a895a4fead0d41" compoundref="_client_processor_8cc" startline="205" endline="231">ClientProcessor::printKeyTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_client_memory_1a640f4311ef1f4935158cdfeeef2403f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ClientMemory::getPendingTransaction</definition>
+        <argsstring>()</argsstring>
+        <name>getPendingTransaction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="27" column="9" bodyfile="ClientMemory.cc" bodystart="53" bodyend="66"/>
+        <references refid="class_quantum_key_entry_1a1a45fdd0292e10bb01eeb69b55119cd5" compoundref="_quantum_key_entry__m_8cc" startline="250" endline="253">QuantumKeyEntry::getKey</references>
+        <referencedby refid="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" compoundref="_client_processor_8cc" startline="88" endline="159">ClientProcessor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_client_memory_1a182e9304d2a8f82a39c58b6f6a141ba0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ClientMemory::getPendingKeyMacAddress</definition>
+        <argsstring>()</argsstring>
+        <name>getPendingKeyMacAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="28" column="17" bodyfile="ClientMemory.cc" bodystart="68" bodyend="83"/>
+        <references refid="class_quantum_key_entry_1a303fa302c2f0fea5162dca289aa3b2d7" compoundref="_quantum_key_entry__m_8cc" startline="260" endline="263">QuantumKeyEntry::getStatus</references>
+        <references refid="class_quantum_key_entry_1a3faa0418d067d5fd090be1a7973bf6db" compoundref="_quantum_key_entry__m_8cc" startline="240" endline="243">QuantumKeyEntry::getMacAddress</references>
+        <references refid="class_quantum_key_entry_1a8efdd7c69dff35435038d395ce537578" compoundref="_quantum_key_entry__m_8cc" startline="265" endline="268">QuantumKeyEntry::setStatus</references>
+        <referencedby refid="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" compoundref="_client_processor_8cc" startline="88" endline="159">ClientProcessor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_client_memory_1a8c1c7263f1fc25ebe1de06eb29a7e762" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClientMemory::setPendingKey</definition>
+        <argsstring>(std::string key)</argsstring>
+        <name>setPendingKey</name>
+        <param>
+          <type>std::string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="29" column="10" bodyfile="ClientMemory.cc" bodystart="85" bodyend="96"/>
+        <references refid="class_quantum_key_entry_1a1a45fdd0292e10bb01eeb69b55119cd5" compoundref="_quantum_key_entry__m_8cc" startline="250" endline="253">QuantumKeyEntry::getKey</references>
+        <references refid="class_quantum_key_entry_1a89346d735a430bac418248f33f18b2e0" compoundref="_quantum_key_entry__m_8cc" startline="255" endline="258">QuantumKeyEntry::setKey</references>
+        <referencedby refid="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" compoundref="_client_processor_8cc" startline="88" endline="159">ClientProcessor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_client_memory_1ad8f8fa51defc77a88d7f5eea7261e712" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ClientMemory::getInitialKey</definition>
+        <argsstring>()</argsstring>
+        <name>getInitialKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="31" column="17" bodyfile="ClientMemory.cc" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_memory_1a1c09946f30da7153abd7f13175bcabc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClientMemory::setInitialKey</definition>
+        <argsstring>(std::string key)</argsstring>
+        <name>setInitialKey</name>
+        <param>
+          <type>std::string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="32" column="10" bodyfile="ClientMemory.cc" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_memory_1a9ac7e8c69dbb7c9b8aa2669ecddb5a4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ClientMemory::getPolarizationStates</definition>
+        <argsstring>()</argsstring>
+        <name>getPolarizationStates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="34" column="17" bodyfile="ClientMemory.cc" bodystart="107" bodyend="110"/>
+        <referencedby refid="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" compoundref="_client_processor_8cc" startline="88" endline="159">ClientProcessor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_client_memory_1a8c072774722e1de3ca73de2c7045e0de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClientMemory::setPolarizationStates</definition>
+        <argsstring>(std::string states)</argsstring>
+        <name>setPolarizationStates</name>
+        <param>
+          <type>std::string</type>
+          <declname>states</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="35" column="10" bodyfile="ClientMemory.cc" bodystart="112" bodyend="115"/>
+        <referencedby refid="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" compoundref="_client_processor_8cc" startline="88" endline="159">ClientProcessor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_client_memory_1a7dd8ab0de164d25fee3f02614eb6d654" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ClientMemory::getInitialKeyBin</definition>
+        <argsstring>()</argsstring>
+        <name>getInitialKeyBin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="37" column="17" bodyfile="ClientMemory.cc" bodystart="117" bodyend="120"/>
+        <referencedby refid="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" compoundref="_client_processor_8cc" startline="88" endline="159">ClientProcessor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_client_memory_1a319d01144267835398c2cf3048ac55f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClientMemory::setInitialKeyBin</definition>
+        <argsstring>(std::string bin)</argsstring>
+        <name>setInitialKeyBin</name>
+        <param>
+          <type>std::string</type>
+          <declname>bin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="38" column="10" bodyfile="ClientMemory.cc" bodystart="122" bodyend="125"/>
+        <referencedby refid="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" compoundref="_client_processor_8cc" startline="88" endline="159">ClientProcessor::handleMessage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_client_memory_1a3fd190a5f28e8bfa0e500b8c38bba0b8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClientMemory::initialize</definition>
+        <argsstring>()</argsstring>
+        <name>initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="41" column="18" bodyfile="ClientMemory.cc" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_memory_1a25408132524013db440e0c1029c41421" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClientMemory::handleMessage</definition>
+        <argsstring>(cMessage *msg)</argsstring>
+        <name>handleMessage</name>
+        <param>
+          <type>cMessage *</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.h" line="42" column="18" bodyfile="ClientMemory.cc" bodystart="16" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+      <node id="1">
+        <label>ClientMemory</label>
+        <link refid="class_client_memory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+      <node id="1">
+        <label>ClientMemory</label>
+        <link refid="class_client_memory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ClientMemory.h" line="11" column="1" bodyfile="ClientMemory.h" bodystart="10" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_client_memory_1a7145e41efcf8f46c16205952f54d2ecc" prot="public" virt="non-virtual"><scope>ClientMemory</scope><name>addMacTableEntry</name></member>
+      <member refid="class_client_memory_1ade803c1296afc65383cf3a937741676b" prot="public" virt="non-virtual"><scope>ClientMemory</scope><name>addQautumKey</name></member>
+      <member refid="class_client_memory_1ad8f8fa51defc77a88d7f5eea7261e712" prot="public" virt="non-virtual"><scope>ClientMemory</scope><name>getInitialKey</name></member>
+      <member refid="class_client_memory_1a7dd8ab0de164d25fee3f02614eb6d654" prot="public" virt="non-virtual"><scope>ClientMemory</scope><name>getInitialKeyBin</name></member>
+      <member refid="class_client_memory_1a126802b222c6e78fcd5626dad7393a98" prot="public" virt="non-virtual"><scope>ClientMemory</scope><name>getMacTable</name></member>
+      <member refid="class_client_memory_1a10146f52c57bd9a1dbbd493d053deacc" prot="public" virt="non-virtual"><scope>ClientMemory</scope><name>getMacTableSize</name></member>
+      <member refid="class_client_memory_1a6271ffa66466e21b9a61558f6de0b545" prot="public" virt="non-virtual"><scope>ClientMemory</scope><name>getNumberOfKey</name></member>
+      <member refid="class_client_memory_1a182e9304d2a8f82a39c58b6f6a141ba0" prot="public" virt="non-virtual"><scope>ClientMemory</scope><name>getPendingKeyMacAddress</name></member>
+      <member refid="class_client_memory_1a640f4311ef1f4935158cdfeeef2403f7" prot="public" virt="non-virtual"><scope>ClientMemory</scope><name>getPendingTransaction</name></member>
+      <member refid="class_client_memory_1a9ac7e8c69dbb7c9b8aa2669ecddb5a4c" prot="public" virt="non-virtual"><scope>ClientMemory</scope><name>getPolarizationStates</name></member>
+      <member refid="class_client_memory_1a7623a81a19240d8ed359d7d7f321d432" prot="public" virt="non-virtual"><scope>ClientMemory</scope><name>getQuantumKey</name></member>
+      <member refid="class_client_memory_1a25408132524013db440e0c1029c41421" prot="protected" virt="virtual"><scope>ClientMemory</scope><name>handleMessage</name></member>
+      <member refid="class_client_memory_1a3fd190a5f28e8bfa0e500b8c38bba0b8" prot="protected" virt="virtual"><scope>ClientMemory</scope><name>initialize</name></member>
+      <member refid="class_client_memory_1a6fe48311782f4ee427452833705e4a92" prot="private" virt="non-virtual"><scope>ClientMemory</scope><name>initialKey</name></member>
+      <member refid="class_client_memory_1a03fdf14a57c41a6eebb9add9c47abf20" prot="private" virt="non-virtual"><scope>ClientMemory</scope><name>initialKeyBin</name></member>
+      <member refid="class_client_memory_1aa450c5075fb13538044fa446481f801f" prot="private" virt="non-virtual"><scope>ClientMemory</scope><name>polarizationStates</name></member>
+      <member refid="class_client_memory_1a4fe26d217f6b1cc41a5d610d5a2efcb8" prot="private" virt="non-virtual"><scope>ClientMemory</scope><name>quantumKey</name></member>
+      <member refid="class_client_memory_1ab63f5772359fe66f98a073e00d327bc1" prot="private" virt="non-virtual"><scope>ClientMemory</scope><name>quantumTable</name></member>
+      <member refid="class_client_memory_1a1c09946f30da7153abd7f13175bcabc7" prot="public" virt="non-virtual"><scope>ClientMemory</scope><name>setInitialKey</name></member>
+      <member refid="class_client_memory_1a319d01144267835398c2cf3048ac55f3" prot="public" virt="non-virtual"><scope>ClientMemory</scope><name>setInitialKeyBin</name></member>
+      <member refid="class_client_memory_1a8c1c7263f1fc25ebe1de06eb29a7e762" prot="public" virt="non-virtual"><scope>ClientMemory</scope><name>setPendingKey</name></member>
+      <member refid="class_client_memory_1a8c072774722e1de3ca73de2c7045e0de" prot="public" virt="non-virtual"><scope>ClientMemory</scope><name>setPolarizationStates</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

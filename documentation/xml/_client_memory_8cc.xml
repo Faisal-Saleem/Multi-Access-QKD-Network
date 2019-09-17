@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_client_memory_8cc" kind="file" language="C++">
+    <compoundname>ClientMemory.cc</compoundname>
+    <includes local="no">string.h</includes>
+    <includes local="no">omnetpp.h</includes>
+    <includes local="no">bitset</includes>
+    <includes local="no">iostream</includes>
+    <includes refid="_client_memory_8h" local="yes">ClientMemory.h</includes>
+    <includes refid="_mac_table_entry__m_8h" local="yes">MacTableEntry_m.h</includes>
+    <includes refid="_quantum_key_entry__m_8h" local="yes">QuantumKeyEntry_m.h</includes>
+    <incdepgraph>
+      <node id="6">
+        <label>ClientMemory.h</label>
+        <link refid="_client_memory_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ClientMemory.cc</label>
+        <link refid="_client_memory_8cc"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>string.h</label>
+      </node>
+      <node id="4">
+        <label>bitset</label>
+      </node>
+      <node id="7">
+        <label>MacTableEntry_m.h</label>
+        <link refid="_mac_table_entry__m_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>QuantumKeyEntry_m.h</label>
+        <link refid="_quantum_key_entry__m_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>omnetpp.h</label>
+      </node>
+      <node id="5">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_client_memory_8cc_1a1912c67dfffbefd6732bf2e76ffce3aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Define_Module</definition>
+        <argsstring>(ClientMemory)</argsstring>
+        <name>Define_Module</name>
+        <param>
+          <type><ref refid="class_client_memory" kindref="compound">ClientMemory</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientMemory.cc" line="9" column="1" declfile="ClientMemory.cc" declline="9" declcolumn="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;omnetpp.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;bitset&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_client_memory_8h" kindref="compound">ClientMemory.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_mac_table_entry__m_8h" kindref="compound">MacTableEntry_m.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_quantum_key_entry__m_8h" kindref="compound">QuantumKeyEntry_m.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="_client_memory_8cc_1a1912c67dfffbefd6732bf2e76ffce3aa" kindref="member">Define_Module</ref>(<ref refid="class_client_memory" kindref="compound">ClientMemory</ref>);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_client_memory_1a3fd190a5f28e8bfa0e500b8c38bba0b8" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_client_memory_1a3fd190a5f28e8bfa0e500b8c38bba0b8" kindref="member">ClientMemory::initialize</ref>()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_client_memory_1a25408132524013db440e0c1029c41421" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_client_memory_1a25408132524013db440e0c1029c41421" kindref="member">ClientMemory::handleMessage</ref>(cMessage<sp/>*msg)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_client_memory_1a126802b222c6e78fcd5626dad7393a98" refkind="member"><highlight class="normal"><ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref><sp/><ref refid="class_client_memory_1a126802b222c6e78fcd5626dad7393a98" kindref="member">ClientMemory::getMacTable</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref><sp/>*macTableEntry<sp/>=<sp/>(<ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref><sp/>*)<sp/>this-&gt;quantumTable[index];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*macTableEntry;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="class_client_memory_1a7145e41efcf8f46c16205952f54d2ecc" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_client_memory_1a7145e41efcf8f46c16205952f54d2ecc" kindref="member">ClientMemory::addMacTableEntry</ref>(<ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref><sp/>*macTableEntry)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;quantumTable.add(macTableEntry);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_client_memory_1a10146f52c57bd9a1dbbd493d053deacc" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_client_memory_1a10146f52c57bd9a1dbbd493d053deacc" kindref="member">ClientMemory::getMacTableSize</ref>()</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;quantumTable.size();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="class_client_memory_1a7623a81a19240d8ed359d7d7f321d432" refkind="member"><highlight class="normal"><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref><sp/><ref refid="class_client_memory_1a7623a81a19240d8ed359d7d7f321d432" kindref="member">ClientMemory::getQuantumKey</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref><sp/>*quantumKeyEntry<sp/>=<sp/>(<ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref><sp/>*)<sp/>this-&gt;quantumKey[index];</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*quantumKeyEntry;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="class_client_memory_1ade803c1296afc65383cf3a937741676b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_client_memory_1ade803c1296afc65383cf3a937741676b" kindref="member">ClientMemory::addQautumKey</ref>(<ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref><sp/>*key)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;quantumKey.add(key);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="class_client_memory_1a6271ffa66466e21b9a61558f6de0b545" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_client_memory_1a6271ffa66466e21b9a61558f6de0b545" kindref="member">ClientMemory::getNumberOfKey</ref>()</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;quantumKey.size();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="class_client_memory_1a640f4311ef1f4935158cdfeeef2403f7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_client_memory_1a640f4311ef1f4935158cdfeeef2403f7" kindref="member">ClientMemory::getPendingTransaction</ref>()</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;this-&gt;quantumKey.size();<sp/>i++)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref><sp/>*qKey<sp/>=<sp/>(<ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref><sp/>*)<sp/>this-&gt;quantumKey[i];</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(strcmp(qKey-&gt;<ref refid="class_quantum_key_entry_1a1a45fdd0292e10bb01eeb69b55119cd5" kindref="member">getKey</ref>(),</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>index<sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>index;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="class_client_memory_1a182e9304d2a8f82a39c58b6f6a141ba0" refkind="member"><highlight class="normal">std::string<sp/><ref refid="class_client_memory_1a182e9304d2a8f82a39c58b6f6a141ba0" kindref="member">ClientMemory::getPendingKeyMacAddress</ref>()</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>desMac<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;this-&gt;quantumKey.size();<sp/>i++)</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref><sp/>*qKey<sp/>=<sp/>(<ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref><sp/>*)<sp/>this-&gt;quantumKey[i];</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(strcmp(qKey-&gt;<ref refid="class_quantum_key_entry_1a303fa302c2f0fea5162dca289aa3b2d7" kindref="member">getStatus</ref>(),</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>desMac<sp/>=<sp/>qKey-&gt;<ref refid="class_quantum_key_entry_1a3faa0418d067d5fd090be1a7973bf6db" kindref="member">getMacAddress</ref>();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qKey-&gt;<ref refid="class_quantum_key_entry_1a8efdd7c69dff35435038d395ce537578" kindref="member">setStatus</ref>(</highlight><highlight class="stringliteral">&quot;Active&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>desMac;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="class_client_memory_1a8c1c7263f1fc25ebe1de06eb29a7e762" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_client_memory_1a8c1c7263f1fc25ebe1de06eb29a7e762" kindref="member">ClientMemory::setPendingKey</ref>(std::string<sp/>key)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;this-&gt;quantumKey.size();<sp/>i++)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref><sp/>*qKey<sp/>=<sp/>(<ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref><sp/>*)<sp/>this-&gt;quantumKey[i];</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(strcmp(qKey-&gt;<ref refid="class_quantum_key_entry_1a1a45fdd0292e10bb01eeb69b55119cd5" kindref="member">getKey</ref>(),</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qKey-&gt;<ref refid="class_quantum_key_entry_1a89346d735a430bac418248f33f18b2e0" kindref="member">setKey</ref>(key.c_str());</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="class_client_memory_1ad8f8fa51defc77a88d7f5eea7261e712" refkind="member"><highlight class="normal">std::string<sp/><ref refid="class_client_memory_1ad8f8fa51defc77a88d7f5eea7261e712" kindref="member">ClientMemory::getInitialKey</ref>()</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;initialKey;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102" refid="class_client_memory_1a1c09946f30da7153abd7f13175bcabc7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_client_memory_1a1c09946f30da7153abd7f13175bcabc7" kindref="member">ClientMemory::setInitialKey</ref>(std::string<sp/>key)</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;initialKey=key;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="class_client_memory_1a9ac7e8c69dbb7c9b8aa2669ecddb5a4c" refkind="member"><highlight class="normal">std::string<sp/><ref refid="class_client_memory_1a9ac7e8c69dbb7c9b8aa2669ecddb5a4c" kindref="member">ClientMemory::getPolarizationStates</ref>()</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;polarizationStates;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="class_client_memory_1a8c072774722e1de3ca73de2c7045e0de" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_client_memory_1a8c072774722e1de3ca73de2c7045e0de" kindref="member">ClientMemory::setPolarizationStates</ref>(std::string<sp/>states)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;polarizationStates<sp/>=<sp/>states;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="class_client_memory_1a7dd8ab0de164d25fee3f02614eb6d654" refkind="member"><highlight class="normal">std::string<sp/><ref refid="class_client_memory_1a7dd8ab0de164d25fee3f02614eb6d654" kindref="member">ClientMemory::getInitialKeyBin</ref>()</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;initialKeyBin;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="class_client_memory_1a319d01144267835398c2cf3048ac55f3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_client_memory_1a319d01144267835398c2cf3048ac55f3" kindref="member">ClientMemory::setInitialKeyBin</ref>(std::string<sp/>bin)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;initialKeyBin<sp/>=<sp/>bin;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="ClientMemory.cc"/>
+  </compounddef>
+</doxygen>

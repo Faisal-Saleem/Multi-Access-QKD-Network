@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_processor" kind="class" language="C++" prot="public">
+    <compoundname>Processor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cSimpleModule</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_processor_1a51ef1c90d3e26ad6b41c9657b2e10435" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Processor::initialize</definition>
+        <argsstring>(int stage) override</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>int</type>
+          <declname>stage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Processor.cc" line="25" column="18" bodyfile="Processor.cc" bodystart="44" bodyend="64"/>
+        <references refid="_processor_8cc_1ac275848e8084b977fb991d5af533e4b0" compoundref="_processor_8cc" startline="19">tModule</references>
+        <references refid="_processor_8cc_1ae56614c08e16407e23d2959daba076e5" compoundref="_processor_8cc" startline="20">switchMemory</references>
+        <references refid="class_switch_memory_1add48914cfc0b5ce99111b3dcecbe6e48" compoundref="_switch_memory_8h" startline="58">SwitchMemory::macEntryIndex</references>
+        <references refid="class_switch_memory_1a6d549369eb96f2c8ee2bee8f75b9c446" compoundref="_switch_memory_8h" startline="80">SwitchMemory::arpEntryIndex</references>
+        <references refid="class_switch_memory_1a6e5d3f7eabd824f3c65138d49a164293" compoundref="_switch_memory_8h" startline="86">SwitchMemory::sessionsStateEntryIndex</references>
+        <references refid="class_processor_1a2b02c56ccbc18698cc65b62ea6422f34" compoundref="_processor_8cc" startline="218" endline="234">prepareQuantumSubInterfaceBindingTable</references>
+        <references refid="class_processor_1ac79a66ac1ab0be60aa33df9b077c5d00" compoundref="_processor_8cc" startline="249" endline="268">printQuantumSubinterfaceBindingTable</references>
+        <references refid="class_processor_1a09546fa7ad830a3b278e0a855cfda9c7" compoundref="_processor_8cc" startline="171" endline="179">prepareMacAddressTable</references>
+        <references refid="class_processor_1a3f1baa0cbe53d1079c3fc78de5f5f2f5" compoundref="_processor_8cc" startline="193" endline="216">printMacAddressTable</references>
+      </memberdef>
+      <memberdef kind="function" id="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Processor::handleMessage</definition>
+        <argsstring>(cMessage *msg) override</argsstring>
+        <name>handleMessage</name>
+        <param>
+          <type>cMessage *</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Processor.cc" line="26" column="18" bodyfile="Processor.cc" bodystart="71" bodyend="162"/>
+        <references refid="class_mac_table_entry_1a6465962d98b26ca79e52833a856f25ee" compoundref="_mac_table_entry__m_8cc" startline="242" endline="245">MacTableEntry::setIdentity</references>
+        <references refid="_processor_8cc_1ae56614c08e16407e23d2959daba076e5" compoundref="_processor_8cc" startline="20">switchMemory</references>
+        <references refid="class_switch_memory_1add48914cfc0b5ce99111b3dcecbe6e48" compoundref="_switch_memory_8h" startline="58">SwitchMemory::macEntryIndex</references>
+        <references refid="class_mac_table_entry_1a2b0fa1e2d3c836b045ff47f8743b4569" compoundref="_mac_table_entry__m_8cc" startline="252" endline="255">MacTableEntry::setInterface</references>
+        <references refid="class_mac_table_entry_1a150ec0b4aa63ef6786ada551a24d4007" compoundref="_mac_table_entry__m_8cc" startline="262" endline="265">MacTableEntry::setMacAddress</references>
+        <references refid="class_mac_table_entry_1af6a2aa74138f4f626a49b47637c0c280" compoundref="_mac_table_entry__m_8cc" startline="272" endline="275">MacTableEntry::setQuantumInterfaceId</references>
+        <references refid="class_mac_table_entry_1a1a2a84ad55661b64a43ff9c2022c7faa" compoundref="_mac_table_entry__m_8cc" startline="282" endline="285">MacTableEntry::setQuantumMacAddress</references>
+        <references refid="class_mac_table_entry_1a91122e0bff94f565be6a4510e4bf1734" compoundref="_mac_table_entry__m_8cc" startline="292" endline="295">MacTableEntry::setType</references>
+        <references refid="class_switch_memory_1a359a3321ab7fdaf1c91d8949205bc3c0" compoundref="_switch_memory_8cc" startline="42" endline="45">SwitchMemory::addMacTableEntry</references>
+        <references refid="class_arp_table_entry_1aba9fc2ed91e62fb9af640ba3d2e9ffc8" compoundref="_arp_table_entry__m_8cc" startline="245" endline="248">ArpTableEntry::setIdentity</references>
+        <references refid="class_switch_memory_1a6d549369eb96f2c8ee2bee8f75b9c446" compoundref="_switch_memory_8h" startline="80">SwitchMemory::arpEntryIndex</references>
+        <references refid="class_arp_table_entry_1a87672c8282d9fa822567fd08a361130c" compoundref="_arp_table_entry__m_8cc" startline="255" endline="258">ArpTableEntry::setProtocol</references>
+        <references refid="class_arp_table_entry_1aa5e5949d12f291be1bc74cf1bcde92bd" compoundref="_arp_table_entry__m_8cc" startline="265" endline="268">ArpTableEntry::setIpAddress</references>
+        <references refid="class_arp_table_entry_1a03e0a5373f20dc6672e8ae21680d4111" compoundref="_arp_table_entry__m_8cc" startline="285" endline="288">ArpTableEntry::setAge</references>
+        <references refid="class_arp_table_entry_1a144783c14f0992037f93b00d34b3521b" compoundref="_arp_table_entry__m_8cc" startline="275" endline="278">ArpTableEntry::setMacAddress</references>
+        <references refid="class_arp_table_entry_1ad4a908fc048e173535c155886fe96283" compoundref="_arp_table_entry__m_8cc" startline="295" endline="298">ArpTableEntry::setType</references>
+        <references refid="class_arp_table_entry_1a87466843f83577d378f7c20e062f97da" compoundref="_arp_table_entry__m_8cc" startline="305" endline="308">ArpTableEntry::setInterface</references>
+        <references refid="class_switch_memory_1a304abf12974436aea3a6bcd0fa8ae893" compoundref="_switch_memory_8cc" startline="256" endline="259">SwitchMemory::addArpTableEntry</references>
+        <references refid="class_session_state_entry_1a99f4e085c7f8e10beaefe6c92cf25c91" compoundref="_session_state_entry__m_8cc" startline="250" endline="253">SessionStateEntry::setSessionId</references>
+        <references refid="class_switch_memory_1a6e5d3f7eabd824f3c65138d49a164293" compoundref="_switch_memory_8h" startline="86">SwitchMemory::sessionsStateEntryIndex</references>
+        <references refid="class_session_state_entry_1a925ca61bf7230b35e3f915062a6d726c" compoundref="_session_state_entry__m_8cc" startline="260" endline="263">SessionStateEntry::setSrcMac</references>
+        <references refid="class_session_state_entry_1a808022e62c2fe4736598ac93811436da" compoundref="_session_state_entry__m_8cc" startline="270" endline="273">SessionStateEntry::setSrcQMac</references>
+        <references refid="class_switch_memory_1a9df543d53be88a36f95d97c38956c5a4" compoundref="_switch_memory_8cc" startline="52" endline="55">SwitchMemory::getQuantumInterfaceMacAddressFromMacTable</references>
+        <references refid="class_session_state_entry_1a0a95e11ae98c1e210baf2bb2dfafaeb3" compoundref="_session_state_entry__m_8cc" startline="255" endline="258">SessionStateEntry::getSrcMac</references>
+        <references refid="class_session_state_entry_1a8396331691af743c912b97d8dacb4c2e" compoundref="_session_state_entry__m_8cc" startline="280" endline="283">SessionStateEntry::setSrcSubInterface</references>
+        <references refid="class_switch_memory_1ab02cb8b04de17b788e6d3886c85ec421" compoundref="_switch_memory_8cc" startline="72" endline="75">SwitchMemory::getQuantumInterfaceFromMacTable</references>
+        <references refid="class_session_state_entry_1aabe67a1cafcc6991c929563b3210633d" compoundref="_session_state_entry__m_8cc" startline="265" endline="268">SessionStateEntry::getSrcQMac</references>
+        <references refid="class_session_state_entry_1af005291102751eadc6a03d95d00f9907" compoundref="_session_state_entry__m_8cc" startline="290" endline="293">SessionStateEntry::setDesMac</references>
+        <references refid="class_switch_memory_1a9fb1f2694ac9afd878028b479a70349c" compoundref="_switch_memory_8cc" startline="62" endline="65">SwitchMemory::getMacAddressOfInterfaceFromMacTable</references>
+        <references refid="class_switch_memory_1a289b60483ade7b6290495c261081a96a" compoundref="_switch_memory_8cc" startline="57" endline="60">SwitchMemory::getInterfaceIdFromMacTable</references>
+        <references refid="class_session_state_entry_1a0a0e5e1e9493fa447f02c04e501e91ff" compoundref="_session_state_entry__m_8cc" startline="300" endline="303">SessionStateEntry::setDesQMac</references>
+        <references refid="class_switch_memory_1aefa84da5267c7ef53a69bcbacafcf930" compoundref="_switch_memory_8cc" startline="67" endline="70">SwitchMemory::getQuantumMacAddressOfInterfaceFromMacTable</references>
+        <references refid="class_session_state_entry_1a3b6589d8f660884c5bd5fa751c3d4b81" compoundref="_session_state_entry__m_8cc" startline="310" endline="313">SessionStateEntry::setDesSubInterface</references>
+        <references refid="class_session_state_entry_1a39fc505629ae92fe94ec28eb4d65b7e7" compoundref="_session_state_entry__m_8cc" startline="295" endline="298">SessionStateEntry::getDesQMac</references>
+        <references refid="class_session_state_entry_1a427ca30027864c36630b334f02c05ac7" compoundref="_session_state_entry__m_8cc" startline="320" endline="323">SessionStateEntry::setExpiry</references>
+        <references refid="class_session_state_entry_1a489034b564fa1d8ce989cef3af8342f9" compoundref="_session_state_entry__m_8cc" startline="330" endline="333">SessionStateEntry::setStatus</references>
+        <references refid="class_switch_memory_1aee8f80a0b479456debaa707155bca257" compoundref="_switch_memory_8cc" startline="97" endline="129">SwitchMemory::entryExist</references>
+        <references refid="class_session_state_entry_1aa26d3a0d89a0a480a065700541c7f348" compoundref="_session_state_entry__m_8cc" startline="285" endline="288">SessionStateEntry::getDesMac</references>
+        <references refid="class_switch_memory_1a3be0998057095110a3476295ab30dfbd" compoundref="_switch_memory_8cc" startline="240" endline="243">SwitchMemory::addSessionStateTableEntry</references>
+        <references refid="class_switch_memory_1a8df01e95ba7586af1fa28a4c1844e178" compoundref="_switch_memory_8cc" startline="77" endline="80">SwitchMemory::getQuantumInterfaceFromMacTableByPublicMac</references>
+        <references refid="class_switch_memory_1a80ee2ab5c4a6a49aa3edd6d42aaa51c6" compoundref="_switch_memory_8cc" startline="219" endline="232">SwitchMemory::getExitInterfaceFromBindingTable</references>
+        <references refid="class_switch_memory_1a951352f41fb30a905445e7e9ec0089a3" compoundref="_switch_memory_8cc" startline="82" endline="95">SwitchMemory::getInterface</references>
+      </memberdef>
+      <memberdef kind="function" id="class_processor_1abfddada3e9fb1e5f274db49c980e287c" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int Processor::numInitStages</definition>
+        <argsstring>() const override</argsstring>
+        <name>numInitStages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Processor.cc" line="27" column="17" bodyfile="Processor.cc" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_processor_1a35b1dbf86923e19a081d60ec7464837f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Processor::finish</definition>
+        <argsstring>() override</argsstring>
+        <name>finish</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Processor.cc" line="28" column="18" bodyfile="Processor.cc" bodystart="164" bodyend="169"/>
+        <references refid="class_processor_1a3f1baa0cbe53d1079c3fc78de5f5f2f5" compoundref="_processor_8cc" startline="193" endline="216">printMacAddressTable</references>
+        <references refid="class_processor_1a110965763a9b6ee318b8bee23dd5ab90" compoundref="_processor_8cc" startline="270" endline="295">printArpTable</references>
+        <references refid="class_processor_1a6f342c608c14a45a5f4b3930118135bb" compoundref="_processor_8cc" startline="297" endline="326">printSessionStateTable</references>
+      </memberdef>
+      <memberdef kind="function" id="class_processor_1a09546fa7ad830a3b278e0a855cfda9c7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Processor::prepareMacAddressTable</definition>
+        <argsstring>()</argsstring>
+        <name>prepareMacAddressTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Processor.cc" line="30" column="10" bodyfile="Processor.cc" bodystart="171" bodyend="179"/>
+        <references refid="class_processor_1a3c4e000ff0be0d41dc87053287a2c2f4" compoundref="_processor_8cc" startline="181" endline="191">bindInterface</references>
+        <references refid="_processor_8cc_1ae56614c08e16407e23d2959daba076e5" compoundref="_processor_8cc" startline="20">switchMemory</references>
+        <references refid="class_switch_memory_1add48914cfc0b5ce99111b3dcecbe6e48" compoundref="_switch_memory_8h" startline="58">SwitchMemory::macEntryIndex</references>
+        <referencedby refid="class_processor_1a51ef1c90d3e26ad6b41c9657b2e10435" compoundref="_processor_8cc" startline="44" endline="64">initialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_processor_1a3c4e000ff0be0d41dc87053287a2c2f4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Processor::bindInterface</definition>
+        <argsstring>(int identity, std::string interface, std::string quantumInterface, int type)</argsstring>
+        <name>bindInterface</name>
+        <param>
+          <type>int</type>
+          <declname>identity</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>interface</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>quantumInterface</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Processor.cc" line="31" column="10" bodyfile="Processor.cc" bodystart="181" bodyend="191"/>
+        <references refid="class_mac_table_entry_1a6465962d98b26ca79e52833a856f25ee" compoundref="_mac_table_entry__m_8cc" startline="242" endline="245">MacTableEntry::setIdentity</references>
+        <references refid="class_mac_table_entry_1a2b0fa1e2d3c836b045ff47f8743b4569" compoundref="_mac_table_entry__m_8cc" startline="252" endline="255">MacTableEntry::setInterface</references>
+        <references refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9eca7e91d3bb453d1a51a3cb4849a09a05b4" compoundref="_switch_memory_8h" startline="40">interface</references>
+        <references refid="class_mac_table_entry_1a150ec0b4aa63ef6786ada551a24d4007" compoundref="_mac_table_entry__m_8cc" startline="262" endline="265">MacTableEntry::setMacAddress</references>
+        <references refid="class_mac_table_entry_1af6a2aa74138f4f626a49b47637c0c280" compoundref="_mac_table_entry__m_8cc" startline="272" endline="275">MacTableEntry::setQuantumInterfaceId</references>
+        <references refid="class_mac_table_entry_1a1a2a84ad55661b64a43ff9c2022c7faa" compoundref="_mac_table_entry__m_8cc" startline="282" endline="285">MacTableEntry::setQuantumMacAddress</references>
+        <references refid="class_mac_table_entry_1a91122e0bff94f565be6a4510e4bf1734" compoundref="_mac_table_entry__m_8cc" startline="292" endline="295">MacTableEntry::setType</references>
+        <references refid="_processor_8cc_1ae56614c08e16407e23d2959daba076e5" compoundref="_processor_8cc" startline="20">switchMemory</references>
+        <references refid="class_switch_memory_1a359a3321ab7fdaf1c91d8949205bc3c0" compoundref="_switch_memory_8cc" startline="42" endline="45">SwitchMemory::addMacTableEntry</references>
+        <referencedby refid="class_processor_1a09546fa7ad830a3b278e0a855cfda9c7" compoundref="_processor_8cc" startline="171" endline="179">prepareMacAddressTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_processor_1a2b02c56ccbc18698cc65b62ea6422f34" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Processor::prepareQuantumSubInterfaceBindingTable</definition>
+        <argsstring>()</argsstring>
+        <name>prepareQuantumSubInterfaceBindingTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Processor.cc" line="32" column="10" bodyfile="Processor.cc" bodystart="218" bodyend="234"/>
+        <references refid="class_processor_1afecfbfa91e5b85ba9ab928291c837b8d" compoundref="_processor_8cc" startline="236" endline="247">bindSubInterface</references>
+        <referencedby refid="class_processor_1a51ef1c90d3e26ad6b41c9657b2e10435" compoundref="_processor_8cc" startline="44" endline="64">initialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_processor_1afecfbfa91e5b85ba9ab928291c837b8d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Processor::bindSubInterface</definition>
+        <argsstring>(std::string identity, std::string sourceInterface, std::string sourceSubInterface, std::string destinationInterface, std::string destinationSubInterface, int status)</argsstring>
+        <name>bindSubInterface</name>
+        <param>
+          <type>std::string</type>
+          <declname>identity</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>sourceInterface</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>sourceSubInterface</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>destinationInterface</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>destinationSubInterface</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Processor.cc" line="33" column="10" bodyfile="Processor.cc" bodystart="236" bodyend="247"/>
+        <references refid="class_quantum_sub_interface_binding_1ae3cc925d3bd715f5b99433a6dee3df52" compoundref="_quantum_sub_interface_binding__m_8cc" startline="245" endline="248">QuantumSubInterfaceBinding::setIdentity</references>
+        <references refid="class_quantum_sub_interface_binding_1aa6bdb03d5fece9109ffe878df38948ce" compoundref="_quantum_sub_interface_binding__m_8cc" startline="255" endline="258">QuantumSubInterfaceBinding::setConnectionId</references>
+        <references refid="class_quantum_sub_interface_binding_1a9b2aa303a10d144ca476c20ef3908a55" compoundref="_quantum_sub_interface_binding__m_8cc" startline="265" endline="268">QuantumSubInterfaceBinding::setSourceInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1abb6a54b11f31e5b65c160ad505209852" compoundref="_quantum_sub_interface_binding__m_8cc" startline="275" endline="278">QuantumSubInterfaceBinding::setSourceSubInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1a5c562439a1a279229e1924cc82664d96" compoundref="_quantum_sub_interface_binding__m_8cc" startline="285" endline="288">QuantumSubInterfaceBinding::setDestinationInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1a618e70a4b763323eb1cb8a95c4c82fdf" compoundref="_quantum_sub_interface_binding__m_8cc" startline="295" endline="298">QuantumSubInterfaceBinding::setDestinationSubInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1aac4ece4ed8ba74ee786b1d0445c85d9b" compoundref="_quantum_sub_interface_binding__m_8cc" startline="305" endline="308">QuantumSubInterfaceBinding::setStatus</references>
+        <references refid="_processor_8cc_1ae56614c08e16407e23d2959daba076e5" compoundref="_processor_8cc" startline="20">switchMemory</references>
+        <references refid="class_switch_memory_1af9e8c84c7de5c8302fa177abae3a3f0e" compoundref="_switch_memory_8cc" startline="209" endline="212">SwitchMemory::addQuantumBindingTableEntry</references>
+        <referencedby refid="class_processor_1a2b02c56ccbc18698cc65b62ea6422f34" compoundref="_processor_8cc" startline="218" endline="234">prepareQuantumSubInterfaceBindingTable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_processor_1a3f1baa0cbe53d1079c3fc78de5f5f2f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Processor::printMacAddressTable</definition>
+        <argsstring>()</argsstring>
+        <name>printMacAddressTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Processor.cc" line="36" column="10" bodyfile="Processor.cc" bodystart="193" bodyend="216"/>
+        <references refid="_processor_8cc_1ae56614c08e16407e23d2959daba076e5" compoundref="_processor_8cc" startline="20">switchMemory</references>
+        <references refid="class_switch_memory_1a09b86238d1a105909514259ca5d25713" compoundref="_switch_memory_8cc" startline="47" endline="50">SwitchMemory::getMacTableSize</references>
+        <references refid="class_switch_memory_1a69f25a104169ab7b2ac4fa7aa61ba09f" compoundref="_switch_memory_8cc" startline="36" endline="40">SwitchMemory::getMacTable</references>
+        <references refid="class_mac_table_entry_1aa4918b248eb4bc9a5cbce2d22ee1044e" compoundref="_mac_table_entry__m_8cc" startline="237" endline="240">MacTableEntry::getIdentity</references>
+        <references refid="class_mac_table_entry_1af25bc86738003fb75bb3e4d0e74cda88" compoundref="_mac_table_entry__m_8cc" startline="247" endline="250">MacTableEntry::getInterface</references>
+        <references refid="class_mac_table_entry_1aaa684cc0b7d88a4758740c26d1027935" compoundref="_mac_table_entry__m_8cc" startline="257" endline="260">MacTableEntry::getMacAddress</references>
+        <references refid="class_mac_table_entry_1a506d91d4588ee6858a1df8abba79e435" compoundref="_mac_table_entry__m_8cc" startline="267" endline="270">MacTableEntry::getQuantumInterfaceId</references>
+        <references refid="class_mac_table_entry_1a8a2d0356c6109782bdf7b446fa4f6c1c" compoundref="_mac_table_entry__m_8cc" startline="277" endline="280">MacTableEntry::getQuantumMacAddress</references>
+        <references refid="class_mac_table_entry_1aba16ae27a9b129a262790631ecd6149e" compoundref="_mac_table_entry__m_8cc" startline="287" endline="290">MacTableEntry::getType</references>
+        <referencedby refid="class_processor_1a51ef1c90d3e26ad6b41c9657b2e10435" compoundref="_processor_8cc" startline="44" endline="64">initialize</referencedby>
+        <referencedby refid="class_processor_1a35b1dbf86923e19a081d60ec7464837f" compoundref="_processor_8cc" startline="164" endline="169">finish</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_processor_1ac79a66ac1ab0be60aa33df9b077c5d00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Processor::printQuantumSubinterfaceBindingTable</definition>
+        <argsstring>()</argsstring>
+        <name>printQuantumSubinterfaceBindingTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Processor.cc" line="37" column="10" bodyfile="Processor.cc" bodystart="249" bodyend="268"/>
+        <references refid="_processor_8cc_1ae56614c08e16407e23d2959daba076e5" compoundref="_processor_8cc" startline="20">switchMemory</references>
+        <references refid="class_switch_memory_1a6b5aa28a001e14642f750d0c40de138d" compoundref="_switch_memory_8cc" startline="214" endline="217">SwitchMemory::getQuantumBindingTableSize</references>
+        <references refid="class_switch_memory_1a16e71b14ea1eb2389636bea2dff8c613" compoundref="_switch_memory_8cc" startline="203" endline="207">SwitchMemory::getQuantumBindingTable</references>
+        <references refid="class_quantum_sub_interface_binding_1a212cb491b8bb409d65c0e0546f6e4b7c" compoundref="_quantum_sub_interface_binding__m_8cc" startline="240" endline="243">QuantumSubInterfaceBinding::getIdentity</references>
+        <references refid="class_quantum_sub_interface_binding_1ad3d38a03f0f6934d93af679497fe237b" compoundref="_quantum_sub_interface_binding__m_8cc" startline="250" endline="253">QuantumSubInterfaceBinding::getConnectionId</references>
+        <references refid="class_quantum_sub_interface_binding_1aaba854b90a32d0278d39725bedd5b995" compoundref="_quantum_sub_interface_binding__m_8cc" startline="260" endline="263">QuantumSubInterfaceBinding::getSourceInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1ad79f3a4beae4490c67ec3a1ec6ed2481" compoundref="_quantum_sub_interface_binding__m_8cc" startline="270" endline="273">QuantumSubInterfaceBinding::getSourceSubInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1ad80f36303960043a6953a56b08e98531" compoundref="_quantum_sub_interface_binding__m_8cc" startline="280" endline="283">QuantumSubInterfaceBinding::getDestinationInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1a6fdecca6abda8ad6d40091ee7bec74c1" compoundref="_quantum_sub_interface_binding__m_8cc" startline="290" endline="293">QuantumSubInterfaceBinding::getDestinationSubInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1a1e375fa8ef8bfb1c0ffc0dfdd6e52937" compoundref="_quantum_sub_interface_binding__m_8cc" startline="300" endline="303">QuantumSubInterfaceBinding::getStatus</references>
+        <referencedby refid="class_processor_1a51ef1c90d3e26ad6b41c9657b2e10435" compoundref="_processor_8cc" startline="44" endline="64">initialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_processor_1a110965763a9b6ee318b8bee23dd5ab90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Processor::printArpTable</definition>
+        <argsstring>()</argsstring>
+        <name>printArpTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Processor.cc" line="38" column="10" bodyfile="Processor.cc" bodystart="270" bodyend="295"/>
+        <references refid="_processor_8cc_1ae56614c08e16407e23d2959daba076e5" compoundref="_processor_8cc" startline="20">switchMemory</references>
+        <references refid="class_switch_memory_1a082aae575ddc16f9c8394b630fe5b6f0" compoundref="_switch_memory_8cc" startline="261" endline="264">SwitchMemory::getArpTableSize</references>
+        <references refid="class_switch_memory_1ad257d83817c301dff411fc0a1ba44841" compoundref="_switch_memory_8cc" startline="250" endline="254">SwitchMemory::getArpTableEntry</references>
+        <references refid="class_arp_table_entry_1a2c3fa9d25b2ddef04ae1f7feec5d2970" compoundref="_arp_table_entry__m_8cc" startline="240" endline="243">ArpTableEntry::getIdentity</references>
+        <references refid="class_arp_table_entry_1ad809c04c43dda3b0234ddc36a910b947" compoundref="_arp_table_entry__m_8cc" startline="250" endline="253">ArpTableEntry::getProtocol</references>
+        <references refid="class_arp_table_entry_1ae9c88488bdcd3409b5a048db053bec68" compoundref="_arp_table_entry__m_8cc" startline="260" endline="263">ArpTableEntry::getIpAddress</references>
+        <references refid="class_arp_table_entry_1a9a04233d547cef4358aa375a617c01dc" compoundref="_arp_table_entry__m_8cc" startline="280" endline="283">ArpTableEntry::getAge</references>
+        <references refid="class_arp_table_entry_1a53fd47b0ac0efe30d7c1965ce2808d9d" compoundref="_arp_table_entry__m_8cc" startline="270" endline="273">ArpTableEntry::getMacAddress</references>
+        <references refid="class_arp_table_entry_1a90bdde86b373d5fafb2d2d74525263ed" compoundref="_arp_table_entry__m_8cc" startline="290" endline="293">ArpTableEntry::getType</references>
+        <references refid="class_arp_table_entry_1a350939d3434dc7dd403114febba08e20" compoundref="_arp_table_entry__m_8cc" startline="300" endline="303">ArpTableEntry::getInterface</references>
+        <referencedby refid="class_processor_1a35b1dbf86923e19a081d60ec7464837f" compoundref="_processor_8cc" startline="164" endline="169">finish</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_processor_1a6f342c608c14a45a5f4b3930118135bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Processor::printSessionStateTable</definition>
+        <argsstring>()</argsstring>
+        <name>printSessionStateTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Processor.cc" line="39" column="10" bodyfile="Processor.cc" bodystart="297" bodyend="326"/>
+        <references refid="_processor_8cc_1ae56614c08e16407e23d2959daba076e5" compoundref="_processor_8cc" startline="20">switchMemory</references>
+        <references refid="class_switch_memory_1aa3600fae1aa1d8aaa0af0d9890385830" compoundref="_switch_memory_8cc" startline="245" endline="248">SwitchMemory::getSessionStateTableSize</references>
+        <references refid="class_switch_memory_1a93ae827e0fc75bdb4c61460e9bc76eeb" compoundref="_switch_memory_8cc" startline="234" endline="238">SwitchMemory::getsessionStateTableEntry</references>
+        <references refid="class_session_state_entry_1ac7008d50f836ab35135b1f4c18d0d4f3" compoundref="_session_state_entry__m_8cc" startline="245" endline="248">SessionStateEntry::getSessionId</references>
+        <references refid="class_session_state_entry_1a0a95e11ae98c1e210baf2bb2dfafaeb3" compoundref="_session_state_entry__m_8cc" startline="255" endline="258">SessionStateEntry::getSrcMac</references>
+        <references refid="class_session_state_entry_1aabe67a1cafcc6991c929563b3210633d" compoundref="_session_state_entry__m_8cc" startline="265" endline="268">SessionStateEntry::getSrcQMac</references>
+        <references refid="class_session_state_entry_1af67c535933d3a94227e14930b8007ec8" compoundref="_session_state_entry__m_8cc" startline="275" endline="278">SessionStateEntry::getSrcSubInterface</references>
+        <references refid="class_session_state_entry_1aa26d3a0d89a0a480a065700541c7f348" compoundref="_session_state_entry__m_8cc" startline="285" endline="288">SessionStateEntry::getDesMac</references>
+        <references refid="class_session_state_entry_1a39fc505629ae92fe94ec28eb4d65b7e7" compoundref="_session_state_entry__m_8cc" startline="295" endline="298">SessionStateEntry::getDesQMac</references>
+        <references refid="class_session_state_entry_1a6744fccab42b02111ed4a598638b26b5" compoundref="_session_state_entry__m_8cc" startline="305" endline="308">SessionStateEntry::getDesSubInterface</references>
+        <references refid="class_session_state_entry_1a802f897ce63cd7264ade71cdccc303b3" compoundref="_session_state_entry__m_8cc" startline="315" endline="318">SessionStateEntry::getExpiry</references>
+        <references refid="class_session_state_entry_1aa4761da1a38d4d84ef33e85908221c63" compoundref="_session_state_entry__m_8cc" startline="325" endline="328">SessionStateEntry::getStatus</references>
+        <referencedby refid="class_processor_1a35b1dbf86923e19a081d60ec7464837f" compoundref="_processor_8cc" startline="164" endline="169">finish</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Processor</label>
+        <link refid="class_processor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Processor</label>
+        <link refid="class_processor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+    </collaborationgraph>
+    <location file="Processor.cc" line="23" column="1" bodyfile="Processor.cc" bodystart="22" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_processor_1a3c4e000ff0be0d41dc87053287a2c2f4" prot="protected" virt="non-virtual"><scope>Processor</scope><name>bindInterface</name></member>
+      <member refid="class_processor_1afecfbfa91e5b85ba9ab928291c837b8d" prot="protected" virt="non-virtual"><scope>Processor</scope><name>bindSubInterface</name></member>
+      <member refid="class_processor_1a35b1dbf86923e19a081d60ec7464837f" prot="protected" virt="virtual"><scope>Processor</scope><name>finish</name></member>
+      <member refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" prot="protected" virt="virtual"><scope>Processor</scope><name>handleMessage</name></member>
+      <member refid="class_processor_1a51ef1c90d3e26ad6b41c9657b2e10435" prot="protected" virt="virtual"><scope>Processor</scope><name>initialize</name></member>
+      <member refid="class_processor_1abfddada3e9fb1e5f274db49c980e287c" prot="protected" virt="virtual"><scope>Processor</scope><name>numInitStages</name></member>
+      <member refid="class_processor_1a09546fa7ad830a3b278e0a855cfda9c7" prot="protected" virt="non-virtual"><scope>Processor</scope><name>prepareMacAddressTable</name></member>
+      <member refid="class_processor_1a2b02c56ccbc18698cc65b62ea6422f34" prot="protected" virt="non-virtual"><scope>Processor</scope><name>prepareQuantumSubInterfaceBindingTable</name></member>
+      <member refid="class_processor_1a110965763a9b6ee318b8bee23dd5ab90" prot="public" virt="non-virtual"><scope>Processor</scope><name>printArpTable</name></member>
+      <member refid="class_processor_1a3f1baa0cbe53d1079c3fc78de5f5f2f5" prot="public" virt="non-virtual"><scope>Processor</scope><name>printMacAddressTable</name></member>
+      <member refid="class_processor_1ac79a66ac1ab0be60aa33df9b077c5d00" prot="public" virt="non-virtual"><scope>Processor</scope><name>printQuantumSubinterfaceBindingTable</name></member>
+      <member refid="class_processor_1a6f342c608c14a45a5f4b3930118135bb" prot="public" virt="non-virtual"><scope>Processor</scope><name>printSessionStateTable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

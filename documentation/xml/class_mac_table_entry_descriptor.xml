@@ -1,0 +1,440 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_mac_table_entry_descriptor" kind="class" language="C++" prot="public">
+    <compoundname>MacTableEntryDescriptor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cClassDescriptor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mac_table_entry_descriptor_1a276bc1f7defef7d0058b5963c0872e3b" prot="private" static="no" mutable="yes">
+        <type>const char **</type>
+        <definition>const char** MacTableEntryDescriptor::propertynames</definition>
+        <argsstring></argsstring>
+        <name>propertynames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="300" column="24" bodyfile="MacTableEntry_m.cc" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1a060b97c878507cd3d30b3326916a78ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MacTableEntryDescriptor::MacTableEntryDescriptor</definition>
+        <argsstring>()</argsstring>
+        <name>MacTableEntryDescriptor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="302" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1a344cf32a95035a50c9e196b2f3e36db6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>MacTableEntryDescriptor::~MacTableEntryDescriptor</definition>
+        <argsstring>()</argsstring>
+        <name>~MacTableEntryDescriptor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="303" column="13" bodyfile="MacTableEntry_m.cc" bodystart="332" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1aa3c9f5a25b32feff32bf1f77321fe7a0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool MacTableEntryDescriptor::doesSupport</definition>
+        <argsstring>(omnetpp::cObject *obj) const override</argsstring>
+        <name>doesSupport</name>
+        <param>
+          <type>omnetpp::cObject *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="305" column="18" bodyfile="MacTableEntry_m.cc" bodystart="337" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1a1df2649fa9dbe6d9769aaf8548a5c9b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char **</type>
+        <definition>const char ** MacTableEntryDescriptor::getPropertyNames</definition>
+        <argsstring>() const override</argsstring>
+        <name>getPropertyNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="306" column="24" bodyfile="MacTableEntry_m.cc" bodystart="342" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1a273f66f4ed8185d09d0b967c3a065b21" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * MacTableEntryDescriptor::getProperty</definition>
+        <argsstring>(const char *propertyname) const override</argsstring>
+        <name>getProperty</name>
+        <param>
+          <type>const char *</type>
+          <declname>propertyname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="307" column="24" bodyfile="MacTableEntry_m.cc" bodystart="353" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1a9503dd4e0262e18961312dedea3a08c0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int MacTableEntryDescriptor::getFieldCount</definition>
+        <argsstring>() const override</argsstring>
+        <name>getFieldCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="308" column="17" bodyfile="MacTableEntry_m.cc" bodystart="359" bodyend="363"/>
+        <referencedby refid="class_mac_table_entry_descriptor_1ab07bef0cafcafc2c23816104989946f2" compoundref="_mac_table_entry__m_8cc" startline="365" endline="382">getFieldTypeFlags</referencedby>
+        <referencedby refid="class_mac_table_entry_descriptor_1a047dd15484bbaff3308a56ab50dad124" compoundref="_mac_table_entry__m_8cc" startline="384" endline="401">getFieldName</referencedby>
+        <referencedby refid="class_mac_table_entry_descriptor_1a2ffe53b3fd8e46e69af244e116060cbf" compoundref="_mac_table_entry__m_8cc" startline="416" endline="433">getFieldTypeString</referencedby>
+        <referencedby refid="class_mac_table_entry_descriptor_1a246d388acd43f58e9697cb5fcaef6588" compoundref="_mac_table_entry__m_8cc" startline="435" endline="446">getFieldPropertyNames</referencedby>
+        <referencedby refid="class_mac_table_entry_descriptor_1ac05649270f0457f772c1be2e2312c172" compoundref="_mac_table_entry__m_8cc" startline="448" endline="459">getFieldProperty</referencedby>
+        <referencedby refid="class_mac_table_entry_descriptor_1a013e3d33dddc34e91967118547fb0b38" compoundref="_mac_table_entry__m_8cc" startline="461" endline="473">getFieldArraySize</referencedby>
+        <referencedby refid="class_mac_table_entry_descriptor_1abb813eb554e71c4a4b50aa99665d95c6" compoundref="_mac_table_entry__m_8cc" startline="475" endline="487">getFieldDynamicTypeString</referencedby>
+        <referencedby refid="class_mac_table_entry_descriptor_1a0b9bba13fac3173348c95d9858aca054" compoundref="_mac_table_entry__m_8cc" startline="489" endline="507">getFieldValueAsString</referencedby>
+        <referencedby refid="class_mac_table_entry_descriptor_1a3ef2f094d68b9689d8b698b2e943f613" compoundref="_mac_table_entry__m_8cc" startline="509" endline="527">setFieldValueAsString</referencedby>
+        <referencedby refid="class_mac_table_entry_descriptor_1ab995a7ee3fb0da9616bc1772aaa5d557" compoundref="_mac_table_entry__m_8cc" startline="529" endline="540">getFieldStructName</referencedby>
+        <referencedby refid="class_mac_table_entry_descriptor_1a99c9fcfd42d9a7c1ad3f505ed926123e" compoundref="_mac_table_entry__m_8cc" startline="542" endline="554">getFieldStructValuePointer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1a047dd15484bbaff3308a56ab50dad124" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * MacTableEntryDescriptor::getFieldName</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldName</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="309" column="24" bodyfile="MacTableEntry_m.cc" bodystart="384" bodyend="401"/>
+        <references refid="class_mac_table_entry_descriptor_1a9503dd4e0262e18961312dedea3a08c0" compoundref="_mac_table_entry__m_8cc" startline="359" endline="363">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1a03f804cbe14fae09b3a9df481d3c092f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int MacTableEntryDescriptor::findField</definition>
+        <argsstring>(const char *fieldName) const override</argsstring>
+        <name>findField</name>
+        <param>
+          <type>const char *</type>
+          <declname>fieldName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="310" column="17" bodyfile="MacTableEntry_m.cc" bodystart="403" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1ab07bef0cafcafc2c23816104989946f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int MacTableEntryDescriptor::getFieldTypeFlags</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldTypeFlags</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="311" column="26" bodyfile="MacTableEntry_m.cc" bodystart="365" bodyend="382"/>
+        <references refid="class_mac_table_entry_descriptor_1a9503dd4e0262e18961312dedea3a08c0" compoundref="_mac_table_entry__m_8cc" startline="359" endline="363">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1a2ffe53b3fd8e46e69af244e116060cbf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * MacTableEntryDescriptor::getFieldTypeString</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldTypeString</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="312" column="24" bodyfile="MacTableEntry_m.cc" bodystart="416" bodyend="433"/>
+        <references refid="class_mac_table_entry_descriptor_1a9503dd4e0262e18961312dedea3a08c0" compoundref="_mac_table_entry__m_8cc" startline="359" endline="363">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1a246d388acd43f58e9697cb5fcaef6588" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char **</type>
+        <definition>const char ** MacTableEntryDescriptor::getFieldPropertyNames</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldPropertyNames</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="313" column="24" bodyfile="MacTableEntry_m.cc" bodystart="435" bodyend="446"/>
+        <references refid="class_mac_table_entry_descriptor_1a9503dd4e0262e18961312dedea3a08c0" compoundref="_mac_table_entry__m_8cc" startline="359" endline="363">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1ac05649270f0457f772c1be2e2312c172" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * MacTableEntryDescriptor::getFieldProperty</definition>
+        <argsstring>(int field, const char *propertyname) const override</argsstring>
+        <name>getFieldProperty</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>propertyname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="314" column="24" bodyfile="MacTableEntry_m.cc" bodystart="448" bodyend="459"/>
+        <references refid="class_mac_table_entry_descriptor_1a9503dd4e0262e18961312dedea3a08c0" compoundref="_mac_table_entry__m_8cc" startline="359" endline="363">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1a013e3d33dddc34e91967118547fb0b38" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int MacTableEntryDescriptor::getFieldArraySize</definition>
+        <argsstring>(void *object, int field) const override</argsstring>
+        <name>getFieldArraySize</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="315" column="17" bodyfile="MacTableEntry_m.cc" bodystart="461" bodyend="473"/>
+        <references refid="class_mac_table_entry_descriptor_1a9503dd4e0262e18961312dedea3a08c0" compoundref="_mac_table_entry__m_8cc" startline="359" endline="363">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1abb813eb554e71c4a4b50aa99665d95c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * MacTableEntryDescriptor::getFieldDynamicTypeString</definition>
+        <argsstring>(void *object, int field, int i) const override</argsstring>
+        <name>getFieldDynamicTypeString</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="317" column="24" bodyfile="MacTableEntry_m.cc" bodystart="475" bodyend="487"/>
+        <references refid="class_mac_table_entry_descriptor_1a9503dd4e0262e18961312dedea3a08c0" compoundref="_mac_table_entry__m_8cc" startline="359" endline="363">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1a0b9bba13fac3173348c95d9858aca054" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string MacTableEntryDescriptor::getFieldValueAsString</definition>
+        <argsstring>(void *object, int field, int i) const override</argsstring>
+        <name>getFieldValueAsString</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="318" column="25" bodyfile="MacTableEntry_m.cc" bodystart="489" bodyend="507"/>
+        <references refid="class_mac_table_entry_descriptor_1a9503dd4e0262e18961312dedea3a08c0" compoundref="_mac_table_entry__m_8cc" startline="359" endline="363">getFieldCount</references>
+        <references refid="class_mac_table_entry_1aa4918b248eb4bc9a5cbce2d22ee1044e" compoundref="_mac_table_entry__m_8cc" startline="237" endline="240">MacTableEntry::getIdentity</references>
+        <references refid="class_mac_table_entry_1af25bc86738003fb75bb3e4d0e74cda88" compoundref="_mac_table_entry__m_8cc" startline="247" endline="250">MacTableEntry::getInterface</references>
+        <references refid="class_mac_table_entry_1aaa684cc0b7d88a4758740c26d1027935" compoundref="_mac_table_entry__m_8cc" startline="257" endline="260">MacTableEntry::getMacAddress</references>
+        <references refid="class_mac_table_entry_1a506d91d4588ee6858a1df8abba79e435" compoundref="_mac_table_entry__m_8cc" startline="267" endline="270">MacTableEntry::getQuantumInterfaceId</references>
+        <references refid="class_mac_table_entry_1a8a2d0356c6109782bdf7b446fa4f6c1c" compoundref="_mac_table_entry__m_8cc" startline="277" endline="280">MacTableEntry::getQuantumMacAddress</references>
+        <references refid="class_mac_table_entry_1aba16ae27a9b129a262790631ecd6149e" compoundref="_mac_table_entry__m_8cc" startline="287" endline="290">MacTableEntry::getType</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1a3ef2f094d68b9689d8b698b2e943f613" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool MacTableEntryDescriptor::setFieldValueAsString</definition>
+        <argsstring>(void *object, int field, int i, const char *value) const override</argsstring>
+        <name>setFieldValueAsString</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="319" column="18" bodyfile="MacTableEntry_m.cc" bodystart="509" bodyend="527"/>
+        <references refid="class_mac_table_entry_descriptor_1a9503dd4e0262e18961312dedea3a08c0" compoundref="_mac_table_entry__m_8cc" startline="359" endline="363">getFieldCount</references>
+        <references refid="class_mac_table_entry_1a6465962d98b26ca79e52833a856f25ee" compoundref="_mac_table_entry__m_8cc" startline="242" endline="245">MacTableEntry::setIdentity</references>
+        <references refid="class_mac_table_entry_1a2b0fa1e2d3c836b045ff47f8743b4569" compoundref="_mac_table_entry__m_8cc" startline="252" endline="255">MacTableEntry::setInterface</references>
+        <references refid="class_mac_table_entry_1a150ec0b4aa63ef6786ada551a24d4007" compoundref="_mac_table_entry__m_8cc" startline="262" endline="265">MacTableEntry::setMacAddress</references>
+        <references refid="class_mac_table_entry_1af6a2aa74138f4f626a49b47637c0c280" compoundref="_mac_table_entry__m_8cc" startline="272" endline="275">MacTableEntry::setQuantumInterfaceId</references>
+        <references refid="class_mac_table_entry_1a1a2a84ad55661b64a43ff9c2022c7faa" compoundref="_mac_table_entry__m_8cc" startline="282" endline="285">MacTableEntry::setQuantumMacAddress</references>
+        <references refid="class_mac_table_entry_1a91122e0bff94f565be6a4510e4bf1734" compoundref="_mac_table_entry__m_8cc" startline="292" endline="295">MacTableEntry::setType</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1ab995a7ee3fb0da9616bc1772aaa5d557" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * MacTableEntryDescriptor::getFieldStructName</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldStructName</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="321" column="24" bodyfile="MacTableEntry_m.cc" bodystart="529" bodyend="540"/>
+        <references refid="class_mac_table_entry_descriptor_1a9503dd4e0262e18961312dedea3a08c0" compoundref="_mac_table_entry__m_8cc" startline="359" endline="363">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mac_table_entry_descriptor_1a99c9fcfd42d9a7c1ad3f505ed926123e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void *</type>
+        <definition>void * MacTableEntryDescriptor::getFieldStructValuePointer</definition>
+        <argsstring>(void *object, int field, int i) const override</argsstring>
+        <name>getFieldStructValuePointer</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.cc" line="322" column="18" bodyfile="MacTableEntry_m.cc" bodystart="542" bodyend="554"/>
+        <references refid="class_mac_table_entry_descriptor_1a9503dd4e0262e18961312dedea3a08c0" compoundref="_mac_table_entry__m_8cc" startline="359" endline="363">getFieldCount</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MacTableEntryDescriptor</label>
+        <link refid="class_mac_table_entry_descriptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cClassDescriptor</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MacTableEntryDescriptor</label>
+        <link refid="class_mac_table_entry_descriptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cClassDescriptor</label>
+      </node>
+    </collaborationgraph>
+    <location file="MacTableEntry_m.cc" line="298" column="1" bodyfile="MacTableEntry_m.cc" bodystart="297" bodyend="323"/>
+    <listofallmembers>
+      <member refid="class_mac_table_entry_descriptor_1aa3c9f5a25b32feff32bf1f77321fe7a0" prot="public" virt="virtual"><scope>MacTableEntryDescriptor</scope><name>doesSupport</name></member>
+      <member refid="class_mac_table_entry_descriptor_1a03f804cbe14fae09b3a9df481d3c092f" prot="public" virt="virtual"><scope>MacTableEntryDescriptor</scope><name>findField</name></member>
+      <member refid="class_mac_table_entry_descriptor_1a013e3d33dddc34e91967118547fb0b38" prot="public" virt="virtual"><scope>MacTableEntryDescriptor</scope><name>getFieldArraySize</name></member>
+      <member refid="class_mac_table_entry_descriptor_1a9503dd4e0262e18961312dedea3a08c0" prot="public" virt="virtual"><scope>MacTableEntryDescriptor</scope><name>getFieldCount</name></member>
+      <member refid="class_mac_table_entry_descriptor_1abb813eb554e71c4a4b50aa99665d95c6" prot="public" virt="virtual"><scope>MacTableEntryDescriptor</scope><name>getFieldDynamicTypeString</name></member>
+      <member refid="class_mac_table_entry_descriptor_1a047dd15484bbaff3308a56ab50dad124" prot="public" virt="virtual"><scope>MacTableEntryDescriptor</scope><name>getFieldName</name></member>
+      <member refid="class_mac_table_entry_descriptor_1ac05649270f0457f772c1be2e2312c172" prot="public" virt="virtual"><scope>MacTableEntryDescriptor</scope><name>getFieldProperty</name></member>
+      <member refid="class_mac_table_entry_descriptor_1a246d388acd43f58e9697cb5fcaef6588" prot="public" virt="virtual"><scope>MacTableEntryDescriptor</scope><name>getFieldPropertyNames</name></member>
+      <member refid="class_mac_table_entry_descriptor_1ab995a7ee3fb0da9616bc1772aaa5d557" prot="public" virt="virtual"><scope>MacTableEntryDescriptor</scope><name>getFieldStructName</name></member>
+      <member refid="class_mac_table_entry_descriptor_1a99c9fcfd42d9a7c1ad3f505ed926123e" prot="public" virt="virtual"><scope>MacTableEntryDescriptor</scope><name>getFieldStructValuePointer</name></member>
+      <member refid="class_mac_table_entry_descriptor_1ab07bef0cafcafc2c23816104989946f2" prot="public" virt="virtual"><scope>MacTableEntryDescriptor</scope><name>getFieldTypeFlags</name></member>
+      <member refid="class_mac_table_entry_descriptor_1a2ffe53b3fd8e46e69af244e116060cbf" prot="public" virt="virtual"><scope>MacTableEntryDescriptor</scope><name>getFieldTypeString</name></member>
+      <member refid="class_mac_table_entry_descriptor_1a0b9bba13fac3173348c95d9858aca054" prot="public" virt="virtual"><scope>MacTableEntryDescriptor</scope><name>getFieldValueAsString</name></member>
+      <member refid="class_mac_table_entry_descriptor_1a273f66f4ed8185d09d0b967c3a065b21" prot="public" virt="virtual"><scope>MacTableEntryDescriptor</scope><name>getProperty</name></member>
+      <member refid="class_mac_table_entry_descriptor_1a1df2649fa9dbe6d9769aaf8548a5c9b1" prot="public" virt="virtual"><scope>MacTableEntryDescriptor</scope><name>getPropertyNames</name></member>
+      <member refid="class_mac_table_entry_descriptor_1a060b97c878507cd3d30b3326916a78ab" prot="public" virt="non-virtual"><scope>MacTableEntryDescriptor</scope><name>MacTableEntryDescriptor</name></member>
+      <member refid="class_mac_table_entry_descriptor_1a276bc1f7defef7d0058b5963c0872e3b" prot="private" virt="non-virtual"><scope>MacTableEntryDescriptor</scope><name>propertynames</name></member>
+      <member refid="class_mac_table_entry_descriptor_1a3ef2f094d68b9689d8b698b2e943f613" prot="public" virt="virtual"><scope>MacTableEntryDescriptor</scope><name>setFieldValueAsString</name></member>
+      <member refid="class_mac_table_entry_descriptor_1a344cf32a95035a50c9e196b2f3e36db6" prot="public" virt="virtual"><scope>MacTableEntryDescriptor</scope><name>~MacTableEntryDescriptor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

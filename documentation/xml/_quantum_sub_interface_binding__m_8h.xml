@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_quantum_sub_interface_binding__m_8h" kind="file" language="C++">
+    <compoundname>QuantumSubInterfaceBinding_m.h</compoundname>
+    <includes local="no">omnetpp.h</includes>
+    <includedby refid="_switch_memory_8h" local="yes">SwitchMemory.h</includedby>
+    <includedby refid="_processor_8cc" local="yes">Processor.cc</includedby>
+    <includedby refid="_quantum_sub_interface_binding__m_8cc" local="yes">QuantumSubInterfaceBinding_m.cc</includedby>
+    <includedby refid="_switch_memory_8cc" local="yes">SwitchMemory.cc</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>QuantumSubInterfaceBinding_m.h</label>
+        <link refid="_quantum_sub_interface_binding__m_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>omnetpp.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>SwitchPublicInterface.cc</label>
+        <link refid="_switch_public_interface_8cc"/>
+      </node>
+      <node id="3">
+        <label>Processor.cc</label>
+        <link refid="_processor_8cc"/>
+      </node>
+      <node id="4">
+        <label>SwitchMemory.cc</label>
+        <link refid="_switch_memory_8cc"/>
+      </node>
+      <node id="2">
+        <label>SwitchMemory.h</label>
+        <link refid="_switch_memory_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>QuantumSubInterfaceBinding_m.h</label>
+        <link refid="_quantum_sub_interface_binding__m_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>SwitchQuantumInterface.cc</label>
+        <link refid="_switch_quantum_interface_8cc"/>
+      </node>
+      <node id="7">
+        <label>QuantumSubInterfaceBinding_m.cc</label>
+        <link refid="_quantum_sub_interface_binding__m_8cc"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_quantum_sub_interface_binding" prot="public">QuantumSubInterfaceBinding</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_quantum_sub_interface_binding__m_8h_1a79a860129565aa4e9f257e671d80a46b" prot="public" static="no">
+        <name>__QUANTUMSUBINTERFACEBINDING_M_H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.h" line="9" column="9" bodyfile="QuantumSubInterfaceBinding_m.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_quantum_sub_interface_binding__m_8h_1a77f5ea746b531cbdbc322a93741e33a6" prot="public" static="no">
+        <name>MSGC_VERSION</name>
+        <initializer>0x0504</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.h" line="14" column="9" bodyfile="QuantumSubInterfaceBinding_m.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_quantum_sub_interface_binding__m_8h_1a20637897ea87294022f1152dccd07894" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void doParsimPacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *b, const QuantumSubInterfaceBinding &amp;obj)</argsstring>
+        <name>doParsimPacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_quantum_sub_interface_binding" kindref="compound">QuantumSubInterfaceBinding</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.h" line="94" column="13" bodyfile="QuantumSubInterfaceBinding_m.h" bodystart="94" bodyend="94"/>
+        <references refid="class_quantum_sub_interface_binding_1a3f87ed9bb5845ec9d2bac4f1474cdb03" compoundref="_quantum_sub_interface_binding__m_8cc" startline="216" endline="226">QuantumSubInterfaceBinding::parsimPack</references>
+      </memberdef>
+      <memberdef kind="function" id="_quantum_sub_interface_binding__m_8h_1ab2239350c10dae51eae358aae500a845" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void doParsimUnpacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *b, QuantumSubInterfaceBinding &amp;obj)</argsstring>
+        <name>doParsimUnpacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="class_quantum_sub_interface_binding" kindref="compound">QuantumSubInterfaceBinding</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.h" line="95" column="13" bodyfile="QuantumSubInterfaceBinding_m.h" bodystart="95" bodyend="95"/>
+        <references refid="class_quantum_sub_interface_binding_1a84090e4f74ff20a7880f49a4fcf4b09c" compoundref="_quantum_sub_interface_binding__m_8cc" startline="228" endline="238">QuantumSubInterfaceBinding::parsimUnpack</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>file,<sp/>do<sp/>not<sp/>edit!<sp/>Created<sp/>by<sp/>nedtool<sp/>5.4<sp/>from<sp/>QuantumSubInterfaceBinding.msg.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>pragma<sp/>clang<sp/>diagnostic<sp/>ignored<sp/>&quot;-Wreserved-id-macro&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__QUANTUMSUBINTERFACEBINDING_M_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="_quantum_sub_interface_binding__m_8h_1a79a860129565aa4e9f257e671d80a46b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__QUANTUMSUBINTERFACEBINDING_M_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;omnetpp.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nedtool<sp/>version<sp/>check</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_quantum_sub_interface_binding__m_8h_1a77f5ea746b531cbdbc322a93741e33a6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MSGC_VERSION<sp/>0x0504</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(MSGC_VERSION!=OMNETPP_VERSION)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>error<sp/>Version<sp/>mismatch!<sp/>Probably<sp/>this<sp/>file<sp/>was<sp/>generated<sp/>by<sp/>an<sp/>earlier<sp/>version<sp/>of<sp/>nedtool:<sp/>&apos;make<sp/>clean&apos;<sp/>should<sp/>help.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="class_quantum_sub_interface_binding" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_quantum_sub_interface_binding" kindref="compound">QuantumSubInterfaceBinding</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::omnetpp::cPacket</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="53" refid="class_quantum_sub_interface_binding_1a3ff80e58b65382d4a3813a973a64c38e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_quantum_sub_interface_binding_1a3ff80e58b65382d4a3813a973a64c38e" kindref="member">identity</ref>;</highlight></codeline>
+<codeline lineno="54" refid="class_quantum_sub_interface_binding_1ae2fa21e18801826b8111a5a357503279" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1ae2fa21e18801826b8111a5a357503279" kindref="member">connectionId</ref>;</highlight></codeline>
+<codeline lineno="55" refid="class_quantum_sub_interface_binding_1a845e7c506de6d24a6214f8a675a486d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_quantum_sub_interface_binding_1a845e7c506de6d24a6214f8a675a486d2" kindref="member">sourceInterface</ref>;</highlight></codeline>
+<codeline lineno="56" refid="class_quantum_sub_interface_binding_1a4ca2e7e0f1c24b08a35574beaa2c726d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_quantum_sub_interface_binding_1a4ca2e7e0f1c24b08a35574beaa2c726d" kindref="member">sourceSubInterface</ref>;</highlight></codeline>
+<codeline lineno="57" refid="class_quantum_sub_interface_binding_1a9b22be10ff123f292291abbc14f62517" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_quantum_sub_interface_binding_1a9b22be10ff123f292291abbc14f62517" kindref="member">destinationInterface</ref>;</highlight></codeline>
+<codeline lineno="58" refid="class_quantum_sub_interface_binding_1a191190a03479c77f632085e98adcff4d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_quantum_sub_interface_binding_1a191190a03479c77f632085e98adcff4d" kindref="member">destinationSubInterface</ref>;</highlight></codeline>
+<codeline lineno="59" refid="class_quantum_sub_interface_binding_1a1af645b09cbdbfd2d49c051a7843043d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1a1af645b09cbdbfd2d49c051a7843043d" kindref="member">status</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>copy(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding" kindref="compound">QuantumSubInterfaceBinding</ref>&amp;<sp/>other);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>protected<sp/>and<sp/>unimplemented<sp/>operator==(),<sp/>to<sp/>prevent<sp/>accidental<sp/>usage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1afd97192f84c5e12728cae71bddcc1325" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding" kindref="compound">QuantumSubInterfaceBinding</ref>&amp;);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_quantum_sub_interface_binding_1a1935a8eed983459ffd669751aaa2d246" kindref="member">QuantumSubInterfaceBinding</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name=</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>kind=0);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_quantum_sub_interface_binding_1a1935a8eed983459ffd669751aaa2d246" kindref="member">QuantumSubInterfaceBinding</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding" kindref="compound">QuantumSubInterfaceBinding</ref>&amp;<sp/>other);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1ab4f55e187ae20edbe80418cd858dce22" kindref="member">~QuantumSubInterfaceBinding</ref>();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_quantum_sub_interface_binding" kindref="compound">QuantumSubInterfaceBinding</ref>&amp;<sp/><ref refid="class_quantum_sub_interface_binding_1ad809f12a6fdc63f1b76ec94d68e60e27" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding" kindref="compound">QuantumSubInterfaceBinding</ref>&amp;<sp/>other);</highlight></codeline>
+<codeline lineno="73" refid="class_quantum_sub_interface_binding_1a932bf137b033010689f28f130a401832" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding" kindref="compound">QuantumSubInterfaceBinding</ref><sp/>*<ref refid="class_quantum_sub_interface_binding_1a932bf137b033010689f28f130a401832" kindref="member">dup</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1a1935a8eed983459ffd669751aaa2d246" kindref="member">QuantumSubInterfaceBinding</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1a3f87ed9bb5845ec9d2bac4f1474cdb03" kindref="member">parsimPack</ref>(omnetpp::cCommBuffer<sp/>*b)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1a84090e4f74ff20a7880f49a4fcf4b09c" kindref="member">parsimUnpack</ref>(omnetpp::cCommBuffer<sp/>*b)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>field<sp/>getter/setter<sp/>methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_quantum_sub_interface_binding_1a212cb491b8bb409d65c0e0546f6e4b7c" kindref="member">getIdentity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1ae3cc925d3bd715f5b99433a6dee3df52" kindref="member">setIdentity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_quantum_sub_interface_binding_1a3ff80e58b65382d4a3813a973a64c38e" kindref="member">identity</ref>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1ad3d38a03f0f6934d93af679497fe237b" kindref="member">getConnectionId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1aa6bdb03d5fece9109ffe878df38948ce" kindref="member">setConnectionId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1ae2fa21e18801826b8111a5a357503279" kindref="member">connectionId</ref>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_quantum_sub_interface_binding_1aaba854b90a32d0278d39725bedd5b995" kindref="member">getSourceInterface</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1a9b2aa303a10d144ca476c20ef3908a55" kindref="member">setSourceInterface</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_quantum_sub_interface_binding_1a845e7c506de6d24a6214f8a675a486d2" kindref="member">sourceInterface</ref>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_quantum_sub_interface_binding_1ad79f3a4beae4490c67ec3a1ec6ed2481" kindref="member">getSourceSubInterface</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1abb6a54b11f31e5b65c160ad505209852" kindref="member">setSourceSubInterface</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_quantum_sub_interface_binding_1a4ca2e7e0f1c24b08a35574beaa2c726d" kindref="member">sourceSubInterface</ref>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_quantum_sub_interface_binding_1ad80f36303960043a6953a56b08e98531" kindref="member">getDestinationInterface</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1a5c562439a1a279229e1924cc82664d96" kindref="member">setDestinationInterface</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_quantum_sub_interface_binding_1a9b22be10ff123f292291abbc14f62517" kindref="member">destinationInterface</ref>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_quantum_sub_interface_binding_1a6fdecca6abda8ad6d40091ee7bec74c1" kindref="member">getDestinationSubInterface</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1a618e70a4b763323eb1cb8a95c4c82fdf" kindref="member">setDestinationSubInterface</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_quantum_sub_interface_binding_1a191190a03479c77f632085e98adcff4d" kindref="member">destinationSubInterface</ref>);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1a1e375fa8ef8bfb1c0ffc0dfdd6e52937" kindref="member">getStatus</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1aac4ece4ed8ba74ee786b1d0445c85d9b" kindref="member">setStatus</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding_1a1af645b09cbdbfd2d49c051a7843043d" kindref="member">status</ref>);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="_quantum_sub_interface_binding__m_8h_1a20637897ea87294022f1152dccd07894" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_quantum_sub_interface_binding__m_8h_1a20637897ea87294022f1152dccd07894" kindref="member">doParsimPacking</ref>(omnetpp::cCommBuffer<sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_quantum_sub_interface_binding" kindref="compound">QuantumSubInterfaceBinding</ref>&amp;<sp/>obj)<sp/>{obj.<ref refid="class_quantum_sub_interface_binding_1a3f87ed9bb5845ec9d2bac4f1474cdb03" kindref="member">parsimPack</ref>(b);}</highlight></codeline>
+<codeline lineno="95" refid="_quantum_sub_interface_binding__m_8h_1ab2239350c10dae51eae358aae500a845" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_quantum_sub_interface_binding__m_8h_1ab2239350c10dae51eae358aae500a845" kindref="member">doParsimUnpacking</ref>(omnetpp::cCommBuffer<sp/>*b,<sp/><ref refid="class_quantum_sub_interface_binding" kindref="compound">QuantumSubInterfaceBinding</ref>&amp;<sp/>obj)<sp/>{obj.<ref refid="class_quantum_sub_interface_binding_1a84090e4f74ff20a7880f49a4fcf4b09c" kindref="member">parsimUnpack</ref>(b);}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>ifndef<sp/>__QUANTUMSUBINTERFACEBINDING_M_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="QuantumSubInterfaceBinding_m.h"/>
+  </compounddef>
+</doxygen>

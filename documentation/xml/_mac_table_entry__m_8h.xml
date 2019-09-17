@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_mac_table_entry__m_8h" kind="file" language="C++">
+    <compoundname>MacTableEntry_m.h</compoundname>
+    <includes local="no">omnetpp.h</includes>
+    <includedby refid="_client_memory_8h" local="yes">ClientMemory.h</includedby>
+    <includedby refid="_client_memory_8cc" local="yes">ClientMemory.cc</includedby>
+    <includedby refid="_mac_table_entry__m_8cc" local="yes">MacTableEntry_m.cc</includedby>
+    <includedby refid="_switch_memory_8h" local="yes">SwitchMemory.h</includedby>
+    <includedby refid="_processor_8cc" local="yes">Processor.cc</includedby>
+    <includedby refid="_switch_memory_8cc" local="yes">SwitchMemory.cc</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>MacTableEntry_m.h</label>
+        <link refid="_mac_table_entry__m_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>omnetpp.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="9">
+        <label>SwitchPublicInterface.cc</label>
+        <link refid="_switch_public_interface_8cc"/>
+      </node>
+      <node id="4">
+        <label>ClientProcessor.cc</label>
+        <link refid="_client_processor_8cc"/>
+      </node>
+      <node id="7">
+        <label>Processor.cc</label>
+        <link refid="_processor_8cc"/>
+      </node>
+      <node id="8">
+        <label>SwitchMemory.cc</label>
+        <link refid="_switch_memory_8cc"/>
+      </node>
+      <node id="2">
+        <label>ClientMemory.h</label>
+        <link refid="_client_memory_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>SwitchMemory.h</label>
+        <link refid="_switch_memory_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ClientMemory.cc</label>
+        <link refid="_client_memory_8cc"/>
+      </node>
+      <node id="1">
+        <label>MacTableEntry_m.h</label>
+        <link refid="_mac_table_entry__m_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>SwitchQuantumInterface.cc</label>
+        <link refid="_switch_quantum_interface_8cc"/>
+      </node>
+      <node id="5">
+        <label>MacTableEntry_m.cc</label>
+        <link refid="_mac_table_entry__m_8cc"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_mac_table_entry" prot="public">MacTableEntry</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_mac_table_entry__m_8h_1aad3738efb3e55311d3e7f431c28754a3" prot="public" static="no">
+        <name>__MACTABLEENTRY_M_H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.h" line="9" column="9" bodyfile="MacTableEntry_m.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_mac_table_entry__m_8h_1a77f5ea746b531cbdbc322a93741e33a6" prot="public" static="no">
+        <name>MSGC_VERSION</name>
+        <initializer>0x0504</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.h" line="14" column="9" bodyfile="MacTableEntry_m.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_mac_table_entry__m_8h_1aa1294bafe4776b3af58fc5737a1cdc3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void doParsimPacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *b, const MacTableEntry &amp;obj)</argsstring>
+        <name>doParsimPacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.h" line="90" column="13" bodyfile="MacTableEntry_m.h" bodystart="90" bodyend="90"/>
+        <references refid="class_mac_table_entry_1a90258d7f5844ffa0706918ad4f7dc115" compoundref="_mac_table_entry__m_8cc" startline="215" endline="224">MacTableEntry::parsimPack</references>
+      </memberdef>
+      <memberdef kind="function" id="_mac_table_entry__m_8h_1a0cbd3c671f646026685d54a3baad7843" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void doParsimUnpacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *b, MacTableEntry &amp;obj)</argsstring>
+        <name>doParsimUnpacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MacTableEntry_m.h" line="91" column="13" bodyfile="MacTableEntry_m.h" bodystart="91" bodyend="91"/>
+        <references refid="class_mac_table_entry_1af385f4a3b0e02db2f866ade41f06720d" compoundref="_mac_table_entry__m_8cc" startline="226" endline="235">MacTableEntry::parsimUnpack</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>file,<sp/>do<sp/>not<sp/>edit!<sp/>Created<sp/>by<sp/>nedtool<sp/>5.4<sp/>from<sp/>MacTableEntry.msg.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>pragma<sp/>clang<sp/>diagnostic<sp/>ignored<sp/>&quot;-Wreserved-id-macro&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__MACTABLEENTRY_M_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="_mac_table_entry__m_8h_1aad3738efb3e55311d3e7f431c28754a3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__MACTABLEENTRY_M_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;omnetpp.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nedtool<sp/>version<sp/>check</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_mac_table_entry__m_8h_1a77f5ea746b531cbdbc322a93741e33a6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MSGC_VERSION<sp/>0x0504</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(MSGC_VERSION!=OMNETPP_VERSION)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>error<sp/>Version<sp/>mismatch!<sp/>Probably<sp/>this<sp/>file<sp/>was<sp/>generated<sp/>by<sp/>an<sp/>earlier<sp/>version<sp/>of<sp/>nedtool:<sp/>&apos;make<sp/>clean&apos;<sp/>should<sp/>help.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="class_mac_table_entry" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::omnetpp::cPacket</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="52" refid="class_mac_table_entry_1a7c833b262abf2f5ce974aa753b2bb5fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry_1a7c833b262abf2f5ce974aa753b2bb5fb" kindref="member">identity</ref>;</highlight></codeline>
+<codeline lineno="53" refid="class_mac_table_entry_1adc2278d74edeeb231bc61aa9d19694c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_mac_table_entry_1adc2278d74edeeb231bc61aa9d19694c1" kindref="member">interface</ref>;</highlight></codeline>
+<codeline lineno="54" refid="class_mac_table_entry_1afe0dbb622387e8f485330570d6410204" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_mac_table_entry_1afe0dbb622387e8f485330570d6410204" kindref="member">macAddress</ref>;</highlight></codeline>
+<codeline lineno="55" refid="class_mac_table_entry_1a9fe9d10a16beef8c175d3ae02bd30dfc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_mac_table_entry_1a9fe9d10a16beef8c175d3ae02bd30dfc" kindref="member">quantumInterfaceId</ref>;</highlight></codeline>
+<codeline lineno="56" refid="class_mac_table_entry_1ae070794ac8b5baa4d3f07c2444df58bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_mac_table_entry_1ae070794ac8b5baa4d3f07c2444df58bd" kindref="member">quantumMacAddress</ref>;</highlight></codeline>
+<codeline lineno="57" refid="class_mac_table_entry_1ac7ba3a320010386434a57360f8b7e9ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry_1ac7ba3a320010386434a57360f8b7e9ef" kindref="member">type</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>copy(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref>&amp;<sp/>other);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>protected<sp/>and<sp/>unimplemented<sp/>operator==(),<sp/>to<sp/>prevent<sp/>accidental<sp/>usage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry_1a64f706941029fd4a68f8df5b68b3a09a" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref>&amp;);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_mac_table_entry_1ad21e22baf17968753db81c066079e2ed" kindref="member">MacTableEntry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name=</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>kind=0);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_mac_table_entry_1ad21e22baf17968753db81c066079e2ed" kindref="member">MacTableEntry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref>&amp;<sp/>other);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry_1a74e0a439173fd64943d1867e2e71d3cb" kindref="member">~MacTableEntry</ref>();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref>&amp;<sp/><ref refid="class_mac_table_entry_1a6ad7f86625ef4b135e69769ebbaf3c36" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref>&amp;<sp/>other);</highlight></codeline>
+<codeline lineno="71" refid="class_mac_table_entry_1aa7d05d3b802d4eeae8da92bee5217923" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref><sp/>*<ref refid="class_mac_table_entry_1aa7d05d3b802d4eeae8da92bee5217923" kindref="member">dup</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry_1ad21e22baf17968753db81c066079e2ed" kindref="member">MacTableEntry</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry_1a90258d7f5844ffa0706918ad4f7dc115" kindref="member">parsimPack</ref>(omnetpp::cCommBuffer<sp/>*b)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry_1af385f4a3b0e02db2f866ade41f06720d" kindref="member">parsimUnpack</ref>(omnetpp::cCommBuffer<sp/>*b)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>field<sp/>getter/setter<sp/>methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry_1aa4918b248eb4bc9a5cbce2d22ee1044e" kindref="member">getIdentity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry_1a6465962d98b26ca79e52833a856f25ee" kindref="member">setIdentity</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry_1a7c833b262abf2f5ce974aa753b2bb5fb" kindref="member">identity</ref>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_mac_table_entry_1af25bc86738003fb75bb3e4d0e74cda88" kindref="member">getInterface</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry_1a2b0fa1e2d3c836b045ff47f8743b4569" kindref="member">setInterface</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_mac_table_entry_1adc2278d74edeeb231bc61aa9d19694c1" kindref="member">interface</ref>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_mac_table_entry_1aaa684cc0b7d88a4758740c26d1027935" kindref="member">getMacAddress</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry_1a150ec0b4aa63ef6786ada551a24d4007" kindref="member">setMacAddress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_mac_table_entry_1afe0dbb622387e8f485330570d6410204" kindref="member">macAddress</ref>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_mac_table_entry_1a506d91d4588ee6858a1df8abba79e435" kindref="member">getQuantumInterfaceId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry_1af6a2aa74138f4f626a49b47637c0c280" kindref="member">setQuantumInterfaceId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_mac_table_entry_1a9fe9d10a16beef8c175d3ae02bd30dfc" kindref="member">quantumInterfaceId</ref>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_mac_table_entry_1a8a2d0356c6109782bdf7b446fa4f6c1c" kindref="member">getQuantumMacAddress</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry_1a1a2a84ad55661b64a43ff9c2022c7faa" kindref="member">setQuantumMacAddress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_mac_table_entry_1ae070794ac8b5baa4d3f07c2444df58bd" kindref="member">quantumMacAddress</ref>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry_1aba16ae27a9b129a262790631ecd6149e" kindref="member">getType</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry_1a91122e0bff94f565be6a4510e4bf1734" kindref="member">setType</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry_1ac7ba3a320010386434a57360f8b7e9ef" kindref="member">type</ref>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="_mac_table_entry__m_8h_1aa1294bafe4776b3af58fc5737a1cdc3c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_mac_table_entry__m_8h_1aa1294bafe4776b3af58fc5737a1cdc3c" kindref="member">doParsimPacking</ref>(omnetpp::cCommBuffer<sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref>&amp;<sp/>obj)<sp/>{obj.<ref refid="class_mac_table_entry_1a90258d7f5844ffa0706918ad4f7dc115" kindref="member">parsimPack</ref>(b);}</highlight></codeline>
+<codeline lineno="91" refid="_mac_table_entry__m_8h_1a0cbd3c671f646026685d54a3baad7843" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_mac_table_entry__m_8h_1a0cbd3c671f646026685d54a3baad7843" kindref="member">doParsimUnpacking</ref>(omnetpp::cCommBuffer<sp/>*b,<sp/><ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref>&amp;<sp/>obj)<sp/>{obj.<ref refid="class_mac_table_entry_1af385f4a3b0e02db2f866ade41f06720d" kindref="member">parsimUnpack</ref>(b);}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>ifndef<sp/>__MACTABLEENTRY_M_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="MacTableEntry_m.h"/>
+  </compounddef>
+</doxygen>

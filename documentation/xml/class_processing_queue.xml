@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_processing_queue" kind="class" language="C++" prot="public">
+    <compoundname>ProcessingQueue</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cSimpleModule</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_processing_queue_1a686e4ee7e3c27fd325f36aa02e6a4e00" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ProcessingQueue::initialize</definition>
+        <argsstring>() override</argsstring>
+        <name>initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProcessingQueue.cc" line="18" column="18" bodyfile="ProcessingQueue.cc" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_processing_queue_1a1ce5b79b6cddc42a58736f39cc3a1b21" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ProcessingQueue::handleMessage</definition>
+        <argsstring>(cMessage *msg) override</argsstring>
+        <name>handleMessage</name>
+        <param>
+          <type>cMessage *</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ProcessingQueue.cc" line="19" column="18" bodyfile="ProcessingQueue.cc" bodystart="28" bodyend="41"/>
+        <references refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9eca7e91d3bb453d1a51a3cb4849a09a05b4" compoundref="_switch_memory_8h" startline="40">interface</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+      <node id="1">
+        <label>ProcessingQueue</label>
+        <link refid="class_processing_queue"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+      <node id="1">
+        <label>ProcessingQueue</label>
+        <link refid="class_processing_queue"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ProcessingQueue.cc" line="16" column="1" bodyfile="ProcessingQueue.cc" bodystart="15" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_processing_queue_1a1ce5b79b6cddc42a58736f39cc3a1b21" prot="protected" virt="virtual"><scope>ProcessingQueue</scope><name>handleMessage</name></member>
+      <member refid="class_processing_queue_1a686e4ee7e3c27fd325f36aa02e6a4e00" prot="protected" virt="virtual"><scope>ProcessingQueue</scope><name>initialize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

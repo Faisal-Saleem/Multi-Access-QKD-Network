@@ -111,10 +111,10 @@ void QuantumStatesGenerator::handleMessage(cMessage *msg)
         polarizationFilters->addPar("type").setStringValue("pfilter");
         polarizationFilters->addPar("polarizationFilterUsed").setStringValue(polarizationSFilters.c_str());
         EV<<"[*] "<<this->getParentModule()->getName()<<" RANDOM BITS & PHOTON POLARIZATION\n";
-        EV<<"******************************************************************************************************"<<endl;
+        EV<<"**********************************************************************************************************************************************************"<<endl;
         EV<<"RANDOM BITS               : "<<key.c_str()<<endl;
         EV<<"POLARIZATION FILTERS USED : "<<polarizationSFilters.c_str()<<endl;
-        EV<<"******************************************************************************************************"<<endl;
+        EV<<"**********************************************************************************************************************************************************"<<endl;
         send(polarizationFilters,"processorCommunication$o");
     }
     else
@@ -136,13 +136,13 @@ void QuantumStatesGenerator::handleMessage(cMessage *msg)
                 std::string siftedKey = QuantumStatesGenerator::siftKey(receivedPolarization);
                 std::string processedKey = QuantumStatesGenerator::processKey(siftedKey);
                 EV<<"[*] "<<this->getParentModule()->getName()<<" PHOTONS RECEIVED & PROCESSED\n";
-                EV<<"******************************************************************************************************"<<endl;
+                EV<<"*****************************************************************************************************************************************************"<<endl;
                 EV<<"POLARIZATION FILTERS USED    : "<<polarizationRFilters.c_str()<<endl;
                 EV<<"POLARIZATION RECEIVED        : "<<receivedPolarization<<endl;
                 EV<<"SIFTED KEY                   : "<<siftedKey.c_str()<<endl;
-                EV<<"------------------------------------------------------------------------------------------------------"<<endl;
+                EV<<"-----------------------------------------------------------------------------------------------------------------------------------------------------"<<endl;
                 EV<<"FINAL KEY                    : "<<processedKey.c_str()<<endl;
-                EV<<"******************************************************************************************************"<<endl;
+                EV<<"*****************************************************************************************************************************************************"<<endl;
                 cPacket *quantumData = new cPacket("quantumData");
                 quantumData->addPar("type").setStringValue("quantumData");
                 quantumData->addPar("siftedKey").setStringValue(processedKey.c_str());

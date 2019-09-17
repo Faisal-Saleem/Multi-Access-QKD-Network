@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_arp_table_entry__m_8h" kind="file" language="C++">
+    <compoundname>ArpTableEntry_m.h</compoundname>
+    <includes local="no">omnetpp.h</includes>
+    <includedby refid="_arp_table_entry__m_8cc" local="yes">ArpTableEntry_m.cc</includedby>
+    <includedby refid="_switch_memory_8h" local="yes">SwitchMemory.h</includedby>
+    <includedby refid="_processor_8cc" local="yes">Processor.cc</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>ArpTableEntry_m.h</label>
+        <link refid="_arp_table_entry__m_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>omnetpp.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6">
+        <label>SwitchPublicInterface.cc</label>
+        <link refid="_switch_public_interface_8cc"/>
+      </node>
+      <node id="2">
+        <label>ArpTableEntry_m.cc</label>
+        <link refid="_arp_table_entry__m_8cc"/>
+      </node>
+      <node id="4">
+        <label>Processor.cc</label>
+        <link refid="_processor_8cc"/>
+      </node>
+      <node id="5">
+        <label>SwitchMemory.cc</label>
+        <link refid="_switch_memory_8cc"/>
+      </node>
+      <node id="3">
+        <label>SwitchMemory.h</label>
+        <link refid="_switch_memory_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ArpTableEntry_m.h</label>
+        <link refid="_arp_table_entry__m_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>SwitchQuantumInterface.cc</label>
+        <link refid="_switch_quantum_interface_8cc"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_arp_table_entry" prot="public">ArpTableEntry</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_arp_table_entry__m_8h_1a3ffc3da432981c579959f47af44b198d" prot="public" static="no">
+        <name>__ARPTABLEENTRY_M_H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="9" column="9" bodyfile="ArpTableEntry_m.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_arp_table_entry__m_8h_1a77f5ea746b531cbdbc322a93741e33a6" prot="public" static="no">
+        <name>MSGC_VERSION</name>
+        <initializer>0x0504</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="14" column="9" bodyfile="ArpTableEntry_m.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_arp_table_entry__m_8h_1acb752692ff8c27d7a85dc8ff3091cb99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void doParsimPacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *b, const ArpTableEntry &amp;obj)</argsstring>
+        <name>doParsimPacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="94" column="13" bodyfile="ArpTableEntry_m.h" bodystart="94" bodyend="94"/>
+        <references refid="class_arp_table_entry_1a8297a2585239db52b62f6f1de067e708" compoundref="_arp_table_entry__m_8cc" startline="216" endline="226">ArpTableEntry::parsimPack</references>
+      </memberdef>
+      <memberdef kind="function" id="_arp_table_entry__m_8h_1addd12c179aca59e47b4baaef1a511d2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void doParsimUnpacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *b, ArpTableEntry &amp;obj)</argsstring>
+        <name>doParsimUnpacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="95" column="13" bodyfile="ArpTableEntry_m.h" bodystart="95" bodyend="95"/>
+        <references refid="class_arp_table_entry_1ae93b440a5b71f3dd6054fbab4c5a5ed3" compoundref="_arp_table_entry__m_8cc" startline="228" endline="238">ArpTableEntry::parsimUnpack</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>file,<sp/>do<sp/>not<sp/>edit!<sp/>Created<sp/>by<sp/>nedtool<sp/>5.4<sp/>from<sp/>ArpTableEntry.msg.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>pragma<sp/>clang<sp/>diagnostic<sp/>ignored<sp/>&quot;-Wreserved-id-macro&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__ARPTABLEENTRY_M_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="_arp_table_entry__m_8h_1a3ffc3da432981c579959f47af44b198d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__ARPTABLEENTRY_M_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;omnetpp.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nedtool<sp/>version<sp/>check</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_arp_table_entry__m_8h_1a77f5ea746b531cbdbc322a93741e33a6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MSGC_VERSION<sp/>0x0504</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(MSGC_VERSION!=OMNETPP_VERSION)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>error<sp/>Version<sp/>mismatch!<sp/>Probably<sp/>this<sp/>file<sp/>was<sp/>generated<sp/>by<sp/>an<sp/>earlier<sp/>version<sp/>of<sp/>nedtool:<sp/>&apos;make<sp/>clean&apos;<sp/>should<sp/>help.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="class_arp_table_entry" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::omnetpp::cPacket</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="53" refid="class_arp_table_entry_1a3160c0706c213dace129cd5f57621c25" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1a3160c0706c213dace129cd5f57621c25" kindref="member">identity</ref>;</highlight></codeline>
+<codeline lineno="54" refid="class_arp_table_entry_1ac1bb1a79bf2e869b78d664f3079a2525" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_arp_table_entry_1ac1bb1a79bf2e869b78d664f3079a2525" kindref="member">protocol</ref>;</highlight></codeline>
+<codeline lineno="55" refid="class_arp_table_entry_1a8ddd2545a874cce6dd604b92e6d9b2cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_arp_table_entry_1a8ddd2545a874cce6dd604b92e6d9b2cf" kindref="member">ipAddress</ref>;</highlight></codeline>
+<codeline lineno="56" refid="class_arp_table_entry_1a166ecfb9054bab1989a7a9db12ee1544" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_arp_table_entry_1a166ecfb9054bab1989a7a9db12ee1544" kindref="member">macAddress</ref>;</highlight></codeline>
+<codeline lineno="57" refid="class_arp_table_entry_1a36a2551b64389e13147f8bfa3bbe1e40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_arp_table_entry_1a36a2551b64389e13147f8bfa3bbe1e40" kindref="member">age</ref>;</highlight></codeline>
+<codeline lineno="58" refid="class_arp_table_entry_1a1743b6c2db21200eafb1ea618bd97a19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1a1743b6c2db21200eafb1ea618bd97a19" kindref="member">type</ref>;</highlight></codeline>
+<codeline lineno="59" refid="class_arp_table_entry_1a3a7f40f6ceb0db24444300e2e78c6d85" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_arp_table_entry_1a3a7f40f6ceb0db24444300e2e78c6d85" kindref="member">interface</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>copy(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref>&amp;<sp/>other);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>protected<sp/>and<sp/>unimplemented<sp/>operator==(),<sp/>to<sp/>prevent<sp/>accidental<sp/>usage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1ad3963bc598ff4671f0901317dbff4440" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref>&amp;);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_arp_table_entry_1a3ce10ffcff3e97a62eb918ba390a674a" kindref="member">ArpTableEntry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name=</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>kind=0);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_arp_table_entry_1a3ce10ffcff3e97a62eb918ba390a674a" kindref="member">ArpTableEntry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref>&amp;<sp/>other);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1a93e1682952483b93a91d34d50601f80f" kindref="member">~ArpTableEntry</ref>();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref>&amp;<sp/><ref refid="class_arp_table_entry_1accca9016a9cdf76d6c358302ef4ccbe3" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref>&amp;<sp/>other);</highlight></codeline>
+<codeline lineno="73" refid="class_arp_table_entry_1a39047fb5f12309e2c4c4b1949d7478c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref><sp/>*<ref refid="class_arp_table_entry_1a39047fb5f12309e2c4c4b1949d7478c9" kindref="member">dup</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1a3ce10ffcff3e97a62eb918ba390a674a" kindref="member">ArpTableEntry</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1a8297a2585239db52b62f6f1de067e708" kindref="member">parsimPack</ref>(omnetpp::cCommBuffer<sp/>*b)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1ae93b440a5b71f3dd6054fbab4c5a5ed3" kindref="member">parsimUnpack</ref>(omnetpp::cCommBuffer<sp/>*b)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>field<sp/>getter/setter<sp/>methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1a2c3fa9d25b2ddef04ae1f7feec5d2970" kindref="member">getIdentity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1aba9fc2ed91e62fb9af640ba3d2e9ffc8" kindref="member">setIdentity</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1a3160c0706c213dace129cd5f57621c25" kindref="member">identity</ref>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_arp_table_entry_1ad809c04c43dda3b0234ddc36a910b947" kindref="member">getProtocol</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1a87672c8282d9fa822567fd08a361130c" kindref="member">setProtocol</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_arp_table_entry_1ac1bb1a79bf2e869b78d664f3079a2525" kindref="member">protocol</ref>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_arp_table_entry_1ae9c88488bdcd3409b5a048db053bec68" kindref="member">getIpAddress</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1aa5e5949d12f291be1bc74cf1bcde92bd" kindref="member">setIpAddress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_arp_table_entry_1a8ddd2545a874cce6dd604b92e6d9b2cf" kindref="member">ipAddress</ref>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_arp_table_entry_1a53fd47b0ac0efe30d7c1965ce2808d9d" kindref="member">getMacAddress</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1a144783c14f0992037f93b00d34b3521b" kindref="member">setMacAddress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_arp_table_entry_1a166ecfb9054bab1989a7a9db12ee1544" kindref="member">macAddress</ref>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_arp_table_entry_1a9a04233d547cef4358aa375a617c01dc" kindref="member">getAge</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1a03e0a5373f20dc6672e8ae21680d4111" kindref="member">setAge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_arp_table_entry_1a36a2551b64389e13147f8bfa3bbe1e40" kindref="member">age</ref>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1a90bdde86b373d5fafb2d2d74525263ed" kindref="member">getType</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1ad4a908fc048e173535c155886fe96283" kindref="member">setType</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1a1743b6c2db21200eafb1ea618bd97a19" kindref="member">type</ref>);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_arp_table_entry_1a350939d3434dc7dd403114febba08e20" kindref="member">getInterface</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry_1a87466843f83577d378f7c20e062f97da" kindref="member">setInterface</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_arp_table_entry_1a3a7f40f6ceb0db24444300e2e78c6d85" kindref="member">interface</ref>);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="_arp_table_entry__m_8h_1acb752692ff8c27d7a85dc8ff3091cb99" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_arp_table_entry__m_8h_1acb752692ff8c27d7a85dc8ff3091cb99" kindref="member">doParsimPacking</ref>(omnetpp::cCommBuffer<sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref>&amp;<sp/>obj)<sp/>{obj.<ref refid="class_arp_table_entry_1a8297a2585239db52b62f6f1de067e708" kindref="member">parsimPack</ref>(b);}</highlight></codeline>
+<codeline lineno="95" refid="_arp_table_entry__m_8h_1addd12c179aca59e47b4baaef1a511d2c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_arp_table_entry__m_8h_1addd12c179aca59e47b4baaef1a511d2c" kindref="member">doParsimUnpacking</ref>(omnetpp::cCommBuffer<sp/>*b,<sp/><ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref>&amp;<sp/>obj)<sp/>{obj.<ref refid="class_arp_table_entry_1ae93b440a5b71f3dd6054fbab4c5a5ed3" kindref="member">parsimUnpack</ref>(b);}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>ifndef<sp/>__ARPTABLEENTRY_M_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="ArpTableEntry_m.h"/>
+  </compounddef>
+</doxygen>

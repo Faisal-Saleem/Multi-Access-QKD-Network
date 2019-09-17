@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_quantum_states_generator" kind="class" language="C++" prot="public">
+    <compoundname>QuantumStatesGenerator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cSimpleModule</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_quantum_states_generator_1ad99faf873ee0e731c59d2ee86a0edf27" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int QuantumStatesGenerator::randomGate</definition>
+        <argsstring></argsstring>
+        <name>randomGate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumStatesGenerator.cc" line="26" column="9" bodyfile="QuantumStatesGenerator.cc" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quantum_states_generator_1a3857b3c0080f296f968201bb6a0208bd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int QuantumStatesGenerator::counter</definition>
+        <argsstring></argsstring>
+        <name>counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumStatesGenerator.cc" line="27" column="9" bodyfile="QuantumStatesGenerator.cc" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quantum_states_generator_1a4a7c74cb46b02276058cf027146c588f" prot="private" static="no" mutable="no">
+        <type>cQueue</type>
+        <definition>cQueue QuantumStatesGenerator::xQueue</definition>
+        <argsstring></argsstring>
+        <name>xQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumStatesGenerator.cc" line="28" column="12" bodyfile="QuantumStatesGenerator.cc" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quantum_states_generator_1a9e6e4c62138944a4e14a2b4126781969" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string QuantumStatesGenerator::receivedPolarization</definition>
+        <argsstring></argsstring>
+        <name>receivedPolarization</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumStatesGenerator.cc" line="29" column="17" bodyfile="QuantumStatesGenerator.cc" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quantum_states_generator_1a4f9cd1199a2b6d449703fde0dd808c8d" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string QuantumStatesGenerator::polarizationSFilters</definition>
+        <argsstring></argsstring>
+        <name>polarizationSFilters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumStatesGenerator.cc" line="30" column="17" bodyfile="QuantumStatesGenerator.cc" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quantum_states_generator_1a1a9483423b7b84385357645ece68007e" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string QuantumStatesGenerator::polarizationRFilters</definition>
+        <argsstring></argsstring>
+        <name>polarizationRFilters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumStatesGenerator.cc" line="31" column="17" bodyfile="QuantumStatesGenerator.cc" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_quantum_states_generator_1a497990d8a44dd2a15301e301b876545d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void QuantumStatesGenerator::initialize</definition>
+        <argsstring>() override</argsstring>
+        <name>initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumStatesGenerator.cc" line="20" column="18" bodyfile="QuantumStatesGenerator.cc" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_states_generator_1a7c5842a8535207e1886fd1cbca7f78a3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void QuantumStatesGenerator::handleMessage</definition>
+        <argsstring>(cMessage *msg) override</argsstring>
+        <name>handleMessage</name>
+        <param>
+          <type>cMessage *</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumStatesGenerator.cc" line="21" column="18" bodyfile="QuantumStatesGenerator.cc" bodystart="41" bodyend="155"/>
+        <references refid="class_quantum_states_generator_1ae7028166b9aa77008e1b86bcf63a06cf" compoundref="_quantum_states_generator_8cc" startline="175" endline="199">siftKey</references>
+        <references refid="class_quantum_states_generator_1a141231d45236097246df0d15be3dc02e" compoundref="_quantum_states_generator_8cc" startline="157" endline="173">processKey</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_states_generator_1ae7028166b9aa77008e1b86bcf63a06cf" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string QuantumStatesGenerator::siftKey</definition>
+        <argsstring>(std::string states)</argsstring>
+        <name>siftKey</name>
+        <param>
+          <type>std::string</type>
+          <declname>states</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumStatesGenerator.cc" line="22" column="17" bodyfile="QuantumStatesGenerator.cc" bodystart="175" bodyend="199"/>
+        <referencedby refid="class_quantum_states_generator_1a7c5842a8535207e1886fd1cbca7f78a3" compoundref="_quantum_states_generator_8cc" startline="41" endline="155">handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_states_generator_1af76cdb0e47d8b9d19e0bb8fb641f46cf" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string QuantumStatesGenerator::statesStatus</definition>
+        <argsstring>(std::string states)</argsstring>
+        <name>statesStatus</name>
+        <param>
+          <type>std::string</type>
+          <declname>states</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumStatesGenerator.cc" line="23" column="17" bodyfile="QuantumStatesGenerator.cc" bodystart="201" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_states_generator_1a141231d45236097246df0d15be3dc02e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string QuantumStatesGenerator::processKey</definition>
+        <argsstring>(std::string siftedKey)</argsstring>
+        <name>processKey</name>
+        <param>
+          <type>std::string</type>
+          <declname>siftedKey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumStatesGenerator.cc" line="24" column="17" bodyfile="QuantumStatesGenerator.cc" bodystart="157" bodyend="173"/>
+        <referencedby refid="class_quantum_states_generator_1a7c5842a8535207e1886fd1cbca7f78a3" compoundref="_quantum_states_generator_8cc" startline="41" endline="155">handleMessage</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+      <node id="1">
+        <label>QuantumStatesGenerator</label>
+        <link refid="class_quantum_states_generator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+      <node id="1">
+        <label>QuantumStatesGenerator</label>
+        <link refid="class_quantum_states_generator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="QuantumStatesGenerator.cc" line="18" column="1" bodyfile="QuantumStatesGenerator.cc" bodystart="17" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_quantum_states_generator_1a3857b3c0080f296f968201bb6a0208bd" prot="private" virt="non-virtual"><scope>QuantumStatesGenerator</scope><name>counter</name></member>
+      <member refid="class_quantum_states_generator_1a7c5842a8535207e1886fd1cbca7f78a3" prot="protected" virt="virtual"><scope>QuantumStatesGenerator</scope><name>handleMessage</name></member>
+      <member refid="class_quantum_states_generator_1a497990d8a44dd2a15301e301b876545d" prot="protected" virt="virtual"><scope>QuantumStatesGenerator</scope><name>initialize</name></member>
+      <member refid="class_quantum_states_generator_1a1a9483423b7b84385357645ece68007e" prot="private" virt="non-virtual"><scope>QuantumStatesGenerator</scope><name>polarizationRFilters</name></member>
+      <member refid="class_quantum_states_generator_1a4f9cd1199a2b6d449703fde0dd808c8d" prot="private" virt="non-virtual"><scope>QuantumStatesGenerator</scope><name>polarizationSFilters</name></member>
+      <member refid="class_quantum_states_generator_1a141231d45236097246df0d15be3dc02e" prot="protected" virt="non-virtual"><scope>QuantumStatesGenerator</scope><name>processKey</name></member>
+      <member refid="class_quantum_states_generator_1ad99faf873ee0e731c59d2ee86a0edf27" prot="private" virt="non-virtual"><scope>QuantumStatesGenerator</scope><name>randomGate</name></member>
+      <member refid="class_quantum_states_generator_1a9e6e4c62138944a4e14a2b4126781969" prot="private" virt="non-virtual"><scope>QuantumStatesGenerator</scope><name>receivedPolarization</name></member>
+      <member refid="class_quantum_states_generator_1ae7028166b9aa77008e1b86bcf63a06cf" prot="protected" virt="non-virtual"><scope>QuantumStatesGenerator</scope><name>siftKey</name></member>
+      <member refid="class_quantum_states_generator_1af76cdb0e47d8b9d19e0bb8fb641f46cf" prot="protected" virt="non-virtual"><scope>QuantumStatesGenerator</scope><name>statesStatus</name></member>
+      <member refid="class_quantum_states_generator_1a4a7c74cb46b02276058cf027146c588f" prot="private" virt="non-virtual"><scope>QuantumStatesGenerator</scope><name>xQueue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

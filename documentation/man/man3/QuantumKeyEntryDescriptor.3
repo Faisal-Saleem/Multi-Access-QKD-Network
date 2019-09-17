@@ -1,0 +1,149 @@
+.TH "QuantumKeyEntryDescriptor" 3 "Tue Sep 17 2019" "Multiaccess QKD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+QuantumKeyEntryDescriptor
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits cClassDescriptor\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBQuantumKeyEntryDescriptor\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~QuantumKeyEntryDescriptor\fP ()"
+.br
+.ti -1c
+.RI "virtual bool \fBdoesSupport\fP (omnetpp::cObject *obj) const override"
+.br
+.ti -1c
+.RI "virtual const char ** \fBgetPropertyNames\fP () const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetProperty\fP (const char *propertyname) const override"
+.br
+.ti -1c
+.RI "virtual int \fBgetFieldCount\fP () const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldName\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual int \fBfindField\fP (const char *fieldName) const override"
+.br
+.ti -1c
+.RI "virtual unsigned int \fBgetFieldTypeFlags\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldTypeString\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual const char ** \fBgetFieldPropertyNames\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldProperty\fP (int field, const char *propertyname) const override"
+.br
+.ti -1c
+.RI "virtual int \fBgetFieldArraySize\fP (void *object, int field) const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldDynamicTypeString\fP (void *object, int field, int i) const override"
+.br
+.ti -1c
+.RI "virtual std::string \fBgetFieldValueAsString\fP (void *object, int field, int i) const override"
+.br
+.ti -1c
+.RI "virtual bool \fBsetFieldValueAsString\fP (void *object, int field, int i, const char *value) const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldStructName\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual void * \fBgetFieldStructValuePointer\fP (void *object, int field, int i) const override"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 270 of file QuantumKeyEntry_m\&.cc\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "QuantumKeyEntryDescriptor::QuantumKeyEntryDescriptor ()"
+
+.SS "QuantumKeyEntryDescriptor::~QuantumKeyEntryDescriptor ()\fC [virtual]\fP"
+
+.PP
+Definition at line 305 of file QuantumKeyEntry_m\&.cc\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "bool QuantumKeyEntryDescriptor::doesSupport (omnetpp::cObject * obj) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 310 of file QuantumKeyEntry_m\&.cc\&.
+.SS "int QuantumKeyEntryDescriptor::findField (const char * fieldName) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 372 of file QuantumKeyEntry_m\&.cc\&.
+.SS "int QuantumKeyEntryDescriptor::getFieldArraySize (void * object, int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 426 of file QuantumKeyEntry_m\&.cc\&.
+.SS "int QuantumKeyEntryDescriptor::getFieldCount () const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 332 of file QuantumKeyEntry_m\&.cc\&.
+.SS "const char * QuantumKeyEntryDescriptor::getFieldDynamicTypeString (void * object, int field, int i) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 440 of file QuantumKeyEntry_m\&.cc\&.
+.SS "const char * QuantumKeyEntryDescriptor::getFieldName (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 355 of file QuantumKeyEntry_m\&.cc\&.
+.SS "const char * QuantumKeyEntryDescriptor::getFieldProperty (int field, const char * propertyname) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 413 of file QuantumKeyEntry_m\&.cc\&.
+.SS "const char ** QuantumKeyEntryDescriptor::getFieldPropertyNames (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 400 of file QuantumKeyEntry_m\&.cc\&.
+.SS "const char * QuantumKeyEntryDescriptor::getFieldStructName (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 490 of file QuantumKeyEntry_m\&.cc\&.
+.SS "void * QuantumKeyEntryDescriptor::getFieldStructValuePointer (void * object, int field, int i) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 503 of file QuantumKeyEntry_m\&.cc\&.
+.SS "unsigned int QuantumKeyEntryDescriptor::getFieldTypeFlags (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 338 of file QuantumKeyEntry_m\&.cc\&.
+.SS "const char * QuantumKeyEntryDescriptor::getFieldTypeString (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 383 of file QuantumKeyEntry_m\&.cc\&.
+.SS "std::string QuantumKeyEntryDescriptor::getFieldValueAsString (void * object, int field, int i) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 454 of file QuantumKeyEntry_m\&.cc\&.
+.SS "const char * QuantumKeyEntryDescriptor::getProperty (const char * propertyname) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 326 of file QuantumKeyEntry_m\&.cc\&.
+.SS "const char ** QuantumKeyEntryDescriptor::getPropertyNames () const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 315 of file QuantumKeyEntry_m\&.cc\&.
+.SS "bool QuantumKeyEntryDescriptor::setFieldValueAsString (void * object, int field, int i, const char * value) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 472 of file QuantumKeyEntry_m\&.cc\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Multiaccess QKD from the source code\&.

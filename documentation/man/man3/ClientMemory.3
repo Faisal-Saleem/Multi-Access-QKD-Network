@@ -1,0 +1,148 @@
+.TH "ClientMemory" 3 "Tue Sep 17 2019" "Multiaccess QKD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ClientMemory
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <ClientMemory\&.h>\fP
+.PP
+Inherits cSimpleModule\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMacTableEntry\fP \fBgetMacTable\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBaddMacTableEntry\fP (\fBMacTableEntry\fP *macTableEntry)"
+.br
+.ti -1c
+.RI "int \fBgetMacTableSize\fP ()"
+.br
+.ti -1c
+.RI "\fBQuantumKeyEntry\fP \fBgetQuantumKey\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBaddQautumKey\fP (\fBQuantumKeyEntry\fP *key)"
+.br
+.ti -1c
+.RI "int \fBgetNumberOfKey\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetPendingTransaction\fP ()"
+.br
+.ti -1c
+.RI "std::string \fBgetPendingKeyMacAddress\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPendingKey\fP (std::string key)"
+.br
+.ti -1c
+.RI "std::string \fBgetInitialKey\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetInitialKey\fP (std::string key)"
+.br
+.ti -1c
+.RI "std::string \fBgetPolarizationStates\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPolarizationStates\fP (std::string states)"
+.br
+.ti -1c
+.RI "std::string \fBgetInitialKeyBin\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetInitialKeyBin\fP (std::string bin)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBinitialize\fP ()"
+.br
+.ti -1c
+.RI "virtual void \fBhandleMessage\fP (cMessage *msg)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 10 of file ClientMemory\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void ClientMemory::addMacTableEntry (\fBMacTableEntry\fP * macTableEntry)"
+
+.PP
+Definition at line 27 of file ClientMemory\&.cc\&.
+.SS "void ClientMemory::addQautumKey (\fBQuantumKeyEntry\fP * key)"
+
+.PP
+Definition at line 43 of file ClientMemory\&.cc\&.
+.SS "std::string ClientMemory::getInitialKey ()"
+
+.PP
+Definition at line 98 of file ClientMemory\&.cc\&.
+.SS "std::string ClientMemory::getInitialKeyBin ()"
+
+.PP
+Definition at line 117 of file ClientMemory\&.cc\&.
+.SS "\fBMacTableEntry\fP ClientMemory::getMacTable (int index)"
+
+.PP
+Definition at line 21 of file ClientMemory\&.cc\&.
+.SS "int ClientMemory::getMacTableSize ()"
+
+.PP
+Definition at line 32 of file ClientMemory\&.cc\&.
+.SS "int ClientMemory::getNumberOfKey ()"
+
+.PP
+Definition at line 48 of file ClientMemory\&.cc\&.
+.SS "std::string ClientMemory::getPendingKeyMacAddress ()"
+
+.PP
+Definition at line 68 of file ClientMemory\&.cc\&.
+.SS "int ClientMemory::getPendingTransaction ()"
+
+.PP
+Definition at line 53 of file ClientMemory\&.cc\&.
+.SS "std::string ClientMemory::getPolarizationStates ()"
+
+.PP
+Definition at line 107 of file ClientMemory\&.cc\&.
+.SS "\fBQuantumKeyEntry\fP ClientMemory::getQuantumKey (int index)"
+
+.PP
+Definition at line 37 of file ClientMemory\&.cc\&.
+.SS "void ClientMemory::handleMessage (cMessage * msg)\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 16 of file ClientMemory\&.cc\&.
+.SS "void ClientMemory::initialize ()\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 11 of file ClientMemory\&.cc\&.
+.SS "void ClientMemory::setInitialKey (std::string key)"
+
+.PP
+Definition at line 102 of file ClientMemory\&.cc\&.
+.SS "void ClientMemory::setInitialKeyBin (std::string bin)"
+
+.PP
+Definition at line 122 of file ClientMemory\&.cc\&.
+.SS "void ClientMemory::setPendingKey (std::string key)"
+
+.PP
+Definition at line 85 of file ClientMemory\&.cc\&.
+.SS "void ClientMemory::setPolarizationStates (std::string states)"
+
+.PP
+Definition at line 112 of file ClientMemory\&.cc\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Multiaccess QKD from the source code\&.

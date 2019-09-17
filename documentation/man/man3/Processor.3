@@ -1,0 +1,111 @@
+.TH "Processor" 3 "Tue Sep 17 2019" "Multiaccess QKD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Processor
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits cSimpleModule\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBprintMacAddressTable\fP ()"
+.br
+.ti -1c
+.RI "void \fBprintQuantumSubinterfaceBindingTable\fP ()"
+.br
+.ti -1c
+.RI "void \fBprintArpTable\fP ()"
+.br
+.ti -1c
+.RI "void \fBprintSessionStateTable\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBinitialize\fP (int stage) override"
+.br
+.ti -1c
+.RI "virtual void \fBhandleMessage\fP (cMessage *msg) override"
+.br
+.ti -1c
+.RI "virtual int \fBnumInitStages\fP () const override"
+.br
+.ti -1c
+.RI "virtual void \fBfinish\fP () override"
+.br
+.ti -1c
+.RI "void \fBprepareMacAddressTable\fP ()"
+.br
+.ti -1c
+.RI "void \fBbindInterface\fP (int identity, std::string \fBinterface\fP, std::string quantumInterface, int type)"
+.br
+.ti -1c
+.RI "void \fBprepareQuantumSubInterfaceBindingTable\fP ()"
+.br
+.ti -1c
+.RI "void \fBbindSubInterface\fP (std::string identity, std::string sourceInterface, std::string sourceSubInterface, std::string destinationInterface, std::string destinationSubInterface, int status)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 22 of file Processor\&.cc\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Processor::bindInterface (int identity, std::string interface, std::string quantumInterface, int type)\fC [protected]\fP"
+
+.PP
+Definition at line 181 of file Processor\&.cc\&.
+.SS "void Processor::bindSubInterface (std::string identity, std::string sourceInterface, std::string sourceSubInterface, std::string destinationInterface, std::string destinationSubInterface, int status)\fC [protected]\fP"
+
+.PP
+Definition at line 236 of file Processor\&.cc\&.
+.SS "void Processor::finish ()\fC [override]\fP, \fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 164 of file Processor\&.cc\&.
+.SS "void Processor::handleMessage (cMessage * msg)\fC [override]\fP, \fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 71 of file Processor\&.cc\&.
+.SS "void Processor::initialize (int stage)\fC [override]\fP, \fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 44 of file Processor\&.cc\&.
+.SS "int Processor::numInitStages () const\fC [override]\fP, \fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 66 of file Processor\&.cc\&.
+.SS "void Processor::prepareMacAddressTable ()\fC [protected]\fP"
+
+.PP
+Definition at line 171 of file Processor\&.cc\&.
+.SS "void Processor::prepareQuantumSubInterfaceBindingTable ()\fC [protected]\fP"
+
+.PP
+Definition at line 218 of file Processor\&.cc\&.
+.SS "void Processor::printArpTable ()"
+
+.PP
+Definition at line 270 of file Processor\&.cc\&.
+.SS "void Processor::printMacAddressTable ()"
+
+.PP
+Definition at line 193 of file Processor\&.cc\&.
+.SS "void Processor::printQuantumSubinterfaceBindingTable ()"
+
+.PP
+Definition at line 249 of file Processor\&.cc\&.
+.SS "void Processor::printSessionStateTable ()"
+
+.PP
+Definition at line 297 of file Processor\&.cc\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Multiaccess QKD from the source code\&.

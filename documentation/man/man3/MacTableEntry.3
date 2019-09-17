@@ -1,0 +1,246 @@
+.TH "MacTableEntry" 3 "Tue Sep 17 2019" "Multiaccess QKD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MacTableEntry
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <MacTableEntry_m\&.h>\fP
+.PP
+Inherits cPacket\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMacTableEntry\fP (const char *name=nullptr, short kind=0)"
+.br
+.ti -1c
+.RI "\fBMacTableEntry\fP (const \fBMacTableEntry\fP &other)"
+.br
+.ti -1c
+.RI "virtual \fB~MacTableEntry\fP ()"
+.br
+.ti -1c
+.RI "\fBMacTableEntry\fP & \fBoperator=\fP (const \fBMacTableEntry\fP &other)"
+.br
+.ti -1c
+.RI "virtual \fBMacTableEntry\fP * \fBdup\fP () const override"
+.br
+.ti -1c
+.RI "virtual void \fBparsimPack\fP (omnetpp::cCommBuffer *b) const override"
+.br
+.ti -1c
+.RI "virtual void \fBparsimUnpack\fP (omnetpp::cCommBuffer *b) override"
+.br
+.ti -1c
+.RI "virtual int \fBgetIdentity\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetIdentity\fP (int \fBidentity\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetInterface\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetInterface\fP (const char *\fBinterface\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetMacAddress\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetMacAddress\fP (const char *\fBmacAddress\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetQuantumInterfaceId\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetQuantumInterfaceId\fP (const char *\fBquantumInterfaceId\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetQuantumMacAddress\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetQuantumMacAddress\fP (const char *\fBquantumMacAddress\fP)"
+.br
+.ti -1c
+.RI "virtual int \fBgetType\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetType\fP (int \fBtype\fP)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBoperator==\fP (const \fBMacTableEntry\fP &)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBidentity\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBinterface\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBmacAddress\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBquantumInterfaceId\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBquantumMacAddress\fP"
+.br
+.ti -1c
+.RI "int \fBtype\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class generated from \fCMacTableEntry\&.msg:16\fP by nedtool\&. 
+.PP
+.nf
+
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Lesser General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version\&.
+// 
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE\&.  See the
+// GNU Lesser General Public License for more details\&.
+// 
+// You should have received a copy of the GNU Lesser General Public License
+// along with this program\&.  If not, see http://www.gnu.org/licenses/\&.
+//
+packet \fBMacTableEntry\fP
+{
+    int identity;
+    string interface;
+    string macAddress;
+    string quantumInterfaceId;
+    string quantumMacAddress;
+    int type;
+}
+.fi
+.PP
+ 
+.PP
+Definition at line 49 of file MacTableEntry_m\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "MacTableEntry::MacTableEntry (const char * name = \fCnullptr\fP, short kind = \fC0\fP)"
+
+.SS "MacTableEntry::MacTableEntry (const \fBMacTableEntry\fP & other)"
+
+.PP
+Definition at line 188 of file MacTableEntry_m\&.cc\&.
+.SS "MacTableEntry::~MacTableEntry ()\fC [virtual]\fP"
+
+.PP
+Definition at line 193 of file MacTableEntry_m\&.cc\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "virtual \fBMacTableEntry\fP* MacTableEntry::dup () const\fC [inline]\fP, \fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 71 of file MacTableEntry_m\&.h\&.
+.SS "int MacTableEntry::getIdentity () const\fC [virtual]\fP"
+
+.PP
+Definition at line 237 of file MacTableEntry_m\&.cc\&.
+.SS "const char * MacTableEntry::getInterface () const\fC [virtual]\fP"
+
+.PP
+Definition at line 247 of file MacTableEntry_m\&.cc\&.
+.SS "const char * MacTableEntry::getMacAddress () const\fC [virtual]\fP"
+
+.PP
+Definition at line 257 of file MacTableEntry_m\&.cc\&.
+.SS "const char * MacTableEntry::getQuantumInterfaceId () const\fC [virtual]\fP"
+
+.PP
+Definition at line 267 of file MacTableEntry_m\&.cc\&.
+.SS "const char * MacTableEntry::getQuantumMacAddress () const\fC [virtual]\fP"
+
+.PP
+Definition at line 277 of file MacTableEntry_m\&.cc\&.
+.SS "int MacTableEntry::getType () const\fC [virtual]\fP"
+
+.PP
+Definition at line 287 of file MacTableEntry_m\&.cc\&.
+.SS "\fBMacTableEntry\fP & MacTableEntry::operator= (const \fBMacTableEntry\fP & other)"
+
+.PP
+Definition at line 197 of file MacTableEntry_m\&.cc\&.
+.SS "bool MacTableEntry::operator== (const \fBMacTableEntry\fP &)\fC [protected]\fP"
+
+.SS "void MacTableEntry::parsimPack (omnetpp::cCommBuffer * b) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 215 of file MacTableEntry_m\&.cc\&.
+.SS "void MacTableEntry::parsimUnpack (omnetpp::cCommBuffer * b)\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 226 of file MacTableEntry_m\&.cc\&.
+.SS "void MacTableEntry::setIdentity (int identity)\fC [virtual]\fP"
+
+.PP
+Definition at line 242 of file MacTableEntry_m\&.cc\&.
+.SS "void MacTableEntry::setInterface (const char * interface)\fC [virtual]\fP"
+
+.PP
+Definition at line 252 of file MacTableEntry_m\&.cc\&.
+.SS "void MacTableEntry::setMacAddress (const char * macAddress)\fC [virtual]\fP"
+
+.PP
+Definition at line 262 of file MacTableEntry_m\&.cc\&.
+.SS "void MacTableEntry::setQuantumInterfaceId (const char * quantumInterfaceId)\fC [virtual]\fP"
+
+.PP
+Definition at line 272 of file MacTableEntry_m\&.cc\&.
+.SS "void MacTableEntry::setQuantumMacAddress (const char * quantumMacAddress)\fC [virtual]\fP"
+
+.PP
+Definition at line 282 of file MacTableEntry_m\&.cc\&.
+.SS "void MacTableEntry::setType (int type)\fC [virtual]\fP"
+
+.PP
+Definition at line 292 of file MacTableEntry_m\&.cc\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "int MacTableEntry::identity\fC [protected]\fP"
+
+.PP
+Definition at line 52 of file MacTableEntry_m\&.h\&.
+.SS "::omnetpp::opp_string MacTableEntry::interface\fC [protected]\fP"
+
+.PP
+Definition at line 53 of file MacTableEntry_m\&.h\&.
+.SS "::omnetpp::opp_string MacTableEntry::macAddress\fC [protected]\fP"
+
+.PP
+Definition at line 54 of file MacTableEntry_m\&.h\&.
+.SS "::omnetpp::opp_string MacTableEntry::quantumInterfaceId\fC [protected]\fP"
+
+.PP
+Definition at line 55 of file MacTableEntry_m\&.h\&.
+.SS "::omnetpp::opp_string MacTableEntry::quantumMacAddress\fC [protected]\fP"
+
+.PP
+Definition at line 56 of file MacTableEntry_m\&.h\&.
+.SS "int MacTableEntry::type\fC [protected]\fP"
+
+.PP
+Definition at line 57 of file MacTableEntry_m\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Multiaccess QKD from the source code\&.

@@ -1,0 +1,149 @@
+.TH "QuantumSubInterfaceBindingDescriptor" 3 "Tue Sep 17 2019" "Multiaccess QKD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+QuantumSubInterfaceBindingDescriptor
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits cClassDescriptor\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBQuantumSubInterfaceBindingDescriptor\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~QuantumSubInterfaceBindingDescriptor\fP ()"
+.br
+.ti -1c
+.RI "virtual bool \fBdoesSupport\fP (omnetpp::cObject *obj) const override"
+.br
+.ti -1c
+.RI "virtual const char ** \fBgetPropertyNames\fP () const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetProperty\fP (const char *propertyname) const override"
+.br
+.ti -1c
+.RI "virtual int \fBgetFieldCount\fP () const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldName\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual int \fBfindField\fP (const char *fieldName) const override"
+.br
+.ti -1c
+.RI "virtual unsigned int \fBgetFieldTypeFlags\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldTypeString\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual const char ** \fBgetFieldPropertyNames\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldProperty\fP (int field, const char *propertyname) const override"
+.br
+.ti -1c
+.RI "virtual int \fBgetFieldArraySize\fP (void *object, int field) const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldDynamicTypeString\fP (void *object, int field, int i) const override"
+.br
+.ti -1c
+.RI "virtual std::string \fBgetFieldValueAsString\fP (void *object, int field, int i) const override"
+.br
+.ti -1c
+.RI "virtual bool \fBsetFieldValueAsString\fP (void *object, int field, int i, const char *value) const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldStructName\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual void * \fBgetFieldStructValuePointer\fP (void *object, int field, int i) const override"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 310 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "QuantumSubInterfaceBindingDescriptor::QuantumSubInterfaceBindingDescriptor ()"
+
+.SS "QuantumSubInterfaceBindingDescriptor::~QuantumSubInterfaceBindingDescriptor ()\fC [virtual]\fP"
+
+.PP
+Definition at line 345 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "bool QuantumSubInterfaceBindingDescriptor::doesSupport (omnetpp::cObject * obj) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 350 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "int QuantumSubInterfaceBindingDescriptor::findField (const char * fieldName) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 418 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "int QuantumSubInterfaceBindingDescriptor::getFieldArraySize (void * object, int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 478 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "int QuantumSubInterfaceBindingDescriptor::getFieldCount () const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 372 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "const char * QuantumSubInterfaceBindingDescriptor::getFieldDynamicTypeString (void * object, int field, int i) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 492 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "const char * QuantumSubInterfaceBindingDescriptor::getFieldName (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 398 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "const char * QuantumSubInterfaceBindingDescriptor::getFieldProperty (int field, const char * propertyname) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 465 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "const char ** QuantumSubInterfaceBindingDescriptor::getFieldPropertyNames (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 452 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "const char * QuantumSubInterfaceBindingDescriptor::getFieldStructName (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 548 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "void * QuantumSubInterfaceBindingDescriptor::getFieldStructValuePointer (void * object, int field, int i) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 561 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "unsigned int QuantumSubInterfaceBindingDescriptor::getFieldTypeFlags (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 378 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "const char * QuantumSubInterfaceBindingDescriptor::getFieldTypeString (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 432 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "std::string QuantumSubInterfaceBindingDescriptor::getFieldValueAsString (void * object, int field, int i) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 506 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "const char * QuantumSubInterfaceBindingDescriptor::getProperty (const char * propertyname) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 366 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "const char ** QuantumSubInterfaceBindingDescriptor::getPropertyNames () const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 355 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "bool QuantumSubInterfaceBindingDescriptor::setFieldValueAsString (void * object, int field, int i, const char * value) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 527 of file QuantumSubInterfaceBinding_m\&.cc\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Multiaccess QKD from the source code\&.

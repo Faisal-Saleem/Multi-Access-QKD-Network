@@ -1,0 +1,149 @@
+.TH "ArpTableEntryDescriptor" 3 "Tue Sep 17 2019" "Multiaccess QKD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ArpTableEntryDescriptor
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits cClassDescriptor\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBArpTableEntryDescriptor\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~ArpTableEntryDescriptor\fP ()"
+.br
+.ti -1c
+.RI "virtual bool \fBdoesSupport\fP (omnetpp::cObject *obj) const override"
+.br
+.ti -1c
+.RI "virtual const char ** \fBgetPropertyNames\fP () const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetProperty\fP (const char *propertyname) const override"
+.br
+.ti -1c
+.RI "virtual int \fBgetFieldCount\fP () const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldName\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual int \fBfindField\fP (const char *fieldName) const override"
+.br
+.ti -1c
+.RI "virtual unsigned int \fBgetFieldTypeFlags\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldTypeString\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual const char ** \fBgetFieldPropertyNames\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldProperty\fP (int field, const char *propertyname) const override"
+.br
+.ti -1c
+.RI "virtual int \fBgetFieldArraySize\fP (void *object, int field) const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldDynamicTypeString\fP (void *object, int field, int i) const override"
+.br
+.ti -1c
+.RI "virtual std::string \fBgetFieldValueAsString\fP (void *object, int field, int i) const override"
+.br
+.ti -1c
+.RI "virtual bool \fBsetFieldValueAsString\fP (void *object, int field, int i, const char *value) const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldStructName\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual void * \fBgetFieldStructValuePointer\fP (void *object, int field, int i) const override"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 310 of file ArpTableEntry_m\&.cc\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "ArpTableEntryDescriptor::ArpTableEntryDescriptor ()"
+
+.SS "ArpTableEntryDescriptor::~ArpTableEntryDescriptor ()\fC [virtual]\fP"
+
+.PP
+Definition at line 345 of file ArpTableEntry_m\&.cc\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "bool ArpTableEntryDescriptor::doesSupport (omnetpp::cObject * obj) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 350 of file ArpTableEntry_m\&.cc\&.
+.SS "int ArpTableEntryDescriptor::findField (const char * fieldName) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 418 of file ArpTableEntry_m\&.cc\&.
+.SS "int ArpTableEntryDescriptor::getFieldArraySize (void * object, int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 478 of file ArpTableEntry_m\&.cc\&.
+.SS "int ArpTableEntryDescriptor::getFieldCount () const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 372 of file ArpTableEntry_m\&.cc\&.
+.SS "const char * ArpTableEntryDescriptor::getFieldDynamicTypeString (void * object, int field, int i) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 492 of file ArpTableEntry_m\&.cc\&.
+.SS "const char * ArpTableEntryDescriptor::getFieldName (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 398 of file ArpTableEntry_m\&.cc\&.
+.SS "const char * ArpTableEntryDescriptor::getFieldProperty (int field, const char * propertyname) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 465 of file ArpTableEntry_m\&.cc\&.
+.SS "const char ** ArpTableEntryDescriptor::getFieldPropertyNames (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 452 of file ArpTableEntry_m\&.cc\&.
+.SS "const char * ArpTableEntryDescriptor::getFieldStructName (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 548 of file ArpTableEntry_m\&.cc\&.
+.SS "void * ArpTableEntryDescriptor::getFieldStructValuePointer (void * object, int field, int i) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 561 of file ArpTableEntry_m\&.cc\&.
+.SS "unsigned int ArpTableEntryDescriptor::getFieldTypeFlags (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 378 of file ArpTableEntry_m\&.cc\&.
+.SS "const char * ArpTableEntryDescriptor::getFieldTypeString (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 432 of file ArpTableEntry_m\&.cc\&.
+.SS "std::string ArpTableEntryDescriptor::getFieldValueAsString (void * object, int field, int i) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 506 of file ArpTableEntry_m\&.cc\&.
+.SS "const char * ArpTableEntryDescriptor::getProperty (const char * propertyname) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 366 of file ArpTableEntry_m\&.cc\&.
+.SS "const char ** ArpTableEntryDescriptor::getPropertyNames () const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 355 of file ArpTableEntry_m\&.cc\&.
+.SS "bool ArpTableEntryDescriptor::setFieldValueAsString (void * object, int field, int i, const char * value) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 527 of file ArpTableEntry_m\&.cc\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Multiaccess QKD from the source code\&.

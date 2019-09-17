@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_quantum_key_entry__m_8h" kind="file" language="C++">
+    <compoundname>QuantumKeyEntry_m.h</compoundname>
+    <includes local="no">omnetpp.h</includes>
+    <includedby refid="_client_memory_8h" local="yes">ClientMemory.h</includedby>
+    <includedby refid="_client_memory_8cc" local="yes">ClientMemory.cc</includedby>
+    <includedby refid="_quantum_key_entry__m_8cc" local="yes">QuantumKeyEntry_m.cc</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>QuantumKeyEntry_m.h</label>
+        <link refid="_quantum_key_entry__m_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>omnetpp.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>ClientProcessor.cc</label>
+        <link refid="_client_processor_8cc"/>
+      </node>
+      <node id="2">
+        <label>ClientMemory.h</label>
+        <link refid="_client_memory_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ClientMemory.cc</label>
+        <link refid="_client_memory_8cc"/>
+      </node>
+      <node id="5">
+        <label>QuantumKeyEntry_m.cc</label>
+        <link refid="_quantum_key_entry__m_8cc"/>
+      </node>
+      <node id="1">
+        <label>QuantumKeyEntry_m.h</label>
+        <link refid="_quantum_key_entry__m_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_quantum_key_entry" prot="public">QuantumKeyEntry</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_quantum_key_entry__m_8h_1ac84b55e8908d24c027826b277f07a206" prot="public" static="no">
+        <name>__QUANTUMKEYENTRY_M_H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="9" column="9" bodyfile="QuantumKeyEntry_m.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_quantum_key_entry__m_8h_1a77f5ea746b531cbdbc322a93741e33a6" prot="public" static="no">
+        <name>MSGC_VERSION</name>
+        <initializer>0x0504</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="14" column="9" bodyfile="QuantumKeyEntry_m.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_quantum_key_entry__m_8h_1a9d0defb0c62f9a6b1c311695dca19b45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void doParsimPacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *b, const QuantumKeyEntry &amp;obj)</argsstring>
+        <name>doParsimPacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="68" column="13" bodyfile="QuantumKeyEntry_m.h" bodystart="68" bodyend="68"/>
+        <references refid="class_quantum_key_entry_1a0dd9e6839b91efc6a06a41a9d6ac150e" compoundref="_quantum_key_entry__m_8cc" startline="212" endline="219">QuantumKeyEntry::parsimPack</references>
+      </memberdef>
+      <memberdef kind="function" id="_quantum_key_entry__m_8h_1af5ab4f41a23306f926060e72d67531d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void doParsimUnpacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *b, QuantumKeyEntry &amp;obj)</argsstring>
+        <name>doParsimUnpacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="69" column="13" bodyfile="QuantumKeyEntry_m.h" bodystart="69" bodyend="69"/>
+        <references refid="class_quantum_key_entry_1ab3dfccf59d57d3135ee356c6f6af2273" compoundref="_quantum_key_entry__m_8cc" startline="221" endline="228">QuantumKeyEntry::parsimUnpack</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>file,<sp/>do<sp/>not<sp/>edit!<sp/>Created<sp/>by<sp/>nedtool<sp/>5.4<sp/>from<sp/>QuantumKeyEntry.msg.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>pragma<sp/>clang<sp/>diagnostic<sp/>ignored<sp/>&quot;-Wreserved-id-macro&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__QUANTUMKEYENTRY_M_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="_quantum_key_entry__m_8h_1ac84b55e8908d24c027826b277f07a206" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__QUANTUMKEYENTRY_M_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;omnetpp.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nedtool<sp/>version<sp/>check</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_quantum_key_entry__m_8h_1a77f5ea746b531cbdbc322a93741e33a6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MSGC_VERSION<sp/>0x0504</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(MSGC_VERSION!=OMNETPP_VERSION)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>error<sp/>Version<sp/>mismatch!<sp/>Probably<sp/>this<sp/>file<sp/>was<sp/>generated<sp/>by<sp/>an<sp/>earlier<sp/>version<sp/>of<sp/>nedtool:<sp/>&apos;make<sp/>clean&apos;<sp/>should<sp/>help.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="class_quantum_key_entry" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::omnetpp::cPacket</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="36" refid="class_quantum_key_entry_1a536ccdb37a3ef451d0137d4da713d026" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry_1a536ccdb37a3ef451d0137d4da713d026" kindref="member">identity</ref>;</highlight></codeline>
+<codeline lineno="37" refid="class_quantum_key_entry_1a3cd656cb1d1c3566766c40bb007289a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_quantum_key_entry_1a3cd656cb1d1c3566766c40bb007289a0" kindref="member">macAddress</ref>;</highlight></codeline>
+<codeline lineno="38" refid="class_quantum_key_entry_1ac2fec3db3f9597888b0e1c3d6e7b1344" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_quantum_key_entry_1ac2fec3db3f9597888b0e1c3d6e7b1344" kindref="member">key</ref>;</highlight></codeline>
+<codeline lineno="39" refid="class_quantum_key_entry_1a7ef34812dae7614b990bb27e0992a4b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_quantum_key_entry_1a7ef34812dae7614b990bb27e0992a4b6" kindref="member">status</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>copy(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref>&amp;<sp/>other);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>protected<sp/>and<sp/>unimplemented<sp/>operator==(),<sp/>to<sp/>prevent<sp/>accidental<sp/>usage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry_1afeb1b8c8b0d9c4f353bd8063d2a7f4c8" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref>&amp;);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_quantum_key_entry_1af2c67698757595870b031b8dd518a163" kindref="member">QuantumKeyEntry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name=</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>kind=0);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_quantum_key_entry_1af2c67698757595870b031b8dd518a163" kindref="member">QuantumKeyEntry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref>&amp;<sp/>other);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry_1addf32bb9241312d25cb468b0629de98b" kindref="member">~QuantumKeyEntry</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref>&amp;<sp/><ref refid="class_quantum_key_entry_1a05e691d187ad6cd50fdfa84ee38b46ff" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref>&amp;<sp/>other);</highlight></codeline>
+<codeline lineno="53" refid="class_quantum_key_entry_1a327f41e6cce158d91bd168599b21fe35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref><sp/>*<ref refid="class_quantum_key_entry_1a327f41e6cce158d91bd168599b21fe35" kindref="member">dup</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry_1af2c67698757595870b031b8dd518a163" kindref="member">QuantumKeyEntry</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry_1a0dd9e6839b91efc6a06a41a9d6ac150e" kindref="member">parsimPack</ref>(omnetpp::cCommBuffer<sp/>*b)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry_1ab3dfccf59d57d3135ee356c6f6af2273" kindref="member">parsimUnpack</ref>(omnetpp::cCommBuffer<sp/>*b)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>field<sp/>getter/setter<sp/>methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry_1a85e0afd2c799019ca38f19c1670c7733" kindref="member">getIdentity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry_1aaecd120bb3e0bfce6ac6be1a1a87c861" kindref="member">setIdentity</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry_1a536ccdb37a3ef451d0137d4da713d026" kindref="member">identity</ref>);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_quantum_key_entry_1a3faa0418d067d5fd090be1a7973bf6db" kindref="member">getMacAddress</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry_1ab4c6ed191ca2f70d90f70e310bf10ba7" kindref="member">setMacAddress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_quantum_key_entry_1a3cd656cb1d1c3566766c40bb007289a0" kindref="member">macAddress</ref>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_quantum_key_entry_1a1a45fdd0292e10bb01eeb69b55119cd5" kindref="member">getKey</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry_1a89346d735a430bac418248f33f18b2e0" kindref="member">setKey</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_quantum_key_entry_1ac2fec3db3f9597888b0e1c3d6e7b1344" kindref="member">key</ref>);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_quantum_key_entry_1a303fa302c2f0fea5162dca289aa3b2d7" kindref="member">getStatus</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry_1a8efdd7c69dff35435038d395ce537578" kindref="member">setStatus</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_quantum_key_entry_1a7ef34812dae7614b990bb27e0992a4b6" kindref="member">status</ref>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="_quantum_key_entry__m_8h_1a9d0defb0c62f9a6b1c311695dca19b45" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_quantum_key_entry__m_8h_1a9d0defb0c62f9a6b1c311695dca19b45" kindref="member">doParsimPacking</ref>(omnetpp::cCommBuffer<sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref>&amp;<sp/>obj)<sp/>{obj.<ref refid="class_quantum_key_entry_1a0dd9e6839b91efc6a06a41a9d6ac150e" kindref="member">parsimPack</ref>(b);}</highlight></codeline>
+<codeline lineno="69" refid="_quantum_key_entry__m_8h_1af5ab4f41a23306f926060e72d67531d7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_quantum_key_entry__m_8h_1af5ab4f41a23306f926060e72d67531d7" kindref="member">doParsimUnpacking</ref>(omnetpp::cCommBuffer<sp/>*b,<sp/><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref>&amp;<sp/>obj)<sp/>{obj.<ref refid="class_quantum_key_entry_1ab3dfccf59d57d3135ee356c6f6af2273" kindref="member">parsimUnpack</ref>(b);}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>ifndef<sp/>__QUANTUMKEYENTRY_M_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="QuantumKeyEntry_m.h"/>
+  </compounddef>
+</doxygen>

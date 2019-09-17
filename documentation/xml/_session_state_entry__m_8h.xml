@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_session_state_entry__m_8h" kind="file" language="C++">
+    <compoundname>SessionStateEntry_m.h</compoundname>
+    <includes local="no">omnetpp.h</includes>
+    <includedby refid="_switch_memory_8h" local="yes">SwitchMemory.h</includedby>
+    <includedby refid="_session_state_entry__m_8cc" local="yes">SessionStateEntry_m.cc</includedby>
+    <includedby refid="_switch_memory_8cc" local="yes">SwitchMemory.cc</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>SessionStateEntry_m.h</label>
+        <link refid="_session_state_entry__m_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>omnetpp.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>SwitchPublicInterface.cc</label>
+        <link refid="_switch_public_interface_8cc"/>
+      </node>
+      <node id="3">
+        <label>Processor.cc</label>
+        <link refid="_processor_8cc"/>
+      </node>
+      <node id="4">
+        <label>SwitchMemory.cc</label>
+        <link refid="_switch_memory_8cc"/>
+      </node>
+      <node id="2">
+        <label>SwitchMemory.h</label>
+        <link refid="_switch_memory_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>SessionStateEntry_m.h</label>
+        <link refid="_session_state_entry__m_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>SwitchQuantumInterface.cc</label>
+        <link refid="_switch_quantum_interface_8cc"/>
+      </node>
+      <node id="7">
+        <label>SessionStateEntry_m.cc</label>
+        <link refid="_session_state_entry__m_8cc"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_session_state_entry" prot="public">SessionStateEntry</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_session_state_entry__m_8h_1aea4db7dd33e8cd4f5c4c3b4d10d3cfb4" prot="public" static="no">
+        <name>__SESSIONSTATEENTRY_M_H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="9" column="9" bodyfile="SessionStateEntry_m.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_session_state_entry__m_8h_1a77f5ea746b531cbdbc322a93741e33a6" prot="public" static="no">
+        <name>MSGC_VERSION</name>
+        <initializer>0x0504</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="14" column="9" bodyfile="SessionStateEntry_m.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_session_state_entry__m_8h_1a85f25a4752eabce29e7cdcc2b1def389" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void doParsimPacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *b, const SessionStateEntry &amp;obj)</argsstring>
+        <name>doParsimPacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="102" column="13" bodyfile="SessionStateEntry_m.h" bodystart="102" bodyend="102"/>
+        <references refid="class_session_state_entry_1ac083ba10ce3ac4517da4d399facfca21" compoundref="_session_state_entry__m_8cc" startline="217" endline="229">SessionStateEntry::parsimPack</references>
+      </memberdef>
+      <memberdef kind="function" id="_session_state_entry__m_8h_1a88e601473f0c9b3602de80ebd7341118" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void doParsimUnpacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *b, SessionStateEntry &amp;obj)</argsstring>
+        <name>doParsimUnpacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="103" column="13" bodyfile="SessionStateEntry_m.h" bodystart="103" bodyend="103"/>
+        <references refid="class_session_state_entry_1a3f45aba80dfbd84efe295c99be6acb2a" compoundref="_session_state_entry__m_8cc" startline="231" endline="243">SessionStateEntry::parsimUnpack</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generated<sp/>file,<sp/>do<sp/>not<sp/>edit!<sp/>Created<sp/>by<sp/>nedtool<sp/>5.4<sp/>from<sp/>SessionStateEntry.msg.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__clang__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>pragma<sp/>clang<sp/>diagnostic<sp/>ignored<sp/>&quot;-Wreserved-id-macro&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__SESSIONSTATEENTRY_M_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="_session_state_entry__m_8h_1aea4db7dd33e8cd4f5c4c3b4d10d3cfb4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__SESSIONSTATEENTRY_M_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;omnetpp.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nedtool<sp/>version<sp/>check</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_session_state_entry__m_8h_1a77f5ea746b531cbdbc322a93741e33a6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MSGC_VERSION<sp/>0x0504</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(MSGC_VERSION!=OMNETPP_VERSION)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>error<sp/>Version<sp/>mismatch!<sp/>Probably<sp/>this<sp/>file<sp/>was<sp/>generated<sp/>by<sp/>an<sp/>earlier<sp/>version<sp/>of<sp/>nedtool:<sp/>&apos;make<sp/>clean&apos;<sp/>should<sp/>help.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="class_session_state_entry" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>::omnetpp::cPacket</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="55" refid="class_session_state_entry_1a1e2b284cf84911f94e9ccae04816e6c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry_1a1e2b284cf84911f94e9ccae04816e6c5" kindref="member">sessionId</ref>;</highlight></codeline>
+<codeline lineno="56" refid="class_session_state_entry_1a4dfa25147bc8c1799fcc0ba8446cec52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_session_state_entry_1a4dfa25147bc8c1799fcc0ba8446cec52" kindref="member">srcMac</ref>;</highlight></codeline>
+<codeline lineno="57" refid="class_session_state_entry_1a49d3ca4ef3d5dba56d8f2c82a8c6eecf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_session_state_entry_1a49d3ca4ef3d5dba56d8f2c82a8c6eecf" kindref="member">srcQMac</ref>;</highlight></codeline>
+<codeline lineno="58" refid="class_session_state_entry_1a0001a1ce6df5f423b7f61f56ae4f8ebb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_session_state_entry_1a0001a1ce6df5f423b7f61f56ae4f8ebb" kindref="member">srcSubInterface</ref>;</highlight></codeline>
+<codeline lineno="59" refid="class_session_state_entry_1abccf3a382a8959756db7a93a1d4bbf29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_session_state_entry_1abccf3a382a8959756db7a93a1d4bbf29" kindref="member">desMac</ref>;</highlight></codeline>
+<codeline lineno="60" refid="class_session_state_entry_1a408f12d8d179c98049eb2e5622746412" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_session_state_entry_1a408f12d8d179c98049eb2e5622746412" kindref="member">desQMac</ref>;</highlight></codeline>
+<codeline lineno="61" refid="class_session_state_entry_1ab0e814d348709565c650393ff88ed4d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_session_state_entry_1ab0e814d348709565c650393ff88ed4d9" kindref="member">desSubInterface</ref>;</highlight></codeline>
+<codeline lineno="62" refid="class_session_state_entry_1a005a90a9b13bdcc08daa51d5bc04cbab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_session_state_entry_1a005a90a9b13bdcc08daa51d5bc04cbab" kindref="member">expiry</ref>;</highlight></codeline>
+<codeline lineno="63" refid="class_session_state_entry_1a25f44a9277b637323647365b7be74d5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>::omnetpp::opp_string<sp/><ref refid="class_session_state_entry_1a25f44a9277b637323647365b7be74d5e" kindref="member">status</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>copy(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref>&amp;<sp/>other);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>protected<sp/>and<sp/>unimplemented<sp/>operator==(),<sp/>to<sp/>prevent<sp/>accidental<sp/>usage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry_1acd36b67b413ec4d1c703dc5ac9a0063f" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref>&amp;);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_session_state_entry_1a57d4591eef85f19274be72730961c819" kindref="member">SessionStateEntry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name=</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>kind=0);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_session_state_entry_1a57d4591eef85f19274be72730961c819" kindref="member">SessionStateEntry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref>&amp;<sp/>other);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry_1a4913739bcf0963c5680499eb85e079c2" kindref="member">~SessionStateEntry</ref>();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref>&amp;<sp/><ref refid="class_session_state_entry_1a2f573abb164e4a1c0e2bde8ccb6ede59" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref>&amp;<sp/>other);</highlight></codeline>
+<codeline lineno="77" refid="class_session_state_entry_1a494f253bb05becff53e17e9eef30e185" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref><sp/>*<ref refid="class_session_state_entry_1a494f253bb05becff53e17e9eef30e185" kindref="member">dup</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry_1a57d4591eef85f19274be72730961c819" kindref="member">SessionStateEntry</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry_1ac083ba10ce3ac4517da4d399facfca21" kindref="member">parsimPack</ref>(omnetpp::cCommBuffer<sp/>*b)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry_1a3f45aba80dfbd84efe295c99be6acb2a" kindref="member">parsimUnpack</ref>(omnetpp::cCommBuffer<sp/>*b)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>field<sp/>getter/setter<sp/>methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry_1ac7008d50f836ab35135b1f4c18d0d4f3" kindref="member">getSessionId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry_1a99f4e085c7f8e10beaefe6c92cf25c91" kindref="member">setSessionId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry_1a1e2b284cf84911f94e9ccae04816e6c5" kindref="member">sessionId</ref>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_session_state_entry_1a0a95e11ae98c1e210baf2bb2dfafaeb3" kindref="member">getSrcMac</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry_1a925ca61bf7230b35e3f915062a6d726c" kindref="member">setSrcMac</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_session_state_entry_1a4dfa25147bc8c1799fcc0ba8446cec52" kindref="member">srcMac</ref>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_session_state_entry_1aabe67a1cafcc6991c929563b3210633d" kindref="member">getSrcQMac</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry_1a808022e62c2fe4736598ac93811436da" kindref="member">setSrcQMac</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_session_state_entry_1a49d3ca4ef3d5dba56d8f2c82a8c6eecf" kindref="member">srcQMac</ref>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_session_state_entry_1af67c535933d3a94227e14930b8007ec8" kindref="member">getSrcSubInterface</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry_1a8396331691af743c912b97d8dacb4c2e" kindref="member">setSrcSubInterface</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_session_state_entry_1a0001a1ce6df5f423b7f61f56ae4f8ebb" kindref="member">srcSubInterface</ref>);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_session_state_entry_1aa26d3a0d89a0a480a065700541c7f348" kindref="member">getDesMac</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry_1af005291102751eadc6a03d95d00f9907" kindref="member">setDesMac</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_session_state_entry_1abccf3a382a8959756db7a93a1d4bbf29" kindref="member">desMac</ref>);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_session_state_entry_1a39fc505629ae92fe94ec28eb4d65b7e7" kindref="member">getDesQMac</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry_1a0a0e5e1e9493fa447f02c04e501e91ff" kindref="member">setDesQMac</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_session_state_entry_1a408f12d8d179c98049eb2e5622746412" kindref="member">desQMac</ref>);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_session_state_entry_1a6744fccab42b02111ed4a598638b26b5" kindref="member">getDesSubInterface</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry_1a3b6589d8f660884c5bd5fa751c3d4b81" kindref="member">setDesSubInterface</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_session_state_entry_1ab0e814d348709565c650393ff88ed4d9" kindref="member">desSubInterface</ref>);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_session_state_entry_1a802f897ce63cd7264ade71cdccc303b3" kindref="member">getExpiry</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry_1a427ca30027864c36630b334f02c05ac7" kindref="member">setExpiry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_session_state_entry_1a005a90a9b13bdcc08daa51d5bc04cbab" kindref="member">expiry</ref>);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_session_state_entry_1aa4761da1a38d4d84ef33e85908221c63" kindref="member">getStatus</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry_1a489034b564fa1d8ce989cef3af8342f9" kindref="member">setStatus</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class_session_state_entry_1a25f44a9277b637323647365b7be74d5e" kindref="member">status</ref>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="_session_state_entry__m_8h_1a85f25a4752eabce29e7cdcc2b1def389" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_session_state_entry__m_8h_1a85f25a4752eabce29e7cdcc2b1def389" kindref="member">doParsimPacking</ref>(omnetpp::cCommBuffer<sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref>&amp;<sp/>obj)<sp/>{obj.<ref refid="class_session_state_entry_1ac083ba10ce3ac4517da4d399facfca21" kindref="member">parsimPack</ref>(b);}</highlight></codeline>
+<codeline lineno="103" refid="_session_state_entry__m_8h_1a88e601473f0c9b3602de80ebd7341118" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_session_state_entry__m_8h_1a88e601473f0c9b3602de80ebd7341118" kindref="member">doParsimUnpacking</ref>(omnetpp::cCommBuffer<sp/>*b,<sp/><ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref>&amp;<sp/>obj)<sp/>{obj.<ref refid="class_session_state_entry_1a3f45aba80dfbd84efe295c99be6acb2a" kindref="member">parsimUnpack</ref>(b);}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>ifndef<sp/>__SESSIONSTATEENTRY_M_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="SessionStateEntry_m.h"/>
+  </compounddef>
+</doxygen>

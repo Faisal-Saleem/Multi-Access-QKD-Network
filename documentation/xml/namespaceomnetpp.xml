@@ -1,0 +1,395 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespaceomnetpp" kind="namespace" language="C++">
+    <compoundname>omnetpp</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceomnetpp_1aa55507da29724bc32cb1377349b22c87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename A</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void omnetpp::doParsimPacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *buffer, const std::vector&lt; T, A &gt; &amp;v)</argsstring>
+        <name>doParsimPacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; T, A &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="38" column="6" bodyfile="ArpTableEntry_m.cc" bodystart="38" bodyend="44"/>
+        <referencedby refid="namespaceomnetpp_1a1043d9829c084411066b9e9469d75942" compoundref="_arp_table_entry__m_8cc" startline="58" endline="63">doParsimPacking</referencedby>
+        <referencedby refid="namespaceomnetpp_1a55066a1505082b338d233957ee65f0ac" compoundref="_arp_table_entry__m_8cc" startline="123" endline="127">doParsimArrayPacking</referencedby>
+        <referencedby refid="class_mac_table_entry_1a90258d7f5844ffa0706918ad4f7dc115" compoundref="_mac_table_entry__m_8cc" startline="215" endline="224">MacTableEntry::parsimPack</referencedby>
+        <referencedby refid="class_quantum_key_entry_1a0dd9e6839b91efc6a06a41a9d6ac150e" compoundref="_quantum_key_entry__m_8cc" startline="212" endline="219">QuantumKeyEntry::parsimPack</referencedby>
+        <referencedby refid="class_quantum_sub_interface_binding_1a3f87ed9bb5845ec9d2bac4f1474cdb03" compoundref="_quantum_sub_interface_binding__m_8cc" startline="216" endline="226">QuantumSubInterfaceBinding::parsimPack</referencedby>
+        <referencedby refid="class_session_state_entry_1ac083ba10ce3ac4517da4d399facfca21" compoundref="_session_state_entry__m_8cc" startline="217" endline="229">SessionStateEntry::parsimPack</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespaceomnetpp_1a5d85de2bce765edaa5f7b1651f94f37c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename A</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void omnetpp::doParsimUnpacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *buffer, std::vector&lt; T, A &gt; &amp;v)</argsstring>
+        <name>doParsimUnpacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; T, A &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="47" column="6" bodyfile="ArpTableEntry_m.cc" bodystart="47" bodyend="54"/>
+        <referencedby refid="namespaceomnetpp_1a28632f95fc2029c95828ed30e379f9ee" compoundref="_arp_table_entry__m_8cc" startline="66" endline="74">doParsimUnpacking</referencedby>
+        <referencedby refid="namespaceomnetpp_1aace4e02d3cd181249cf81a4bf8827fa7" compoundref="_arp_table_entry__m_8cc" startline="130" endline="134">doParsimArrayUnpacking</referencedby>
+        <referencedby refid="class_mac_table_entry_1af385f4a3b0e02db2f866ade41f06720d" compoundref="_mac_table_entry__m_8cc" startline="226" endline="235">MacTableEntry::parsimUnpack</referencedby>
+        <referencedby refid="class_quantum_key_entry_1ab3dfccf59d57d3135ee356c6f6af2273" compoundref="_quantum_key_entry__m_8cc" startline="221" endline="228">QuantumKeyEntry::parsimUnpack</referencedby>
+        <referencedby refid="class_quantum_sub_interface_binding_1a84090e4f74ff20a7880f49a4fcf4b09c" compoundref="_quantum_sub_interface_binding__m_8cc" startline="228" endline="238">QuantumSubInterfaceBinding::parsimUnpack</referencedby>
+        <referencedby refid="class_session_state_entry_1a3f45aba80dfbd84efe295c99be6acb2a" compoundref="_session_state_entry__m_8cc" startline="231" endline="243">SessionStateEntry::parsimUnpack</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespaceomnetpp_1a1043d9829c084411066b9e9469d75942" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename A</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void omnetpp::doParsimPacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *buffer, const std::list&lt; T, A &gt; &amp;l)</argsstring>
+        <name>doParsimPacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>const std::list&lt; T, A &gt; &amp;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="58" column="6" bodyfile="ArpTableEntry_m.cc" bodystart="58" bodyend="63"/>
+        <references refid="namespaceomnetpp_1aa55507da29724bc32cb1377349b22c87" compoundref="_arp_table_entry__m_8cc" startline="38" endline="44">doParsimPacking</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceomnetpp_1a28632f95fc2029c95828ed30e379f9ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename A</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void omnetpp::doParsimUnpacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *buffer, std::list&lt; T, A &gt; &amp;l)</argsstring>
+        <name>doParsimUnpacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>std::list&lt; T, A &gt; &amp;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="66" column="6" bodyfile="ArpTableEntry_m.cc" bodystart="66" bodyend="74"/>
+        <references refid="namespaceomnetpp_1a5d85de2bce765edaa5f7b1651f94f37c" compoundref="_arp_table_entry__m_8cc" startline="47" endline="54">doParsimUnpacking</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceomnetpp_1a44c0e632aecd37f539392e96147deef0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename Tr</type>
+          </param>
+          <param>
+            <type>typename A</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void omnetpp::doParsimPacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *buffer, const std::set&lt; T, Tr, A &gt; &amp;s)</argsstring>
+        <name>doParsimPacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>const std::set&lt; T, Tr, A &gt; &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="78" column="6" bodyfile="ArpTableEntry_m.cc" bodystart="78" bodyend="83"/>
+        <references refid="namespaceomnetpp_1aa55507da29724bc32cb1377349b22c87" compoundref="_arp_table_entry__m_8cc" startline="38" endline="44">doParsimPacking</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceomnetpp_1a8ae2ca4f89c4d2f8a95512b5b2936c79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename Tr</type>
+          </param>
+          <param>
+            <type>typename A</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void omnetpp::doParsimUnpacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *buffer, std::set&lt; T, Tr, A &gt; &amp;s)</argsstring>
+        <name>doParsimUnpacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>std::set&lt; T, Tr, A &gt; &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="86" column="6" bodyfile="ArpTableEntry_m.cc" bodystart="86" bodyend="95"/>
+        <references refid="namespaceomnetpp_1a5d85de2bce765edaa5f7b1651f94f37c" compoundref="_arp_table_entry__m_8cc" startline="47" endline="54">doParsimUnpacking</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceomnetpp_1ae14adea382a91da2e1157d74981a946b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename K</type>
+          </param>
+          <param>
+            <type>typename V</type>
+          </param>
+          <param>
+            <type>typename Tr</type>
+          </param>
+          <param>
+            <type>typename A</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void omnetpp::doParsimPacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *buffer, const std::map&lt; K, V, Tr, A &gt; &amp;m)</argsstring>
+        <name>doParsimPacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>const std::map&lt; K, V, Tr, A &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="99" column="6" bodyfile="ArpTableEntry_m.cc" bodystart="99" bodyend="106"/>
+        <references refid="namespaceomnetpp_1aa55507da29724bc32cb1377349b22c87" compoundref="_arp_table_entry__m_8cc" startline="38" endline="44">doParsimPacking</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceomnetpp_1a6fd2557203871e46db43fa9c63968117" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename K</type>
+          </param>
+          <param>
+            <type>typename V</type>
+          </param>
+          <param>
+            <type>typename Tr</type>
+          </param>
+          <param>
+            <type>typename A</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void omnetpp::doParsimUnpacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *buffer, std::map&lt; K, V, Tr, A &gt; &amp;m)</argsstring>
+        <name>doParsimUnpacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>std::map&lt; K, V, Tr, A &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="109" column="6" bodyfile="ArpTableEntry_m.cc" bodystart="109" bodyend="119"/>
+        <references refid="namespaceomnetpp_1a5d85de2bce765edaa5f7b1651f94f37c" compoundref="_arp_table_entry__m_8cc" startline="47" endline="54">doParsimUnpacking</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceomnetpp_1a55066a1505082b338d233957ee65f0ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void omnetpp::doParsimArrayPacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *b, const T *t, int n)</argsstring>
+        <name>doParsimArrayPacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const T *</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="123" column="6" bodyfile="ArpTableEntry_m.cc" bodystart="123" bodyend="127"/>
+        <references refid="namespaceomnetpp_1aa55507da29724bc32cb1377349b22c87" compoundref="_arp_table_entry__m_8cc" startline="38" endline="44">doParsimPacking</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceomnetpp_1aace4e02d3cd181249cf81a4bf8827fa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void omnetpp::doParsimArrayUnpacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *b, T *t, int n)</argsstring>
+        <name>doParsimArrayUnpacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="130" column="6" bodyfile="ArpTableEntry_m.cc" bodystart="130" bodyend="134"/>
+        <references refid="namespaceomnetpp_1a5d85de2bce765edaa5f7b1651f94f37c" compoundref="_arp_table_entry__m_8cc" startline="47" endline="54">doParsimUnpacking</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceomnetpp_1a41f5f036ca92034bc3b29ad1f9f96903" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void omnetpp::doParsimPacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *, const T &amp;t)</argsstring>
+        <name>doParsimPacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="138" column="6" bodyfile="ArpTableEntry_m.cc" bodystart="138" bodyend="141"/>
+        <referencedby refid="class_arp_table_entry_1a8297a2585239db52b62f6f1de067e708" compoundref="_arp_table_entry__m_8cc" startline="216" endline="226">ArpTableEntry::parsimPack</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespaceomnetpp_1a7336b297a32484942d52667dae7c7248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void omnetpp::doParsimUnpacking</definition>
+        <argsstring>(omnetpp::cCommBuffer *, T &amp;t)</argsstring>
+        <name>doParsimUnpacking</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+        </param>
+        <param>
+          <type>T &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="144" column="6" bodyfile="ArpTableEntry_m.cc" bodystart="144" bodyend="147"/>
+        <referencedby refid="class_arp_table_entry_1ae93b440a5b71f3dd6054fbab4c5a5ed3" compoundref="_arp_table_entry__m_8cc" startline="228" endline="238">ArpTableEntry::parsimUnpack</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ArpTableEntry_m.cc" line="31" column="17"/>
+  </compounddef>
+</doxygen>

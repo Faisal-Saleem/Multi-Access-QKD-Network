@@ -1,0 +1,100 @@
+.TH "ClientProcessor" 3 "Tue Sep 17 2019" "Multiaccess QKD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ClientProcessor
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <ClientProcessor\&.h>\fP
+.PP
+Inherits cSimpleModule\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBinitializeNetwork\fP ()"
+.br
+.ti -1c
+.RI "void \fBinitiateQKDRequest\fP (std::string source, std::string destination)"
+.br
+.ti -1c
+.RI "void \fBprintMacTable\fP ()"
+.br
+.ti -1c
+.RI "void \fBprintKeyTable\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBinitialize\fP (int stage) override"
+.br
+.ti -1c
+.RI "virtual void \fBhandleMessage\fP (cMessage *msg) override"
+.br
+.ti -1c
+.RI "virtual int \fBnumInitStages\fP () const override"
+.br
+.ti -1c
+.RI "unsigned int \fBcountSetBits\fP (unsigned int n)"
+.br
+.ti -1c
+.RI "std::string \fBgenerateRandomKey\fP (int keyLength)"
+.br
+.ti -1c
+.RI "std::string \fBconvertToBinary\fP (int initialKey)"
+.br
+.ti -1c
+.RI "std::string \fBcompareBasis\fP (std::string statesUsed, std::string receivedStates, std::string randomBits)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 18 of file ClientProcessor\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "std::string ClientProcessor::compareBasis (std::string statesUsed, std::string receivedStates, std::string randomBits)\fC [protected]\fP"
+
+.PP
+Definition at line 233 of file ClientProcessor\&.cc\&.
+.SS "std::string ClientProcessor::convertToBinary (int initialKey)\fC [protected]\fP"
+
+.PP
+Definition at line 172 of file ClientProcessor\&.cc\&.
+.SS "unsigned int ClientProcessor::countSetBits (unsigned int n)\fC [protected]\fP"
+
+.PP
+Definition at line 161 of file ClientProcessor\&.cc\&.
+.SS "std::string ClientProcessor::generateRandomKey (int keyLength)\fC [protected]\fP"
+
+.SS "void ClientProcessor::handleMessage (cMessage * msg)\fC [override]\fP, \fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 88 of file ClientProcessor\&.cc\&.
+.SS "void ClientProcessor::initialize (int stage)\fC [override]\fP, \fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 26 of file ClientProcessor\&.cc\&.
+.SS "void ClientProcessor::initializeNetwork ()"
+
+.SS "void ClientProcessor::initiateQKDRequest (std::string source, std::string destination)"
+
+.SS "int ClientProcessor::numInitStages () const\fC [override]\fP, \fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 83 of file ClientProcessor\&.cc\&.
+.SS "void ClientProcessor::printKeyTable ()"
+
+.PP
+Definition at line 205 of file ClientProcessor\&.cc\&.
+.SS "void ClientProcessor::printMacTable ()"
+
+.PP
+Definition at line 182 of file ClientProcessor\&.cc\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Multiaccess QKD from the source code\&.

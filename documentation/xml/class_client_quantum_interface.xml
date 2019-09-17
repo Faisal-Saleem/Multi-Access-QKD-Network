@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_client_quantum_interface" kind="class" language="C++" prot="public">
+    <compoundname>ClientQuantumInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cSimpleModule</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_client_quantum_interface_1a030423821da6058f2d491a3a6e0ad41d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClientQuantumInterface::initialize</definition>
+        <argsstring>() override</argsstring>
+        <name>initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientQuantumInterface.cc" line="18" column="18" bodyfile="ClientQuantumInterface.cc" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_quantum_interface_1a8a166fcc24dd60d11f6b79c78aa58642" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClientQuantumInterface::handleMessage</definition>
+        <argsstring>(cMessage *msg) override</argsstring>
+        <name>handleMessage</name>
+        <param>
+          <type>cMessage *</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientQuantumInterface.cc" line="19" column="18" bodyfile="ClientQuantumInterface.cc" bodystart="28" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ClientQuantumInterface</label>
+        <link refid="class_client_quantum_interface"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ClientQuantumInterface</label>
+        <link refid="class_client_quantum_interface"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+    </collaborationgraph>
+    <location file="ClientQuantumInterface.cc" line="16" column="1" bodyfile="ClientQuantumInterface.cc" bodystart="15" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_client_quantum_interface_1a8a166fcc24dd60d11f6b79c78aa58642" prot="protected" virt="virtual"><scope>ClientQuantumInterface</scope><name>handleMessage</name></member>
+      <member refid="class_client_quantum_interface_1a030423821da6058f2d491a3a6e0ad41d" prot="protected" virt="virtual"><scope>ClientQuantumInterface</scope><name>initialize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

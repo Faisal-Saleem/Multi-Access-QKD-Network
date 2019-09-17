@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_client_filter_straight" kind="class" language="C++" prot="public">
+    <compoundname>ClientFilterStraight</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cSimpleModule</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_client_filter_straight_1a8cad11ca989980174c4ffb81464c12ec" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClientFilterStraight::initialize</definition>
+        <argsstring>() override</argsstring>
+        <name>initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientFilterStraight.cc" line="19" column="18" bodyfile="ClientFilterStraight.cc" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_filter_straight_1a781177a547deb7b271315b0b5bac735d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClientFilterStraight::handleMessage</definition>
+        <argsstring>(cMessage *msg) override</argsstring>
+        <name>handleMessage</name>
+        <param>
+          <type>cMessage *</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientFilterStraight.cc" line="20" column="18" bodyfile="ClientFilterStraight.cc" bodystart="29" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+      <node id="1">
+        <label>ClientFilterStraight</label>
+        <link refid="class_client_filter_straight"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+      <node id="1">
+        <label>ClientFilterStraight</label>
+        <link refid="class_client_filter_straight"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ClientFilterStraight.cc" line="17" column="1" bodyfile="ClientFilterStraight.cc" bodystart="16" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_client_filter_straight_1a781177a547deb7b271315b0b5bac735d" prot="protected" virt="virtual"><scope>ClientFilterStraight</scope><name>handleMessage</name></member>
+      <member refid="class_client_filter_straight_1a8cad11ca989980174c4ffb81464c12ec" prot="protected" virt="virtual"><scope>ClientFilterStraight</scope><name>initialize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

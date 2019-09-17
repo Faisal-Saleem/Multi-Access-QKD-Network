@@ -1,0 +1,312 @@
+.TH "SessionStateEntry" 3 "Tue Sep 17 2019" "Multiaccess QKD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SessionStateEntry
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <SessionStateEntry_m\&.h>\fP
+.PP
+Inherits cPacket\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSessionStateEntry\fP (const char *name=nullptr, short kind=0)"
+.br
+.ti -1c
+.RI "\fBSessionStateEntry\fP (const \fBSessionStateEntry\fP &other)"
+.br
+.ti -1c
+.RI "virtual \fB~SessionStateEntry\fP ()"
+.br
+.ti -1c
+.RI "\fBSessionStateEntry\fP & \fBoperator=\fP (const \fBSessionStateEntry\fP &other)"
+.br
+.ti -1c
+.RI "virtual \fBSessionStateEntry\fP * \fBdup\fP () const override"
+.br
+.ti -1c
+.RI "virtual void \fBparsimPack\fP (omnetpp::cCommBuffer *b) const override"
+.br
+.ti -1c
+.RI "virtual void \fBparsimUnpack\fP (omnetpp::cCommBuffer *b) override"
+.br
+.ti -1c
+.RI "virtual int \fBgetSessionId\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetSessionId\fP (int \fBsessionId\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetSrcMac\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetSrcMac\fP (const char *\fBsrcMac\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetSrcQMac\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetSrcQMac\fP (const char *\fBsrcQMac\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetSrcSubInterface\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetSrcSubInterface\fP (const char *\fBsrcSubInterface\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetDesMac\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetDesMac\fP (const char *\fBdesMac\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetDesQMac\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetDesQMac\fP (const char *\fBdesQMac\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetDesSubInterface\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetDesSubInterface\fP (const char *\fBdesSubInterface\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetExpiry\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetExpiry\fP (const char *\fBexpiry\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetStatus\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetStatus\fP (const char *\fBstatus\fP)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBoperator==\fP (const \fBSessionStateEntry\fP &)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBsessionId\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBsrcMac\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBsrcQMac\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBsrcSubInterface\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBdesMac\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBdesQMac\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBdesSubInterface\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBexpiry\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBstatus\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class generated from \fCSessionStateEntry\&.msg:16\fP by nedtool\&. 
+.PP
+.nf
+
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Lesser General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version\&.
+// 
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE\&.  See the
+// GNU Lesser General Public License for more details\&.
+// 
+// You should have received a copy of the GNU Lesser General Public License
+// along with this program\&.  If not, see http://www.gnu.org/licenses/\&.
+//
+packet \fBSessionStateEntry\fP
+{
+    int sessionId;
+    string srcMac;
+    string srcQMac;
+    string srcSubInterface;
+    string desMac;
+    string desQMac;
+    string desSubInterface;
+    string expiry;
+    string status;
+}
+.fi
+.PP
+ 
+.PP
+Definition at line 52 of file SessionStateEntry_m\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SessionStateEntry::SessionStateEntry (const char * name = \fCnullptr\fP, short kind = \fC0\fP)"
+
+.SS "SessionStateEntry::SessionStateEntry (const \fBSessionStateEntry\fP & other)"
+
+.PP
+Definition at line 187 of file SessionStateEntry_m\&.cc\&.
+.SS "SessionStateEntry::~SessionStateEntry ()\fC [virtual]\fP"
+
+.PP
+Definition at line 192 of file SessionStateEntry_m\&.cc\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "virtual \fBSessionStateEntry\fP* SessionStateEntry::dup () const\fC [inline]\fP, \fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 77 of file SessionStateEntry_m\&.h\&.
+.SS "const char * SessionStateEntry::getDesMac () const\fC [virtual]\fP"
+
+.PP
+Definition at line 285 of file SessionStateEntry_m\&.cc\&.
+.SS "const char * SessionStateEntry::getDesQMac () const\fC [virtual]\fP"
+
+.PP
+Definition at line 295 of file SessionStateEntry_m\&.cc\&.
+.SS "const char * SessionStateEntry::getDesSubInterface () const\fC [virtual]\fP"
+
+.PP
+Definition at line 305 of file SessionStateEntry_m\&.cc\&.
+.SS "const char * SessionStateEntry::getExpiry () const\fC [virtual]\fP"
+
+.PP
+Definition at line 315 of file SessionStateEntry_m\&.cc\&.
+.SS "int SessionStateEntry::getSessionId () const\fC [virtual]\fP"
+
+.PP
+Definition at line 245 of file SessionStateEntry_m\&.cc\&.
+.SS "const char * SessionStateEntry::getSrcMac () const\fC [virtual]\fP"
+
+.PP
+Definition at line 255 of file SessionStateEntry_m\&.cc\&.
+.SS "const char * SessionStateEntry::getSrcQMac () const\fC [virtual]\fP"
+
+.PP
+Definition at line 265 of file SessionStateEntry_m\&.cc\&.
+.SS "const char * SessionStateEntry::getSrcSubInterface () const\fC [virtual]\fP"
+
+.PP
+Definition at line 275 of file SessionStateEntry_m\&.cc\&.
+.SS "const char * SessionStateEntry::getStatus () const\fC [virtual]\fP"
+
+.PP
+Definition at line 325 of file SessionStateEntry_m\&.cc\&.
+.SS "\fBSessionStateEntry\fP & SessionStateEntry::operator= (const \fBSessionStateEntry\fP & other)"
+
+.PP
+Definition at line 196 of file SessionStateEntry_m\&.cc\&.
+.SS "bool SessionStateEntry::operator== (const \fBSessionStateEntry\fP &)\fC [protected]\fP"
+
+.SS "void SessionStateEntry::parsimPack (omnetpp::cCommBuffer * b) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 217 of file SessionStateEntry_m\&.cc\&.
+.SS "void SessionStateEntry::parsimUnpack (omnetpp::cCommBuffer * b)\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 231 of file SessionStateEntry_m\&.cc\&.
+.SS "void SessionStateEntry::setDesMac (const char * desMac)\fC [virtual]\fP"
+
+.PP
+Definition at line 290 of file SessionStateEntry_m\&.cc\&.
+.SS "void SessionStateEntry::setDesQMac (const char * desQMac)\fC [virtual]\fP"
+
+.PP
+Definition at line 300 of file SessionStateEntry_m\&.cc\&.
+.SS "void SessionStateEntry::setDesSubInterface (const char * desSubInterface)\fC [virtual]\fP"
+
+.PP
+Definition at line 310 of file SessionStateEntry_m\&.cc\&.
+.SS "void SessionStateEntry::setExpiry (const char * expiry)\fC [virtual]\fP"
+
+.PP
+Definition at line 320 of file SessionStateEntry_m\&.cc\&.
+.SS "void SessionStateEntry::setSessionId (int sessionId)\fC [virtual]\fP"
+
+.PP
+Definition at line 250 of file SessionStateEntry_m\&.cc\&.
+.SS "void SessionStateEntry::setSrcMac (const char * srcMac)\fC [virtual]\fP"
+
+.PP
+Definition at line 260 of file SessionStateEntry_m\&.cc\&.
+.SS "void SessionStateEntry::setSrcQMac (const char * srcQMac)\fC [virtual]\fP"
+
+.PP
+Definition at line 270 of file SessionStateEntry_m\&.cc\&.
+.SS "void SessionStateEntry::setSrcSubInterface (const char * srcSubInterface)\fC [virtual]\fP"
+
+.PP
+Definition at line 280 of file SessionStateEntry_m\&.cc\&.
+.SS "void SessionStateEntry::setStatus (const char * status)\fC [virtual]\fP"
+
+.PP
+Definition at line 330 of file SessionStateEntry_m\&.cc\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "::omnetpp::opp_string SessionStateEntry::desMac\fC [protected]\fP"
+
+.PP
+Definition at line 59 of file SessionStateEntry_m\&.h\&.
+.SS "::omnetpp::opp_string SessionStateEntry::desQMac\fC [protected]\fP"
+
+.PP
+Definition at line 60 of file SessionStateEntry_m\&.h\&.
+.SS "::omnetpp::opp_string SessionStateEntry::desSubInterface\fC [protected]\fP"
+
+.PP
+Definition at line 61 of file SessionStateEntry_m\&.h\&.
+.SS "::omnetpp::opp_string SessionStateEntry::expiry\fC [protected]\fP"
+
+.PP
+Definition at line 62 of file SessionStateEntry_m\&.h\&.
+.SS "int SessionStateEntry::sessionId\fC [protected]\fP"
+
+.PP
+Definition at line 55 of file SessionStateEntry_m\&.h\&.
+.SS "::omnetpp::opp_string SessionStateEntry::srcMac\fC [protected]\fP"
+
+.PP
+Definition at line 56 of file SessionStateEntry_m\&.h\&.
+.SS "::omnetpp::opp_string SessionStateEntry::srcQMac\fC [protected]\fP"
+
+.PP
+Definition at line 57 of file SessionStateEntry_m\&.h\&.
+.SS "::omnetpp::opp_string SessionStateEntry::srcSubInterface\fC [protected]\fP"
+
+.PP
+Definition at line 58 of file SessionStateEntry_m\&.h\&.
+.SS "::omnetpp::opp_string SessionStateEntry::status\fC [protected]\fP"
+
+.PP
+Definition at line 63 of file SessionStateEntry_m\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Multiaccess QKD from the source code\&.

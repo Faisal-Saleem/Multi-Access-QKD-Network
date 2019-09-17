@@ -1,0 +1,766 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_session_state_entry" kind="class" language="C++" prot="public">
+    <compoundname>SessionStateEntry</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cPacket</basecompoundref>
+    <includes refid="_session_state_entry__m_8h" local="no">SessionStateEntry_m.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_session_state_entry_1a1e2b284cf84911f94e9ccae04816e6c5" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SessionStateEntry::sessionId</definition>
+        <argsstring></argsstring>
+        <name>sessionId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="55" column="9" bodyfile="SessionStateEntry_m.h" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_session_state_entry_1ac083ba10ce3ac4517da4d399facfca21" compoundref="_session_state_entry__m_8cc" startline="217" endline="229">parsimPack</referencedby>
+        <referencedby refid="class_session_state_entry_1a3f45aba80dfbd84efe295c99be6acb2a" compoundref="_session_state_entry__m_8cc" startline="231" endline="243">parsimUnpack</referencedby>
+        <referencedby refid="class_session_state_entry_1ac7008d50f836ab35135b1f4c18d0d4f3" compoundref="_session_state_entry__m_8cc" startline="245" endline="248">getSessionId</referencedby>
+        <referencedby refid="class_session_state_entry_1a99f4e085c7f8e10beaefe6c92cf25c91" compoundref="_session_state_entry__m_8cc" startline="250" endline="253">setSessionId</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_session_state_entry_1a4dfa25147bc8c1799fcc0ba8446cec52" prot="protected" static="no" mutable="no">
+        <type>::omnetpp::opp_string</type>
+        <definition>::omnetpp::opp_string SessionStateEntry::srcMac</definition>
+        <argsstring></argsstring>
+        <name>srcMac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="56" column="27" bodyfile="SessionStateEntry_m.h" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_session_state_entry_1ac083ba10ce3ac4517da4d399facfca21" compoundref="_session_state_entry__m_8cc" startline="217" endline="229">parsimPack</referencedby>
+        <referencedby refid="class_session_state_entry_1a3f45aba80dfbd84efe295c99be6acb2a" compoundref="_session_state_entry__m_8cc" startline="231" endline="243">parsimUnpack</referencedby>
+        <referencedby refid="class_session_state_entry_1a0a95e11ae98c1e210baf2bb2dfafaeb3" compoundref="_session_state_entry__m_8cc" startline="255" endline="258">getSrcMac</referencedby>
+        <referencedby refid="class_session_state_entry_1a925ca61bf7230b35e3f915062a6d726c" compoundref="_session_state_entry__m_8cc" startline="260" endline="263">setSrcMac</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_session_state_entry_1a49d3ca4ef3d5dba56d8f2c82a8c6eecf" prot="protected" static="no" mutable="no">
+        <type>::omnetpp::opp_string</type>
+        <definition>::omnetpp::opp_string SessionStateEntry::srcQMac</definition>
+        <argsstring></argsstring>
+        <name>srcQMac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="57" column="27" bodyfile="SessionStateEntry_m.h" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_session_state_entry_1ac083ba10ce3ac4517da4d399facfca21" compoundref="_session_state_entry__m_8cc" startline="217" endline="229">parsimPack</referencedby>
+        <referencedby refid="class_session_state_entry_1a3f45aba80dfbd84efe295c99be6acb2a" compoundref="_session_state_entry__m_8cc" startline="231" endline="243">parsimUnpack</referencedby>
+        <referencedby refid="class_session_state_entry_1aabe67a1cafcc6991c929563b3210633d" compoundref="_session_state_entry__m_8cc" startline="265" endline="268">getSrcQMac</referencedby>
+        <referencedby refid="class_session_state_entry_1a808022e62c2fe4736598ac93811436da" compoundref="_session_state_entry__m_8cc" startline="270" endline="273">setSrcQMac</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_session_state_entry_1a0001a1ce6df5f423b7f61f56ae4f8ebb" prot="protected" static="no" mutable="no">
+        <type>::omnetpp::opp_string</type>
+        <definition>::omnetpp::opp_string SessionStateEntry::srcSubInterface</definition>
+        <argsstring></argsstring>
+        <name>srcSubInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="58" column="27" bodyfile="SessionStateEntry_m.h" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_session_state_entry_1ac083ba10ce3ac4517da4d399facfca21" compoundref="_session_state_entry__m_8cc" startline="217" endline="229">parsimPack</referencedby>
+        <referencedby refid="class_session_state_entry_1a3f45aba80dfbd84efe295c99be6acb2a" compoundref="_session_state_entry__m_8cc" startline="231" endline="243">parsimUnpack</referencedby>
+        <referencedby refid="class_session_state_entry_1af67c535933d3a94227e14930b8007ec8" compoundref="_session_state_entry__m_8cc" startline="275" endline="278">getSrcSubInterface</referencedby>
+        <referencedby refid="class_session_state_entry_1a8396331691af743c912b97d8dacb4c2e" compoundref="_session_state_entry__m_8cc" startline="280" endline="283">setSrcSubInterface</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_session_state_entry_1abccf3a382a8959756db7a93a1d4bbf29" prot="protected" static="no" mutable="no">
+        <type>::omnetpp::opp_string</type>
+        <definition>::omnetpp::opp_string SessionStateEntry::desMac</definition>
+        <argsstring></argsstring>
+        <name>desMac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="59" column="27" bodyfile="SessionStateEntry_m.h" bodystart="59" bodyend="-1"/>
+        <referencedby refid="class_session_state_entry_1ac083ba10ce3ac4517da4d399facfca21" compoundref="_session_state_entry__m_8cc" startline="217" endline="229">parsimPack</referencedby>
+        <referencedby refid="class_session_state_entry_1a3f45aba80dfbd84efe295c99be6acb2a" compoundref="_session_state_entry__m_8cc" startline="231" endline="243">parsimUnpack</referencedby>
+        <referencedby refid="class_session_state_entry_1aa26d3a0d89a0a480a065700541c7f348" compoundref="_session_state_entry__m_8cc" startline="285" endline="288">getDesMac</referencedby>
+        <referencedby refid="class_session_state_entry_1af005291102751eadc6a03d95d00f9907" compoundref="_session_state_entry__m_8cc" startline="290" endline="293">setDesMac</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_session_state_entry_1a408f12d8d179c98049eb2e5622746412" prot="protected" static="no" mutable="no">
+        <type>::omnetpp::opp_string</type>
+        <definition>::omnetpp::opp_string SessionStateEntry::desQMac</definition>
+        <argsstring></argsstring>
+        <name>desQMac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="60" column="27" bodyfile="SessionStateEntry_m.h" bodystart="60" bodyend="-1"/>
+        <referencedby refid="class_session_state_entry_1ac083ba10ce3ac4517da4d399facfca21" compoundref="_session_state_entry__m_8cc" startline="217" endline="229">parsimPack</referencedby>
+        <referencedby refid="class_session_state_entry_1a3f45aba80dfbd84efe295c99be6acb2a" compoundref="_session_state_entry__m_8cc" startline="231" endline="243">parsimUnpack</referencedby>
+        <referencedby refid="class_session_state_entry_1a39fc505629ae92fe94ec28eb4d65b7e7" compoundref="_session_state_entry__m_8cc" startline="295" endline="298">getDesQMac</referencedby>
+        <referencedby refid="class_session_state_entry_1a0a0e5e1e9493fa447f02c04e501e91ff" compoundref="_session_state_entry__m_8cc" startline="300" endline="303">setDesQMac</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_session_state_entry_1ab0e814d348709565c650393ff88ed4d9" prot="protected" static="no" mutable="no">
+        <type>::omnetpp::opp_string</type>
+        <definition>::omnetpp::opp_string SessionStateEntry::desSubInterface</definition>
+        <argsstring></argsstring>
+        <name>desSubInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="61" column="27" bodyfile="SessionStateEntry_m.h" bodystart="61" bodyend="-1"/>
+        <referencedby refid="class_session_state_entry_1ac083ba10ce3ac4517da4d399facfca21" compoundref="_session_state_entry__m_8cc" startline="217" endline="229">parsimPack</referencedby>
+        <referencedby refid="class_session_state_entry_1a3f45aba80dfbd84efe295c99be6acb2a" compoundref="_session_state_entry__m_8cc" startline="231" endline="243">parsimUnpack</referencedby>
+        <referencedby refid="class_session_state_entry_1a6744fccab42b02111ed4a598638b26b5" compoundref="_session_state_entry__m_8cc" startline="305" endline="308">getDesSubInterface</referencedby>
+        <referencedby refid="class_session_state_entry_1a3b6589d8f660884c5bd5fa751c3d4b81" compoundref="_session_state_entry__m_8cc" startline="310" endline="313">setDesSubInterface</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_session_state_entry_1a005a90a9b13bdcc08daa51d5bc04cbab" prot="protected" static="no" mutable="no">
+        <type>::omnetpp::opp_string</type>
+        <definition>::omnetpp::opp_string SessionStateEntry::expiry</definition>
+        <argsstring></argsstring>
+        <name>expiry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="62" column="27" bodyfile="SessionStateEntry_m.h" bodystart="62" bodyend="-1"/>
+        <referencedby refid="class_session_state_entry_1ac083ba10ce3ac4517da4d399facfca21" compoundref="_session_state_entry__m_8cc" startline="217" endline="229">parsimPack</referencedby>
+        <referencedby refid="class_session_state_entry_1a3f45aba80dfbd84efe295c99be6acb2a" compoundref="_session_state_entry__m_8cc" startline="231" endline="243">parsimUnpack</referencedby>
+        <referencedby refid="class_session_state_entry_1a802f897ce63cd7264ade71cdccc303b3" compoundref="_session_state_entry__m_8cc" startline="315" endline="318">getExpiry</referencedby>
+        <referencedby refid="class_session_state_entry_1a427ca30027864c36630b334f02c05ac7" compoundref="_session_state_entry__m_8cc" startline="320" endline="323">setExpiry</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_session_state_entry_1a25f44a9277b637323647365b7be74d5e" prot="protected" static="no" mutable="no">
+        <type>::omnetpp::opp_string</type>
+        <definition>::omnetpp::opp_string SessionStateEntry::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="63" column="27" bodyfile="SessionStateEntry_m.h" bodystart="63" bodyend="-1"/>
+        <referencedby refid="class_session_state_entry_1ac083ba10ce3ac4517da4d399facfca21" compoundref="_session_state_entry__m_8cc" startline="217" endline="229">parsimPack</referencedby>
+        <referencedby refid="class_session_state_entry_1a3f45aba80dfbd84efe295c99be6acb2a" compoundref="_session_state_entry__m_8cc" startline="231" endline="243">parsimUnpack</referencedby>
+        <referencedby refid="class_session_state_entry_1aa4761da1a38d4d84ef33e85908221c63" compoundref="_session_state_entry__m_8cc" startline="325" endline="328">getStatus</referencedby>
+        <referencedby refid="class_session_state_entry_1a489034b564fa1d8ce989cef3af8342f9" compoundref="_session_state_entry__m_8cc" startline="330" endline="333">setStatus</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_session_state_entry_1aab8ed9178ce3f354772b8a16ef03b1c7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SessionStateEntry::copy</definition>
+        <argsstring>(const SessionStateEntry &amp;other)</argsstring>
+        <name>copy</name>
+        <param>
+          <type>const <ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="66" column="10" bodyfile="SessionStateEntry_m.cc" bodystart="204" bodyend="215"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_session_state_entry_1acd36b67b413ec4d1c703dc5ac9a0063f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SessionStateEntry::operator==</definition>
+        <argsstring>(const SessionStateEntry &amp;)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="70" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_session_state_entry_1a57d4591eef85f19274be72730961c819" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SessionStateEntry::SessionStateEntry</definition>
+        <argsstring>(const char *name=nullptr, short kind=0)</argsstring>
+        <name>SessionStateEntry</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>short</type>
+          <declname>kind</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="73" column="5"/>
+        <referencedby refid="class_session_state_entry_1a494f253bb05becff53e17e9eef30e185" compoundref="_session_state_entry__m_8h" startline="77" endline="77">dup</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1aeea468dbd112c0754176456c9ae727e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SessionStateEntry::SessionStateEntry</definition>
+        <argsstring>(const SessionStateEntry &amp;other)</argsstring>
+        <name>SessionStateEntry</name>
+        <param>
+          <type>const <ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="74" column="5" bodyfile="SessionStateEntry_m.cc" bodystart="187" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1a4913739bcf0963c5680499eb85e079c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>SessionStateEntry::~SessionStateEntry</definition>
+        <argsstring>()</argsstring>
+        <name>~SessionStateEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="75" column="13" bodyfile="SessionStateEntry_m.cc" bodystart="192" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1a2f573abb164e4a1c0e2bde8ccb6ede59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref> &amp;</type>
+        <definition>SessionStateEntry &amp; SessionStateEntry::operator=</definition>
+        <argsstring>(const SessionStateEntry &amp;other)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="76" column="23" bodyfile="SessionStateEntry_m.cc" bodystart="196" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1a494f253bb05becff53e17e9eef30e185" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref> *</type>
+        <definition>virtual SessionStateEntry* SessionStateEntry::dup</definition>
+        <argsstring>() const override</argsstring>
+        <name>dup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="77" column="31" bodyfile="SessionStateEntry_m.h" bodystart="77" bodyend="77"/>
+        <references refid="class_session_state_entry_1a57d4591eef85f19274be72730961c819">SessionStateEntry</references>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1ac083ba10ce3ac4517da4d399facfca21" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SessionStateEntry::parsimPack</definition>
+        <argsstring>(omnetpp::cCommBuffer *b) const override</argsstring>
+        <name>parsimPack</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="78" column="18" bodyfile="SessionStateEntry_m.cc" bodystart="217" bodyend="229"/>
+        <references refid="namespaceomnetpp_1aa55507da29724bc32cb1377349b22c87" compoundref="_arp_table_entry__m_8cc" startline="38" endline="44">omnetpp::doParsimPacking</references>
+        <references refid="class_session_state_entry_1a1e2b284cf84911f94e9ccae04816e6c5" compoundref="_session_state_entry__m_8h" startline="55">sessionId</references>
+        <references refid="class_session_state_entry_1a4dfa25147bc8c1799fcc0ba8446cec52" compoundref="_session_state_entry__m_8h" startline="56">srcMac</references>
+        <references refid="class_session_state_entry_1a49d3ca4ef3d5dba56d8f2c82a8c6eecf" compoundref="_session_state_entry__m_8h" startline="57">srcQMac</references>
+        <references refid="class_session_state_entry_1a0001a1ce6df5f423b7f61f56ae4f8ebb" compoundref="_session_state_entry__m_8h" startline="58">srcSubInterface</references>
+        <references refid="class_session_state_entry_1abccf3a382a8959756db7a93a1d4bbf29" compoundref="_session_state_entry__m_8h" startline="59">desMac</references>
+        <references refid="class_session_state_entry_1a408f12d8d179c98049eb2e5622746412" compoundref="_session_state_entry__m_8h" startline="60">desQMac</references>
+        <references refid="class_session_state_entry_1ab0e814d348709565c650393ff88ed4d9" compoundref="_session_state_entry__m_8h" startline="61">desSubInterface</references>
+        <references refid="class_session_state_entry_1a005a90a9b13bdcc08daa51d5bc04cbab" compoundref="_session_state_entry__m_8h" startline="62">expiry</references>
+        <references refid="class_session_state_entry_1a25f44a9277b637323647365b7be74d5e" compoundref="_session_state_entry__m_8h" startline="63">status</references>
+        <referencedby refid="_session_state_entry__m_8h_1a85f25a4752eabce29e7cdcc2b1def389" compoundref="_session_state_entry__m_8h" startline="102" endline="102">doParsimPacking</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1a3f45aba80dfbd84efe295c99be6acb2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SessionStateEntry::parsimUnpack</definition>
+        <argsstring>(omnetpp::cCommBuffer *b) override</argsstring>
+        <name>parsimUnpack</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="79" column="18" bodyfile="SessionStateEntry_m.cc" bodystart="231" bodyend="243"/>
+        <references refid="namespaceomnetpp_1a5d85de2bce765edaa5f7b1651f94f37c" compoundref="_arp_table_entry__m_8cc" startline="47" endline="54">omnetpp::doParsimUnpacking</references>
+        <references refid="class_session_state_entry_1a1e2b284cf84911f94e9ccae04816e6c5" compoundref="_session_state_entry__m_8h" startline="55">sessionId</references>
+        <references refid="class_session_state_entry_1a4dfa25147bc8c1799fcc0ba8446cec52" compoundref="_session_state_entry__m_8h" startline="56">srcMac</references>
+        <references refid="class_session_state_entry_1a49d3ca4ef3d5dba56d8f2c82a8c6eecf" compoundref="_session_state_entry__m_8h" startline="57">srcQMac</references>
+        <references refid="class_session_state_entry_1a0001a1ce6df5f423b7f61f56ae4f8ebb" compoundref="_session_state_entry__m_8h" startline="58">srcSubInterface</references>
+        <references refid="class_session_state_entry_1abccf3a382a8959756db7a93a1d4bbf29" compoundref="_session_state_entry__m_8h" startline="59">desMac</references>
+        <references refid="class_session_state_entry_1a408f12d8d179c98049eb2e5622746412" compoundref="_session_state_entry__m_8h" startline="60">desQMac</references>
+        <references refid="class_session_state_entry_1ab0e814d348709565c650393ff88ed4d9" compoundref="_session_state_entry__m_8h" startline="61">desSubInterface</references>
+        <references refid="class_session_state_entry_1a005a90a9b13bdcc08daa51d5bc04cbab" compoundref="_session_state_entry__m_8h" startline="62">expiry</references>
+        <references refid="class_session_state_entry_1a25f44a9277b637323647365b7be74d5e" compoundref="_session_state_entry__m_8h" startline="63">status</references>
+        <referencedby refid="_session_state_entry__m_8h_1a88e601473f0c9b3602de80ebd7341118" compoundref="_session_state_entry__m_8h" startline="103" endline="103">doParsimUnpacking</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1ac7008d50f836ab35135b1f4c18d0d4f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int SessionStateEntry::getSessionId</definition>
+        <argsstring>() const</argsstring>
+        <name>getSessionId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="82" column="17" bodyfile="SessionStateEntry_m.cc" bodystart="245" bodyend="248"/>
+        <references refid="class_session_state_entry_1a1e2b284cf84911f94e9ccae04816e6c5" compoundref="_session_state_entry__m_8h" startline="55">sessionId</references>
+        <referencedby refid="class_processor_1a6f342c608c14a45a5f4b3930118135bb" compoundref="_processor_8cc" startline="297" endline="326">Processor::printSessionStateTable</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a0369812f9dfd60f49a8f05a5632600b1" compoundref="_session_state_entry__m_8cc" startline="539" endline="560">SessionStateEntryDescriptor::getFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1a99f4e085c7f8e10beaefe6c92cf25c91" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SessionStateEntry::setSessionId</definition>
+        <argsstring>(int sessionId)</argsstring>
+        <name>setSessionId</name>
+        <param>
+          <type>int</type>
+          <declname>sessionId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="83" column="18" bodyfile="SessionStateEntry_m.cc" bodystart="250" bodyend="253"/>
+        <references refid="class_session_state_entry_1a1e2b284cf84911f94e9ccae04816e6c5" compoundref="_session_state_entry__m_8h" startline="55">sessionId</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a7deec6027d458c7fe4a33d1f1287c678" compoundref="_session_state_entry__m_8cc" startline="562" endline="583">SessionStateEntryDescriptor::setFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1a0a95e11ae98c1e210baf2bb2dfafaeb3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * SessionStateEntry::getSrcMac</definition>
+        <argsstring>() const</argsstring>
+        <name>getSrcMac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="84" column="25" bodyfile="SessionStateEntry_m.cc" bodystart="255" bodyend="258"/>
+        <references refid="class_session_state_entry_1a4dfa25147bc8c1799fcc0ba8446cec52" compoundref="_session_state_entry__m_8h" startline="56">srcMac</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+        <referencedby refid="class_processor_1a6f342c608c14a45a5f4b3930118135bb" compoundref="_processor_8cc" startline="297" endline="326">Processor::printSessionStateTable</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a0369812f9dfd60f49a8f05a5632600b1" compoundref="_session_state_entry__m_8cc" startline="539" endline="560">SessionStateEntryDescriptor::getFieldValueAsString</referencedby>
+        <referencedby refid="class_switch_memory_1aee8f80a0b479456debaa707155bca257" compoundref="_switch_memory_8cc" startline="97" endline="129">SwitchMemory::entryExist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1a925ca61bf7230b35e3f915062a6d726c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SessionStateEntry::setSrcMac</definition>
+        <argsstring>(const char *srcMac)</argsstring>
+        <name>setSrcMac</name>
+        <param>
+          <type>const char *</type>
+          <declname>srcMac</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="85" column="18" bodyfile="SessionStateEntry_m.cc" bodystart="260" bodyend="263"/>
+        <references refid="class_session_state_entry_1a4dfa25147bc8c1799fcc0ba8446cec52" compoundref="_session_state_entry__m_8h" startline="56">srcMac</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a7deec6027d458c7fe4a33d1f1287c678" compoundref="_session_state_entry__m_8cc" startline="562" endline="583">SessionStateEntryDescriptor::setFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1aabe67a1cafcc6991c929563b3210633d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * SessionStateEntry::getSrcQMac</definition>
+        <argsstring>() const</argsstring>
+        <name>getSrcQMac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="86" column="25" bodyfile="SessionStateEntry_m.cc" bodystart="265" bodyend="268"/>
+        <references refid="class_session_state_entry_1a49d3ca4ef3d5dba56d8f2c82a8c6eecf" compoundref="_session_state_entry__m_8h" startline="57">srcQMac</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+        <referencedby refid="class_processor_1a6f342c608c14a45a5f4b3930118135bb" compoundref="_processor_8cc" startline="297" endline="326">Processor::printSessionStateTable</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a0369812f9dfd60f49a8f05a5632600b1" compoundref="_session_state_entry__m_8cc" startline="539" endline="560">SessionStateEntryDescriptor::getFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1a808022e62c2fe4736598ac93811436da" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SessionStateEntry::setSrcQMac</definition>
+        <argsstring>(const char *srcQMac)</argsstring>
+        <name>setSrcQMac</name>
+        <param>
+          <type>const char *</type>
+          <declname>srcQMac</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="87" column="18" bodyfile="SessionStateEntry_m.cc" bodystart="270" bodyend="273"/>
+        <references refid="class_session_state_entry_1a49d3ca4ef3d5dba56d8f2c82a8c6eecf" compoundref="_session_state_entry__m_8h" startline="57">srcQMac</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a7deec6027d458c7fe4a33d1f1287c678" compoundref="_session_state_entry__m_8cc" startline="562" endline="583">SessionStateEntryDescriptor::setFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1af67c535933d3a94227e14930b8007ec8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * SessionStateEntry::getSrcSubInterface</definition>
+        <argsstring>() const</argsstring>
+        <name>getSrcSubInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="88" column="25" bodyfile="SessionStateEntry_m.cc" bodystart="275" bodyend="278"/>
+        <references refid="class_session_state_entry_1a0001a1ce6df5f423b7f61f56ae4f8ebb" compoundref="_session_state_entry__m_8h" startline="58">srcSubInterface</references>
+        <referencedby refid="class_processor_1a6f342c608c14a45a5f4b3930118135bb" compoundref="_processor_8cc" startline="297" endline="326">Processor::printSessionStateTable</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a0369812f9dfd60f49a8f05a5632600b1" compoundref="_session_state_entry__m_8cc" startline="539" endline="560">SessionStateEntryDescriptor::getFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1a8396331691af743c912b97d8dacb4c2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SessionStateEntry::setSrcSubInterface</definition>
+        <argsstring>(const char *srcSubInterface)</argsstring>
+        <name>setSrcSubInterface</name>
+        <param>
+          <type>const char *</type>
+          <declname>srcSubInterface</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="89" column="18" bodyfile="SessionStateEntry_m.cc" bodystart="280" bodyend="283"/>
+        <references refid="class_session_state_entry_1a0001a1ce6df5f423b7f61f56ae4f8ebb" compoundref="_session_state_entry__m_8h" startline="58">srcSubInterface</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a7deec6027d458c7fe4a33d1f1287c678" compoundref="_session_state_entry__m_8cc" startline="562" endline="583">SessionStateEntryDescriptor::setFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1aa26d3a0d89a0a480a065700541c7f348" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * SessionStateEntry::getDesMac</definition>
+        <argsstring>() const</argsstring>
+        <name>getDesMac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="90" column="25" bodyfile="SessionStateEntry_m.cc" bodystart="285" bodyend="288"/>
+        <references refid="class_session_state_entry_1abccf3a382a8959756db7a93a1d4bbf29" compoundref="_session_state_entry__m_8h" startline="59">desMac</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+        <referencedby refid="class_processor_1a6f342c608c14a45a5f4b3930118135bb" compoundref="_processor_8cc" startline="297" endline="326">Processor::printSessionStateTable</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a0369812f9dfd60f49a8f05a5632600b1" compoundref="_session_state_entry__m_8cc" startline="539" endline="560">SessionStateEntryDescriptor::getFieldValueAsString</referencedby>
+        <referencedby refid="class_switch_memory_1aee8f80a0b479456debaa707155bca257" compoundref="_switch_memory_8cc" startline="97" endline="129">SwitchMemory::entryExist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1af005291102751eadc6a03d95d00f9907" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SessionStateEntry::setDesMac</definition>
+        <argsstring>(const char *desMac)</argsstring>
+        <name>setDesMac</name>
+        <param>
+          <type>const char *</type>
+          <declname>desMac</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="91" column="18" bodyfile="SessionStateEntry_m.cc" bodystart="290" bodyend="293"/>
+        <references refid="class_session_state_entry_1abccf3a382a8959756db7a93a1d4bbf29" compoundref="_session_state_entry__m_8h" startline="59">desMac</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a7deec6027d458c7fe4a33d1f1287c678" compoundref="_session_state_entry__m_8cc" startline="562" endline="583">SessionStateEntryDescriptor::setFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1a39fc505629ae92fe94ec28eb4d65b7e7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * SessionStateEntry::getDesQMac</definition>
+        <argsstring>() const</argsstring>
+        <name>getDesQMac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="92" column="25" bodyfile="SessionStateEntry_m.cc" bodystart="295" bodyend="298"/>
+        <references refid="class_session_state_entry_1a408f12d8d179c98049eb2e5622746412" compoundref="_session_state_entry__m_8h" startline="60">desQMac</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+        <referencedby refid="class_processor_1a6f342c608c14a45a5f4b3930118135bb" compoundref="_processor_8cc" startline="297" endline="326">Processor::printSessionStateTable</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a0369812f9dfd60f49a8f05a5632600b1" compoundref="_session_state_entry__m_8cc" startline="539" endline="560">SessionStateEntryDescriptor::getFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1a0a0e5e1e9493fa447f02c04e501e91ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SessionStateEntry::setDesQMac</definition>
+        <argsstring>(const char *desQMac)</argsstring>
+        <name>setDesQMac</name>
+        <param>
+          <type>const char *</type>
+          <declname>desQMac</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="93" column="18" bodyfile="SessionStateEntry_m.cc" bodystart="300" bodyend="303"/>
+        <references refid="class_session_state_entry_1a408f12d8d179c98049eb2e5622746412" compoundref="_session_state_entry__m_8h" startline="60">desQMac</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a7deec6027d458c7fe4a33d1f1287c678" compoundref="_session_state_entry__m_8cc" startline="562" endline="583">SessionStateEntryDescriptor::setFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1a6744fccab42b02111ed4a598638b26b5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * SessionStateEntry::getDesSubInterface</definition>
+        <argsstring>() const</argsstring>
+        <name>getDesSubInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="94" column="25" bodyfile="SessionStateEntry_m.cc" bodystart="305" bodyend="308"/>
+        <references refid="class_session_state_entry_1ab0e814d348709565c650393ff88ed4d9" compoundref="_session_state_entry__m_8h" startline="61">desSubInterface</references>
+        <referencedby refid="class_processor_1a6f342c608c14a45a5f4b3930118135bb" compoundref="_processor_8cc" startline="297" endline="326">Processor::printSessionStateTable</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a0369812f9dfd60f49a8f05a5632600b1" compoundref="_session_state_entry__m_8cc" startline="539" endline="560">SessionStateEntryDescriptor::getFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1a3b6589d8f660884c5bd5fa751c3d4b81" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SessionStateEntry::setDesSubInterface</definition>
+        <argsstring>(const char *desSubInterface)</argsstring>
+        <name>setDesSubInterface</name>
+        <param>
+          <type>const char *</type>
+          <declname>desSubInterface</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="95" column="18" bodyfile="SessionStateEntry_m.cc" bodystart="310" bodyend="313"/>
+        <references refid="class_session_state_entry_1ab0e814d348709565c650393ff88ed4d9" compoundref="_session_state_entry__m_8h" startline="61">desSubInterface</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a7deec6027d458c7fe4a33d1f1287c678" compoundref="_session_state_entry__m_8cc" startline="562" endline="583">SessionStateEntryDescriptor::setFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1a802f897ce63cd7264ade71cdccc303b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * SessionStateEntry::getExpiry</definition>
+        <argsstring>() const</argsstring>
+        <name>getExpiry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="96" column="25" bodyfile="SessionStateEntry_m.cc" bodystart="315" bodyend="318"/>
+        <references refid="class_session_state_entry_1a005a90a9b13bdcc08daa51d5bc04cbab" compoundref="_session_state_entry__m_8h" startline="62">expiry</references>
+        <referencedby refid="class_processor_1a6f342c608c14a45a5f4b3930118135bb" compoundref="_processor_8cc" startline="297" endline="326">Processor::printSessionStateTable</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a0369812f9dfd60f49a8f05a5632600b1" compoundref="_session_state_entry__m_8cc" startline="539" endline="560">SessionStateEntryDescriptor::getFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1a427ca30027864c36630b334f02c05ac7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SessionStateEntry::setExpiry</definition>
+        <argsstring>(const char *expiry)</argsstring>
+        <name>setExpiry</name>
+        <param>
+          <type>const char *</type>
+          <declname>expiry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="97" column="18" bodyfile="SessionStateEntry_m.cc" bodystart="320" bodyend="323"/>
+        <references refid="class_session_state_entry_1a005a90a9b13bdcc08daa51d5bc04cbab" compoundref="_session_state_entry__m_8h" startline="62">expiry</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a7deec6027d458c7fe4a33d1f1287c678" compoundref="_session_state_entry__m_8cc" startline="562" endline="583">SessionStateEntryDescriptor::setFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1aa4761da1a38d4d84ef33e85908221c63" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * SessionStateEntry::getStatus</definition>
+        <argsstring>() const</argsstring>
+        <name>getStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="98" column="25" bodyfile="SessionStateEntry_m.cc" bodystart="325" bodyend="328"/>
+        <references refid="class_session_state_entry_1a25f44a9277b637323647365b7be74d5e" compoundref="_session_state_entry__m_8h" startline="63">status</references>
+        <referencedby refid="class_processor_1a6f342c608c14a45a5f4b3930118135bb" compoundref="_processor_8cc" startline="297" endline="326">Processor::printSessionStateTable</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a0369812f9dfd60f49a8f05a5632600b1" compoundref="_session_state_entry__m_8cc" startline="539" endline="560">SessionStateEntryDescriptor::getFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_1a489034b564fa1d8ce989cef3af8342f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SessionStateEntry::setStatus</definition>
+        <argsstring>(const char *status)</argsstring>
+        <name>setStatus</name>
+        <param>
+          <type>const char *</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.h" line="99" column="18" bodyfile="SessionStateEntry_m.cc" bodystart="330" bodyend="333"/>
+        <references refid="class_session_state_entry_1a25f44a9277b637323647365b7be74d5e" compoundref="_session_state_entry__m_8h" startline="63">status</references>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a7deec6027d458c7fe4a33d1f1287c678" compoundref="_session_state_entry__m_8cc" startline="562" endline="583">SessionStateEntryDescriptor::setFieldValueAsString</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class generated from <computeroutput>SessionStateEntry.msg:16</computeroutput> by nedtool. <preformatted>
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Lesser General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+// 
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Lesser General Public License for more details.
+// 
+// You should have received a copy of the GNU Lesser General Public License
+// along with this program.  If not, see <ulink url="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</ulink>.
+//
+packet <ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref>
+{
+    int sessionId;
+    string srcMac;
+    string srcQMac;
+    string srcSubInterface;
+    string desMac;
+    string desQMac;
+    string desSubInterface;
+    string expiry;
+    string status;
+}
+</preformatted> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>SessionStateEntry</label>
+        <link refid="class_session_state_entry"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cPacket</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>SessionStateEntry</label>
+        <link refid="class_session_state_entry"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cPacket</label>
+      </node>
+    </collaborationgraph>
+    <location file="SessionStateEntry_m.h" line="53" column="1" bodyfile="SessionStateEntry_m.h" bodystart="52" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_session_state_entry_1aab8ed9178ce3f354772b8a16ef03b1c7" prot="private" virt="non-virtual"><scope>SessionStateEntry</scope><name>copy</name></member>
+      <member refid="class_session_state_entry_1abccf3a382a8959756db7a93a1d4bbf29" prot="protected" virt="non-virtual"><scope>SessionStateEntry</scope><name>desMac</name></member>
+      <member refid="class_session_state_entry_1a408f12d8d179c98049eb2e5622746412" prot="protected" virt="non-virtual"><scope>SessionStateEntry</scope><name>desQMac</name></member>
+      <member refid="class_session_state_entry_1ab0e814d348709565c650393ff88ed4d9" prot="protected" virt="non-virtual"><scope>SessionStateEntry</scope><name>desSubInterface</name></member>
+      <member refid="class_session_state_entry_1a494f253bb05becff53e17e9eef30e185" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>dup</name></member>
+      <member refid="class_session_state_entry_1a005a90a9b13bdcc08daa51d5bc04cbab" prot="protected" virt="non-virtual"><scope>SessionStateEntry</scope><name>expiry</name></member>
+      <member refid="class_session_state_entry_1aa26d3a0d89a0a480a065700541c7f348" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>getDesMac</name></member>
+      <member refid="class_session_state_entry_1a39fc505629ae92fe94ec28eb4d65b7e7" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>getDesQMac</name></member>
+      <member refid="class_session_state_entry_1a6744fccab42b02111ed4a598638b26b5" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>getDesSubInterface</name></member>
+      <member refid="class_session_state_entry_1a802f897ce63cd7264ade71cdccc303b3" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>getExpiry</name></member>
+      <member refid="class_session_state_entry_1ac7008d50f836ab35135b1f4c18d0d4f3" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>getSessionId</name></member>
+      <member refid="class_session_state_entry_1a0a95e11ae98c1e210baf2bb2dfafaeb3" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>getSrcMac</name></member>
+      <member refid="class_session_state_entry_1aabe67a1cafcc6991c929563b3210633d" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>getSrcQMac</name></member>
+      <member refid="class_session_state_entry_1af67c535933d3a94227e14930b8007ec8" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>getSrcSubInterface</name></member>
+      <member refid="class_session_state_entry_1aa4761da1a38d4d84ef33e85908221c63" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>getStatus</name></member>
+      <member refid="class_session_state_entry_1a2f573abb164e4a1c0e2bde8ccb6ede59" prot="public" virt="non-virtual"><scope>SessionStateEntry</scope><name>operator=</name></member>
+      <member refid="class_session_state_entry_1acd36b67b413ec4d1c703dc5ac9a0063f" prot="protected" virt="non-virtual"><scope>SessionStateEntry</scope><name>operator==</name></member>
+      <member refid="class_session_state_entry_1ac083ba10ce3ac4517da4d399facfca21" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>parsimPack</name></member>
+      <member refid="class_session_state_entry_1a3f45aba80dfbd84efe295c99be6acb2a" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>parsimUnpack</name></member>
+      <member refid="class_session_state_entry_1a1e2b284cf84911f94e9ccae04816e6c5" prot="protected" virt="non-virtual"><scope>SessionStateEntry</scope><name>sessionId</name></member>
+      <member refid="class_session_state_entry_1a57d4591eef85f19274be72730961c819" prot="public" virt="non-virtual"><scope>SessionStateEntry</scope><name>SessionStateEntry</name></member>
+      <member refid="class_session_state_entry_1aeea468dbd112c0754176456c9ae727e5" prot="public" virt="non-virtual"><scope>SessionStateEntry</scope><name>SessionStateEntry</name></member>
+      <member refid="class_session_state_entry_1af005291102751eadc6a03d95d00f9907" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>setDesMac</name></member>
+      <member refid="class_session_state_entry_1a0a0e5e1e9493fa447f02c04e501e91ff" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>setDesQMac</name></member>
+      <member refid="class_session_state_entry_1a3b6589d8f660884c5bd5fa751c3d4b81" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>setDesSubInterface</name></member>
+      <member refid="class_session_state_entry_1a427ca30027864c36630b334f02c05ac7" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>setExpiry</name></member>
+      <member refid="class_session_state_entry_1a99f4e085c7f8e10beaefe6c92cf25c91" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>setSessionId</name></member>
+      <member refid="class_session_state_entry_1a925ca61bf7230b35e3f915062a6d726c" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>setSrcMac</name></member>
+      <member refid="class_session_state_entry_1a808022e62c2fe4736598ac93811436da" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>setSrcQMac</name></member>
+      <member refid="class_session_state_entry_1a8396331691af743c912b97d8dacb4c2e" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>setSrcSubInterface</name></member>
+      <member refid="class_session_state_entry_1a489034b564fa1d8ce989cef3af8342f9" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>setStatus</name></member>
+      <member refid="class_session_state_entry_1a4dfa25147bc8c1799fcc0ba8446cec52" prot="protected" virt="non-virtual"><scope>SessionStateEntry</scope><name>srcMac</name></member>
+      <member refid="class_session_state_entry_1a49d3ca4ef3d5dba56d8f2c82a8c6eecf" prot="protected" virt="non-virtual"><scope>SessionStateEntry</scope><name>srcQMac</name></member>
+      <member refid="class_session_state_entry_1a0001a1ce6df5f423b7f61f56ae4f8ebb" prot="protected" virt="non-virtual"><scope>SessionStateEntry</scope><name>srcSubInterface</name></member>
+      <member refid="class_session_state_entry_1a25f44a9277b637323647365b7be74d5e" prot="protected" virt="non-virtual"><scope>SessionStateEntry</scope><name>status</name></member>
+      <member refid="class_session_state_entry_1a4913739bcf0963c5680499eb85e079c2" prot="public" virt="virtual"><scope>SessionStateEntry</scope><name>~SessionStateEntry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

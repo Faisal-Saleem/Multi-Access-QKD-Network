@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">###<sp/>A<sp/>Novel<sp/>Multiple<sp/>Access<sp/>Quantum<sp/>Key<sp/>Distribution<sp/>Network<sp/>for<sp/>Secure<sp/>Communication</highlight></codeline>
+<codeline><highlight class="normal">&gt;<sp/>An<sp/>investigation<sp/>into<sp/>the<sp/>use<sp/>of<sp/>laws<sp/>of<sp/>quantum<sp/>physics<sp/>and<sp/>communication<sp/>protocols<sp/>to<sp/>enable<sp/>multiple<sp/>clients<sp/>to<sp/>exchange<sp/>quantum<sp/>keys<sp/>in<sp/>a<sp/>LAN<sp/>environment<sp/>for<sp/>secure<sp/>communication.</highlight></codeline>
+<codeline><highlight class="normal">######<sp/>Keywords<sp/>:<sp/>Quantum<sp/>Key<sp/>Distribution,<sp/>Communication<sp/>Protocols,<sp/>Security,<sp/>Quantum<sp/>Physics,<sp/>Local<sp/>Area<sp/>Network<sp/>(LAN)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![QKD<sp/>Network](/Images/Network-type.png)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![Compound<sp/>Modules](/Images/Network-usage.png)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![NED<sp/>Usage<sp/>Diagram](/Images/full-ned-usage-diagram.png)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![QKD<sp/>Switch](/Images/Switch-type.png)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![QKD<sp/>Client](/Images/Client-type.png)</highlight></codeline>
+    </programlisting>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

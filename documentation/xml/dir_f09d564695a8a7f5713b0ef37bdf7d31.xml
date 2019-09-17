@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_f09d564695a8a7f5713b0ef37bdf7d31" kind="dir">
+    <compoundname>out</compoundname>
+    <innerdir refid="dir_6dcc08257928f4e6d17ced274dc69b63">out/clang-debug</innerdir>
+    <innerdir refid="dir_fa22a373cd84fa4a921968d984ebb5bc">out/clang-release</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="out/"/>
+  </compounddef>
+</doxygen>

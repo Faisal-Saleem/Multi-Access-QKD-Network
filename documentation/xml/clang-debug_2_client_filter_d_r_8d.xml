@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="clang-debug_2_client_filter_d_r_8d" kind="file" language="D">
+    <compoundname>ClientFilterDR.d</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">out/clang-debug</highlight><highlight class="comment">//ClientFilterDR.o:<sp/>ClientFilterDR.cc<sp/>\</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/>C:/omnetpp-5.4.1/include\omnetpp.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">C:/<ref refid="namespaceomnetpp" kindref="compound">omnetpp</ref>-5.4.1/include\omnetpp.h:</highlight></codeline>
+    </programlisting>
+    <location file="out/clang-debug/ClientFilterDR.d"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_switch_quantum_interface" kind="class" language="C++" prot="public">
+    <compoundname>SwitchQuantumInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cSimpleModule</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_switch_quantum_interface_1a733d76cb9c511106056f5a7b52fedee7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SwitchQuantumInterface::initialize</definition>
+        <argsstring>(int stage) override</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>int</type>
+          <declname>stage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchQuantumInterface.cc" line="19" column="18" bodyfile="SwitchQuantumInterface.cc" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_quantum_interface_1a39d683a51ab2a54fdcfae32f0a5c725a" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int SwitchQuantumInterface::numInitStages</definition>
+        <argsstring>() const override</argsstring>
+        <name>numInitStages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchQuantumInterface.cc" line="20" column="17" bodyfile="SwitchQuantumInterface.cc" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_quantum_interface_1ac108bfaa59568bb51a3322039574ba89" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SwitchQuantumInterface::handleMessage</definition>
+        <argsstring>(cMessage *msg) override</argsstring>
+        <name>handleMessage</name>
+        <param>
+          <type>cMessage *</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchQuantumInterface.cc" line="21" column="18" bodyfile="SwitchQuantumInterface.cc" bodystart="26" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>SwitchQuantumInterface</label>
+        <link refid="class_switch_quantum_interface"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>SwitchQuantumInterface</label>
+        <link refid="class_switch_quantum_interface"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+    </collaborationgraph>
+    <location file="SwitchQuantumInterface.cc" line="17" column="1" bodyfile="SwitchQuantumInterface.cc" bodystart="16" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_switch_quantum_interface_1ac108bfaa59568bb51a3322039574ba89" prot="protected" virt="virtual"><scope>SwitchQuantumInterface</scope><name>handleMessage</name></member>
+      <member refid="class_switch_quantum_interface_1a733d76cb9c511106056f5a7b52fedee7" prot="protected" virt="virtual"><scope>SwitchQuantumInterface</scope><name>initialize</name></member>
+      <member refid="class_switch_quantum_interface_1a39d683a51ab2a54fdcfae32f0a5c725a" prot="protected" virt="virtual"><scope>SwitchQuantumInterface</scope><name>numInitStages</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

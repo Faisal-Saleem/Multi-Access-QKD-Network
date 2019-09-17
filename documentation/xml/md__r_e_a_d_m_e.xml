@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="md__r_e_a_d_m_e" kind="page">
+    <compoundname>md_README</compoundname>
+    <title>A Novel Multiple Access Quantum Key Distribution Network for Secure Communication</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><blockquote><para>An investigation into the use of laws of quantum physics and communication protocols to enable multiple clients to exchange quantum keys in a LAN environment for secure communication. </para>
+</blockquote><heading level="5">Keywords : Quantum Key Distribution, Communication Protocols, Security, Quantum Physics, Local Area Network (LAN)</heading>
+</para>
+<para><image type="html" name="Network-type.png" inline="yes"></image>
+</para>
+<para><image type="html" name="Network-usage.png" inline="yes"></image>
+</para>
+<para><image type="html" name="full-ned-usage-diagram.png" inline="yes"></image>
+</para>
+<para><image type="html" name="Switch-type.png" inline="yes"></image>
+</para>
+<para><image type="html" name="Client-type.png" inline="yes"></image>
+ </para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

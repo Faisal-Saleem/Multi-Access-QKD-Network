@@ -1,0 +1,188 @@
+.TH "QuantumKeyEntry" 3 "Tue Sep 17 2019" "Multiaccess QKD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+QuantumKeyEntry
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <QuantumKeyEntry_m\&.h>\fP
+.PP
+Inherits cPacket\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBQuantumKeyEntry\fP (const char *name=nullptr, short kind=0)"
+.br
+.ti -1c
+.RI "\fBQuantumKeyEntry\fP (const \fBQuantumKeyEntry\fP &other)"
+.br
+.ti -1c
+.RI "virtual \fB~QuantumKeyEntry\fP ()"
+.br
+.ti -1c
+.RI "\fBQuantumKeyEntry\fP & \fBoperator=\fP (const \fBQuantumKeyEntry\fP &other)"
+.br
+.ti -1c
+.RI "virtual \fBQuantumKeyEntry\fP * \fBdup\fP () const override"
+.br
+.ti -1c
+.RI "virtual void \fBparsimPack\fP (omnetpp::cCommBuffer *b) const override"
+.br
+.ti -1c
+.RI "virtual void \fBparsimUnpack\fP (omnetpp::cCommBuffer *b) override"
+.br
+.ti -1c
+.RI "virtual int \fBgetIdentity\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetIdentity\fP (int \fBidentity\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetMacAddress\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetMacAddress\fP (const char *\fBmacAddress\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetKey\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetKey\fP (const char *\fBkey\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetStatus\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetStatus\fP (const char *\fBstatus\fP)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBoperator==\fP (const \fBQuantumKeyEntry\fP &)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBidentity\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBmacAddress\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBkey\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBstatus\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class generated from \fCQuantumKeyEntry\&.msg:2\fP by nedtool\&. 
+.PP
+.nf
+
+packet \fBQuantumKeyEntry\fP
+{
+    int identity;
+    string macAddress;
+    string key;
+    string status;
+}
+.fi
+.PP
+ 
+.PP
+Definition at line 33 of file QuantumKeyEntry_m\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "QuantumKeyEntry::QuantumKeyEntry (const char * name = \fCnullptr\fP, short kind = \fC0\fP)"
+
+.SS "QuantumKeyEntry::QuantumKeyEntry (const \fBQuantumKeyEntry\fP & other)"
+
+.PP
+Definition at line 187 of file QuantumKeyEntry_m\&.cc\&.
+.SS "QuantumKeyEntry::~QuantumKeyEntry ()\fC [virtual]\fP"
+
+.PP
+Definition at line 192 of file QuantumKeyEntry_m\&.cc\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "virtual \fBQuantumKeyEntry\fP* QuantumKeyEntry::dup () const\fC [inline]\fP, \fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 53 of file QuantumKeyEntry_m\&.h\&.
+.SS "int QuantumKeyEntry::getIdentity () const\fC [virtual]\fP"
+
+.PP
+Definition at line 230 of file QuantumKeyEntry_m\&.cc\&.
+.SS "const char * QuantumKeyEntry::getKey () const\fC [virtual]\fP"
+
+.PP
+Definition at line 250 of file QuantumKeyEntry_m\&.cc\&.
+.SS "const char * QuantumKeyEntry::getMacAddress () const\fC [virtual]\fP"
+
+.PP
+Definition at line 240 of file QuantumKeyEntry_m\&.cc\&.
+.SS "const char * QuantumKeyEntry::getStatus () const\fC [virtual]\fP"
+
+.PP
+Definition at line 260 of file QuantumKeyEntry_m\&.cc\&.
+.SS "\fBQuantumKeyEntry\fP & QuantumKeyEntry::operator= (const \fBQuantumKeyEntry\fP & other)"
+
+.PP
+Definition at line 196 of file QuantumKeyEntry_m\&.cc\&.
+.SS "bool QuantumKeyEntry::operator== (const \fBQuantumKeyEntry\fP &)\fC [protected]\fP"
+
+.SS "void QuantumKeyEntry::parsimPack (omnetpp::cCommBuffer * b) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 212 of file QuantumKeyEntry_m\&.cc\&.
+.SS "void QuantumKeyEntry::parsimUnpack (omnetpp::cCommBuffer * b)\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 221 of file QuantumKeyEntry_m\&.cc\&.
+.SS "void QuantumKeyEntry::setIdentity (int identity)\fC [virtual]\fP"
+
+.PP
+Definition at line 235 of file QuantumKeyEntry_m\&.cc\&.
+.SS "void QuantumKeyEntry::setKey (const char * key)\fC [virtual]\fP"
+
+.PP
+Definition at line 255 of file QuantumKeyEntry_m\&.cc\&.
+.SS "void QuantumKeyEntry::setMacAddress (const char * macAddress)\fC [virtual]\fP"
+
+.PP
+Definition at line 245 of file QuantumKeyEntry_m\&.cc\&.
+.SS "void QuantumKeyEntry::setStatus (const char * status)\fC [virtual]\fP"
+
+.PP
+Definition at line 265 of file QuantumKeyEntry_m\&.cc\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "int QuantumKeyEntry::identity\fC [protected]\fP"
+
+.PP
+Definition at line 36 of file QuantumKeyEntry_m\&.h\&.
+.SS "::omnetpp::opp_string QuantumKeyEntry::key\fC [protected]\fP"
+
+.PP
+Definition at line 38 of file QuantumKeyEntry_m\&.h\&.
+.SS "::omnetpp::opp_string QuantumKeyEntry::macAddress\fC [protected]\fP"
+
+.PP
+Definition at line 37 of file QuantumKeyEntry_m\&.h\&.
+.SS "::omnetpp::opp_string QuantumKeyEntry::status\fC [protected]\fP"
+
+.PP
+Definition at line 39 of file QuantumKeyEntry_m\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Multiaccess QKD from the source code\&.

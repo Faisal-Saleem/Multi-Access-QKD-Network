@@ -1,0 +1,268 @@
+.TH "QuantumSubInterfaceBinding" 3 "Tue Sep 17 2019" "Multiaccess QKD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+QuantumSubInterfaceBinding
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <QuantumSubInterfaceBinding_m\&.h>\fP
+.PP
+Inherits cPacket\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBQuantumSubInterfaceBinding\fP (const char *name=nullptr, short kind=0)"
+.br
+.ti -1c
+.RI "\fBQuantumSubInterfaceBinding\fP (const \fBQuantumSubInterfaceBinding\fP &other)"
+.br
+.ti -1c
+.RI "virtual \fB~QuantumSubInterfaceBinding\fP ()"
+.br
+.ti -1c
+.RI "\fBQuantumSubInterfaceBinding\fP & \fBoperator=\fP (const \fBQuantumSubInterfaceBinding\fP &other)"
+.br
+.ti -1c
+.RI "virtual \fBQuantumSubInterfaceBinding\fP * \fBdup\fP () const override"
+.br
+.ti -1c
+.RI "virtual void \fBparsimPack\fP (omnetpp::cCommBuffer *b) const override"
+.br
+.ti -1c
+.RI "virtual void \fBparsimUnpack\fP (omnetpp::cCommBuffer *b) override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetIdentity\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetIdentity\fP (const char *\fBidentity\fP)"
+.br
+.ti -1c
+.RI "virtual int \fBgetConnectionId\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetConnectionId\fP (int \fBconnectionId\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetSourceInterface\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetSourceInterface\fP (const char *\fBsourceInterface\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetSourceSubInterface\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetSourceSubInterface\fP (const char *\fBsourceSubInterface\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetDestinationInterface\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetDestinationInterface\fP (const char *\fBdestinationInterface\fP)"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetDestinationSubInterface\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetDestinationSubInterface\fP (const char *\fBdestinationSubInterface\fP)"
+.br
+.ti -1c
+.RI "virtual int \fBgetStatus\fP () const"
+.br
+.ti -1c
+.RI "virtual void \fBsetStatus\fP (int \fBstatus\fP)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBoperator==\fP (const \fBQuantumSubInterfaceBinding\fP &)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "::omnetpp::opp_string \fBidentity\fP"
+.br
+.ti -1c
+.RI "int \fBconnectionId\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBsourceInterface\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBsourceSubInterface\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBdestinationInterface\fP"
+.br
+.ti -1c
+.RI "::omnetpp::opp_string \fBdestinationSubInterface\fP"
+.br
+.ti -1c
+.RI "int \fBstatus\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class generated from \fCQuantumSubInterfaceBinding\&.msg:16\fP by nedtool\&. 
+.PP
+.nf
+
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Lesser General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version\&.
+// 
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE\&.  See the
+// GNU Lesser General Public License for more details\&.
+// 
+// You should have received a copy of the GNU Lesser General Public License
+// along with this program\&.  If not, see http://www.gnu.org/licenses/\&.
+//
+packet \fBQuantumSubInterfaceBinding\fP
+{
+    string identity;
+    int connectionId;
+    string sourceInterface;
+    string sourceSubInterface;
+    string destinationInterface;
+    string destinationSubInterface;
+    int status;
+}
+.fi
+.PP
+ 
+.PP
+Definition at line 50 of file QuantumSubInterfaceBinding_m\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "QuantumSubInterfaceBinding::QuantumSubInterfaceBinding (const char * name = \fCnullptr\fP, short kind = \fC0\fP)"
+
+.SS "QuantumSubInterfaceBinding::QuantumSubInterfaceBinding (const \fBQuantumSubInterfaceBinding\fP & other)"
+
+.PP
+Definition at line 188 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "QuantumSubInterfaceBinding::~QuantumSubInterfaceBinding ()\fC [virtual]\fP"
+
+.PP
+Definition at line 193 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "virtual \fBQuantumSubInterfaceBinding\fP* QuantumSubInterfaceBinding::dup () const\fC [inline]\fP, \fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 73 of file QuantumSubInterfaceBinding_m\&.h\&.
+.SS "int QuantumSubInterfaceBinding::getConnectionId () const\fC [virtual]\fP"
+
+.PP
+Definition at line 250 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "const char * QuantumSubInterfaceBinding::getDestinationInterface () const\fC [virtual]\fP"
+
+.PP
+Definition at line 280 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "const char * QuantumSubInterfaceBinding::getDestinationSubInterface () const\fC [virtual]\fP"
+
+.PP
+Definition at line 290 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "const char * QuantumSubInterfaceBinding::getIdentity () const\fC [virtual]\fP"
+
+.PP
+Definition at line 240 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "const char * QuantumSubInterfaceBinding::getSourceInterface () const\fC [virtual]\fP"
+
+.PP
+Definition at line 260 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "const char * QuantumSubInterfaceBinding::getSourceSubInterface () const\fC [virtual]\fP"
+
+.PP
+Definition at line 270 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "int QuantumSubInterfaceBinding::getStatus () const\fC [virtual]\fP"
+
+.PP
+Definition at line 300 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "\fBQuantumSubInterfaceBinding\fP & QuantumSubInterfaceBinding::operator= (const \fBQuantumSubInterfaceBinding\fP & other)"
+
+.PP
+Definition at line 197 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "bool QuantumSubInterfaceBinding::operator== (const \fBQuantumSubInterfaceBinding\fP &)\fC [protected]\fP"
+
+.SS "void QuantumSubInterfaceBinding::parsimPack (omnetpp::cCommBuffer * b) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 216 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "void QuantumSubInterfaceBinding::parsimUnpack (omnetpp::cCommBuffer * b)\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 228 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "void QuantumSubInterfaceBinding::setConnectionId (int connectionId)\fC [virtual]\fP"
+
+.PP
+Definition at line 255 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "void QuantumSubInterfaceBinding::setDestinationInterface (const char * destinationInterface)\fC [virtual]\fP"
+
+.PP
+Definition at line 285 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "void QuantumSubInterfaceBinding::setDestinationSubInterface (const char * destinationSubInterface)\fC [virtual]\fP"
+
+.PP
+Definition at line 295 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "void QuantumSubInterfaceBinding::setIdentity (const char * identity)\fC [virtual]\fP"
+
+.PP
+Definition at line 245 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "void QuantumSubInterfaceBinding::setSourceInterface (const char * sourceInterface)\fC [virtual]\fP"
+
+.PP
+Definition at line 265 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "void QuantumSubInterfaceBinding::setSourceSubInterface (const char * sourceSubInterface)\fC [virtual]\fP"
+
+.PP
+Definition at line 275 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SS "void QuantumSubInterfaceBinding::setStatus (int status)\fC [virtual]\fP"
+
+.PP
+Definition at line 305 of file QuantumSubInterfaceBinding_m\&.cc\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "int QuantumSubInterfaceBinding::connectionId\fC [protected]\fP"
+
+.PP
+Definition at line 54 of file QuantumSubInterfaceBinding_m\&.h\&.
+.SS "::omnetpp::opp_string QuantumSubInterfaceBinding::destinationInterface\fC [protected]\fP"
+
+.PP
+Definition at line 57 of file QuantumSubInterfaceBinding_m\&.h\&.
+.SS "::omnetpp::opp_string QuantumSubInterfaceBinding::destinationSubInterface\fC [protected]\fP"
+
+.PP
+Definition at line 58 of file QuantumSubInterfaceBinding_m\&.h\&.
+.SS "::omnetpp::opp_string QuantumSubInterfaceBinding::identity\fC [protected]\fP"
+
+.PP
+Definition at line 53 of file QuantumSubInterfaceBinding_m\&.h\&.
+.SS "::omnetpp::opp_string QuantumSubInterfaceBinding::sourceInterface\fC [protected]\fP"
+
+.PP
+Definition at line 55 of file QuantumSubInterfaceBinding_m\&.h\&.
+.SS "::omnetpp::opp_string QuantumSubInterfaceBinding::sourceSubInterface\fC [protected]\fP"
+
+.PP
+Definition at line 56 of file QuantumSubInterfaceBinding_m\&.h\&.
+.SS "int QuantumSubInterfaceBinding::status\fC [protected]\fP"
+
+.PP
+Definition at line 59 of file QuantumSubInterfaceBinding_m\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Multiaccess QKD from the source code\&.

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="clang-debug_2_switch_memory_8d" kind="file" language="D">
+    <compoundname>SwitchMemory.d</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">out/clang-debug</highlight><highlight class="comment">//SwitchMemory.o:<sp/>SwitchMemory.cc<sp/>SwitchMemory.h<sp/>\</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/>C:/omnetpp-5.4.1/include\omnetpp.h<sp/>MacTableEntry_m.h<sp/>\</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/>QuantumSubInterfaceBinding_m.h<sp/>SessionStateEntry_m.h<sp/>ArpTableEntry_m.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><ref refid="class_switch_memory" kindref="compound">SwitchMemory</ref>.h:</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">C:/<ref refid="namespaceomnetpp" kindref="compound">omnetpp</ref>-5.4.1/include\omnetpp.h:</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">MacTableEntry_m.h:</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">QuantumSubInterfaceBinding_m.h:</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">SessionStateEntry_m.h:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">ArpTableEntry_m.h:</highlight></codeline>
+    </programlisting>
+    <location file="out/clang-debug/SwitchMemory.d"/>
+  </compounddef>
+</doxygen>

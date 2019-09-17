@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_quantum_key_entry_descriptor" kind="class" language="C++" prot="public">
+    <compoundname>QuantumKeyEntryDescriptor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cClassDescriptor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_quantum_key_entry_descriptor_1ad82f2af116fdfe13df16a73a17fc8774" prot="private" static="no" mutable="yes">
+        <type>const char **</type>
+        <definition>const char** QuantumKeyEntryDescriptor::propertynames</definition>
+        <argsstring></argsstring>
+        <name>propertynames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="273" column="24" bodyfile="QuantumKeyEntry_m.cc" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1acca918d285ea149d54f2c896a99da61f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>QuantumKeyEntryDescriptor::QuantumKeyEntryDescriptor</definition>
+        <argsstring>()</argsstring>
+        <name>QuantumKeyEntryDescriptor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="275" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1a42061b835f4683d3cdedcdf4aeefd8dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>QuantumKeyEntryDescriptor::~QuantumKeyEntryDescriptor</definition>
+        <argsstring>()</argsstring>
+        <name>~QuantumKeyEntryDescriptor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="276" column="13" bodyfile="QuantumKeyEntry_m.cc" bodystart="305" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1a7ba77faace54de333afbebf643bdade9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool QuantumKeyEntryDescriptor::doesSupport</definition>
+        <argsstring>(omnetpp::cObject *obj) const override</argsstring>
+        <name>doesSupport</name>
+        <param>
+          <type>omnetpp::cObject *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="278" column="18" bodyfile="QuantumKeyEntry_m.cc" bodystart="310" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1ae36c5bc900f2cbe39a5c1b14953bf74c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char **</type>
+        <definition>const char ** QuantumKeyEntryDescriptor::getPropertyNames</definition>
+        <argsstring>() const override</argsstring>
+        <name>getPropertyNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="279" column="24" bodyfile="QuantumKeyEntry_m.cc" bodystart="315" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1a6e235536b6a229ca7d3c20be25bfe2cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * QuantumKeyEntryDescriptor::getProperty</definition>
+        <argsstring>(const char *propertyname) const override</argsstring>
+        <name>getProperty</name>
+        <param>
+          <type>const char *</type>
+          <declname>propertyname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="280" column="24" bodyfile="QuantumKeyEntry_m.cc" bodystart="326" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1a48dbe8b7e2d2d9d2073dd37411d79e8a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int QuantumKeyEntryDescriptor::getFieldCount</definition>
+        <argsstring>() const override</argsstring>
+        <name>getFieldCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="281" column="17" bodyfile="QuantumKeyEntry_m.cc" bodystart="332" bodyend="336"/>
+        <referencedby refid="class_quantum_key_entry_descriptor_1aa91a5cb107a1630faaadf24986d418e5" compoundref="_quantum_key_entry__m_8cc" startline="338" endline="353">getFieldTypeFlags</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1a310370865a7ca24cad32a87f08910e23" compoundref="_quantum_key_entry__m_8cc" startline="355" endline="370">getFieldName</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1a7be1a9492d7914fc208ed534d9d07f8d" compoundref="_quantum_key_entry__m_8cc" startline="383" endline="398">getFieldTypeString</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1a4a780c8fa382b97e8c01ee8392f1ae6a" compoundref="_quantum_key_entry__m_8cc" startline="400" endline="411">getFieldPropertyNames</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1a8c91d8453974f85d38cedc353ae2597b" compoundref="_quantum_key_entry__m_8cc" startline="413" endline="424">getFieldProperty</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1a99c4af21a6ed732a4d64e733eb1021b9" compoundref="_quantum_key_entry__m_8cc" startline="426" endline="438">getFieldArraySize</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1ad049742c4c0c48dc7af43f1f2d3368d4" compoundref="_quantum_key_entry__m_8cc" startline="440" endline="452">getFieldDynamicTypeString</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1a5f5a39bb70c3eb455aa5315a68bb69b1" compoundref="_quantum_key_entry__m_8cc" startline="454" endline="470">getFieldValueAsString</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1a560af5aa20a95312ed0377e09a0547d7" compoundref="_quantum_key_entry__m_8cc" startline="472" endline="488">setFieldValueAsString</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1a9dfeb12a34a1b4db6eabb3b7e2fe6bf8" compoundref="_quantum_key_entry__m_8cc" startline="490" endline="501">getFieldStructName</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1a340cab5b1db3184caafbb408c5698a8a" compoundref="_quantum_key_entry__m_8cc" startline="503" endline="515">getFieldStructValuePointer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1a310370865a7ca24cad32a87f08910e23" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * QuantumKeyEntryDescriptor::getFieldName</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldName</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="282" column="24" bodyfile="QuantumKeyEntry_m.cc" bodystart="355" bodyend="370"/>
+        <references refid="class_quantum_key_entry_descriptor_1a48dbe8b7e2d2d9d2073dd37411d79e8a" compoundref="_quantum_key_entry__m_8cc" startline="332" endline="336">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1a78db0d95f7eaed4e5b2a624ef3959409" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int QuantumKeyEntryDescriptor::findField</definition>
+        <argsstring>(const char *fieldName) const override</argsstring>
+        <name>findField</name>
+        <param>
+          <type>const char *</type>
+          <declname>fieldName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="283" column="17" bodyfile="QuantumKeyEntry_m.cc" bodystart="372" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1aa91a5cb107a1630faaadf24986d418e5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int QuantumKeyEntryDescriptor::getFieldTypeFlags</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldTypeFlags</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="284" column="26" bodyfile="QuantumKeyEntry_m.cc" bodystart="338" bodyend="353"/>
+        <references refid="class_quantum_key_entry_descriptor_1a48dbe8b7e2d2d9d2073dd37411d79e8a" compoundref="_quantum_key_entry__m_8cc" startline="332" endline="336">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1a7be1a9492d7914fc208ed534d9d07f8d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * QuantumKeyEntryDescriptor::getFieldTypeString</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldTypeString</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="285" column="24" bodyfile="QuantumKeyEntry_m.cc" bodystart="383" bodyend="398"/>
+        <references refid="class_quantum_key_entry_descriptor_1a48dbe8b7e2d2d9d2073dd37411d79e8a" compoundref="_quantum_key_entry__m_8cc" startline="332" endline="336">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1a4a780c8fa382b97e8c01ee8392f1ae6a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char **</type>
+        <definition>const char ** QuantumKeyEntryDescriptor::getFieldPropertyNames</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldPropertyNames</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="286" column="24" bodyfile="QuantumKeyEntry_m.cc" bodystart="400" bodyend="411"/>
+        <references refid="class_quantum_key_entry_descriptor_1a48dbe8b7e2d2d9d2073dd37411d79e8a" compoundref="_quantum_key_entry__m_8cc" startline="332" endline="336">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1a8c91d8453974f85d38cedc353ae2597b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * QuantumKeyEntryDescriptor::getFieldProperty</definition>
+        <argsstring>(int field, const char *propertyname) const override</argsstring>
+        <name>getFieldProperty</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>propertyname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="287" column="24" bodyfile="QuantumKeyEntry_m.cc" bodystart="413" bodyend="424"/>
+        <references refid="class_quantum_key_entry_descriptor_1a48dbe8b7e2d2d9d2073dd37411d79e8a" compoundref="_quantum_key_entry__m_8cc" startline="332" endline="336">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1a99c4af21a6ed732a4d64e733eb1021b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int QuantumKeyEntryDescriptor::getFieldArraySize</definition>
+        <argsstring>(void *object, int field) const override</argsstring>
+        <name>getFieldArraySize</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="288" column="17" bodyfile="QuantumKeyEntry_m.cc" bodystart="426" bodyend="438"/>
+        <references refid="class_quantum_key_entry_descriptor_1a48dbe8b7e2d2d9d2073dd37411d79e8a" compoundref="_quantum_key_entry__m_8cc" startline="332" endline="336">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1ad049742c4c0c48dc7af43f1f2d3368d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * QuantumKeyEntryDescriptor::getFieldDynamicTypeString</definition>
+        <argsstring>(void *object, int field, int i) const override</argsstring>
+        <name>getFieldDynamicTypeString</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="290" column="24" bodyfile="QuantumKeyEntry_m.cc" bodystart="440" bodyend="452"/>
+        <references refid="class_quantum_key_entry_descriptor_1a48dbe8b7e2d2d9d2073dd37411d79e8a" compoundref="_quantum_key_entry__m_8cc" startline="332" endline="336">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1a5f5a39bb70c3eb455aa5315a68bb69b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string QuantumKeyEntryDescriptor::getFieldValueAsString</definition>
+        <argsstring>(void *object, int field, int i) const override</argsstring>
+        <name>getFieldValueAsString</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="291" column="25" bodyfile="QuantumKeyEntry_m.cc" bodystart="454" bodyend="470"/>
+        <references refid="class_quantum_key_entry_descriptor_1a48dbe8b7e2d2d9d2073dd37411d79e8a" compoundref="_quantum_key_entry__m_8cc" startline="332" endline="336">getFieldCount</references>
+        <references refid="class_quantum_key_entry_1a85e0afd2c799019ca38f19c1670c7733" compoundref="_quantum_key_entry__m_8cc" startline="230" endline="233">QuantumKeyEntry::getIdentity</references>
+        <references refid="class_quantum_key_entry_1a3faa0418d067d5fd090be1a7973bf6db" compoundref="_quantum_key_entry__m_8cc" startline="240" endline="243">QuantumKeyEntry::getMacAddress</references>
+        <references refid="class_quantum_key_entry_1a1a45fdd0292e10bb01eeb69b55119cd5" compoundref="_quantum_key_entry__m_8cc" startline="250" endline="253">QuantumKeyEntry::getKey</references>
+        <references refid="class_quantum_key_entry_1a303fa302c2f0fea5162dca289aa3b2d7" compoundref="_quantum_key_entry__m_8cc" startline="260" endline="263">QuantumKeyEntry::getStatus</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1a560af5aa20a95312ed0377e09a0547d7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool QuantumKeyEntryDescriptor::setFieldValueAsString</definition>
+        <argsstring>(void *object, int field, int i, const char *value) const override</argsstring>
+        <name>setFieldValueAsString</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="292" column="18" bodyfile="QuantumKeyEntry_m.cc" bodystart="472" bodyend="488"/>
+        <references refid="class_quantum_key_entry_descriptor_1a48dbe8b7e2d2d9d2073dd37411d79e8a" compoundref="_quantum_key_entry__m_8cc" startline="332" endline="336">getFieldCount</references>
+        <references refid="class_quantum_key_entry_1aaecd120bb3e0bfce6ac6be1a1a87c861" compoundref="_quantum_key_entry__m_8cc" startline="235" endline="238">QuantumKeyEntry::setIdentity</references>
+        <references refid="class_quantum_key_entry_1ab4c6ed191ca2f70d90f70e310bf10ba7" compoundref="_quantum_key_entry__m_8cc" startline="245" endline="248">QuantumKeyEntry::setMacAddress</references>
+        <references refid="class_quantum_key_entry_1a89346d735a430bac418248f33f18b2e0" compoundref="_quantum_key_entry__m_8cc" startline="255" endline="258">QuantumKeyEntry::setKey</references>
+        <references refid="class_quantum_key_entry_1a8efdd7c69dff35435038d395ce537578" compoundref="_quantum_key_entry__m_8cc" startline="265" endline="268">QuantumKeyEntry::setStatus</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1a9dfeb12a34a1b4db6eabb3b7e2fe6bf8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * QuantumKeyEntryDescriptor::getFieldStructName</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldStructName</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="294" column="24" bodyfile="QuantumKeyEntry_m.cc" bodystart="490" bodyend="501"/>
+        <references refid="class_quantum_key_entry_descriptor_1a48dbe8b7e2d2d9d2073dd37411d79e8a" compoundref="_quantum_key_entry__m_8cc" startline="332" endline="336">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_descriptor_1a340cab5b1db3184caafbb408c5698a8a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void *</type>
+        <definition>void * QuantumKeyEntryDescriptor::getFieldStructValuePointer</definition>
+        <argsstring>(void *object, int field, int i) const override</argsstring>
+        <name>getFieldStructValuePointer</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.cc" line="295" column="18" bodyfile="QuantumKeyEntry_m.cc" bodystart="503" bodyend="515"/>
+        <references refid="class_quantum_key_entry_descriptor_1a48dbe8b7e2d2d9d2073dd37411d79e8a" compoundref="_quantum_key_entry__m_8cc" startline="332" endline="336">getFieldCount</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>cClassDescriptor</label>
+      </node>
+      <node id="1">
+        <label>QuantumKeyEntryDescriptor</label>
+        <link refid="class_quantum_key_entry_descriptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>cClassDescriptor</label>
+      </node>
+      <node id="1">
+        <label>QuantumKeyEntryDescriptor</label>
+        <link refid="class_quantum_key_entry_descriptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="QuantumKeyEntry_m.cc" line="271" column="1" bodyfile="QuantumKeyEntry_m.cc" bodystart="270" bodyend="296"/>
+    <listofallmembers>
+      <member refid="class_quantum_key_entry_descriptor_1a7ba77faace54de333afbebf643bdade9" prot="public" virt="virtual"><scope>QuantumKeyEntryDescriptor</scope><name>doesSupport</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1a78db0d95f7eaed4e5b2a624ef3959409" prot="public" virt="virtual"><scope>QuantumKeyEntryDescriptor</scope><name>findField</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1a99c4af21a6ed732a4d64e733eb1021b9" prot="public" virt="virtual"><scope>QuantumKeyEntryDescriptor</scope><name>getFieldArraySize</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1a48dbe8b7e2d2d9d2073dd37411d79e8a" prot="public" virt="virtual"><scope>QuantumKeyEntryDescriptor</scope><name>getFieldCount</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1ad049742c4c0c48dc7af43f1f2d3368d4" prot="public" virt="virtual"><scope>QuantumKeyEntryDescriptor</scope><name>getFieldDynamicTypeString</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1a310370865a7ca24cad32a87f08910e23" prot="public" virt="virtual"><scope>QuantumKeyEntryDescriptor</scope><name>getFieldName</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1a8c91d8453974f85d38cedc353ae2597b" prot="public" virt="virtual"><scope>QuantumKeyEntryDescriptor</scope><name>getFieldProperty</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1a4a780c8fa382b97e8c01ee8392f1ae6a" prot="public" virt="virtual"><scope>QuantumKeyEntryDescriptor</scope><name>getFieldPropertyNames</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1a9dfeb12a34a1b4db6eabb3b7e2fe6bf8" prot="public" virt="virtual"><scope>QuantumKeyEntryDescriptor</scope><name>getFieldStructName</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1a340cab5b1db3184caafbb408c5698a8a" prot="public" virt="virtual"><scope>QuantumKeyEntryDescriptor</scope><name>getFieldStructValuePointer</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1aa91a5cb107a1630faaadf24986d418e5" prot="public" virt="virtual"><scope>QuantumKeyEntryDescriptor</scope><name>getFieldTypeFlags</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1a7be1a9492d7914fc208ed534d9d07f8d" prot="public" virt="virtual"><scope>QuantumKeyEntryDescriptor</scope><name>getFieldTypeString</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1a5f5a39bb70c3eb455aa5315a68bb69b1" prot="public" virt="virtual"><scope>QuantumKeyEntryDescriptor</scope><name>getFieldValueAsString</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1a6e235536b6a229ca7d3c20be25bfe2cd" prot="public" virt="virtual"><scope>QuantumKeyEntryDescriptor</scope><name>getProperty</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1ae36c5bc900f2cbe39a5c1b14953bf74c" prot="public" virt="virtual"><scope>QuantumKeyEntryDescriptor</scope><name>getPropertyNames</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1ad82f2af116fdfe13df16a73a17fc8774" prot="private" virt="non-virtual"><scope>QuantumKeyEntryDescriptor</scope><name>propertynames</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1acca918d285ea149d54f2c896a99da61f" prot="public" virt="non-virtual"><scope>QuantumKeyEntryDescriptor</scope><name>QuantumKeyEntryDescriptor</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1a560af5aa20a95312ed0377e09a0547d7" prot="public" virt="virtual"><scope>QuantumKeyEntryDescriptor</scope><name>setFieldValueAsString</name></member>
+      <member refid="class_quantum_key_entry_descriptor_1a42061b835f4683d3cdedcdf4aeefd8dd" prot="public" virt="virtual"><scope>QuantumKeyEntryDescriptor</scope><name>~QuantumKeyEntryDescriptor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

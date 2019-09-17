@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_switch_public_interface" kind="class" language="C++" prot="public">
+    <compoundname>SwitchPublicInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cSimpleModule</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_switch_public_interface_1a647ca83165b8144e826f18170c63b233" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SwitchPublicInterface::initialize</definition>
+        <argsstring>() override</argsstring>
+        <name>initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchPublicInterface.cc" line="19" column="18" bodyfile="SwitchPublicInterface.cc" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_switch_public_interface_1a3e9c2fa490f6552cd2ad35a96d0b98d5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SwitchPublicInterface::handleMessage</definition>
+        <argsstring>(cMessage *msg) override</argsstring>
+        <name>handleMessage</name>
+        <param>
+          <type>cMessage *</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchPublicInterface.cc" line="20" column="18" bodyfile="SwitchPublicInterface.cc" bodystart="30" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>SwitchPublicInterface</label>
+        <link refid="class_switch_public_interface"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>SwitchPublicInterface</label>
+        <link refid="class_switch_public_interface"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+    </collaborationgraph>
+    <location file="SwitchPublicInterface.cc" line="17" column="1" bodyfile="SwitchPublicInterface.cc" bodystart="16" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_switch_public_interface_1a3e9c2fa490f6552cd2ad35a96d0b98d5" prot="protected" virt="virtual"><scope>SwitchPublicInterface</scope><name>handleMessage</name></member>
+      <member refid="class_switch_public_interface_1a647ca83165b8144e826f18170c63b233" prot="protected" virt="virtual"><scope>SwitchPublicInterface</scope><name>initialize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

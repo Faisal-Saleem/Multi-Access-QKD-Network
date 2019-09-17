@@ -1,0 +1,446 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_session_state_entry_descriptor" kind="class" language="C++" prot="public">
+    <compoundname>SessionStateEntryDescriptor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cClassDescriptor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_session_state_entry_descriptor_1a9f19a54c3254246a657908646cde7b96" prot="private" static="no" mutable="yes">
+        <type>const char **</type>
+        <definition>const char** SessionStateEntryDescriptor::propertynames</definition>
+        <argsstring></argsstring>
+        <name>propertynames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="338" column="24" bodyfile="SessionStateEntry_m.cc" bodystart="338" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1aac93731b57943c1fa96e2cd995420302" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SessionStateEntryDescriptor::SessionStateEntryDescriptor</definition>
+        <argsstring>()</argsstring>
+        <name>SessionStateEntryDescriptor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="340" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1a6b55cb9a79ac93d626240c965ca20d3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>SessionStateEntryDescriptor::~SessionStateEntryDescriptor</definition>
+        <argsstring>()</argsstring>
+        <name>~SessionStateEntryDescriptor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="341" column="13" bodyfile="SessionStateEntry_m.cc" bodystart="370" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1ae3ce56e11405cd02166ba9fb4f7cff5c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool SessionStateEntryDescriptor::doesSupport</definition>
+        <argsstring>(omnetpp::cObject *obj) const override</argsstring>
+        <name>doesSupport</name>
+        <param>
+          <type>omnetpp::cObject *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="343" column="18" bodyfile="SessionStateEntry_m.cc" bodystart="375" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1a1552fae7fef5a1a3405b6b77920ab69d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char **</type>
+        <definition>const char ** SessionStateEntryDescriptor::getPropertyNames</definition>
+        <argsstring>() const override</argsstring>
+        <name>getPropertyNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="344" column="24" bodyfile="SessionStateEntry_m.cc" bodystart="380" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1ac8b721da7ae12a6f0dae52518a49a9a5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * SessionStateEntryDescriptor::getProperty</definition>
+        <argsstring>(const char *propertyname) const override</argsstring>
+        <name>getProperty</name>
+        <param>
+          <type>const char *</type>
+          <declname>propertyname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="345" column="24" bodyfile="SessionStateEntry_m.cc" bodystart="391" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1a9da90f28611b4ee0eb21d921bc0ca2cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int SessionStateEntryDescriptor::getFieldCount</definition>
+        <argsstring>() const override</argsstring>
+        <name>getFieldCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="346" column="17" bodyfile="SessionStateEntry_m.cc" bodystart="397" bodyend="401"/>
+        <referencedby refid="class_session_state_entry_descriptor_1a0b4d05bbbcf3b4642f50c014c24344b8" compoundref="_session_state_entry__m_8cc" startline="403" endline="423">getFieldTypeFlags</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a5a85860c32c17a2b3fc36665157b8b95" compoundref="_session_state_entry__m_8cc" startline="425" endline="445">getFieldName</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a4a3bccac044de87dcb3548b8b96185b8" compoundref="_session_state_entry__m_8cc" startline="463" endline="483">getFieldTypeString</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1af717c06de98a4e58d5138e13dd333003" compoundref="_session_state_entry__m_8cc" startline="485" endline="496">getFieldPropertyNames</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1ab6c1402e67c04075abfbbb0a1199d7a5" compoundref="_session_state_entry__m_8cc" startline="498" endline="509">getFieldProperty</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a81f0871664e014ca3c56eea9aef9b94e" compoundref="_session_state_entry__m_8cc" startline="511" endline="523">getFieldArraySize</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a656f2fefd5ce8aa55b8f56895de949dc" compoundref="_session_state_entry__m_8cc" startline="525" endline="537">getFieldDynamicTypeString</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a0369812f9dfd60f49a8f05a5632600b1" compoundref="_session_state_entry__m_8cc" startline="539" endline="560">getFieldValueAsString</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a7deec6027d458c7fe4a33d1f1287c678" compoundref="_session_state_entry__m_8cc" startline="562" endline="583">setFieldValueAsString</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1a4be82fd9be6df523bad18d5d898c6632" compoundref="_session_state_entry__m_8cc" startline="585" endline="596">getFieldStructName</referencedby>
+        <referencedby refid="class_session_state_entry_descriptor_1ab21e15ce51bd71af6f47a9fea820e130" compoundref="_session_state_entry__m_8cc" startline="598" endline="610">getFieldStructValuePointer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1a5a85860c32c17a2b3fc36665157b8b95" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * SessionStateEntryDescriptor::getFieldName</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldName</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="347" column="24" bodyfile="SessionStateEntry_m.cc" bodystart="425" bodyend="445"/>
+        <references refid="class_session_state_entry_descriptor_1a9da90f28611b4ee0eb21d921bc0ca2cd" compoundref="_session_state_entry__m_8cc" startline="397" endline="401">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1a08c235019eb64d589feaca08c2148fd0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int SessionStateEntryDescriptor::findField</definition>
+        <argsstring>(const char *fieldName) const override</argsstring>
+        <name>findField</name>
+        <param>
+          <type>const char *</type>
+          <declname>fieldName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="348" column="17" bodyfile="SessionStateEntry_m.cc" bodystart="447" bodyend="461"/>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1a0b4d05bbbcf3b4642f50c014c24344b8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int SessionStateEntryDescriptor::getFieldTypeFlags</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldTypeFlags</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="349" column="26" bodyfile="SessionStateEntry_m.cc" bodystart="403" bodyend="423"/>
+        <references refid="class_session_state_entry_descriptor_1a9da90f28611b4ee0eb21d921bc0ca2cd" compoundref="_session_state_entry__m_8cc" startline="397" endline="401">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1a4a3bccac044de87dcb3548b8b96185b8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * SessionStateEntryDescriptor::getFieldTypeString</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldTypeString</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="350" column="24" bodyfile="SessionStateEntry_m.cc" bodystart="463" bodyend="483"/>
+        <references refid="class_session_state_entry_descriptor_1a9da90f28611b4ee0eb21d921bc0ca2cd" compoundref="_session_state_entry__m_8cc" startline="397" endline="401">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1af717c06de98a4e58d5138e13dd333003" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char **</type>
+        <definition>const char ** SessionStateEntryDescriptor::getFieldPropertyNames</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldPropertyNames</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="351" column="24" bodyfile="SessionStateEntry_m.cc" bodystart="485" bodyend="496"/>
+        <references refid="class_session_state_entry_descriptor_1a9da90f28611b4ee0eb21d921bc0ca2cd" compoundref="_session_state_entry__m_8cc" startline="397" endline="401">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1ab6c1402e67c04075abfbbb0a1199d7a5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * SessionStateEntryDescriptor::getFieldProperty</definition>
+        <argsstring>(int field, const char *propertyname) const override</argsstring>
+        <name>getFieldProperty</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>propertyname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="352" column="24" bodyfile="SessionStateEntry_m.cc" bodystart="498" bodyend="509"/>
+        <references refid="class_session_state_entry_descriptor_1a9da90f28611b4ee0eb21d921bc0ca2cd" compoundref="_session_state_entry__m_8cc" startline="397" endline="401">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1a81f0871664e014ca3c56eea9aef9b94e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int SessionStateEntryDescriptor::getFieldArraySize</definition>
+        <argsstring>(void *object, int field) const override</argsstring>
+        <name>getFieldArraySize</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="353" column="17" bodyfile="SessionStateEntry_m.cc" bodystart="511" bodyend="523"/>
+        <references refid="class_session_state_entry_descriptor_1a9da90f28611b4ee0eb21d921bc0ca2cd" compoundref="_session_state_entry__m_8cc" startline="397" endline="401">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1a656f2fefd5ce8aa55b8f56895de949dc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * SessionStateEntryDescriptor::getFieldDynamicTypeString</definition>
+        <argsstring>(void *object, int field, int i) const override</argsstring>
+        <name>getFieldDynamicTypeString</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="355" column="24" bodyfile="SessionStateEntry_m.cc" bodystart="525" bodyend="537"/>
+        <references refid="class_session_state_entry_descriptor_1a9da90f28611b4ee0eb21d921bc0ca2cd" compoundref="_session_state_entry__m_8cc" startline="397" endline="401">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1a0369812f9dfd60f49a8f05a5632600b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string SessionStateEntryDescriptor::getFieldValueAsString</definition>
+        <argsstring>(void *object, int field, int i) const override</argsstring>
+        <name>getFieldValueAsString</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="356" column="25" bodyfile="SessionStateEntry_m.cc" bodystart="539" bodyend="560"/>
+        <references refid="class_session_state_entry_descriptor_1a9da90f28611b4ee0eb21d921bc0ca2cd" compoundref="_session_state_entry__m_8cc" startline="397" endline="401">getFieldCount</references>
+        <references refid="class_session_state_entry_1ac7008d50f836ab35135b1f4c18d0d4f3" compoundref="_session_state_entry__m_8cc" startline="245" endline="248">SessionStateEntry::getSessionId</references>
+        <references refid="class_session_state_entry_1a0a95e11ae98c1e210baf2bb2dfafaeb3" compoundref="_session_state_entry__m_8cc" startline="255" endline="258">SessionStateEntry::getSrcMac</references>
+        <references refid="class_session_state_entry_1aabe67a1cafcc6991c929563b3210633d" compoundref="_session_state_entry__m_8cc" startline="265" endline="268">SessionStateEntry::getSrcQMac</references>
+        <references refid="class_session_state_entry_1af67c535933d3a94227e14930b8007ec8" compoundref="_session_state_entry__m_8cc" startline="275" endline="278">SessionStateEntry::getSrcSubInterface</references>
+        <references refid="class_session_state_entry_1aa26d3a0d89a0a480a065700541c7f348" compoundref="_session_state_entry__m_8cc" startline="285" endline="288">SessionStateEntry::getDesMac</references>
+        <references refid="class_session_state_entry_1a39fc505629ae92fe94ec28eb4d65b7e7" compoundref="_session_state_entry__m_8cc" startline="295" endline="298">SessionStateEntry::getDesQMac</references>
+        <references refid="class_session_state_entry_1a6744fccab42b02111ed4a598638b26b5" compoundref="_session_state_entry__m_8cc" startline="305" endline="308">SessionStateEntry::getDesSubInterface</references>
+        <references refid="class_session_state_entry_1a802f897ce63cd7264ade71cdccc303b3" compoundref="_session_state_entry__m_8cc" startline="315" endline="318">SessionStateEntry::getExpiry</references>
+        <references refid="class_session_state_entry_1aa4761da1a38d4d84ef33e85908221c63" compoundref="_session_state_entry__m_8cc" startline="325" endline="328">SessionStateEntry::getStatus</references>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1a7deec6027d458c7fe4a33d1f1287c678" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool SessionStateEntryDescriptor::setFieldValueAsString</definition>
+        <argsstring>(void *object, int field, int i, const char *value) const override</argsstring>
+        <name>setFieldValueAsString</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="357" column="18" bodyfile="SessionStateEntry_m.cc" bodystart="562" bodyend="583"/>
+        <references refid="class_session_state_entry_descriptor_1a9da90f28611b4ee0eb21d921bc0ca2cd" compoundref="_session_state_entry__m_8cc" startline="397" endline="401">getFieldCount</references>
+        <references refid="class_session_state_entry_1a99f4e085c7f8e10beaefe6c92cf25c91" compoundref="_session_state_entry__m_8cc" startline="250" endline="253">SessionStateEntry::setSessionId</references>
+        <references refid="class_session_state_entry_1a925ca61bf7230b35e3f915062a6d726c" compoundref="_session_state_entry__m_8cc" startline="260" endline="263">SessionStateEntry::setSrcMac</references>
+        <references refid="class_session_state_entry_1a808022e62c2fe4736598ac93811436da" compoundref="_session_state_entry__m_8cc" startline="270" endline="273">SessionStateEntry::setSrcQMac</references>
+        <references refid="class_session_state_entry_1a8396331691af743c912b97d8dacb4c2e" compoundref="_session_state_entry__m_8cc" startline="280" endline="283">SessionStateEntry::setSrcSubInterface</references>
+        <references refid="class_session_state_entry_1af005291102751eadc6a03d95d00f9907" compoundref="_session_state_entry__m_8cc" startline="290" endline="293">SessionStateEntry::setDesMac</references>
+        <references refid="class_session_state_entry_1a0a0e5e1e9493fa447f02c04e501e91ff" compoundref="_session_state_entry__m_8cc" startline="300" endline="303">SessionStateEntry::setDesQMac</references>
+        <references refid="class_session_state_entry_1a3b6589d8f660884c5bd5fa751c3d4b81" compoundref="_session_state_entry__m_8cc" startline="310" endline="313">SessionStateEntry::setDesSubInterface</references>
+        <references refid="class_session_state_entry_1a427ca30027864c36630b334f02c05ac7" compoundref="_session_state_entry__m_8cc" startline="320" endline="323">SessionStateEntry::setExpiry</references>
+        <references refid="class_session_state_entry_1a489034b564fa1d8ce989cef3af8342f9" compoundref="_session_state_entry__m_8cc" startline="330" endline="333">SessionStateEntry::setStatus</references>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1a4be82fd9be6df523bad18d5d898c6632" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * SessionStateEntryDescriptor::getFieldStructName</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldStructName</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="359" column="24" bodyfile="SessionStateEntry_m.cc" bodystart="585" bodyend="596"/>
+        <references refid="class_session_state_entry_descriptor_1a9da90f28611b4ee0eb21d921bc0ca2cd" compoundref="_session_state_entry__m_8cc" startline="397" endline="401">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_session_state_entry_descriptor_1ab21e15ce51bd71af6f47a9fea820e130" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void *</type>
+        <definition>void * SessionStateEntryDescriptor::getFieldStructValuePointer</definition>
+        <argsstring>(void *object, int field, int i) const override</argsstring>
+        <name>getFieldStructValuePointer</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SessionStateEntry_m.cc" line="360" column="18" bodyfile="SessionStateEntry_m.cc" bodystart="598" bodyend="610"/>
+        <references refid="class_session_state_entry_descriptor_1a9da90f28611b4ee0eb21d921bc0ca2cd" compoundref="_session_state_entry__m_8cc" startline="397" endline="401">getFieldCount</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>cClassDescriptor</label>
+      </node>
+      <node id="1">
+        <label>SessionStateEntryDescriptor</label>
+        <link refid="class_session_state_entry_descriptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>cClassDescriptor</label>
+      </node>
+      <node id="1">
+        <label>SessionStateEntryDescriptor</label>
+        <link refid="class_session_state_entry_descriptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="SessionStateEntry_m.cc" line="336" column="1" bodyfile="SessionStateEntry_m.cc" bodystart="335" bodyend="361"/>
+    <listofallmembers>
+      <member refid="class_session_state_entry_descriptor_1ae3ce56e11405cd02166ba9fb4f7cff5c" prot="public" virt="virtual"><scope>SessionStateEntryDescriptor</scope><name>doesSupport</name></member>
+      <member refid="class_session_state_entry_descriptor_1a08c235019eb64d589feaca08c2148fd0" prot="public" virt="virtual"><scope>SessionStateEntryDescriptor</scope><name>findField</name></member>
+      <member refid="class_session_state_entry_descriptor_1a81f0871664e014ca3c56eea9aef9b94e" prot="public" virt="virtual"><scope>SessionStateEntryDescriptor</scope><name>getFieldArraySize</name></member>
+      <member refid="class_session_state_entry_descriptor_1a9da90f28611b4ee0eb21d921bc0ca2cd" prot="public" virt="virtual"><scope>SessionStateEntryDescriptor</scope><name>getFieldCount</name></member>
+      <member refid="class_session_state_entry_descriptor_1a656f2fefd5ce8aa55b8f56895de949dc" prot="public" virt="virtual"><scope>SessionStateEntryDescriptor</scope><name>getFieldDynamicTypeString</name></member>
+      <member refid="class_session_state_entry_descriptor_1a5a85860c32c17a2b3fc36665157b8b95" prot="public" virt="virtual"><scope>SessionStateEntryDescriptor</scope><name>getFieldName</name></member>
+      <member refid="class_session_state_entry_descriptor_1ab6c1402e67c04075abfbbb0a1199d7a5" prot="public" virt="virtual"><scope>SessionStateEntryDescriptor</scope><name>getFieldProperty</name></member>
+      <member refid="class_session_state_entry_descriptor_1af717c06de98a4e58d5138e13dd333003" prot="public" virt="virtual"><scope>SessionStateEntryDescriptor</scope><name>getFieldPropertyNames</name></member>
+      <member refid="class_session_state_entry_descriptor_1a4be82fd9be6df523bad18d5d898c6632" prot="public" virt="virtual"><scope>SessionStateEntryDescriptor</scope><name>getFieldStructName</name></member>
+      <member refid="class_session_state_entry_descriptor_1ab21e15ce51bd71af6f47a9fea820e130" prot="public" virt="virtual"><scope>SessionStateEntryDescriptor</scope><name>getFieldStructValuePointer</name></member>
+      <member refid="class_session_state_entry_descriptor_1a0b4d05bbbcf3b4642f50c014c24344b8" prot="public" virt="virtual"><scope>SessionStateEntryDescriptor</scope><name>getFieldTypeFlags</name></member>
+      <member refid="class_session_state_entry_descriptor_1a4a3bccac044de87dcb3548b8b96185b8" prot="public" virt="virtual"><scope>SessionStateEntryDescriptor</scope><name>getFieldTypeString</name></member>
+      <member refid="class_session_state_entry_descriptor_1a0369812f9dfd60f49a8f05a5632600b1" prot="public" virt="virtual"><scope>SessionStateEntryDescriptor</scope><name>getFieldValueAsString</name></member>
+      <member refid="class_session_state_entry_descriptor_1ac8b721da7ae12a6f0dae52518a49a9a5" prot="public" virt="virtual"><scope>SessionStateEntryDescriptor</scope><name>getProperty</name></member>
+      <member refid="class_session_state_entry_descriptor_1a1552fae7fef5a1a3405b6b77920ab69d" prot="public" virt="virtual"><scope>SessionStateEntryDescriptor</scope><name>getPropertyNames</name></member>
+      <member refid="class_session_state_entry_descriptor_1a9f19a54c3254246a657908646cde7b96" prot="private" virt="non-virtual"><scope>SessionStateEntryDescriptor</scope><name>propertynames</name></member>
+      <member refid="class_session_state_entry_descriptor_1aac93731b57943c1fa96e2cd995420302" prot="public" virt="non-virtual"><scope>SessionStateEntryDescriptor</scope><name>SessionStateEntryDescriptor</name></member>
+      <member refid="class_session_state_entry_descriptor_1a7deec6027d458c7fe4a33d1f1287c678" prot="public" virt="virtual"><scope>SessionStateEntryDescriptor</scope><name>setFieldValueAsString</name></member>
+      <member refid="class_session_state_entry_descriptor_1a6b55cb9a79ac93d626240c965ca20d3c" prot="public" virt="virtual"><scope>SessionStateEntryDescriptor</scope><name>~SessionStateEntryDescriptor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

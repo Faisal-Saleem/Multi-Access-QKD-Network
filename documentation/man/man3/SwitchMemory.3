@@ -1,0 +1,227 @@
+.TH "SwitchMemory" 3 "Tue Sep 17 2019" "Multiaccess QKD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SwitchMemory \- Class to hold the objects in memory\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <SwitchMemory\&.h>\fP
+.PP
+Inherits cSimpleModule\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMacTableEntry\fP \fBgetMacTable\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBaddMacTableEntry\fP (\fBMacTableEntry\fP *macTableEntry)"
+.br
+.ti -1c
+.RI "int \fBgetMacTableSize\fP ()"
+.br
+.ti -1c
+.RI "std::string \fBgetQuantumInterfaceMacAddressFromMacTable\fP (std::string publicInterfaceMacAddress)"
+.br
+.ti -1c
+.RI "std::string \fBgetInterfaceIdFromMacTable\fP (std::string \fBmacAddress\fP)"
+.br
+.ti -1c
+.RI "std::string \fBgetMacAddressOfInterfaceFromMacTable\fP (std::string \fBinterface\fP)"
+.br
+.ti -1c
+.RI "std::string \fBgetQuantumMacAddressOfInterfaceFromMacTable\fP (std::string \fBinterface\fP)"
+.br
+.ti -1c
+.RI "std::string \fBgetQuantumInterfaceFromMacTable\fP (std::string qMacAddress)"
+.br
+.ti -1c
+.RI "std::string \fBgetQuantumInterfaceFromMacTableByPublicMac\fP (std::string \fBmacAddress\fP)"
+.br
+.ti -1c
+.RI "std::string \fBgetInterface\fP (std::string \fBmacAddress\fP)"
+.br
+.ti -1c
+.RI "bool \fBentryExist\fP (std::string srcMac, std::string desMac)"
+.br
+.ti -1c
+.RI "\fBQuantumSubInterfaceBinding\fP \fBgetQuantumBindingTable\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBaddQuantumBindingTableEntry\fP (\fBQuantumSubInterfaceBinding\fP *quantumBindingEntry)"
+.br
+.ti -1c
+.RI "int \fBgetQuantumBindingTableSize\fP ()"
+.br
+.ti -1c
+.RI "std::string \fBgetExitInterfaceFromBindingTable\fP (std::string src, std::string des)"
+.br
+.ti -1c
+.RI "\fBArpTableEntry\fP \fBgetArpTableEntry\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBaddArpTableEntry\fP (\fBArpTableEntry\fP *arpTableEntry)"
+.br
+.ti -1c
+.RI "int \fBgetArpTableSize\fP ()"
+.br
+.ti -1c
+.RI "\fBSessionStateEntry\fP \fBgetsessionStateTableEntry\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBaddSessionStateTableEntry\fP (\fBSessionStateEntry\fP *sessionStateEntry)"
+.br
+.ti -1c
+.RI "int \fBgetSessionStateTableSize\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBmacEntryIndex\fP"
+.br
+.ti -1c
+.RI "int \fBquantumBindingEntryIndex\fP"
+.br
+.ti -1c
+.RI "int \fBarpEntryIndex\fP"
+.br
+.ti -1c
+.RI "int \fBsessionsStateEntryIndex\fP"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBinitialize\fP (int stage) override"
+.br
+.ti -1c
+.RI "virtual int \fBnumInitStages\fP () const override"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class to hold the objects in memory\&. 
+.PP
+Definition at line 44 of file SwitchMemory\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void SwitchMemory::addArpTableEntry (\fBArpTableEntry\fP * arpTableEntry)"
+
+.PP
+Definition at line 256 of file SwitchMemory\&.cc\&.
+.SS "void SwitchMemory::addMacTableEntry (\fBMacTableEntry\fP * macTableEntry)"
+
+.PP
+Definition at line 42 of file SwitchMemory\&.cc\&.
+.SS "void SwitchMemory::addQuantumBindingTableEntry (\fBQuantumSubInterfaceBinding\fP * quantumBindingEntry)"
+
+.PP
+Definition at line 209 of file SwitchMemory\&.cc\&.
+.SS "void SwitchMemory::addSessionStateTableEntry (\fBSessionStateEntry\fP * sessionStateEntry)"
+
+.PP
+Definition at line 240 of file SwitchMemory\&.cc\&.
+.SS "bool SwitchMemory::entryExist (std::string srcMac, std::string desMac)"
+
+.PP
+Definition at line 97 of file SwitchMemory\&.cc\&.
+.SS "\fBArpTableEntry\fP SwitchMemory::getArpTableEntry (int index)"
+
+.PP
+Definition at line 250 of file SwitchMemory\&.cc\&.
+.SS "int SwitchMemory::getArpTableSize ()"
+
+.PP
+Definition at line 261 of file SwitchMemory\&.cc\&.
+.SS "std::string SwitchMemory::getExitInterfaceFromBindingTable (std::string src, std::string des)"
+
+.PP
+Definition at line 219 of file SwitchMemory\&.cc\&.
+.SS "std::string SwitchMemory::getInterface (std::string macAddress)"
+
+.PP
+Definition at line 82 of file SwitchMemory\&.cc\&.
+.SS "std::string SwitchMemory::getInterfaceIdFromMacTable (std::string macAddress)"
+
+.PP
+Definition at line 57 of file SwitchMemory\&.cc\&.
+.SS "std::string SwitchMemory::getMacAddressOfInterfaceFromMacTable (std::string interface)"
+
+.PP
+Definition at line 62 of file SwitchMemory\&.cc\&.
+.SS "\fBMacTableEntry\fP SwitchMemory::getMacTable (int index)"
+
+.PP
+Definition at line 36 of file SwitchMemory\&.cc\&.
+.SS "int SwitchMemory::getMacTableSize ()"
+
+.PP
+Definition at line 47 of file SwitchMemory\&.cc\&.
+.SS "\fBQuantumSubInterfaceBinding\fP SwitchMemory::getQuantumBindingTable (int index)"
+
+.PP
+Definition at line 203 of file SwitchMemory\&.cc\&.
+.SS "int SwitchMemory::getQuantumBindingTableSize ()"
+
+.PP
+Definition at line 214 of file SwitchMemory\&.cc\&.
+.SS "std::string SwitchMemory::getQuantumInterfaceFromMacTable (std::string qMacAddress)"
+
+.PP
+Definition at line 72 of file SwitchMemory\&.cc\&.
+.SS "std::string SwitchMemory::getQuantumInterfaceFromMacTableByPublicMac (std::string macAddress)"
+
+.PP
+Definition at line 77 of file SwitchMemory\&.cc\&.
+.SS "std::string SwitchMemory::getQuantumInterfaceMacAddressFromMacTable (std::string publicInterfaceMacAddress)"
+
+.PP
+Definition at line 52 of file SwitchMemory\&.cc\&.
+.SS "std::string SwitchMemory::getQuantumMacAddressOfInterfaceFromMacTable (std::string interface)"
+
+.PP
+Definition at line 67 of file SwitchMemory\&.cc\&.
+.SS "\fBSessionStateEntry\fP SwitchMemory::getsessionStateTableEntry (int index)"
+
+.PP
+Definition at line 234 of file SwitchMemory\&.cc\&.
+.SS "int SwitchMemory::getSessionStateTableSize ()"
+
+.PP
+Definition at line 245 of file SwitchMemory\&.cc\&.
+.SS "void SwitchMemory::initialize (int stage)\fC [override]\fP, \fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 26 of file SwitchMemory\&.cc\&.
+.SS "int SwitchMemory::numInitStages () const\fC [override]\fP, \fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 31 of file SwitchMemory\&.cc\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "int SwitchMemory::arpEntryIndex"
+
+.PP
+Definition at line 80 of file SwitchMemory\&.h\&.
+.SS "int SwitchMemory::macEntryIndex"
+
+.PP
+Definition at line 58 of file SwitchMemory\&.h\&.
+.SS "int SwitchMemory::quantumBindingEntryIndex"
+
+.PP
+Definition at line 73 of file SwitchMemory\&.h\&.
+.SS "int SwitchMemory::sessionsStateEntryIndex"
+
+.PP
+Definition at line 86 of file SwitchMemory\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Multiaccess QKD from the source code\&.

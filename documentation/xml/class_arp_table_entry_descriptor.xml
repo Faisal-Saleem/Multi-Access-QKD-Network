@@ -1,0 +1,442 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_arp_table_entry_descriptor" kind="class" language="C++" prot="public">
+    <compoundname>ArpTableEntryDescriptor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cClassDescriptor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_arp_table_entry_descriptor_1a80bec1403a3d49b9b4b79169e1e88897" prot="private" static="no" mutable="yes">
+        <type>const char **</type>
+        <definition>const char** ArpTableEntryDescriptor::propertynames</definition>
+        <argsstring></argsstring>
+        <name>propertynames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="313" column="24" bodyfile="ArpTableEntry_m.cc" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1a3af88e931c928c1a5900d6d52fe18c95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ArpTableEntryDescriptor::ArpTableEntryDescriptor</definition>
+        <argsstring>()</argsstring>
+        <name>ArpTableEntryDescriptor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="315" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1abeda106234cdf1608d6b37b6957d59e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>ArpTableEntryDescriptor::~ArpTableEntryDescriptor</definition>
+        <argsstring>()</argsstring>
+        <name>~ArpTableEntryDescriptor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="316" column="13" bodyfile="ArpTableEntry_m.cc" bodystart="345" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1a97ce795b0abc838bdcd37468cc1c2a6f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ArpTableEntryDescriptor::doesSupport</definition>
+        <argsstring>(omnetpp::cObject *obj) const override</argsstring>
+        <name>doesSupport</name>
+        <param>
+          <type>omnetpp::cObject *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="318" column="18" bodyfile="ArpTableEntry_m.cc" bodystart="350" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1aa55c4c727ea6e55180bd69fdce0d8cc8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char **</type>
+        <definition>const char ** ArpTableEntryDescriptor::getPropertyNames</definition>
+        <argsstring>() const override</argsstring>
+        <name>getPropertyNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="319" column="24" bodyfile="ArpTableEntry_m.cc" bodystart="355" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1aa223c2382b4bdd4fe7298af7c9a7cff6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * ArpTableEntryDescriptor::getProperty</definition>
+        <argsstring>(const char *propertyname) const override</argsstring>
+        <name>getProperty</name>
+        <param>
+          <type>const char *</type>
+          <declname>propertyname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="320" column="24" bodyfile="ArpTableEntry_m.cc" bodystart="366" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1a770087d5cec9f0f7d40c163f7e1c7ce2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ArpTableEntryDescriptor::getFieldCount</definition>
+        <argsstring>() const override</argsstring>
+        <name>getFieldCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="321" column="17" bodyfile="ArpTableEntry_m.cc" bodystart="372" bodyend="376"/>
+        <referencedby refid="class_arp_table_entry_descriptor_1a86f8906895f36d4602aed1fdf4640d58" compoundref="_arp_table_entry__m_8cc" startline="378" endline="396">getFieldTypeFlags</referencedby>
+        <referencedby refid="class_arp_table_entry_descriptor_1a39349e9d6a968b909089cd9b36207852" compoundref="_arp_table_entry__m_8cc" startline="398" endline="416">getFieldName</referencedby>
+        <referencedby refid="class_arp_table_entry_descriptor_1a2a2721b8a1693e38fe838f0b7fbe881d" compoundref="_arp_table_entry__m_8cc" startline="432" endline="450">getFieldTypeString</referencedby>
+        <referencedby refid="class_arp_table_entry_descriptor_1af1e05ab2733c4f45c53853c325e55edc" compoundref="_arp_table_entry__m_8cc" startline="452" endline="463">getFieldPropertyNames</referencedby>
+        <referencedby refid="class_arp_table_entry_descriptor_1ae0a98e276e4dd80ae9155ab164c4a223" compoundref="_arp_table_entry__m_8cc" startline="465" endline="476">getFieldProperty</referencedby>
+        <referencedby refid="class_arp_table_entry_descriptor_1a3300191face579f4cb2fcf8de301f882" compoundref="_arp_table_entry__m_8cc" startline="478" endline="490">getFieldArraySize</referencedby>
+        <referencedby refid="class_arp_table_entry_descriptor_1a4b71aa03d035b93a7ee1818489a43fd3" compoundref="_arp_table_entry__m_8cc" startline="492" endline="504">getFieldDynamicTypeString</referencedby>
+        <referencedby refid="class_arp_table_entry_descriptor_1aaf5aad0b76bd0167744cb3f0f9176a77" compoundref="_arp_table_entry__m_8cc" startline="506" endline="525">getFieldValueAsString</referencedby>
+        <referencedby refid="class_arp_table_entry_descriptor_1a5fb72498fa0d12ad371365673930c293" compoundref="_arp_table_entry__m_8cc" startline="527" endline="546">setFieldValueAsString</referencedby>
+        <referencedby refid="class_arp_table_entry_descriptor_1a5d3f171a8f5868a8f93dfa57266fd9d5" compoundref="_arp_table_entry__m_8cc" startline="548" endline="559">getFieldStructName</referencedby>
+        <referencedby refid="class_arp_table_entry_descriptor_1afee450d3728d5dd41849cd656546af22" compoundref="_arp_table_entry__m_8cc" startline="561" endline="573">getFieldStructValuePointer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1a39349e9d6a968b909089cd9b36207852" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * ArpTableEntryDescriptor::getFieldName</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldName</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="322" column="24" bodyfile="ArpTableEntry_m.cc" bodystart="398" bodyend="416"/>
+        <references refid="class_arp_table_entry_descriptor_1a770087d5cec9f0f7d40c163f7e1c7ce2" compoundref="_arp_table_entry__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1a105535c48240c5cd5681a8ab21ee2607" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ArpTableEntryDescriptor::findField</definition>
+        <argsstring>(const char *fieldName) const override</argsstring>
+        <name>findField</name>
+        <param>
+          <type>const char *</type>
+          <declname>fieldName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="323" column="17" bodyfile="ArpTableEntry_m.cc" bodystart="418" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1a86f8906895f36d4602aed1fdf4640d58" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int ArpTableEntryDescriptor::getFieldTypeFlags</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldTypeFlags</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="324" column="26" bodyfile="ArpTableEntry_m.cc" bodystart="378" bodyend="396"/>
+        <references refid="class_arp_table_entry_descriptor_1a770087d5cec9f0f7d40c163f7e1c7ce2" compoundref="_arp_table_entry__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1a2a2721b8a1693e38fe838f0b7fbe881d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * ArpTableEntryDescriptor::getFieldTypeString</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldTypeString</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="325" column="24" bodyfile="ArpTableEntry_m.cc" bodystart="432" bodyend="450"/>
+        <references refid="class_arp_table_entry_descriptor_1a770087d5cec9f0f7d40c163f7e1c7ce2" compoundref="_arp_table_entry__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1af1e05ab2733c4f45c53853c325e55edc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char **</type>
+        <definition>const char ** ArpTableEntryDescriptor::getFieldPropertyNames</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldPropertyNames</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="326" column="24" bodyfile="ArpTableEntry_m.cc" bodystart="452" bodyend="463"/>
+        <references refid="class_arp_table_entry_descriptor_1a770087d5cec9f0f7d40c163f7e1c7ce2" compoundref="_arp_table_entry__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1ae0a98e276e4dd80ae9155ab164c4a223" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * ArpTableEntryDescriptor::getFieldProperty</definition>
+        <argsstring>(int field, const char *propertyname) const override</argsstring>
+        <name>getFieldProperty</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>propertyname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="327" column="24" bodyfile="ArpTableEntry_m.cc" bodystart="465" bodyend="476"/>
+        <references refid="class_arp_table_entry_descriptor_1a770087d5cec9f0f7d40c163f7e1c7ce2" compoundref="_arp_table_entry__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1a3300191face579f4cb2fcf8de301f882" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ArpTableEntryDescriptor::getFieldArraySize</definition>
+        <argsstring>(void *object, int field) const override</argsstring>
+        <name>getFieldArraySize</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="328" column="17" bodyfile="ArpTableEntry_m.cc" bodystart="478" bodyend="490"/>
+        <references refid="class_arp_table_entry_descriptor_1a770087d5cec9f0f7d40c163f7e1c7ce2" compoundref="_arp_table_entry__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1a4b71aa03d035b93a7ee1818489a43fd3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * ArpTableEntryDescriptor::getFieldDynamicTypeString</definition>
+        <argsstring>(void *object, int field, int i) const override</argsstring>
+        <name>getFieldDynamicTypeString</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="330" column="24" bodyfile="ArpTableEntry_m.cc" bodystart="492" bodyend="504"/>
+        <references refid="class_arp_table_entry_descriptor_1a770087d5cec9f0f7d40c163f7e1c7ce2" compoundref="_arp_table_entry__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1aaf5aad0b76bd0167744cb3f0f9176a77" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string ArpTableEntryDescriptor::getFieldValueAsString</definition>
+        <argsstring>(void *object, int field, int i) const override</argsstring>
+        <name>getFieldValueAsString</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="331" column="25" bodyfile="ArpTableEntry_m.cc" bodystart="506" bodyend="525"/>
+        <references refid="class_arp_table_entry_descriptor_1a770087d5cec9f0f7d40c163f7e1c7ce2" compoundref="_arp_table_entry__m_8cc" startline="372" endline="376">getFieldCount</references>
+        <references refid="class_arp_table_entry_1a2c3fa9d25b2ddef04ae1f7feec5d2970" compoundref="_arp_table_entry__m_8cc" startline="240" endline="243">ArpTableEntry::getIdentity</references>
+        <references refid="class_arp_table_entry_1ad809c04c43dda3b0234ddc36a910b947" compoundref="_arp_table_entry__m_8cc" startline="250" endline="253">ArpTableEntry::getProtocol</references>
+        <references refid="class_arp_table_entry_1ae9c88488bdcd3409b5a048db053bec68" compoundref="_arp_table_entry__m_8cc" startline="260" endline="263">ArpTableEntry::getIpAddress</references>
+        <references refid="class_arp_table_entry_1a53fd47b0ac0efe30d7c1965ce2808d9d" compoundref="_arp_table_entry__m_8cc" startline="270" endline="273">ArpTableEntry::getMacAddress</references>
+        <references refid="class_arp_table_entry_1a9a04233d547cef4358aa375a617c01dc" compoundref="_arp_table_entry__m_8cc" startline="280" endline="283">ArpTableEntry::getAge</references>
+        <references refid="class_arp_table_entry_1a90bdde86b373d5fafb2d2d74525263ed" compoundref="_arp_table_entry__m_8cc" startline="290" endline="293">ArpTableEntry::getType</references>
+        <references refid="class_arp_table_entry_1a350939d3434dc7dd403114febba08e20" compoundref="_arp_table_entry__m_8cc" startline="300" endline="303">ArpTableEntry::getInterface</references>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1a5fb72498fa0d12ad371365673930c293" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ArpTableEntryDescriptor::setFieldValueAsString</definition>
+        <argsstring>(void *object, int field, int i, const char *value) const override</argsstring>
+        <name>setFieldValueAsString</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="332" column="18" bodyfile="ArpTableEntry_m.cc" bodystart="527" bodyend="546"/>
+        <references refid="class_arp_table_entry_descriptor_1a770087d5cec9f0f7d40c163f7e1c7ce2" compoundref="_arp_table_entry__m_8cc" startline="372" endline="376">getFieldCount</references>
+        <references refid="class_arp_table_entry_1aba9fc2ed91e62fb9af640ba3d2e9ffc8" compoundref="_arp_table_entry__m_8cc" startline="245" endline="248">ArpTableEntry::setIdentity</references>
+        <references refid="class_arp_table_entry_1a87672c8282d9fa822567fd08a361130c" compoundref="_arp_table_entry__m_8cc" startline="255" endline="258">ArpTableEntry::setProtocol</references>
+        <references refid="class_arp_table_entry_1aa5e5949d12f291be1bc74cf1bcde92bd" compoundref="_arp_table_entry__m_8cc" startline="265" endline="268">ArpTableEntry::setIpAddress</references>
+        <references refid="class_arp_table_entry_1a144783c14f0992037f93b00d34b3521b" compoundref="_arp_table_entry__m_8cc" startline="275" endline="278">ArpTableEntry::setMacAddress</references>
+        <references refid="class_arp_table_entry_1a03e0a5373f20dc6672e8ae21680d4111" compoundref="_arp_table_entry__m_8cc" startline="285" endline="288">ArpTableEntry::setAge</references>
+        <references refid="class_arp_table_entry_1ad4a908fc048e173535c155886fe96283" compoundref="_arp_table_entry__m_8cc" startline="295" endline="298">ArpTableEntry::setType</references>
+        <references refid="class_arp_table_entry_1a87466843f83577d378f7c20e062f97da" compoundref="_arp_table_entry__m_8cc" startline="305" endline="308">ArpTableEntry::setInterface</references>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1a5d3f171a8f5868a8f93dfa57266fd9d5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * ArpTableEntryDescriptor::getFieldStructName</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldStructName</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="334" column="24" bodyfile="ArpTableEntry_m.cc" bodystart="548" bodyend="559"/>
+        <references refid="class_arp_table_entry_descriptor_1a770087d5cec9f0f7d40c163f7e1c7ce2" compoundref="_arp_table_entry__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_descriptor_1afee450d3728d5dd41849cd656546af22" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void *</type>
+        <definition>void * ArpTableEntryDescriptor::getFieldStructValuePointer</definition>
+        <argsstring>(void *object, int field, int i) const override</argsstring>
+        <name>getFieldStructValuePointer</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.cc" line="335" column="18" bodyfile="ArpTableEntry_m.cc" bodystart="561" bodyend="573"/>
+        <references refid="class_arp_table_entry_descriptor_1a770087d5cec9f0f7d40c163f7e1c7ce2" compoundref="_arp_table_entry__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ArpTableEntryDescriptor</label>
+        <link refid="class_arp_table_entry_descriptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>omnetpp::cClassDescriptor</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ArpTableEntryDescriptor</label>
+        <link refid="class_arp_table_entry_descriptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>omnetpp::cClassDescriptor</label>
+      </node>
+    </collaborationgraph>
+    <location file="ArpTableEntry_m.cc" line="311" column="1" bodyfile="ArpTableEntry_m.cc" bodystart="310" bodyend="336"/>
+    <listofallmembers>
+      <member refid="class_arp_table_entry_descriptor_1a3af88e931c928c1a5900d6d52fe18c95" prot="public" virt="non-virtual"><scope>ArpTableEntryDescriptor</scope><name>ArpTableEntryDescriptor</name></member>
+      <member refid="class_arp_table_entry_descriptor_1a97ce795b0abc838bdcd37468cc1c2a6f" prot="public" virt="virtual"><scope>ArpTableEntryDescriptor</scope><name>doesSupport</name></member>
+      <member refid="class_arp_table_entry_descriptor_1a105535c48240c5cd5681a8ab21ee2607" prot="public" virt="virtual"><scope>ArpTableEntryDescriptor</scope><name>findField</name></member>
+      <member refid="class_arp_table_entry_descriptor_1a3300191face579f4cb2fcf8de301f882" prot="public" virt="virtual"><scope>ArpTableEntryDescriptor</scope><name>getFieldArraySize</name></member>
+      <member refid="class_arp_table_entry_descriptor_1a770087d5cec9f0f7d40c163f7e1c7ce2" prot="public" virt="virtual"><scope>ArpTableEntryDescriptor</scope><name>getFieldCount</name></member>
+      <member refid="class_arp_table_entry_descriptor_1a4b71aa03d035b93a7ee1818489a43fd3" prot="public" virt="virtual"><scope>ArpTableEntryDescriptor</scope><name>getFieldDynamicTypeString</name></member>
+      <member refid="class_arp_table_entry_descriptor_1a39349e9d6a968b909089cd9b36207852" prot="public" virt="virtual"><scope>ArpTableEntryDescriptor</scope><name>getFieldName</name></member>
+      <member refid="class_arp_table_entry_descriptor_1ae0a98e276e4dd80ae9155ab164c4a223" prot="public" virt="virtual"><scope>ArpTableEntryDescriptor</scope><name>getFieldProperty</name></member>
+      <member refid="class_arp_table_entry_descriptor_1af1e05ab2733c4f45c53853c325e55edc" prot="public" virt="virtual"><scope>ArpTableEntryDescriptor</scope><name>getFieldPropertyNames</name></member>
+      <member refid="class_arp_table_entry_descriptor_1a5d3f171a8f5868a8f93dfa57266fd9d5" prot="public" virt="virtual"><scope>ArpTableEntryDescriptor</scope><name>getFieldStructName</name></member>
+      <member refid="class_arp_table_entry_descriptor_1afee450d3728d5dd41849cd656546af22" prot="public" virt="virtual"><scope>ArpTableEntryDescriptor</scope><name>getFieldStructValuePointer</name></member>
+      <member refid="class_arp_table_entry_descriptor_1a86f8906895f36d4602aed1fdf4640d58" prot="public" virt="virtual"><scope>ArpTableEntryDescriptor</scope><name>getFieldTypeFlags</name></member>
+      <member refid="class_arp_table_entry_descriptor_1a2a2721b8a1693e38fe838f0b7fbe881d" prot="public" virt="virtual"><scope>ArpTableEntryDescriptor</scope><name>getFieldTypeString</name></member>
+      <member refid="class_arp_table_entry_descriptor_1aaf5aad0b76bd0167744cb3f0f9176a77" prot="public" virt="virtual"><scope>ArpTableEntryDescriptor</scope><name>getFieldValueAsString</name></member>
+      <member refid="class_arp_table_entry_descriptor_1aa223c2382b4bdd4fe7298af7c9a7cff6" prot="public" virt="virtual"><scope>ArpTableEntryDescriptor</scope><name>getProperty</name></member>
+      <member refid="class_arp_table_entry_descriptor_1aa55c4c727ea6e55180bd69fdce0d8cc8" prot="public" virt="virtual"><scope>ArpTableEntryDescriptor</scope><name>getPropertyNames</name></member>
+      <member refid="class_arp_table_entry_descriptor_1a80bec1403a3d49b9b4b79169e1e88897" prot="private" virt="non-virtual"><scope>ArpTableEntryDescriptor</scope><name>propertynames</name></member>
+      <member refid="class_arp_table_entry_descriptor_1a5fb72498fa0d12ad371365673930c293" prot="public" virt="virtual"><scope>ArpTableEntryDescriptor</scope><name>setFieldValueAsString</name></member>
+      <member refid="class_arp_table_entry_descriptor_1abeda106234cdf1608d6b37b6957d59e3" prot="public" virt="virtual"><scope>ArpTableEntryDescriptor</scope><name>~ArpTableEntryDescriptor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

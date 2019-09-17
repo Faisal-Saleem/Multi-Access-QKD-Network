@@ -1,0 +1,149 @@
+.TH "MacTableEntryDescriptor" 3 "Tue Sep 17 2019" "Multiaccess QKD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MacTableEntryDescriptor
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits cClassDescriptor\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMacTableEntryDescriptor\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~MacTableEntryDescriptor\fP ()"
+.br
+.ti -1c
+.RI "virtual bool \fBdoesSupport\fP (omnetpp::cObject *obj) const override"
+.br
+.ti -1c
+.RI "virtual const char ** \fBgetPropertyNames\fP () const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetProperty\fP (const char *propertyname) const override"
+.br
+.ti -1c
+.RI "virtual int \fBgetFieldCount\fP () const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldName\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual int \fBfindField\fP (const char *fieldName) const override"
+.br
+.ti -1c
+.RI "virtual unsigned int \fBgetFieldTypeFlags\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldTypeString\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual const char ** \fBgetFieldPropertyNames\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldProperty\fP (int field, const char *propertyname) const override"
+.br
+.ti -1c
+.RI "virtual int \fBgetFieldArraySize\fP (void *object, int field) const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldDynamicTypeString\fP (void *object, int field, int i) const override"
+.br
+.ti -1c
+.RI "virtual std::string \fBgetFieldValueAsString\fP (void *object, int field, int i) const override"
+.br
+.ti -1c
+.RI "virtual bool \fBsetFieldValueAsString\fP (void *object, int field, int i, const char *value) const override"
+.br
+.ti -1c
+.RI "virtual const char * \fBgetFieldStructName\fP (int field) const override"
+.br
+.ti -1c
+.RI "virtual void * \fBgetFieldStructValuePointer\fP (void *object, int field, int i) const override"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 297 of file MacTableEntry_m\&.cc\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "MacTableEntryDescriptor::MacTableEntryDescriptor ()"
+
+.SS "MacTableEntryDescriptor::~MacTableEntryDescriptor ()\fC [virtual]\fP"
+
+.PP
+Definition at line 332 of file MacTableEntry_m\&.cc\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "bool MacTableEntryDescriptor::doesSupport (omnetpp::cObject * obj) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 337 of file MacTableEntry_m\&.cc\&.
+.SS "int MacTableEntryDescriptor::findField (const char * fieldName) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 403 of file MacTableEntry_m\&.cc\&.
+.SS "int MacTableEntryDescriptor::getFieldArraySize (void * object, int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 461 of file MacTableEntry_m\&.cc\&.
+.SS "int MacTableEntryDescriptor::getFieldCount () const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 359 of file MacTableEntry_m\&.cc\&.
+.SS "const char * MacTableEntryDescriptor::getFieldDynamicTypeString (void * object, int field, int i) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 475 of file MacTableEntry_m\&.cc\&.
+.SS "const char * MacTableEntryDescriptor::getFieldName (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 384 of file MacTableEntry_m\&.cc\&.
+.SS "const char * MacTableEntryDescriptor::getFieldProperty (int field, const char * propertyname) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 448 of file MacTableEntry_m\&.cc\&.
+.SS "const char ** MacTableEntryDescriptor::getFieldPropertyNames (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 435 of file MacTableEntry_m\&.cc\&.
+.SS "const char * MacTableEntryDescriptor::getFieldStructName (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 529 of file MacTableEntry_m\&.cc\&.
+.SS "void * MacTableEntryDescriptor::getFieldStructValuePointer (void * object, int field, int i) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 542 of file MacTableEntry_m\&.cc\&.
+.SS "unsigned int MacTableEntryDescriptor::getFieldTypeFlags (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 365 of file MacTableEntry_m\&.cc\&.
+.SS "const char * MacTableEntryDescriptor::getFieldTypeString (int field) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 416 of file MacTableEntry_m\&.cc\&.
+.SS "std::string MacTableEntryDescriptor::getFieldValueAsString (void * object, int field, int i) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 489 of file MacTableEntry_m\&.cc\&.
+.SS "const char * MacTableEntryDescriptor::getProperty (const char * propertyname) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 353 of file MacTableEntry_m\&.cc\&.
+.SS "const char ** MacTableEntryDescriptor::getPropertyNames () const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 342 of file MacTableEntry_m\&.cc\&.
+.SS "bool MacTableEntryDescriptor::setFieldValueAsString (void * object, int field, int i, const char * value) const\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Definition at line 509 of file MacTableEntry_m\&.cc\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Multiaccess QKD from the source code\&.

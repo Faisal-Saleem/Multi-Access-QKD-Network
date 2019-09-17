@@ -1,0 +1,442 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_quantum_sub_interface_binding_descriptor" kind="class" language="C++" prot="public">
+    <compoundname>QuantumSubInterfaceBindingDescriptor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cClassDescriptor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_quantum_sub_interface_binding_descriptor_1aef7226ecb57bd234638ca4d103e79d21" prot="private" static="no" mutable="yes">
+        <type>const char **</type>
+        <definition>const char** QuantumSubInterfaceBindingDescriptor::propertynames</definition>
+        <argsstring></argsstring>
+        <name>propertynames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="313" column="24" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1a57ee6326e18fd2ec8c27bc3a6c5c61a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>QuantumSubInterfaceBindingDescriptor::QuantumSubInterfaceBindingDescriptor</definition>
+        <argsstring>()</argsstring>
+        <name>QuantumSubInterfaceBindingDescriptor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="315" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1ada8566d81cd055894f64b6d8a27a0f54" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>QuantumSubInterfaceBindingDescriptor::~QuantumSubInterfaceBindingDescriptor</definition>
+        <argsstring>()</argsstring>
+        <name>~QuantumSubInterfaceBindingDescriptor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="316" column="13" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="345" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1a85d40e744b9dcec95585d536892a7992" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool QuantumSubInterfaceBindingDescriptor::doesSupport</definition>
+        <argsstring>(omnetpp::cObject *obj) const override</argsstring>
+        <name>doesSupport</name>
+        <param>
+          <type>omnetpp::cObject *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="318" column="18" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="350" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1a7afd664f2265f6168c354018e31cd1d6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char **</type>
+        <definition>const char ** QuantumSubInterfaceBindingDescriptor::getPropertyNames</definition>
+        <argsstring>() const override</argsstring>
+        <name>getPropertyNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="319" column="24" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="355" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1acab3c56277eee4f3d0362f068c5f2caf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * QuantumSubInterfaceBindingDescriptor::getProperty</definition>
+        <argsstring>(const char *propertyname) const override</argsstring>
+        <name>getProperty</name>
+        <param>
+          <type>const char *</type>
+          <declname>propertyname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="320" column="24" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="366" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1a57498bc3fc7df15c1cdd40e421e1c080" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int QuantumSubInterfaceBindingDescriptor::getFieldCount</definition>
+        <argsstring>() const override</argsstring>
+        <name>getFieldCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="321" column="17" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="372" bodyend="376"/>
+        <referencedby refid="class_quantum_sub_interface_binding_descriptor_1a638a9b920a99f526c93b47d78b23c363" compoundref="_quantum_sub_interface_binding__m_8cc" startline="378" endline="396">getFieldTypeFlags</referencedby>
+        <referencedby refid="class_quantum_sub_interface_binding_descriptor_1a20dbff44f5ed252bfab463982f3bd63c" compoundref="_quantum_sub_interface_binding__m_8cc" startline="398" endline="416">getFieldName</referencedby>
+        <referencedby refid="class_quantum_sub_interface_binding_descriptor_1afcbb870cf586b8234b0271b1b4839c9f" compoundref="_quantum_sub_interface_binding__m_8cc" startline="432" endline="450">getFieldTypeString</referencedby>
+        <referencedby refid="class_quantum_sub_interface_binding_descriptor_1adaa1c23e4ba4c009549cf973ad738fdd" compoundref="_quantum_sub_interface_binding__m_8cc" startline="452" endline="463">getFieldPropertyNames</referencedby>
+        <referencedby refid="class_quantum_sub_interface_binding_descriptor_1a3c5035b5a6ff0b16649b47a46fd21dfa" compoundref="_quantum_sub_interface_binding__m_8cc" startline="465" endline="476">getFieldProperty</referencedby>
+        <referencedby refid="class_quantum_sub_interface_binding_descriptor_1a9d9f97c10829f67079f4dbe78fae23c0" compoundref="_quantum_sub_interface_binding__m_8cc" startline="478" endline="490">getFieldArraySize</referencedby>
+        <referencedby refid="class_quantum_sub_interface_binding_descriptor_1ac7d91cdc859df9ab0bb6bddf48f2be75" compoundref="_quantum_sub_interface_binding__m_8cc" startline="492" endline="504">getFieldDynamicTypeString</referencedby>
+        <referencedby refid="class_quantum_sub_interface_binding_descriptor_1a3df5ce17c794e70f81c11712bdba26f9" compoundref="_quantum_sub_interface_binding__m_8cc" startline="506" endline="525">getFieldValueAsString</referencedby>
+        <referencedby refid="class_quantum_sub_interface_binding_descriptor_1a6210e33d81480a5b3109129b1cbaf9d2" compoundref="_quantum_sub_interface_binding__m_8cc" startline="527" endline="546">setFieldValueAsString</referencedby>
+        <referencedby refid="class_quantum_sub_interface_binding_descriptor_1a72064a25b3d9553932e4c2a0842207a7" compoundref="_quantum_sub_interface_binding__m_8cc" startline="548" endline="559">getFieldStructName</referencedby>
+        <referencedby refid="class_quantum_sub_interface_binding_descriptor_1aae3d756c4bccd496553e1c12ca8b276e" compoundref="_quantum_sub_interface_binding__m_8cc" startline="561" endline="573">getFieldStructValuePointer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1a20dbff44f5ed252bfab463982f3bd63c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * QuantumSubInterfaceBindingDescriptor::getFieldName</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldName</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="322" column="24" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="398" bodyend="416"/>
+        <references refid="class_quantum_sub_interface_binding_descriptor_1a57498bc3fc7df15c1cdd40e421e1c080" compoundref="_quantum_sub_interface_binding__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1aee8b93a98ca48acf1d1b1fe8595818c8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int QuantumSubInterfaceBindingDescriptor::findField</definition>
+        <argsstring>(const char *fieldName) const override</argsstring>
+        <name>findField</name>
+        <param>
+          <type>const char *</type>
+          <declname>fieldName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="323" column="17" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="418" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1a638a9b920a99f526c93b47d78b23c363" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int QuantumSubInterfaceBindingDescriptor::getFieldTypeFlags</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldTypeFlags</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="324" column="26" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="378" bodyend="396"/>
+        <references refid="class_quantum_sub_interface_binding_descriptor_1a57498bc3fc7df15c1cdd40e421e1c080" compoundref="_quantum_sub_interface_binding__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1afcbb870cf586b8234b0271b1b4839c9f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * QuantumSubInterfaceBindingDescriptor::getFieldTypeString</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldTypeString</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="325" column="24" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="432" bodyend="450"/>
+        <references refid="class_quantum_sub_interface_binding_descriptor_1a57498bc3fc7df15c1cdd40e421e1c080" compoundref="_quantum_sub_interface_binding__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1adaa1c23e4ba4c009549cf973ad738fdd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char **</type>
+        <definition>const char ** QuantumSubInterfaceBindingDescriptor::getFieldPropertyNames</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldPropertyNames</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="326" column="24" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="452" bodyend="463"/>
+        <references refid="class_quantum_sub_interface_binding_descriptor_1a57498bc3fc7df15c1cdd40e421e1c080" compoundref="_quantum_sub_interface_binding__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1a3c5035b5a6ff0b16649b47a46fd21dfa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * QuantumSubInterfaceBindingDescriptor::getFieldProperty</definition>
+        <argsstring>(int field, const char *propertyname) const override</argsstring>
+        <name>getFieldProperty</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>propertyname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="327" column="24" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="465" bodyend="476"/>
+        <references refid="class_quantum_sub_interface_binding_descriptor_1a57498bc3fc7df15c1cdd40e421e1c080" compoundref="_quantum_sub_interface_binding__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1a9d9f97c10829f67079f4dbe78fae23c0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int QuantumSubInterfaceBindingDescriptor::getFieldArraySize</definition>
+        <argsstring>(void *object, int field) const override</argsstring>
+        <name>getFieldArraySize</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="328" column="17" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="478" bodyend="490"/>
+        <references refid="class_quantum_sub_interface_binding_descriptor_1a57498bc3fc7df15c1cdd40e421e1c080" compoundref="_quantum_sub_interface_binding__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1ac7d91cdc859df9ab0bb6bddf48f2be75" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * QuantumSubInterfaceBindingDescriptor::getFieldDynamicTypeString</definition>
+        <argsstring>(void *object, int field, int i) const override</argsstring>
+        <name>getFieldDynamicTypeString</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="330" column="24" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="492" bodyend="504"/>
+        <references refid="class_quantum_sub_interface_binding_descriptor_1a57498bc3fc7df15c1cdd40e421e1c080" compoundref="_quantum_sub_interface_binding__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1a3df5ce17c794e70f81c11712bdba26f9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string QuantumSubInterfaceBindingDescriptor::getFieldValueAsString</definition>
+        <argsstring>(void *object, int field, int i) const override</argsstring>
+        <name>getFieldValueAsString</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="331" column="25" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="506" bodyend="525"/>
+        <references refid="class_quantum_sub_interface_binding_descriptor_1a57498bc3fc7df15c1cdd40e421e1c080" compoundref="_quantum_sub_interface_binding__m_8cc" startline="372" endline="376">getFieldCount</references>
+        <references refid="class_quantum_sub_interface_binding_1a212cb491b8bb409d65c0e0546f6e4b7c" compoundref="_quantum_sub_interface_binding__m_8cc" startline="240" endline="243">QuantumSubInterfaceBinding::getIdentity</references>
+        <references refid="class_quantum_sub_interface_binding_1ad3d38a03f0f6934d93af679497fe237b" compoundref="_quantum_sub_interface_binding__m_8cc" startline="250" endline="253">QuantumSubInterfaceBinding::getConnectionId</references>
+        <references refid="class_quantum_sub_interface_binding_1aaba854b90a32d0278d39725bedd5b995" compoundref="_quantum_sub_interface_binding__m_8cc" startline="260" endline="263">QuantumSubInterfaceBinding::getSourceInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1ad79f3a4beae4490c67ec3a1ec6ed2481" compoundref="_quantum_sub_interface_binding__m_8cc" startline="270" endline="273">QuantumSubInterfaceBinding::getSourceSubInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1ad80f36303960043a6953a56b08e98531" compoundref="_quantum_sub_interface_binding__m_8cc" startline="280" endline="283">QuantumSubInterfaceBinding::getDestinationInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1a6fdecca6abda8ad6d40091ee7bec74c1" compoundref="_quantum_sub_interface_binding__m_8cc" startline="290" endline="293">QuantumSubInterfaceBinding::getDestinationSubInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1a1e375fa8ef8bfb1c0ffc0dfdd6e52937" compoundref="_quantum_sub_interface_binding__m_8cc" startline="300" endline="303">QuantumSubInterfaceBinding::getStatus</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1a6210e33d81480a5b3109129b1cbaf9d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool QuantumSubInterfaceBindingDescriptor::setFieldValueAsString</definition>
+        <argsstring>(void *object, int field, int i, const char *value) const override</argsstring>
+        <name>setFieldValueAsString</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="332" column="18" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="527" bodyend="546"/>
+        <references refid="class_quantum_sub_interface_binding_descriptor_1a57498bc3fc7df15c1cdd40e421e1c080" compoundref="_quantum_sub_interface_binding__m_8cc" startline="372" endline="376">getFieldCount</references>
+        <references refid="class_quantum_sub_interface_binding_1ae3cc925d3bd715f5b99433a6dee3df52" compoundref="_quantum_sub_interface_binding__m_8cc" startline="245" endline="248">QuantumSubInterfaceBinding::setIdentity</references>
+        <references refid="class_quantum_sub_interface_binding_1aa6bdb03d5fece9109ffe878df38948ce" compoundref="_quantum_sub_interface_binding__m_8cc" startline="255" endline="258">QuantumSubInterfaceBinding::setConnectionId</references>
+        <references refid="class_quantum_sub_interface_binding_1a9b2aa303a10d144ca476c20ef3908a55" compoundref="_quantum_sub_interface_binding__m_8cc" startline="265" endline="268">QuantumSubInterfaceBinding::setSourceInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1abb6a54b11f31e5b65c160ad505209852" compoundref="_quantum_sub_interface_binding__m_8cc" startline="275" endline="278">QuantumSubInterfaceBinding::setSourceSubInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1a5c562439a1a279229e1924cc82664d96" compoundref="_quantum_sub_interface_binding__m_8cc" startline="285" endline="288">QuantumSubInterfaceBinding::setDestinationInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1a618e70a4b763323eb1cb8a95c4c82fdf" compoundref="_quantum_sub_interface_binding__m_8cc" startline="295" endline="298">QuantumSubInterfaceBinding::setDestinationSubInterface</references>
+        <references refid="class_quantum_sub_interface_binding_1aac4ece4ed8ba74ee786b1d0445c85d9b" compoundref="_quantum_sub_interface_binding__m_8cc" startline="305" endline="308">QuantumSubInterfaceBinding::setStatus</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1a72064a25b3d9553932e4c2a0842207a7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * QuantumSubInterfaceBindingDescriptor::getFieldStructName</definition>
+        <argsstring>(int field) const override</argsstring>
+        <name>getFieldStructName</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="334" column="24" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="548" bodyend="559"/>
+        <references refid="class_quantum_sub_interface_binding_descriptor_1a57498bc3fc7df15c1cdd40e421e1c080" compoundref="_quantum_sub_interface_binding__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_sub_interface_binding_descriptor_1aae3d756c4bccd496553e1c12ca8b276e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void *</type>
+        <definition>void * QuantumSubInterfaceBindingDescriptor::getFieldStructValuePointer</definition>
+        <argsstring>(void *object, int field, int i) const override</argsstring>
+        <name>getFieldStructValuePointer</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumSubInterfaceBinding_m.cc" line="335" column="18" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="561" bodyend="573"/>
+        <references refid="class_quantum_sub_interface_binding_descriptor_1a57498bc3fc7df15c1cdd40e421e1c080" compoundref="_quantum_sub_interface_binding__m_8cc" startline="372" endline="376">getFieldCount</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>QuantumSubInterfaceBindingDescriptor</label>
+        <link refid="class_quantum_sub_interface_binding_descriptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cClassDescriptor</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>QuantumSubInterfaceBindingDescriptor</label>
+        <link refid="class_quantum_sub_interface_binding_descriptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cClassDescriptor</label>
+      </node>
+    </collaborationgraph>
+    <location file="QuantumSubInterfaceBinding_m.cc" line="311" column="1" bodyfile="QuantumSubInterfaceBinding_m.cc" bodystart="310" bodyend="336"/>
+    <listofallmembers>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1a85d40e744b9dcec95585d536892a7992" prot="public" virt="virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>doesSupport</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1aee8b93a98ca48acf1d1b1fe8595818c8" prot="public" virt="virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>findField</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1a9d9f97c10829f67079f4dbe78fae23c0" prot="public" virt="virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>getFieldArraySize</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1a57498bc3fc7df15c1cdd40e421e1c080" prot="public" virt="virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>getFieldCount</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1ac7d91cdc859df9ab0bb6bddf48f2be75" prot="public" virt="virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>getFieldDynamicTypeString</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1a20dbff44f5ed252bfab463982f3bd63c" prot="public" virt="virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>getFieldName</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1a3c5035b5a6ff0b16649b47a46fd21dfa" prot="public" virt="virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>getFieldProperty</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1adaa1c23e4ba4c009549cf973ad738fdd" prot="public" virt="virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>getFieldPropertyNames</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1a72064a25b3d9553932e4c2a0842207a7" prot="public" virt="virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>getFieldStructName</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1aae3d756c4bccd496553e1c12ca8b276e" prot="public" virt="virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>getFieldStructValuePointer</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1a638a9b920a99f526c93b47d78b23c363" prot="public" virt="virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>getFieldTypeFlags</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1afcbb870cf586b8234b0271b1b4839c9f" prot="public" virt="virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>getFieldTypeString</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1a3df5ce17c794e70f81c11712bdba26f9" prot="public" virt="virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>getFieldValueAsString</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1acab3c56277eee4f3d0362f068c5f2caf" prot="public" virt="virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>getProperty</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1a7afd664f2265f6168c354018e31cd1d6" prot="public" virt="virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>getPropertyNames</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1aef7226ecb57bd234638ca4d103e79d21" prot="private" virt="non-virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>propertynames</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1a57ee6326e18fd2ec8c27bc3a6c5c61a6" prot="public" virt="non-virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>QuantumSubInterfaceBindingDescriptor</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1a6210e33d81480a5b3109129b1cbaf9d2" prot="public" virt="virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>setFieldValueAsString</name></member>
+      <member refid="class_quantum_sub_interface_binding_descriptor_1ada8566d81cd055894f64b6d8a27a0f54" prot="public" virt="virtual"><scope>QuantumSubInterfaceBindingDescriptor</scope><name>~QuantumSubInterfaceBindingDescriptor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

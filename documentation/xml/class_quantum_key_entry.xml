@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_quantum_key_entry" kind="class" language="C++" prot="public">
+    <compoundname>QuantumKeyEntry</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cPacket</basecompoundref>
+    <includes refid="_quantum_key_entry__m_8h" local="no">QuantumKeyEntry_m.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_quantum_key_entry_1a536ccdb37a3ef451d0137d4da713d026" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int QuantumKeyEntry::identity</definition>
+        <argsstring></argsstring>
+        <name>identity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="36" column="9" bodyfile="QuantumKeyEntry_m.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_quantum_key_entry_1a0dd9e6839b91efc6a06a41a9d6ac150e" compoundref="_quantum_key_entry__m_8cc" startline="212" endline="219">parsimPack</referencedby>
+        <referencedby refid="class_quantum_key_entry_1ab3dfccf59d57d3135ee356c6f6af2273" compoundref="_quantum_key_entry__m_8cc" startline="221" endline="228">parsimUnpack</referencedby>
+        <referencedby refid="class_quantum_key_entry_1a85e0afd2c799019ca38f19c1670c7733" compoundref="_quantum_key_entry__m_8cc" startline="230" endline="233">getIdentity</referencedby>
+        <referencedby refid="class_quantum_key_entry_1aaecd120bb3e0bfce6ac6be1a1a87c861" compoundref="_quantum_key_entry__m_8cc" startline="235" endline="238">setIdentity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quantum_key_entry_1a3cd656cb1d1c3566766c40bb007289a0" prot="protected" static="no" mutable="no">
+        <type>::omnetpp::opp_string</type>
+        <definition>::omnetpp::opp_string QuantumKeyEntry::macAddress</definition>
+        <argsstring></argsstring>
+        <name>macAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="37" column="27" bodyfile="QuantumKeyEntry_m.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_quantum_key_entry_1a0dd9e6839b91efc6a06a41a9d6ac150e" compoundref="_quantum_key_entry__m_8cc" startline="212" endline="219">parsimPack</referencedby>
+        <referencedby refid="class_quantum_key_entry_1ab3dfccf59d57d3135ee356c6f6af2273" compoundref="_quantum_key_entry__m_8cc" startline="221" endline="228">parsimUnpack</referencedby>
+        <referencedby refid="class_quantum_key_entry_1a3faa0418d067d5fd090be1a7973bf6db" compoundref="_quantum_key_entry__m_8cc" startline="240" endline="243">getMacAddress</referencedby>
+        <referencedby refid="class_quantum_key_entry_1ab4c6ed191ca2f70d90f70e310bf10ba7" compoundref="_quantum_key_entry__m_8cc" startline="245" endline="248">setMacAddress</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quantum_key_entry_1ac2fec3db3f9597888b0e1c3d6e7b1344" prot="protected" static="no" mutable="no">
+        <type>::omnetpp::opp_string</type>
+        <definition>::omnetpp::opp_string QuantumKeyEntry::key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="38" column="27" bodyfile="QuantumKeyEntry_m.h" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_quantum_key_entry_1a0dd9e6839b91efc6a06a41a9d6ac150e" compoundref="_quantum_key_entry__m_8cc" startline="212" endline="219">parsimPack</referencedby>
+        <referencedby refid="class_quantum_key_entry_1ab3dfccf59d57d3135ee356c6f6af2273" compoundref="_quantum_key_entry__m_8cc" startline="221" endline="228">parsimUnpack</referencedby>
+        <referencedby refid="class_quantum_key_entry_1a1a45fdd0292e10bb01eeb69b55119cd5" compoundref="_quantum_key_entry__m_8cc" startline="250" endline="253">getKey</referencedby>
+        <referencedby refid="class_quantum_key_entry_1a89346d735a430bac418248f33f18b2e0" compoundref="_quantum_key_entry__m_8cc" startline="255" endline="258">setKey</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quantum_key_entry_1a7ef34812dae7614b990bb27e0992a4b6" prot="protected" static="no" mutable="no">
+        <type>::omnetpp::opp_string</type>
+        <definition>::omnetpp::opp_string QuantumKeyEntry::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="39" column="27" bodyfile="QuantumKeyEntry_m.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_quantum_key_entry_1a0dd9e6839b91efc6a06a41a9d6ac150e" compoundref="_quantum_key_entry__m_8cc" startline="212" endline="219">parsimPack</referencedby>
+        <referencedby refid="class_quantum_key_entry_1ab3dfccf59d57d3135ee356c6f6af2273" compoundref="_quantum_key_entry__m_8cc" startline="221" endline="228">parsimUnpack</referencedby>
+        <referencedby refid="class_quantum_key_entry_1a303fa302c2f0fea5162dca289aa3b2d7" compoundref="_quantum_key_entry__m_8cc" startline="260" endline="263">getStatus</referencedby>
+        <referencedby refid="class_quantum_key_entry_1a8efdd7c69dff35435038d395ce537578" compoundref="_quantum_key_entry__m_8cc" startline="265" endline="268">setStatus</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_quantum_key_entry_1a1c28eb7fbf06b46a4eddb384c2de23fd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuantumKeyEntry::copy</definition>
+        <argsstring>(const QuantumKeyEntry &amp;other)</argsstring>
+        <name>copy</name>
+        <param>
+          <type>const <ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="42" column="10" bodyfile="QuantumKeyEntry_m.cc" bodystart="204" bodyend="210"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_quantum_key_entry_1afeb1b8c8b0d9c4f353bd8063d2a7f4c8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool QuantumKeyEntry::operator==</definition>
+        <argsstring>(const QuantumKeyEntry &amp;)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="46" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_quantum_key_entry_1af2c67698757595870b031b8dd518a163" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>QuantumKeyEntry::QuantumKeyEntry</definition>
+        <argsstring>(const char *name=nullptr, short kind=0)</argsstring>
+        <name>QuantumKeyEntry</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>short</type>
+          <declname>kind</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="49" column="5"/>
+        <referencedby refid="class_quantum_key_entry_1a327f41e6cce158d91bd168599b21fe35" compoundref="_quantum_key_entry__m_8h" startline="53" endline="53">dup</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_1a37830cbeacd0a757987f52568cd9e37d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>QuantumKeyEntry::QuantumKeyEntry</definition>
+        <argsstring>(const QuantumKeyEntry &amp;other)</argsstring>
+        <name>QuantumKeyEntry</name>
+        <param>
+          <type>const <ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="50" column="5" bodyfile="QuantumKeyEntry_m.cc" bodystart="187" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_1addf32bb9241312d25cb468b0629de98b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>QuantumKeyEntry::~QuantumKeyEntry</definition>
+        <argsstring>()</argsstring>
+        <name>~QuantumKeyEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="51" column="13" bodyfile="QuantumKeyEntry_m.cc" bodystart="192" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_1a05e691d187ad6cd50fdfa84ee38b46ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref> &amp;</type>
+        <definition>QuantumKeyEntry &amp; QuantumKeyEntry::operator=</definition>
+        <argsstring>(const QuantumKeyEntry &amp;other)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="52" column="21" bodyfile="QuantumKeyEntry_m.cc" bodystart="196" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_1a327f41e6cce158d91bd168599b21fe35" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref> *</type>
+        <definition>virtual QuantumKeyEntry* QuantumKeyEntry::dup</definition>
+        <argsstring>() const override</argsstring>
+        <name>dup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="53" column="29" bodyfile="QuantumKeyEntry_m.h" bodystart="53" bodyend="53"/>
+        <references refid="class_quantum_key_entry_1af2c67698757595870b031b8dd518a163">QuantumKeyEntry</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_1a0dd9e6839b91efc6a06a41a9d6ac150e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void QuantumKeyEntry::parsimPack</definition>
+        <argsstring>(omnetpp::cCommBuffer *b) const override</argsstring>
+        <name>parsimPack</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="54" column="18" bodyfile="QuantumKeyEntry_m.cc" bodystart="212" bodyend="219"/>
+        <references refid="namespaceomnetpp_1aa55507da29724bc32cb1377349b22c87" compoundref="_arp_table_entry__m_8cc" startline="38" endline="44">omnetpp::doParsimPacking</references>
+        <references refid="class_quantum_key_entry_1a536ccdb37a3ef451d0137d4da713d026" compoundref="_quantum_key_entry__m_8h" startline="36">identity</references>
+        <references refid="class_quantum_key_entry_1a3cd656cb1d1c3566766c40bb007289a0" compoundref="_quantum_key_entry__m_8h" startline="37">macAddress</references>
+        <references refid="class_quantum_key_entry_1ac2fec3db3f9597888b0e1c3d6e7b1344" compoundref="_quantum_key_entry__m_8h" startline="38">key</references>
+        <references refid="class_quantum_key_entry_1a7ef34812dae7614b990bb27e0992a4b6" compoundref="_quantum_key_entry__m_8h" startline="39">status</references>
+        <referencedby refid="_quantum_key_entry__m_8h_1a9d0defb0c62f9a6b1c311695dca19b45" compoundref="_quantum_key_entry__m_8h" startline="68" endline="68">doParsimPacking</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_1ab3dfccf59d57d3135ee356c6f6af2273" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void QuantumKeyEntry::parsimUnpack</definition>
+        <argsstring>(omnetpp::cCommBuffer *b) override</argsstring>
+        <name>parsimUnpack</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="55" column="18" bodyfile="QuantumKeyEntry_m.cc" bodystart="221" bodyend="228"/>
+        <references refid="namespaceomnetpp_1a5d85de2bce765edaa5f7b1651f94f37c" compoundref="_arp_table_entry__m_8cc" startline="47" endline="54">omnetpp::doParsimUnpacking</references>
+        <references refid="class_quantum_key_entry_1a536ccdb37a3ef451d0137d4da713d026" compoundref="_quantum_key_entry__m_8h" startline="36">identity</references>
+        <references refid="class_quantum_key_entry_1a3cd656cb1d1c3566766c40bb007289a0" compoundref="_quantum_key_entry__m_8h" startline="37">macAddress</references>
+        <references refid="class_quantum_key_entry_1ac2fec3db3f9597888b0e1c3d6e7b1344" compoundref="_quantum_key_entry__m_8h" startline="38">key</references>
+        <references refid="class_quantum_key_entry_1a7ef34812dae7614b990bb27e0992a4b6" compoundref="_quantum_key_entry__m_8h" startline="39">status</references>
+        <referencedby refid="_quantum_key_entry__m_8h_1af5ab4f41a23306f926060e72d67531d7" compoundref="_quantum_key_entry__m_8h" startline="69" endline="69">doParsimUnpacking</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_1a85e0afd2c799019ca38f19c1670c7733" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int QuantumKeyEntry::getIdentity</definition>
+        <argsstring>() const</argsstring>
+        <name>getIdentity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="58" column="17" bodyfile="QuantumKeyEntry_m.cc" bodystart="230" bodyend="233"/>
+        <references refid="class_quantum_key_entry_1a536ccdb37a3ef451d0137d4da713d026" compoundref="_quantum_key_entry__m_8h" startline="36">identity</references>
+        <referencedby refid="class_client_processor_1a3e6230381bde08ac52a895a4fead0d41" compoundref="_client_processor_8cc" startline="205" endline="231">ClientProcessor::printKeyTable</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1a5f5a39bb70c3eb455aa5315a68bb69b1" compoundref="_quantum_key_entry__m_8cc" startline="454" endline="470">QuantumKeyEntryDescriptor::getFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_1aaecd120bb3e0bfce6ac6be1a1a87c861" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void QuantumKeyEntry::setIdentity</definition>
+        <argsstring>(int identity)</argsstring>
+        <name>setIdentity</name>
+        <param>
+          <type>int</type>
+          <declname>identity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="59" column="18" bodyfile="QuantumKeyEntry_m.cc" bodystart="235" bodyend="238"/>
+        <references refid="class_quantum_key_entry_1a536ccdb37a3ef451d0137d4da713d026" compoundref="_quantum_key_entry__m_8h" startline="36">identity</references>
+        <referencedby refid="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" compoundref="_client_processor_8cc" startline="88" endline="159">ClientProcessor::handleMessage</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1a560af5aa20a95312ed0377e09a0547d7" compoundref="_quantum_key_entry__m_8cc" startline="472" endline="488">QuantumKeyEntryDescriptor::setFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_1a3faa0418d067d5fd090be1a7973bf6db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * QuantumKeyEntry::getMacAddress</definition>
+        <argsstring>() const</argsstring>
+        <name>getMacAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="60" column="25" bodyfile="QuantumKeyEntry_m.cc" bodystart="240" bodyend="243"/>
+        <references refid="class_quantum_key_entry_1a3cd656cb1d1c3566766c40bb007289a0" compoundref="_quantum_key_entry__m_8h" startline="37">macAddress</references>
+        <referencedby refid="class_client_memory_1a182e9304d2a8f82a39c58b6f6a141ba0" compoundref="_client_memory_8cc" startline="68" endline="83">ClientMemory::getPendingKeyMacAddress</referencedby>
+        <referencedby refid="class_client_processor_1a3e6230381bde08ac52a895a4fead0d41" compoundref="_client_processor_8cc" startline="205" endline="231">ClientProcessor::printKeyTable</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1a5f5a39bb70c3eb455aa5315a68bb69b1" compoundref="_quantum_key_entry__m_8cc" startline="454" endline="470">QuantumKeyEntryDescriptor::getFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_1ab4c6ed191ca2f70d90f70e310bf10ba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void QuantumKeyEntry::setMacAddress</definition>
+        <argsstring>(const char *macAddress)</argsstring>
+        <name>setMacAddress</name>
+        <param>
+          <type>const char *</type>
+          <declname>macAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="61" column="18" bodyfile="QuantumKeyEntry_m.cc" bodystart="245" bodyend="248"/>
+        <references refid="class_quantum_key_entry_1a3cd656cb1d1c3566766c40bb007289a0" compoundref="_quantum_key_entry__m_8h" startline="37">macAddress</references>
+        <referencedby refid="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" compoundref="_client_processor_8cc" startline="88" endline="159">ClientProcessor::handleMessage</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1a560af5aa20a95312ed0377e09a0547d7" compoundref="_quantum_key_entry__m_8cc" startline="472" endline="488">QuantumKeyEntryDescriptor::setFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_1a1a45fdd0292e10bb01eeb69b55119cd5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * QuantumKeyEntry::getKey</definition>
+        <argsstring>() const</argsstring>
+        <name>getKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="62" column="25" bodyfile="QuantumKeyEntry_m.cc" bodystart="250" bodyend="253"/>
+        <references refid="class_quantum_key_entry_1ac2fec3db3f9597888b0e1c3d6e7b1344" compoundref="_quantum_key_entry__m_8h" startline="38">key</references>
+        <referencedby refid="class_client_memory_1a640f4311ef1f4935158cdfeeef2403f7" compoundref="_client_memory_8cc" startline="53" endline="66">ClientMemory::getPendingTransaction</referencedby>
+        <referencedby refid="class_client_memory_1a8c1c7263f1fc25ebe1de06eb29a7e762" compoundref="_client_memory_8cc" startline="85" endline="96">ClientMemory::setPendingKey</referencedby>
+        <referencedby refid="class_client_processor_1a3e6230381bde08ac52a895a4fead0d41" compoundref="_client_processor_8cc" startline="205" endline="231">ClientProcessor::printKeyTable</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1a5f5a39bb70c3eb455aa5315a68bb69b1" compoundref="_quantum_key_entry__m_8cc" startline="454" endline="470">QuantumKeyEntryDescriptor::getFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_1a89346d735a430bac418248f33f18b2e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void QuantumKeyEntry::setKey</definition>
+        <argsstring>(const char *key)</argsstring>
+        <name>setKey</name>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="63" column="18" bodyfile="QuantumKeyEntry_m.cc" bodystart="255" bodyend="258"/>
+        <references refid="class_quantum_key_entry_1ac2fec3db3f9597888b0e1c3d6e7b1344" compoundref="_quantum_key_entry__m_8h" startline="38">key</references>
+        <referencedby refid="class_client_memory_1a8c1c7263f1fc25ebe1de06eb29a7e762" compoundref="_client_memory_8cc" startline="85" endline="96">ClientMemory::setPendingKey</referencedby>
+        <referencedby refid="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" compoundref="_client_processor_8cc" startline="88" endline="159">ClientProcessor::handleMessage</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1a560af5aa20a95312ed0377e09a0547d7" compoundref="_quantum_key_entry__m_8cc" startline="472" endline="488">QuantumKeyEntryDescriptor::setFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_1a303fa302c2f0fea5162dca289aa3b2d7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * QuantumKeyEntry::getStatus</definition>
+        <argsstring>() const</argsstring>
+        <name>getStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="64" column="25" bodyfile="QuantumKeyEntry_m.cc" bodystart="260" bodyend="263"/>
+        <references refid="class_quantum_key_entry_1a7ef34812dae7614b990bb27e0992a4b6" compoundref="_quantum_key_entry__m_8h" startline="39">status</references>
+        <referencedby refid="class_client_memory_1a182e9304d2a8f82a39c58b6f6a141ba0" compoundref="_client_memory_8cc" startline="68" endline="83">ClientMemory::getPendingKeyMacAddress</referencedby>
+        <referencedby refid="class_client_processor_1a3e6230381bde08ac52a895a4fead0d41" compoundref="_client_processor_8cc" startline="205" endline="231">ClientProcessor::printKeyTable</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1a5f5a39bb70c3eb455aa5315a68bb69b1" compoundref="_quantum_key_entry__m_8cc" startline="454" endline="470">QuantumKeyEntryDescriptor::getFieldValueAsString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_quantum_key_entry_1a8efdd7c69dff35435038d395ce537578" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void QuantumKeyEntry::setStatus</definition>
+        <argsstring>(const char *status)</argsstring>
+        <name>setStatus</name>
+        <param>
+          <type>const char *</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="QuantumKeyEntry_m.h" line="65" column="18" bodyfile="QuantumKeyEntry_m.cc" bodystart="265" bodyend="268"/>
+        <references refid="class_quantum_key_entry_1a7ef34812dae7614b990bb27e0992a4b6" compoundref="_quantum_key_entry__m_8h" startline="39">status</references>
+        <referencedby refid="class_client_memory_1a182e9304d2a8f82a39c58b6f6a141ba0" compoundref="_client_memory_8cc" startline="68" endline="83">ClientMemory::getPendingKeyMacAddress</referencedby>
+        <referencedby refid="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" compoundref="_client_processor_8cc" startline="88" endline="159">ClientProcessor::handleMessage</referencedby>
+        <referencedby refid="class_quantum_key_entry_descriptor_1a560af5aa20a95312ed0377e09a0547d7" compoundref="_quantum_key_entry__m_8cc" startline="472" endline="488">QuantumKeyEntryDescriptor::setFieldValueAsString</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class generated from <computeroutput>QuantumKeyEntry.msg:2</computeroutput> by nedtool. <preformatted>
+packet <ref refid="class_quantum_key_entry" kindref="compound">QuantumKeyEntry</ref>
+{
+    int identity;
+    string macAddress;
+    string key;
+    string status;
+}
+</preformatted> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>cPacket</label>
+      </node>
+      <node id="1">
+        <label>QuantumKeyEntry</label>
+        <link refid="class_quantum_key_entry"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>cPacket</label>
+      </node>
+      <node id="1">
+        <label>QuantumKeyEntry</label>
+        <link refid="class_quantum_key_entry"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="QuantumKeyEntry_m.h" line="34" column="1" bodyfile="QuantumKeyEntry_m.h" bodystart="33" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_quantum_key_entry_1a1c28eb7fbf06b46a4eddb384c2de23fd" prot="private" virt="non-virtual"><scope>QuantumKeyEntry</scope><name>copy</name></member>
+      <member refid="class_quantum_key_entry_1a327f41e6cce158d91bd168599b21fe35" prot="public" virt="virtual"><scope>QuantumKeyEntry</scope><name>dup</name></member>
+      <member refid="class_quantum_key_entry_1a85e0afd2c799019ca38f19c1670c7733" prot="public" virt="virtual"><scope>QuantumKeyEntry</scope><name>getIdentity</name></member>
+      <member refid="class_quantum_key_entry_1a1a45fdd0292e10bb01eeb69b55119cd5" prot="public" virt="virtual"><scope>QuantumKeyEntry</scope><name>getKey</name></member>
+      <member refid="class_quantum_key_entry_1a3faa0418d067d5fd090be1a7973bf6db" prot="public" virt="virtual"><scope>QuantumKeyEntry</scope><name>getMacAddress</name></member>
+      <member refid="class_quantum_key_entry_1a303fa302c2f0fea5162dca289aa3b2d7" prot="public" virt="virtual"><scope>QuantumKeyEntry</scope><name>getStatus</name></member>
+      <member refid="class_quantum_key_entry_1a536ccdb37a3ef451d0137d4da713d026" prot="protected" virt="non-virtual"><scope>QuantumKeyEntry</scope><name>identity</name></member>
+      <member refid="class_quantum_key_entry_1ac2fec3db3f9597888b0e1c3d6e7b1344" prot="protected" virt="non-virtual"><scope>QuantumKeyEntry</scope><name>key</name></member>
+      <member refid="class_quantum_key_entry_1a3cd656cb1d1c3566766c40bb007289a0" prot="protected" virt="non-virtual"><scope>QuantumKeyEntry</scope><name>macAddress</name></member>
+      <member refid="class_quantum_key_entry_1a05e691d187ad6cd50fdfa84ee38b46ff" prot="public" virt="non-virtual"><scope>QuantumKeyEntry</scope><name>operator=</name></member>
+      <member refid="class_quantum_key_entry_1afeb1b8c8b0d9c4f353bd8063d2a7f4c8" prot="protected" virt="non-virtual"><scope>QuantumKeyEntry</scope><name>operator==</name></member>
+      <member refid="class_quantum_key_entry_1a0dd9e6839b91efc6a06a41a9d6ac150e" prot="public" virt="virtual"><scope>QuantumKeyEntry</scope><name>parsimPack</name></member>
+      <member refid="class_quantum_key_entry_1ab3dfccf59d57d3135ee356c6f6af2273" prot="public" virt="virtual"><scope>QuantumKeyEntry</scope><name>parsimUnpack</name></member>
+      <member refid="class_quantum_key_entry_1af2c67698757595870b031b8dd518a163" prot="public" virt="non-virtual"><scope>QuantumKeyEntry</scope><name>QuantumKeyEntry</name></member>
+      <member refid="class_quantum_key_entry_1a37830cbeacd0a757987f52568cd9e37d" prot="public" virt="non-virtual"><scope>QuantumKeyEntry</scope><name>QuantumKeyEntry</name></member>
+      <member refid="class_quantum_key_entry_1aaecd120bb3e0bfce6ac6be1a1a87c861" prot="public" virt="virtual"><scope>QuantumKeyEntry</scope><name>setIdentity</name></member>
+      <member refid="class_quantum_key_entry_1a89346d735a430bac418248f33f18b2e0" prot="public" virt="virtual"><scope>QuantumKeyEntry</scope><name>setKey</name></member>
+      <member refid="class_quantum_key_entry_1ab4c6ed191ca2f70d90f70e310bf10ba7" prot="public" virt="virtual"><scope>QuantumKeyEntry</scope><name>setMacAddress</name></member>
+      <member refid="class_quantum_key_entry_1a8efdd7c69dff35435038d395ce537578" prot="public" virt="virtual"><scope>QuantumKeyEntry</scope><name>setStatus</name></member>
+      <member refid="class_quantum_key_entry_1a7ef34812dae7614b990bb27e0992a4b6" prot="protected" virt="non-virtual"><scope>QuantumKeyEntry</scope><name>status</name></member>
+      <member refid="class_quantum_key_entry_1addf32bb9241312d25cb468b0629de98b" prot="public" virt="virtual"><scope>QuantumKeyEntry</scope><name>~QuantumKeyEntry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_client_processor" kind="class" language="C++" prot="public">
+    <compoundname>ClientProcessor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cSimpleModule</basecompoundref>
+    <includes refid="_client_processor_8h" local="no">ClientProcessor.h</includes>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_client_processor_1a2e6abfaba0d005ce4d591a639e501286" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClientProcessor::initialize</definition>
+        <argsstring>(int stage) override</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>int</type>
+          <declname>stage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientProcessor.h" line="21" column="18" bodyfile="ClientProcessor.cc" bodystart="26" bodyend="81"/>
+        <references refid="class_mac_table_entry_1a6465962d98b26ca79e52833a856f25ee" compoundref="_mac_table_entry__m_8cc" startline="242" endline="245">MacTableEntry::setIdentity</references>
+        <references refid="class_mac_table_entry_1a2b0fa1e2d3c836b045ff47f8743b4569" compoundref="_mac_table_entry__m_8cc" startline="252" endline="255">MacTableEntry::setInterface</references>
+        <references refid="class_mac_table_entry_1a150ec0b4aa63ef6786ada551a24d4007" compoundref="_mac_table_entry__m_8cc" startline="262" endline="265">MacTableEntry::setMacAddress</references>
+        <references refid="class_mac_table_entry_1af6a2aa74138f4f626a49b47637c0c280" compoundref="_mac_table_entry__m_8cc" startline="272" endline="275">MacTableEntry::setQuantumInterfaceId</references>
+        <references refid="class_mac_table_entry_1a91122e0bff94f565be6a4510e4bf1734" compoundref="_mac_table_entry__m_8cc" startline="292" endline="295">MacTableEntry::setType</references>
+        <references refid="class_client_memory_1a7145e41efcf8f46c16205952f54d2ecc" compoundref="_client_memory_8cc" startline="27" endline="30">ClientMemory::addMacTableEntry</references>
+        <references refid="class_client_processor_1a8ffe1d1f59d3848a2f34cfdf51f0d4be" compoundref="_client_processor_8cc" startline="182" endline="203">printMacTable</references>
+      </memberdef>
+      <memberdef kind="function" id="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClientProcessor::handleMessage</definition>
+        <argsstring>(cMessage *msg) override</argsstring>
+        <name>handleMessage</name>
+        <param>
+          <type>cMessage *</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientProcessor.h" line="22" column="18" bodyfile="ClientProcessor.cc" bodystart="88" bodyend="159"/>
+        <references refid="class_quantum_key_entry_1aaecd120bb3e0bfce6ac6be1a1a87c861" compoundref="_quantum_key_entry__m_8cc" startline="235" endline="238">QuantumKeyEntry::setIdentity</references>
+        <references refid="class_quantum_key_entry_1ab4c6ed191ca2f70d90f70e310bf10ba7" compoundref="_quantum_key_entry__m_8cc" startline="245" endline="248">QuantumKeyEntry::setMacAddress</references>
+        <references refid="class_client_memory_1ade803c1296afc65383cf3a937741676b" compoundref="_client_memory_8cc" startline="43" endline="46">ClientMemory::addQautumKey</references>
+        <references refid="class_client_processor_1a3e6230381bde08ac52a895a4fead0d41" compoundref="_client_processor_8cc" startline="205" endline="231">printKeyTable</references>
+        <references refid="class_client_memory_1a319d01144267835398c2cf3048ac55f3" compoundref="_client_memory_8cc" startline="122" endline="125">ClientMemory::setInitialKeyBin</references>
+        <references refid="class_client_processor_1ad60a5531c1427c45f7589edf4a2a6187" compoundref="_client_processor_8cc" startline="172" endline="180">convertToBinary</references>
+        <references refid="class_client_memory_1a7dd8ab0de164d25fee3f02614eb6d654" compoundref="_client_memory_8cc" startline="117" endline="120">ClientMemory::getInitialKeyBin</references>
+        <references refid="class_quantum_key_entry_1a89346d735a430bac418248f33f18b2e0" compoundref="_quantum_key_entry__m_8cc" startline="255" endline="258">QuantumKeyEntry::setKey</references>
+        <references refid="class_client_processor_1ae012596dbec1461516aae3e4706444e1" compoundref="_client_processor_8cc" startline="233" endline="265">compareBasis</references>
+        <references refid="class_client_memory_1a9ac7e8c69dbb7c9b8aa2669ecddb5a4c" compoundref="_client_memory_8cc" startline="107" endline="110">ClientMemory::getPolarizationStates</references>
+        <references refid="class_quantum_key_entry_1a8efdd7c69dff35435038d395ce537578" compoundref="_quantum_key_entry__m_8cc" startline="265" endline="268">QuantumKeyEntry::setStatus</references>
+        <references refid="class_client_memory_1a8c1c7263f1fc25ebe1de06eb29a7e762" compoundref="_client_memory_8cc" startline="85" endline="96">ClientMemory::setPendingKey</references>
+        <references refid="class_client_memory_1a7623a81a19240d8ed359d7d7f321d432" compoundref="_client_memory_8cc" startline="37" endline="41">ClientMemory::getQuantumKey</references>
+        <references refid="class_client_memory_1a640f4311ef1f4935158cdfeeef2403f7" compoundref="_client_memory_8cc" startline="53" endline="66">ClientMemory::getPendingTransaction</references>
+        <references refid="class_client_memory_1a182e9304d2a8f82a39c58b6f6a141ba0" compoundref="_client_memory_8cc" startline="68" endline="83">ClientMemory::getPendingKeyMacAddress</references>
+        <references refid="class_client_memory_1a8c072774722e1de3ca73de2c7045e0de" compoundref="_client_memory_8cc" startline="112" endline="115">ClientMemory::setPolarizationStates</references>
+      </memberdef>
+      <memberdef kind="function" id="class_client_processor_1a969599579fd9facd62eae9afcff61b8c" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ClientProcessor::numInitStages</definition>
+        <argsstring>() const override</argsstring>
+        <name>numInitStages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientProcessor.h" line="23" column="17" bodyfile="ClientProcessor.cc" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_processor_1a6b974895f0bc14d5f5be5a221a9216d5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int ClientProcessor::countSetBits</definition>
+        <argsstring>(unsigned int n)</argsstring>
+        <name>countSetBits</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientProcessor.h" line="25" column="18" bodyfile="ClientProcessor.cc" bodystart="161" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_processor_1a0869d2d3a85325087357c9db1bb05864" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ClientProcessor::generateRandomKey</definition>
+        <argsstring>(int keyLength)</argsstring>
+        <name>generateRandomKey</name>
+        <param>
+          <type>int</type>
+          <declname>keyLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientProcessor.h" line="26" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_processor_1ad60a5531c1427c45f7589edf4a2a6187" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ClientProcessor::convertToBinary</definition>
+        <argsstring>(int initialKey)</argsstring>
+        <name>convertToBinary</name>
+        <param>
+          <type>int</type>
+          <declname>initialKey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientProcessor.h" line="27" column="17" bodyfile="ClientProcessor.cc" bodystart="172" bodyend="180"/>
+        <referencedby refid="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" compoundref="_client_processor_8cc" startline="88" endline="159">handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_client_processor_1ae012596dbec1461516aae3e4706444e1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ClientProcessor::compareBasis</definition>
+        <argsstring>(std::string statesUsed, std::string receivedStates, std::string randomBits)</argsstring>
+        <name>compareBasis</name>
+        <param>
+          <type>std::string</type>
+          <declname>statesUsed</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>receivedStates</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>randomBits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientProcessor.h" line="29" column="17" bodyfile="ClientProcessor.cc" bodystart="233" bodyend="265"/>
+        <referencedby refid="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" compoundref="_client_processor_8cc" startline="88" endline="159">handleMessage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_client_processor_1aa2aefb53315b015d665f2a14380141d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClientProcessor::initializeNetwork</definition>
+        <argsstring>()</argsstring>
+        <name>initializeNetwork</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientProcessor.h" line="32" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_processor_1a2dfcf8ef859a6e2abdee41d9ece751f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClientProcessor::initiateQKDRequest</definition>
+        <argsstring>(std::string source, std::string destination)</argsstring>
+        <name>initiateQKDRequest</name>
+        <param>
+          <type>std::string</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>destination</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientProcessor.h" line="33" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_processor_1a8ffe1d1f59d3848a2f34cfdf51f0d4be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClientProcessor::printMacTable</definition>
+        <argsstring>()</argsstring>
+        <name>printMacTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientProcessor.h" line="34" column="10" bodyfile="ClientProcessor.cc" bodystart="182" bodyend="203"/>
+        <references refid="class_client_memory_1a126802b222c6e78fcd5626dad7393a98" compoundref="_client_memory_8cc" startline="21" endline="25">ClientMemory::getMacTable</references>
+        <references refid="class_mac_table_entry_1aa4918b248eb4bc9a5cbce2d22ee1044e" compoundref="_mac_table_entry__m_8cc" startline="237" endline="240">MacTableEntry::getIdentity</references>
+        <references refid="class_mac_table_entry_1af25bc86738003fb75bb3e4d0e74cda88" compoundref="_mac_table_entry__m_8cc" startline="247" endline="250">MacTableEntry::getInterface</references>
+        <references refid="class_mac_table_entry_1aaa684cc0b7d88a4758740c26d1027935" compoundref="_mac_table_entry__m_8cc" startline="257" endline="260">MacTableEntry::getMacAddress</references>
+        <references refid="class_mac_table_entry_1a506d91d4588ee6858a1df8abba79e435" compoundref="_mac_table_entry__m_8cc" startline="267" endline="270">MacTableEntry::getQuantumInterfaceId</references>
+        <references refid="class_mac_table_entry_1aba16ae27a9b129a262790631ecd6149e" compoundref="_mac_table_entry__m_8cc" startline="287" endline="290">MacTableEntry::getType</references>
+        <referencedby refid="class_client_processor_1a2e6abfaba0d005ce4d591a639e501286" compoundref="_client_processor_8cc" startline="26" endline="81">initialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_client_processor_1a3e6230381bde08ac52a895a4fead0d41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClientProcessor::printKeyTable</definition>
+        <argsstring>()</argsstring>
+        <name>printKeyTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientProcessor.h" line="35" column="10" bodyfile="ClientProcessor.cc" bodystart="205" bodyend="231"/>
+        <references refid="class_client_memory_1a6271ffa66466e21b9a61558f6de0b545" compoundref="_client_memory_8cc" startline="48" endline="51">ClientMemory::getNumberOfKey</references>
+        <references refid="class_client_memory_1a7623a81a19240d8ed359d7d7f321d432" compoundref="_client_memory_8cc" startline="37" endline="41">ClientMemory::getQuantumKey</references>
+        <references refid="class_quantum_key_entry_1a3faa0418d067d5fd090be1a7973bf6db" compoundref="_quantum_key_entry__m_8cc" startline="240" endline="243">QuantumKeyEntry::getMacAddress</references>
+        <references refid="class_quantum_key_entry_1a85e0afd2c799019ca38f19c1670c7733" compoundref="_quantum_key_entry__m_8cc" startline="230" endline="233">QuantumKeyEntry::getIdentity</references>
+        <references refid="class_quantum_key_entry_1a1a45fdd0292e10bb01eeb69b55119cd5" compoundref="_quantum_key_entry__m_8cc" startline="250" endline="253">QuantumKeyEntry::getKey</references>
+        <references refid="class_quantum_key_entry_1a303fa302c2f0fea5162dca289aa3b2d7" compoundref="_quantum_key_entry__m_8cc" startline="260" endline="263">QuantumKeyEntry::getStatus</references>
+        <referencedby refid="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" compoundref="_client_processor_8cc" startline="88" endline="159">handleMessage</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ClientProcessor</label>
+        <link refid="class_client_processor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ClientProcessor</label>
+        <link refid="class_client_processor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cSimpleModule</label>
+      </node>
+    </collaborationgraph>
+    <location file="ClientProcessor.h" line="19" column="1" bodyfile="ClientProcessor.h" bodystart="18" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_client_processor_1ae012596dbec1461516aae3e4706444e1" prot="protected" virt="non-virtual"><scope>ClientProcessor</scope><name>compareBasis</name></member>
+      <member refid="class_client_processor_1ad60a5531c1427c45f7589edf4a2a6187" prot="protected" virt="non-virtual"><scope>ClientProcessor</scope><name>convertToBinary</name></member>
+      <member refid="class_client_processor_1a6b974895f0bc14d5f5be5a221a9216d5" prot="protected" virt="non-virtual"><scope>ClientProcessor</scope><name>countSetBits</name></member>
+      <member refid="class_client_processor_1a0869d2d3a85325087357c9db1bb05864" prot="protected" virt="non-virtual"><scope>ClientProcessor</scope><name>generateRandomKey</name></member>
+      <member refid="class_client_processor_1ad52ec9f784c9a11cc66b55b6537a4a75" prot="protected" virt="virtual"><scope>ClientProcessor</scope><name>handleMessage</name></member>
+      <member refid="class_client_processor_1a2e6abfaba0d005ce4d591a639e501286" prot="protected" virt="virtual"><scope>ClientProcessor</scope><name>initialize</name></member>
+      <member refid="class_client_processor_1aa2aefb53315b015d665f2a14380141d2" prot="public" virt="non-virtual"><scope>ClientProcessor</scope><name>initializeNetwork</name></member>
+      <member refid="class_client_processor_1a2dfcf8ef859a6e2abdee41d9ece751f1" prot="public" virt="non-virtual"><scope>ClientProcessor</scope><name>initiateQKDRequest</name></member>
+      <member refid="class_client_processor_1a969599579fd9facd62eae9afcff61b8c" prot="protected" virt="virtual"><scope>ClientProcessor</scope><name>numInitStages</name></member>
+      <member refid="class_client_processor_1a3e6230381bde08ac52a895a4fead0d41" prot="public" virt="non-virtual"><scope>ClientProcessor</scope><name>printKeyTable</name></member>
+      <member refid="class_client_processor_1a8ffe1d1f59d3848a2f34cfdf51f0d4be" prot="public" virt="non-virtual"><scope>ClientProcessor</scope><name>printMacTable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

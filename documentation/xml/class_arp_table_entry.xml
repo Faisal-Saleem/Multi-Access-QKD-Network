@@ -1,0 +1,640 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_arp_table_entry" kind="class" language="C++" prot="public">
+    <compoundname>ArpTableEntry</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">cPacket</basecompoundref>
+    <includes refid="_arp_table_entry__m_8h" local="no">ArpTableEntry_m.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_arp_table_entry_1a3160c0706c213dace129cd5f57621c25" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ArpTableEntry::identity</definition>
+        <argsstring></argsstring>
+        <name>identity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="53" column="9" bodyfile="ArpTableEntry_m.h" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_arp_table_entry_1a8297a2585239db52b62f6f1de067e708" compoundref="_arp_table_entry__m_8cc" startline="216" endline="226">parsimPack</referencedby>
+        <referencedby refid="class_arp_table_entry_1ae93b440a5b71f3dd6054fbab4c5a5ed3" compoundref="_arp_table_entry__m_8cc" startline="228" endline="238">parsimUnpack</referencedby>
+        <referencedby refid="class_arp_table_entry_1a2c3fa9d25b2ddef04ae1f7feec5d2970" compoundref="_arp_table_entry__m_8cc" startline="240" endline="243">getIdentity</referencedby>
+        <referencedby refid="class_arp_table_entry_1aba9fc2ed91e62fb9af640ba3d2e9ffc8" compoundref="_arp_table_entry__m_8cc" startline="245" endline="248">setIdentity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_arp_table_entry_1ac1bb1a79bf2e869b78d664f3079a2525" prot="protected" static="no" mutable="no">
+        <type>::omnetpp::opp_string</type>
+        <definition>::omnetpp::opp_string ArpTableEntry::protocol</definition>
+        <argsstring></argsstring>
+        <name>protocol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="54" column="27" bodyfile="ArpTableEntry_m.h" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_arp_table_entry_1a8297a2585239db52b62f6f1de067e708" compoundref="_arp_table_entry__m_8cc" startline="216" endline="226">parsimPack</referencedby>
+        <referencedby refid="class_arp_table_entry_1ae93b440a5b71f3dd6054fbab4c5a5ed3" compoundref="_arp_table_entry__m_8cc" startline="228" endline="238">parsimUnpack</referencedby>
+        <referencedby refid="class_arp_table_entry_1ad809c04c43dda3b0234ddc36a910b947" compoundref="_arp_table_entry__m_8cc" startline="250" endline="253">getProtocol</referencedby>
+        <referencedby refid="class_arp_table_entry_1a87672c8282d9fa822567fd08a361130c" compoundref="_arp_table_entry__m_8cc" startline="255" endline="258">setProtocol</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_arp_table_entry_1a8ddd2545a874cce6dd604b92e6d9b2cf" prot="protected" static="no" mutable="no">
+        <type>::omnetpp::opp_string</type>
+        <definition>::omnetpp::opp_string ArpTableEntry::ipAddress</definition>
+        <argsstring></argsstring>
+        <name>ipAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="55" column="27" bodyfile="ArpTableEntry_m.h" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_arp_table_entry_1a8297a2585239db52b62f6f1de067e708" compoundref="_arp_table_entry__m_8cc" startline="216" endline="226">parsimPack</referencedby>
+        <referencedby refid="class_arp_table_entry_1ae93b440a5b71f3dd6054fbab4c5a5ed3" compoundref="_arp_table_entry__m_8cc" startline="228" endline="238">parsimUnpack</referencedby>
+        <referencedby refid="class_arp_table_entry_1ae9c88488bdcd3409b5a048db053bec68" compoundref="_arp_table_entry__m_8cc" startline="260" endline="263">getIpAddress</referencedby>
+        <referencedby refid="class_arp_table_entry_1aa5e5949d12f291be1bc74cf1bcde92bd" compoundref="_arp_table_entry__m_8cc" startline="265" endline="268">setIpAddress</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_arp_table_entry_1a166ecfb9054bab1989a7a9db12ee1544" prot="protected" static="no" mutable="no">
+        <type>::omnetpp::opp_string</type>
+        <definition>::omnetpp::opp_string ArpTableEntry::macAddress</definition>
+        <argsstring></argsstring>
+        <name>macAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="56" column="27" bodyfile="ArpTableEntry_m.h" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_arp_table_entry_1a8297a2585239db52b62f6f1de067e708" compoundref="_arp_table_entry__m_8cc" startline="216" endline="226">parsimPack</referencedby>
+        <referencedby refid="class_arp_table_entry_1ae93b440a5b71f3dd6054fbab4c5a5ed3" compoundref="_arp_table_entry__m_8cc" startline="228" endline="238">parsimUnpack</referencedby>
+        <referencedby refid="class_arp_table_entry_1a53fd47b0ac0efe30d7c1965ce2808d9d" compoundref="_arp_table_entry__m_8cc" startline="270" endline="273">getMacAddress</referencedby>
+        <referencedby refid="class_arp_table_entry_1a144783c14f0992037f93b00d34b3521b" compoundref="_arp_table_entry__m_8cc" startline="275" endline="278">setMacAddress</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_arp_table_entry_1a36a2551b64389e13147f8bfa3bbe1e40" prot="protected" static="no" mutable="no">
+        <type>::omnetpp::opp_string</type>
+        <definition>::omnetpp::opp_string ArpTableEntry::age</definition>
+        <argsstring></argsstring>
+        <name>age</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="57" column="27" bodyfile="ArpTableEntry_m.h" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_arp_table_entry_1a8297a2585239db52b62f6f1de067e708" compoundref="_arp_table_entry__m_8cc" startline="216" endline="226">parsimPack</referencedby>
+        <referencedby refid="class_arp_table_entry_1ae93b440a5b71f3dd6054fbab4c5a5ed3" compoundref="_arp_table_entry__m_8cc" startline="228" endline="238">parsimUnpack</referencedby>
+        <referencedby refid="class_arp_table_entry_1a9a04233d547cef4358aa375a617c01dc" compoundref="_arp_table_entry__m_8cc" startline="280" endline="283">getAge</referencedby>
+        <referencedby refid="class_arp_table_entry_1a03e0a5373f20dc6672e8ae21680d4111" compoundref="_arp_table_entry__m_8cc" startline="285" endline="288">setAge</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_arp_table_entry_1a1743b6c2db21200eafb1ea618bd97a19" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ArpTableEntry::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="58" column="9" bodyfile="ArpTableEntry_m.h" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_arp_table_entry_1a8297a2585239db52b62f6f1de067e708" compoundref="_arp_table_entry__m_8cc" startline="216" endline="226">parsimPack</referencedby>
+        <referencedby refid="class_arp_table_entry_1ae93b440a5b71f3dd6054fbab4c5a5ed3" compoundref="_arp_table_entry__m_8cc" startline="228" endline="238">parsimUnpack</referencedby>
+        <referencedby refid="class_arp_table_entry_1a90bdde86b373d5fafb2d2d74525263ed" compoundref="_arp_table_entry__m_8cc" startline="290" endline="293">getType</referencedby>
+        <referencedby refid="class_arp_table_entry_1ad4a908fc048e173535c155886fe96283" compoundref="_arp_table_entry__m_8cc" startline="295" endline="298">setType</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_arp_table_entry_1a3a7f40f6ceb0db24444300e2e78c6d85" prot="protected" static="no" mutable="no">
+        <type>::omnetpp::opp_string</type>
+        <definition>::omnetpp::opp_string ArpTableEntry::interface</definition>
+        <argsstring></argsstring>
+        <name>interface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="59" column="27" bodyfile="ArpTableEntry_m.h" bodystart="59" bodyend="-1"/>
+        <referencedby refid="class_arp_table_entry_1a8297a2585239db52b62f6f1de067e708" compoundref="_arp_table_entry__m_8cc" startline="216" endline="226">parsimPack</referencedby>
+        <referencedby refid="class_arp_table_entry_1ae93b440a5b71f3dd6054fbab4c5a5ed3" compoundref="_arp_table_entry__m_8cc" startline="228" endline="238">parsimUnpack</referencedby>
+        <referencedby refid="class_arp_table_entry_1a350939d3434dc7dd403114febba08e20" compoundref="_arp_table_entry__m_8cc" startline="300" endline="303">getInterface</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_arp_table_entry_1a2a76fc8a88bff21de44c7d2cb96c2a4e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArpTableEntry::copy</definition>
+        <argsstring>(const ArpTableEntry &amp;other)</argsstring>
+        <name>copy</name>
+        <param>
+          <type>const <ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="62" column="10" bodyfile="ArpTableEntry_m.cc" bodystart="205" bodyend="214"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_arp_table_entry_1ad3963bc598ff4671f0901317dbff4440" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ArpTableEntry::operator==</definition>
+        <argsstring>(const ArpTableEntry &amp;)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="66" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_arp_table_entry_1a3ce10ffcff3e97a62eb918ba390a674a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ArpTableEntry::ArpTableEntry</definition>
+        <argsstring>(const char *name=nullptr, short kind=0)</argsstring>
+        <name>ArpTableEntry</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>short</type>
+          <declname>kind</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="69" column="5"/>
+        <referencedby refid="class_arp_table_entry_1a39047fb5f12309e2c4c4b1949d7478c9" compoundref="_arp_table_entry__m_8h" startline="73" endline="73">dup</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1a2b374e857e8bf59e5ec1da3eb8395bc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ArpTableEntry::ArpTableEntry</definition>
+        <argsstring>(const ArpTableEntry &amp;other)</argsstring>
+        <name>ArpTableEntry</name>
+        <param>
+          <type>const <ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="70" column="5" bodyfile="ArpTableEntry_m.cc" bodystart="188" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1a93e1682952483b93a91d34d50601f80f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>ArpTableEntry::~ArpTableEntry</definition>
+        <argsstring>()</argsstring>
+        <name>~ArpTableEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="71" column="13" bodyfile="ArpTableEntry_m.cc" bodystart="193" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1accca9016a9cdf76d6c358302ef4ccbe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref> &amp;</type>
+        <definition>ArpTableEntry &amp; ArpTableEntry::operator=</definition>
+        <argsstring>(const ArpTableEntry &amp;other)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="72" column="19" bodyfile="ArpTableEntry_m.cc" bodystart="197" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1a39047fb5f12309e2c4c4b1949d7478c9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref> *</type>
+        <definition>virtual ArpTableEntry* ArpTableEntry::dup</definition>
+        <argsstring>() const override</argsstring>
+        <name>dup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="73" column="27" bodyfile="ArpTableEntry_m.h" bodystart="73" bodyend="73"/>
+        <references refid="class_arp_table_entry_1a3ce10ffcff3e97a62eb918ba390a674a">ArpTableEntry</references>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1a8297a2585239db52b62f6f1de067e708" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ArpTableEntry::parsimPack</definition>
+        <argsstring>(omnetpp::cCommBuffer *b) const override</argsstring>
+        <name>parsimPack</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="74" column="18" bodyfile="ArpTableEntry_m.cc" bodystart="216" bodyend="226"/>
+        <references refid="namespaceomnetpp_1a41f5f036ca92034bc3b29ad1f9f96903" compoundref="_arp_table_entry__m_8cc" startline="138" endline="141">omnetpp::doParsimPacking</references>
+        <references refid="class_arp_table_entry_1a3160c0706c213dace129cd5f57621c25" compoundref="_arp_table_entry__m_8h" startline="53">identity</references>
+        <references refid="class_arp_table_entry_1ac1bb1a79bf2e869b78d664f3079a2525" compoundref="_arp_table_entry__m_8h" startline="54">protocol</references>
+        <references refid="class_arp_table_entry_1a8ddd2545a874cce6dd604b92e6d9b2cf" compoundref="_arp_table_entry__m_8h" startline="55">ipAddress</references>
+        <references refid="class_arp_table_entry_1a166ecfb9054bab1989a7a9db12ee1544" compoundref="_arp_table_entry__m_8h" startline="56">macAddress</references>
+        <references refid="class_arp_table_entry_1a36a2551b64389e13147f8bfa3bbe1e40" compoundref="_arp_table_entry__m_8h" startline="57">age</references>
+        <references refid="class_arp_table_entry_1a1743b6c2db21200eafb1ea618bd97a19" compoundref="_arp_table_entry__m_8h" startline="58">type</references>
+        <references refid="class_arp_table_entry_1a3a7f40f6ceb0db24444300e2e78c6d85" compoundref="_arp_table_entry__m_8h" startline="59">interface</references>
+        <referencedby refid="_arp_table_entry__m_8h_1acb752692ff8c27d7a85dc8ff3091cb99" compoundref="_arp_table_entry__m_8h" startline="94" endline="94">doParsimPacking</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1ae93b440a5b71f3dd6054fbab4c5a5ed3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ArpTableEntry::parsimUnpack</definition>
+        <argsstring>(omnetpp::cCommBuffer *b) override</argsstring>
+        <name>parsimUnpack</name>
+        <param>
+          <type>omnetpp::cCommBuffer *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="75" column="18" bodyfile="ArpTableEntry_m.cc" bodystart="228" bodyend="238"/>
+        <references refid="namespaceomnetpp_1a7336b297a32484942d52667dae7c7248" compoundref="_arp_table_entry__m_8cc" startline="144" endline="147">omnetpp::doParsimUnpacking</references>
+        <references refid="class_arp_table_entry_1a3160c0706c213dace129cd5f57621c25" compoundref="_arp_table_entry__m_8h" startline="53">identity</references>
+        <references refid="class_arp_table_entry_1ac1bb1a79bf2e869b78d664f3079a2525" compoundref="_arp_table_entry__m_8h" startline="54">protocol</references>
+        <references refid="class_arp_table_entry_1a8ddd2545a874cce6dd604b92e6d9b2cf" compoundref="_arp_table_entry__m_8h" startline="55">ipAddress</references>
+        <references refid="class_arp_table_entry_1a166ecfb9054bab1989a7a9db12ee1544" compoundref="_arp_table_entry__m_8h" startline="56">macAddress</references>
+        <references refid="class_arp_table_entry_1a36a2551b64389e13147f8bfa3bbe1e40" compoundref="_arp_table_entry__m_8h" startline="57">age</references>
+        <references refid="class_arp_table_entry_1a1743b6c2db21200eafb1ea618bd97a19" compoundref="_arp_table_entry__m_8h" startline="58">type</references>
+        <references refid="class_arp_table_entry_1a3a7f40f6ceb0db24444300e2e78c6d85" compoundref="_arp_table_entry__m_8h" startline="59">interface</references>
+        <referencedby refid="_arp_table_entry__m_8h_1addd12c179aca59e47b4baaef1a511d2c" compoundref="_arp_table_entry__m_8h" startline="95" endline="95">doParsimUnpacking</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1a2c3fa9d25b2ddef04ae1f7feec5d2970" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ArpTableEntry::getIdentity</definition>
+        <argsstring>() const</argsstring>
+        <name>getIdentity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="78" column="17" bodyfile="ArpTableEntry_m.cc" bodystart="240" bodyend="243"/>
+        <references refid="class_arp_table_entry_1a3160c0706c213dace129cd5f57621c25" compoundref="_arp_table_entry__m_8h" startline="53">identity</references>
+        <referencedby refid="class_arp_table_entry_descriptor_1aaf5aad0b76bd0167744cb3f0f9176a77" compoundref="_arp_table_entry__m_8cc" startline="506" endline="525">ArpTableEntryDescriptor::getFieldValueAsString</referencedby>
+        <referencedby refid="class_processor_1a110965763a9b6ee318b8bee23dd5ab90" compoundref="_processor_8cc" startline="270" endline="295">Processor::printArpTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1aba9fc2ed91e62fb9af640ba3d2e9ffc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ArpTableEntry::setIdentity</definition>
+        <argsstring>(int identity)</argsstring>
+        <name>setIdentity</name>
+        <param>
+          <type>int</type>
+          <declname>identity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="79" column="18" bodyfile="ArpTableEntry_m.cc" bodystart="245" bodyend="248"/>
+        <references refid="class_arp_table_entry_1a3160c0706c213dace129cd5f57621c25" compoundref="_arp_table_entry__m_8h" startline="53">identity</references>
+        <referencedby refid="class_arp_table_entry_descriptor_1a5fb72498fa0d12ad371365673930c293" compoundref="_arp_table_entry__m_8cc" startline="527" endline="546">ArpTableEntryDescriptor::setFieldValueAsString</referencedby>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1ad809c04c43dda3b0234ddc36a910b947" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * ArpTableEntry::getProtocol</definition>
+        <argsstring>() const</argsstring>
+        <name>getProtocol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="80" column="25" bodyfile="ArpTableEntry_m.cc" bodystart="250" bodyend="253"/>
+        <references refid="class_arp_table_entry_1ac1bb1a79bf2e869b78d664f3079a2525" compoundref="_arp_table_entry__m_8h" startline="54">protocol</references>
+        <referencedby refid="class_arp_table_entry_descriptor_1aaf5aad0b76bd0167744cb3f0f9176a77" compoundref="_arp_table_entry__m_8cc" startline="506" endline="525">ArpTableEntryDescriptor::getFieldValueAsString</referencedby>
+        <referencedby refid="class_processor_1a110965763a9b6ee318b8bee23dd5ab90" compoundref="_processor_8cc" startline="270" endline="295">Processor::printArpTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1a87672c8282d9fa822567fd08a361130c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ArpTableEntry::setProtocol</definition>
+        <argsstring>(const char *protocol)</argsstring>
+        <name>setProtocol</name>
+        <param>
+          <type>const char *</type>
+          <declname>protocol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="81" column="18" bodyfile="ArpTableEntry_m.cc" bodystart="255" bodyend="258"/>
+        <references refid="class_arp_table_entry_1ac1bb1a79bf2e869b78d664f3079a2525" compoundref="_arp_table_entry__m_8h" startline="54">protocol</references>
+        <referencedby refid="class_arp_table_entry_descriptor_1a5fb72498fa0d12ad371365673930c293" compoundref="_arp_table_entry__m_8cc" startline="527" endline="546">ArpTableEntryDescriptor::setFieldValueAsString</referencedby>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1ae9c88488bdcd3409b5a048db053bec68" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * ArpTableEntry::getIpAddress</definition>
+        <argsstring>() const</argsstring>
+        <name>getIpAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="82" column="25" bodyfile="ArpTableEntry_m.cc" bodystart="260" bodyend="263"/>
+        <references refid="class_arp_table_entry_1a8ddd2545a874cce6dd604b92e6d9b2cf" compoundref="_arp_table_entry__m_8h" startline="55">ipAddress</references>
+        <referencedby refid="class_arp_table_entry_descriptor_1aaf5aad0b76bd0167744cb3f0f9176a77" compoundref="_arp_table_entry__m_8cc" startline="506" endline="525">ArpTableEntryDescriptor::getFieldValueAsString</referencedby>
+        <referencedby refid="class_processor_1a110965763a9b6ee318b8bee23dd5ab90" compoundref="_processor_8cc" startline="270" endline="295">Processor::printArpTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1aa5e5949d12f291be1bc74cf1bcde92bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ArpTableEntry::setIpAddress</definition>
+        <argsstring>(const char *ipAddress)</argsstring>
+        <name>setIpAddress</name>
+        <param>
+          <type>const char *</type>
+          <declname>ipAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="83" column="18" bodyfile="ArpTableEntry_m.cc" bodystart="265" bodyend="268"/>
+        <references refid="class_arp_table_entry_1a8ddd2545a874cce6dd604b92e6d9b2cf" compoundref="_arp_table_entry__m_8h" startline="55">ipAddress</references>
+        <referencedby refid="class_arp_table_entry_descriptor_1a5fb72498fa0d12ad371365673930c293" compoundref="_arp_table_entry__m_8cc" startline="527" endline="546">ArpTableEntryDescriptor::setFieldValueAsString</referencedby>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1a53fd47b0ac0efe30d7c1965ce2808d9d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * ArpTableEntry::getMacAddress</definition>
+        <argsstring>() const</argsstring>
+        <name>getMacAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="84" column="25" bodyfile="ArpTableEntry_m.cc" bodystart="270" bodyend="273"/>
+        <references refid="class_arp_table_entry_1a166ecfb9054bab1989a7a9db12ee1544" compoundref="_arp_table_entry__m_8h" startline="56">macAddress</references>
+        <referencedby refid="class_arp_table_entry_descriptor_1aaf5aad0b76bd0167744cb3f0f9176a77" compoundref="_arp_table_entry__m_8cc" startline="506" endline="525">ArpTableEntryDescriptor::getFieldValueAsString</referencedby>
+        <referencedby refid="class_processor_1a110965763a9b6ee318b8bee23dd5ab90" compoundref="_processor_8cc" startline="270" endline="295">Processor::printArpTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1a144783c14f0992037f93b00d34b3521b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ArpTableEntry::setMacAddress</definition>
+        <argsstring>(const char *macAddress)</argsstring>
+        <name>setMacAddress</name>
+        <param>
+          <type>const char *</type>
+          <declname>macAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="85" column="18" bodyfile="ArpTableEntry_m.cc" bodystart="275" bodyend="278"/>
+        <references refid="class_arp_table_entry_1a166ecfb9054bab1989a7a9db12ee1544" compoundref="_arp_table_entry__m_8h" startline="56">macAddress</references>
+        <referencedby refid="class_arp_table_entry_descriptor_1a5fb72498fa0d12ad371365673930c293" compoundref="_arp_table_entry__m_8cc" startline="527" endline="546">ArpTableEntryDescriptor::setFieldValueAsString</referencedby>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1a9a04233d547cef4358aa375a617c01dc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * ArpTableEntry::getAge</definition>
+        <argsstring>() const</argsstring>
+        <name>getAge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="86" column="25" bodyfile="ArpTableEntry_m.cc" bodystart="280" bodyend="283"/>
+        <references refid="class_arp_table_entry_1a36a2551b64389e13147f8bfa3bbe1e40" compoundref="_arp_table_entry__m_8h" startline="57">age</references>
+        <referencedby refid="class_arp_table_entry_descriptor_1aaf5aad0b76bd0167744cb3f0f9176a77" compoundref="_arp_table_entry__m_8cc" startline="506" endline="525">ArpTableEntryDescriptor::getFieldValueAsString</referencedby>
+        <referencedby refid="class_processor_1a110965763a9b6ee318b8bee23dd5ab90" compoundref="_processor_8cc" startline="270" endline="295">Processor::printArpTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1a03e0a5373f20dc6672e8ae21680d4111" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ArpTableEntry::setAge</definition>
+        <argsstring>(const char *age)</argsstring>
+        <name>setAge</name>
+        <param>
+          <type>const char *</type>
+          <declname>age</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="87" column="18" bodyfile="ArpTableEntry_m.cc" bodystart="285" bodyend="288"/>
+        <references refid="class_arp_table_entry_1a36a2551b64389e13147f8bfa3bbe1e40" compoundref="_arp_table_entry__m_8h" startline="57">age</references>
+        <referencedby refid="class_arp_table_entry_descriptor_1a5fb72498fa0d12ad371365673930c293" compoundref="_arp_table_entry__m_8cc" startline="527" endline="546">ArpTableEntryDescriptor::setFieldValueAsString</referencedby>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1a90bdde86b373d5fafb2d2d74525263ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ArpTableEntry::getType</definition>
+        <argsstring>() const</argsstring>
+        <name>getType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="88" column="17" bodyfile="ArpTableEntry_m.cc" bodystart="290" bodyend="293"/>
+        <references refid="class_arp_table_entry_1a1743b6c2db21200eafb1ea618bd97a19" compoundref="_arp_table_entry__m_8h" startline="58">type</references>
+        <referencedby refid="class_arp_table_entry_descriptor_1aaf5aad0b76bd0167744cb3f0f9176a77" compoundref="_arp_table_entry__m_8cc" startline="506" endline="525">ArpTableEntryDescriptor::getFieldValueAsString</referencedby>
+        <referencedby refid="class_processor_1a110965763a9b6ee318b8bee23dd5ab90" compoundref="_processor_8cc" startline="270" endline="295">Processor::printArpTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1ad4a908fc048e173535c155886fe96283" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ArpTableEntry::setType</definition>
+        <argsstring>(int type)</argsstring>
+        <name>setType</name>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="89" column="18" bodyfile="ArpTableEntry_m.cc" bodystart="295" bodyend="298"/>
+        <references refid="class_arp_table_entry_1a1743b6c2db21200eafb1ea618bd97a19" compoundref="_arp_table_entry__m_8h" startline="58">type</references>
+        <referencedby refid="class_arp_table_entry_descriptor_1a5fb72498fa0d12ad371365673930c293" compoundref="_arp_table_entry__m_8cc" startline="527" endline="546">ArpTableEntryDescriptor::setFieldValueAsString</referencedby>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1a350939d3434dc7dd403114febba08e20" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * ArpTableEntry::getInterface</definition>
+        <argsstring>() const</argsstring>
+        <name>getInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="90" column="25" bodyfile="ArpTableEntry_m.cc" bodystart="300" bodyend="303"/>
+        <references refid="class_arp_table_entry_1a3a7f40f6ceb0db24444300e2e78c6d85" compoundref="_arp_table_entry__m_8h" startline="59">interface</references>
+        <referencedby refid="class_arp_table_entry_descriptor_1aaf5aad0b76bd0167744cb3f0f9176a77" compoundref="_arp_table_entry__m_8cc" startline="506" endline="525">ArpTableEntryDescriptor::getFieldValueAsString</referencedby>
+        <referencedby refid="class_processor_1a110965763a9b6ee318b8bee23dd5ab90" compoundref="_processor_8cc" startline="270" endline="295">Processor::printArpTable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_arp_table_entry_1a87466843f83577d378f7c20e062f97da" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ArpTableEntry::setInterface</definition>
+        <argsstring>(const char *interface)</argsstring>
+        <name>setInterface</name>
+        <param>
+          <type>const char *</type>
+          <declname>interface</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ArpTableEntry_m.h" line="91" column="18" bodyfile="ArpTableEntry_m.cc" bodystart="305" bodyend="308"/>
+        <referencedby refid="class_arp_table_entry_descriptor_1a5fb72498fa0d12ad371365673930c293" compoundref="_arp_table_entry__m_8cc" startline="527" endline="546">ArpTableEntryDescriptor::setFieldValueAsString</referencedby>
+        <referencedby refid="class_processor_1a470b4199a02a7a4b6dec574364bfd63c" compoundref="_processor_8cc" startline="71" endline="162">Processor::handleMessage</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class generated from <computeroutput>ArpTableEntry.msg:16</computeroutput> by nedtool. <preformatted>
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Lesser General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+// 
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Lesser General Public License for more details.
+// 
+// You should have received a copy of the GNU Lesser General Public License
+// along with this program.  If not, see <ulink url="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</ulink>.
+//
+packet <ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref>
+{
+    int identity;
+    string protocol;
+    string ipAddress;
+    string macAddress;
+    string age;
+    int type;
+    string interface;
+}
+</preformatted> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>cPacket</label>
+      </node>
+      <node id="1">
+        <label>ArpTableEntry</label>
+        <link refid="class_arp_table_entry"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>cPacket</label>
+      </node>
+      <node id="1">
+        <label>ArpTableEntry</label>
+        <link refid="class_arp_table_entry"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ArpTableEntry_m.h" line="51" column="1" bodyfile="ArpTableEntry_m.h" bodystart="50" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_arp_table_entry_1a36a2551b64389e13147f8bfa3bbe1e40" prot="protected" virt="non-virtual"><scope>ArpTableEntry</scope><name>age</name></member>
+      <member refid="class_arp_table_entry_1a3ce10ffcff3e97a62eb918ba390a674a" prot="public" virt="non-virtual"><scope>ArpTableEntry</scope><name>ArpTableEntry</name></member>
+      <member refid="class_arp_table_entry_1a2b374e857e8bf59e5ec1da3eb8395bc1" prot="public" virt="non-virtual"><scope>ArpTableEntry</scope><name>ArpTableEntry</name></member>
+      <member refid="class_arp_table_entry_1a2a76fc8a88bff21de44c7d2cb96c2a4e" prot="private" virt="non-virtual"><scope>ArpTableEntry</scope><name>copy</name></member>
+      <member refid="class_arp_table_entry_1a39047fb5f12309e2c4c4b1949d7478c9" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>dup</name></member>
+      <member refid="class_arp_table_entry_1a9a04233d547cef4358aa375a617c01dc" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>getAge</name></member>
+      <member refid="class_arp_table_entry_1a2c3fa9d25b2ddef04ae1f7feec5d2970" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>getIdentity</name></member>
+      <member refid="class_arp_table_entry_1a350939d3434dc7dd403114febba08e20" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>getInterface</name></member>
+      <member refid="class_arp_table_entry_1ae9c88488bdcd3409b5a048db053bec68" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>getIpAddress</name></member>
+      <member refid="class_arp_table_entry_1a53fd47b0ac0efe30d7c1965ce2808d9d" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>getMacAddress</name></member>
+      <member refid="class_arp_table_entry_1ad809c04c43dda3b0234ddc36a910b947" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>getProtocol</name></member>
+      <member refid="class_arp_table_entry_1a90bdde86b373d5fafb2d2d74525263ed" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>getType</name></member>
+      <member refid="class_arp_table_entry_1a3160c0706c213dace129cd5f57621c25" prot="protected" virt="non-virtual"><scope>ArpTableEntry</scope><name>identity</name></member>
+      <member refid="class_arp_table_entry_1a3a7f40f6ceb0db24444300e2e78c6d85" prot="protected" virt="non-virtual"><scope>ArpTableEntry</scope><name>interface</name></member>
+      <member refid="class_arp_table_entry_1a8ddd2545a874cce6dd604b92e6d9b2cf" prot="protected" virt="non-virtual"><scope>ArpTableEntry</scope><name>ipAddress</name></member>
+      <member refid="class_arp_table_entry_1a166ecfb9054bab1989a7a9db12ee1544" prot="protected" virt="non-virtual"><scope>ArpTableEntry</scope><name>macAddress</name></member>
+      <member refid="class_arp_table_entry_1accca9016a9cdf76d6c358302ef4ccbe3" prot="public" virt="non-virtual"><scope>ArpTableEntry</scope><name>operator=</name></member>
+      <member refid="class_arp_table_entry_1ad3963bc598ff4671f0901317dbff4440" prot="protected" virt="non-virtual"><scope>ArpTableEntry</scope><name>operator==</name></member>
+      <member refid="class_arp_table_entry_1a8297a2585239db52b62f6f1de067e708" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>parsimPack</name></member>
+      <member refid="class_arp_table_entry_1ae93b440a5b71f3dd6054fbab4c5a5ed3" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>parsimUnpack</name></member>
+      <member refid="class_arp_table_entry_1ac1bb1a79bf2e869b78d664f3079a2525" prot="protected" virt="non-virtual"><scope>ArpTableEntry</scope><name>protocol</name></member>
+      <member refid="class_arp_table_entry_1a03e0a5373f20dc6672e8ae21680d4111" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>setAge</name></member>
+      <member refid="class_arp_table_entry_1aba9fc2ed91e62fb9af640ba3d2e9ffc8" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>setIdentity</name></member>
+      <member refid="class_arp_table_entry_1a87466843f83577d378f7c20e062f97da" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>setInterface</name></member>
+      <member refid="class_arp_table_entry_1aa5e5949d12f291be1bc74cf1bcde92bd" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>setIpAddress</name></member>
+      <member refid="class_arp_table_entry_1a144783c14f0992037f93b00d34b3521b" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>setMacAddress</name></member>
+      <member refid="class_arp_table_entry_1a87672c8282d9fa822567fd08a361130c" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>setProtocol</name></member>
+      <member refid="class_arp_table_entry_1ad4a908fc048e173535c155886fe96283" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>setType</name></member>
+      <member refid="class_arp_table_entry_1a1743b6c2db21200eafb1ea618bd97a19" prot="protected" virt="non-virtual"><scope>ArpTableEntry</scope><name>type</name></member>
+      <member refid="class_arp_table_entry_1a93e1682952483b93a91d34d50601f80f" prot="public" virt="virtual"><scope>ArpTableEntry</scope><name>~ArpTableEntry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

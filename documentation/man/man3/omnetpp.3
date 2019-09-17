@@ -1,0 +1,101 @@
+.TH "omnetpp" 3 "Tue Sep 17 2019" "Multiaccess QKD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+omnetpp
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "template<typename T , typename A > void \fBdoParsimPacking\fP (omnetpp::cCommBuffer *buffer, const std::vector< T, A > &v)"
+.br
+.ti -1c
+.RI "template<typename T , typename A > void \fBdoParsimUnpacking\fP (omnetpp::cCommBuffer *buffer, std::vector< T, A > &v)"
+.br
+.ti -1c
+.RI "template<typename T , typename A > void \fBdoParsimPacking\fP (omnetpp::cCommBuffer *buffer, const std::list< T, A > &l)"
+.br
+.ti -1c
+.RI "template<typename T , typename A > void \fBdoParsimUnpacking\fP (omnetpp::cCommBuffer *buffer, std::list< T, A > &l)"
+.br
+.ti -1c
+.RI "template<typename T , typename Tr , typename A > void \fBdoParsimPacking\fP (omnetpp::cCommBuffer *buffer, const std::set< T, Tr, A > &s)"
+.br
+.ti -1c
+.RI "template<typename T , typename Tr , typename A > void \fBdoParsimUnpacking\fP (omnetpp::cCommBuffer *buffer, std::set< T, Tr, A > &s)"
+.br
+.ti -1c
+.RI "template<typename K , typename V , typename Tr , typename A > void \fBdoParsimPacking\fP (omnetpp::cCommBuffer *buffer, const std::map< K, V, Tr, A > &m)"
+.br
+.ti -1c
+.RI "template<typename K , typename V , typename Tr , typename A > void \fBdoParsimUnpacking\fP (omnetpp::cCommBuffer *buffer, std::map< K, V, Tr, A > &m)"
+.br
+.ti -1c
+.RI "template<typename T > void \fBdoParsimArrayPacking\fP (omnetpp::cCommBuffer *b, const T *t, int n)"
+.br
+.ti -1c
+.RI "template<typename T > void \fBdoParsimArrayUnpacking\fP (omnetpp::cCommBuffer *b, T *t, int n)"
+.br
+.ti -1c
+.RI "template<typename T > void \fBdoParsimPacking\fP (omnetpp::cCommBuffer *, const T &t)"
+.br
+.ti -1c
+.RI "template<typename T > void \fBdoParsimUnpacking\fP (omnetpp::cCommBuffer *, T &t)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "template<typename T > void omnetpp::doParsimArrayPacking (omnetpp::cCommBuffer * b, const T * t, int n)"
+
+.PP
+Definition at line 123 of file ArpTableEntry_m\&.cc\&.
+.SS "template<typename T > void omnetpp::doParsimArrayUnpacking (omnetpp::cCommBuffer * b, T * t, int n)"
+
+.PP
+Definition at line 130 of file ArpTableEntry_m\&.cc\&.
+.SS "template<typename T > void omnetpp::doParsimPacking (omnetpp::cCommBuffer *, const T & t)"
+
+.PP
+Definition at line 138 of file ArpTableEntry_m\&.cc\&.
+.SS "template<typename T , typename A > void omnetpp::doParsimPacking (omnetpp::cCommBuffer * buffer, const std::list< T, A > & l)"
+
+.PP
+Definition at line 58 of file ArpTableEntry_m\&.cc\&.
+.SS "template<typename K , typename V , typename Tr , typename A > void omnetpp::doParsimPacking (omnetpp::cCommBuffer * buffer, const std::map< K, V, Tr, A > & m)"
+
+.PP
+Definition at line 99 of file ArpTableEntry_m\&.cc\&.
+.SS "template<typename T , typename Tr , typename A > void omnetpp::doParsimPacking (omnetpp::cCommBuffer * buffer, const std::set< T, Tr, A > & s)"
+
+.PP
+Definition at line 78 of file ArpTableEntry_m\&.cc\&.
+.SS "template<typename T , typename A > void omnetpp::doParsimPacking (omnetpp::cCommBuffer * buffer, const std::vector< T, A > & v)"
+
+.PP
+Definition at line 38 of file ArpTableEntry_m\&.cc\&.
+.SS "template<typename T > void omnetpp::doParsimUnpacking (omnetpp::cCommBuffer *, T & t)"
+
+.PP
+Definition at line 144 of file ArpTableEntry_m\&.cc\&.
+.SS "template<typename T , typename A > void omnetpp::doParsimUnpacking (omnetpp::cCommBuffer * buffer, std::list< T, A > & l)"
+
+.PP
+Definition at line 66 of file ArpTableEntry_m\&.cc\&.
+.SS "template<typename K , typename V , typename Tr , typename A > void omnetpp::doParsimUnpacking (omnetpp::cCommBuffer * buffer, std::map< K, V, Tr, A > & m)"
+
+.PP
+Definition at line 109 of file ArpTableEntry_m\&.cc\&.
+.SS "template<typename T , typename Tr , typename A > void omnetpp::doParsimUnpacking (omnetpp::cCommBuffer * buffer, std::set< T, Tr, A > & s)"
+
+.PP
+Definition at line 86 of file ArpTableEntry_m\&.cc\&.
+.SS "template<typename T , typename A > void omnetpp::doParsimUnpacking (omnetpp::cCommBuffer * buffer, std::vector< T, A > & v)"
+
+.PP
+Definition at line 47 of file ArpTableEntry_m\&.cc\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Multiaccess QKD from the source code\&.

@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_switch_memory_8h" kind="file" language="C++">
+    <compoundname>SwitchMemory.h</compoundname>
+    <includes local="no">omnetpp.h</includes>
+    <includes local="no">ctime</includes>
+    <includes refid="_mac_table_entry__m_8h" local="yes">MacTableEntry_m.h</includes>
+    <includes refid="_quantum_sub_interface_binding__m_8h" local="yes">QuantumSubInterfaceBinding_m.h</includes>
+    <includes refid="_session_state_entry__m_8h" local="yes">SessionStateEntry_m.h</includes>
+    <includes refid="_arp_table_entry__m_8h" local="yes">ArpTableEntry_m.h</includes>
+    <includedby refid="_processor_8cc" local="yes">Processor.cc</includedby>
+    <includedby refid="_switch_memory_8cc" local="yes">SwitchMemory.cc</includedby>
+    <includedby refid="_switch_public_interface_8cc" local="yes">SwitchPublicInterface.cc</includedby>
+    <includedby refid="_switch_quantum_interface_8cc" local="yes">SwitchQuantumInterface.cc</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>SwitchMemory.h</label>
+        <link refid="_switch_memory_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>ArpTableEntry_m.h</label>
+        <link refid="_arp_table_entry__m_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>SessionStateEntry_m.h</label>
+        <link refid="_session_state_entry__m_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>QuantumSubInterfaceBinding_m.h</label>
+        <link refid="_quantum_sub_interface_binding__m_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ctime</label>
+      </node>
+      <node id="4">
+        <label>MacTableEntry_m.h</label>
+        <link refid="_mac_table_entry__m_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>omnetpp.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>SwitchPublicInterface.cc</label>
+        <link refid="_switch_public_interface_8cc"/>
+      </node>
+      <node id="2">
+        <label>Processor.cc</label>
+        <link refid="_processor_8cc"/>
+      </node>
+      <node id="3">
+        <label>SwitchMemory.cc</label>
+        <link refid="_switch_memory_8cc"/>
+      </node>
+      <node id="1">
+        <label>SwitchMemory.h</label>
+        <link refid="_switch_memory_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>SwitchQuantumInterface.cc</label>
+        <link refid="_switch_quantum_interface_8cc"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_switch_memory" prot="public">SwitchMemory</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ec" prot="public" static="no" strong="no">
+        <type></type>
+        <name>QueryType</name>
+        <enumvalue id="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ecaba7ec5617dcd086ea11b2875db29fb6c" prot="public">
+          <name>macAddress</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9eca10628d67b07780b795fe160322d53129" prot="public">
+          <name>qMacAddres</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9eca7e91d3bb453d1a51a3cb4849a09a05b4" prot="public">
+          <name>interface</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ecaa82c3d4c26173ef5d1a7fb0de21e9d00" prot="public">
+          <name>qInterface</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enumerator to query the MAC Address Table. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SwitchMemory.h" line="37" column="1" bodyfile="SwitchMemory.h" bodystart="36" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>program<sp/>is<sp/>free<sp/>software:<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>either<sp/>version<sp/>3<sp/>of<sp/>the<sp/>License,<sp/>or</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>Lesser<sp/>General<sp/>Public<sp/>License</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>along<sp/>with<sp/>this<sp/>program.<sp/><sp/>If<sp/>not,<sp/>see<sp/>http://www.gnu.org/licenses/.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor">#ifndef<sp/>__QUANTUM_KEY_DISTRIBUTION_SWITCHMEMORY_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__QUANTUM_KEY_DISTRIBUTION_SWITCHMEMORY_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;omnetpp.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ctime&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_mac_table_entry__m_8h" kindref="compound">MacTableEntry_m.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_quantum_sub_interface_binding__m_8h" kindref="compound">QuantumSubInterfaceBinding_m.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_session_state_entry__m_8h" kindref="compound">SessionStateEntry_m.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_arp_table_entry__m_8h" kindref="compound">ArpTableEntry_m.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceomnetpp" kindref="compound">omnetpp</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ec" refkind="member"><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ec" kindref="member">QueryType</ref></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38" refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ecaba7ec5617dcd086ea11b2875db29fb6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ecaba7ec5617dcd086ea11b2875db29fb6c" kindref="member">macAddress</ref>,</highlight></codeline>
+<codeline lineno="39" refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9eca10628d67b07780b795fe160322d53129" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9eca10628d67b07780b795fe160322d53129" kindref="member">qMacAddres</ref>,</highlight></codeline>
+<codeline lineno="40" refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9eca7e91d3bb453d1a51a3cb4849a09a05b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9eca7e91d3bb453d1a51a3cb4849a09a05b4" kindref="member">interface</ref>,</highlight></codeline>
+<codeline lineno="41" refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ecaa82c3d4c26173ef5d1a7fb0de21e9d00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ecaa82c3d4c26173ef5d1a7fb0de21e9d00" kindref="member">qInterface</ref></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="class_switch_memory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_switch_memory" kindref="compound">SwitchMemory</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>cSimpleModule</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>cArray<sp/>macAddressTable;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>cArray<sp/>quantumSubInterfaceBinding;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>cArray<sp/>arpTable;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>cArray<sp/>sessionStateTable;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>searchMacAddressTableByMacAddress(std::string<sp/><ref refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ecaba7ec5617dcd086ea11b2875db29fb6c" kindref="member">macAddress</ref>,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>query);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>searchMacAddressTableByInterface(std::string<sp/><ref refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9eca7e91d3bb453d1a51a3cb4849a09a05b4" kindref="member">interface</ref>,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>query);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>searchMacAddressTableByQuantumMacAddress(std::string<sp/><ref refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9eca7e91d3bb453d1a51a3cb4849a09a05b4" kindref="member">interface</ref>,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>query);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>searchSessionStateTable(<ref refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ec" kindref="member">QueryType</ref><sp/>searchBy,<sp/>std::string<sp/>searchValue,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>returnValue);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>MAC<sp/>Address<sp/>Table<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="class_switch_memory_1add48914cfc0b5ce99111b3dcecbe6e48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_switch_memory_1add48914cfc0b5ce99111b3dcecbe6e48" kindref="member">macEntryIndex</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref><sp/>getMacTable(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addMacTableEntry(<ref refid="class_mac_table_entry" kindref="compound">MacTableEntry</ref><sp/>*macTableEntry);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getMacTableSize();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>getQuantumInterfaceMacAddressFromMacTable(std::string<sp/>publicInterfaceMacAddress);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>getInterfaceIdFromMacTable(std::string<sp/><ref refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ecaba7ec5617dcd086ea11b2875db29fb6c" kindref="member">macAddress</ref>);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>getMacAddressOfInterfaceFromMacTable(std::string<sp/><ref refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9eca7e91d3bb453d1a51a3cb4849a09a05b4" kindref="member">interface</ref>);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>getQuantumMacAddressOfInterfaceFromMacTable(std::string<sp/><ref refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9eca7e91d3bb453d1a51a3cb4849a09a05b4" kindref="member">interface</ref>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>getQuantumInterfaceFromMacTable(std::string<sp/>qMacAddress);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>getQuantumInterfaceFromMacTableByPublicMac(std::string<sp/><ref refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ecaba7ec5617dcd086ea11b2875db29fb6c" kindref="member">macAddress</ref>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>getInterface(std::string<sp/><ref refid="_switch_memory_8h_1abfbb64a2ec7afa6cbb18aa171775c9ecaba7ec5617dcd086ea11b2875db29fb6c" kindref="member">macAddress</ref>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>entryExist(std::string<sp/>srcMac,<sp/>std::string<sp/>desMac);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Quantum<sp/>Binding<sp/>Table<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="class_switch_memory_1ab81b1bbe5017fa69d913f5790a75b1b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_switch_memory_1ab81b1bbe5017fa69d913f5790a75b1b2" kindref="member">quantumBindingEntryIndex</ref>;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_quantum_sub_interface_binding" kindref="compound">QuantumSubInterfaceBinding</ref><sp/>getQuantumBindingTable(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addQuantumBindingTableEntry(<ref refid="class_quantum_sub_interface_binding" kindref="compound">QuantumSubInterfaceBinding</ref><sp/>*quantumBindingEntry);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getQuantumBindingTableSize();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>getExitInterfaceFromBindingTable(std::string<sp/>src,<sp/>std::string<sp/>des);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ARP<sp/>Table</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="class_switch_memory_1a6d549369eb96f2c8ee2bee8f75b9c446" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_switch_memory_1a6d549369eb96f2c8ee2bee8f75b9c446" kindref="member">arpEntryIndex</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref><sp/>getArpTableEntry(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addArpTableEntry(<ref refid="class_arp_table_entry" kindref="compound">ArpTableEntry</ref><sp/>*arpTableEntry);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getArpTableSize();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Session<sp/>State<sp/>Table<sp/>Methods;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="class_switch_memory_1a6e5d3f7eabd824f3c65138d49a164293" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_switch_memory_1a6e5d3f7eabd824f3c65138d49a164293" kindref="member">sessionsStateEntryIndex</ref>;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref><sp/>getsessionStateTableEntry(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addSessionStateTableEntry(<ref refid="class_session_state_entry" kindref="compound">SessionStateEntry</ref><sp/>*sessionStateEntry);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getSessionStateTableSize();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>initialize(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>stage)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numInitStages()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="SwitchMemory.h"/>
+  </compounddef>
+</doxygen>
