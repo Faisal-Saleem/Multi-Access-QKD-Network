@@ -18,7 +18,7 @@ network Network
         @figure[description](type=text; pos=90,-65; font=,,bold; text="[BB84 Protocol]"; color=green);
         @figure[details](type=text; pos=0,-40; text="Multipoint Quantum Key Distribution");
 
-        @display("bgb=337,288,#FFE4CA;i=block/network;i2=status/connect;bgl=3");
+        @display("bgb=337,288,#FFE4CA;i=block/network;i2=status/connect;bgl=4");
         string source;
         string destination;
         string multiPointSource;
