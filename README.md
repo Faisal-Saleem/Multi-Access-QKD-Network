@@ -6,13 +6,25 @@
 
 ![Quantum Cryptography](https://img.shields.io/badge/Quantum%20Cryptography-Communication%20Protocols%2C%20Security%2C%20Quantum%20Physics%2C%20Local%20Area%20Network%20(LAN)-brightgreen)
 
+### Publications
+> [35th Annual UK Performance Engineering Workshop (UKPEW 2019)](https://sites.google.com/view/ukpew2019/home)
 
-![QKD Network](/Images/Network-type.png)
+The UK Performance Engineering Workshop (UKPEW) is an annual event that aims to gather researchers working on all aspects of performance modelling and analysis. ([Workshop Proceedings](https://drive.google.com/file/d/1r4jeyFGqrzyg9P_-jXxxdzQFsAoDewNb))
 
-![Compound Modules](/Images/Network-usage.png)
+We solicit original papers on performance evaluation techniques for computer and telecommunication systems analysis. Papers on or related to the following topics are particularly welcome.
 
-![NED Usage Diagram](/Images/full-ned-usage-diagram.png)
-
-![QKD Switch](/Images/Switch-type.png)
-
-![QKD Client](/Images/Client-type.png)
+* Performance-oriented design and analysis methods
+* Formal modelling paradigms: stochastic process algebra, stochastic Petri nets, stochastic automata networks, Markov chains, queueing theory,...
+* Solution and simplification techniques for stochastic processes
+* Model checking and validation
+* Approximate results for Markov and semi-Markov Processes
+* Simulation techniques and experimental design
+* Benchmarks and benchmark evaluation
+* Performance tools
+* Performance case studies
+* Performability modelling
+* Software performance engineering
+* Performance and power consumption tradeoffs
+* Performance overhead of secure systems
+* New frontiers of performance evaluation/modelling
+* Performance analysis of communication networks, mobile and wireless networks, software systems, distributed systems, system architectures, embedded systems, web-based systems, cloud computing, edge computing
