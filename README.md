@@ -8,6 +8,7 @@
 
 ### Publications
 [35th Annual UK Performance Engineering Workshop (UKPEW 2019)](https://sites.google.com/view/ukpew2019/home)
+<a href="https://sites.google.com/view/ukpew2019/home" target="_blank">35th Annual UK Performance Engineering Workshop (UKPEW 2019)</a>
 
 The UK Performance Engineering Workshop (UKPEW) is an annual event that aims to gather researchers working on all aspects of performance modelling and analysis. ([Workshop Proceedings](https://drive.google.com/file/d/1r4jeyFGqrzyg9P_-jXxxdzQFsAoDewNb))
 
